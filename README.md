@@ -1,1 +1,1 @@
-# Cognitive-Foundations
+# Cognitive Foundations

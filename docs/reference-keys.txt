@@ -8,6 +8,7 @@ fig:love
 history-and-research-methods
 rise-of-cognitive-psychology
 research-methods-in-psychology
+glossary
 perception
 attention
 short-term-and-working-memory
@@ -17,4 +18,3 @@ knowledge
 language
 reasoning-and-decision-making
 problem-solving
-glossary

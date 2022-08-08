@@ -1,5 +1,10 @@
+fig:lan2000
+fig:pharoah
+fig:wundt
+fig:laptop
 fig:scatter
 fig:scatter2
+fig:love
 history-and-research-methods
 rise-of-cognitive-psychology
 research-methods-in-psychology
@@ -12,3 +17,4 @@ knowledge
 language
 reasoning-and-decision-making
 problem-solving
+glossary

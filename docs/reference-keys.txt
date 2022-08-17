@@ -8,7 +8,18 @@ fig:love
 history-and-research-methods
 rise-of-cognitive-psychology
 research-methods-in-psychology
+glossary
 perception
+sensation-and-perception
+seeing
+the-sensing-eye-and-the-perceiving-visual-cortex
+perceiving-form
+perceiving-depth
+accuracy-and-inaccuracy-in-perception
+how-the-perceptual-system-interprets-the-environment
+illusions
+the-important-role-of-expectations-in-perception
+glossary-1
 attention
 short-term-and-working-memory
 long-term-memory
@@ -17,4 +28,3 @@ knowledge
 language
 reasoning-and-decision-making
 problem-solving
-glossary

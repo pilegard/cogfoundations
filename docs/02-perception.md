@@ -23,11 +23,11 @@ To get an idea of the range of sounds that the human ear can sense, test your he
 
 In many ways our senses are quite remarkable. The human eye can detect the equivalent of a single candle flame burning 30 miles away and can distinguish among more than 300,000 different colors. The human ear can detect sounds as low as 20 hertz (vibrations per second) and as high as 20,000 hertz, and it can hear the tick of a clock about 20 feet away in a quiet room. We can taste a teaspoon of sugar dissolved in two gallons of water, and we are able to smell one drop of perfume diffused in a three-room apartment. We can feel the wing of a bee on our cheek dropped from one centimeter above [@Galanter1962].
 
-### Seeing
+### Seeing {-}
 
 Whereas other animals rely primarily on hearing, smell, or touch to understand the world around them, human beings rely in large part on vision. A large part of our cerebral cortex is devoted to seeing, and we have substantial visual skills. Seeing begins when light falls on the eyes, initiating the process of transduction, the conversion of stimuli detected by receptor cells to electrical impulses that are transported to the brain. Once this visual information reaches the visual cortex, it is processed by a variety of neurons that detect colors, shapes, and motion, and that create meaningful perceptions out of the incoming stimuli.
 
-### The Sensing Eye and the Perceiving Visual Cortex
+### The Sensing Eye and the Perceiving Visual Cortex {-}
 
 *As you can see in Figure 1, “Anatomy of the Human Eye,” light enters the eye through the [cornea], a clear covering that protects the eye and begins to focus the incoming light. The light then passes through the [pupil], a small opening in the center of the eye. The pupil is surrounded by the iris, the colored part of the eye that controls the size of the pupil by constricting or dilating in response to light intensity. When we enter a dark movie theater on a sunny day, for instance, muscles in the iris open the pupil and allow more light to enter. Complete adaptation to the dark may take up to 20 minutes.*
 
@@ -48,11 +48,11 @@ Margaret Livingstone @Margaret2000 (Figure 2) found an interesting effect that d
 
 The visual cortex is made up of specialized neurons that turn the sensations they receive from the optic nerve into meaningful images. Because there are no photoreceptor cells at the place where the optic nerve leaves the retina, a hole or blind spot in our vision is created (see Figure 3, “Blind Spot Demonstration”). When both of our eyes are open, we don’t experience a problem because our eyes are constantly moving, and one eye makes up for what the other eye misses. But the visual system is also designed to deal with this problem if only one eye is open — the visual cortex simply fills in the small hole in our vision with similar patterns from the surrounding areas, and we never notice the difference. The ability of the visual system to cope with the blind spot is another example of how sensation and perception work together to create meaningful experience.
 
-### Perceiving Form
+### Perceiving Form {-}
 
 One of the important processes required in vision is the perception of form. German psychologists in the 1930s and 1940s, including Max Wertheimer (1880-1943), Kurt Koffka (1886-1941), and Wolfgang Köhler (1887-1967), argued that we create forms out of their component sensations based on the idea of the [gestalt], *a meaningfully organized whole*. The idea of the gestalt is that the “whole is more than the sum of its parts.” Some examples of how gestalt principles lead us to see more than what is actually there are summarized in Table 1, “Summary of Gestalt Principles of Form Perception.”
 
-### Perceiving Depth
+### Perceiving Depth {-}
 
 Depth perception is the ability to perceive three-dimensional space and to accurately judge distance. Without depth perception, we would be unable to drive a car, thread a needle, or simply navigate our way around the supermarket [Howard2001](Howard & Rogers, 2001). 
 
@@ -106,7 +106,7 @@ Although the best cues to depth occur when both eyes work together, we are able 
 
 The eyes, ears, nose, tongue, and skin sense the world around us, and in some cases perform preliminary information processing on the incoming data. But by and large, we do not experience sensation — we experience the outcome of perception, the total package that the brain puts together from the pieces it receives through our senses and that the brain creates for us to experience. When we look out the window at a view of the countryside, or when we look at the face of a good friend, we don’t just see a jumble of colors and shapes — we see, instead, an image of a countryside or an image of a friend [Goodale2006](Goodale & Milner, 2006).
 
-### How the Perceptual System Interprets the Environment
+### How the Perceptual System Interprets the Environment {-}
 
 This meaning making involves the automatic operation of a variety of essential perceptual processes. One of these is sensory interaction — the working together of different senses to create experience. Sensory interaction is involved when taste, smell, and texture combine to create the flavor we experience in food. It is also involved when we enjoy a movie because of the way the images and the music work together.
 
@@ -143,7 +143,7 @@ Illusions demonstrate that our perception of the world around us may be influenc
 Our emotions, mindset, expectations, and the contexts in which our sensations occur all have a profound influence on perception. People who are warned that they are about to taste something bad rate what they do taste more negatively than people who are told that the taste won’t be so bad [Nitschke2006](Nitschke et al., 2006), and people perceive a child and adult pair as looking more alike when they are told that they are parent and child [@Bressan2002](Bressan & Dal Martello, 2002). Similarly, participants who see images of the same baby rate it as stronger and bigger when they are told it is a boy as opposed to when they are told it is a girl [Stern1989](Stern & Karraker, 1989), and research participants who learn that a child is from a lower-class background perceive the child’s scores on an intelligence test as lower than people who see the same test taken by a child they are told is from an upper-class background [Darley1983](Darley & Gross, 1983). Plassmann, O’Doherty, Shiv, and Rangel [Plassmann2008](2008) found that wines were rated more positively and caused greater brain activity in brain areas associated with pleasure when they were said to cost more than when they were said to cost less. And even experts can be fooled: professional referees tended to assign more penalty cards to soccer teams for videotaped fouls when they were told that the team had a history of aggressive behavior than when they had no such expectation [Jones2002](Jones, Paull, & Erskine, 2002).
 
 <!-- Make textbox here -->
-:::textBox
+:::fyi
 #### Psychology in Everyday Life: How Understanding Sensation and Perception Can Save Lives {-}
 **Human factors** is the field of psychology that uses psychological knowledge, including the principles of sensation and perception, to improve the development of technology. Human factors has worked on a variety of projects, ranging from nuclear reactor control centers and airplane cockpits to cell phones and websites [Proctor2008](Proctor & Van Zandt, 2008). For instance, knowledge of the visual system also helped engineers create new kinds of displays, such as those used on notebook computers and music players, and better understand how using cell phones while driving may contribute to automobile accidents [Lee2004](Lee & Strayer, 2004). Human factors also has made substantial contributions to airline safety. About two-thirds of accidents on commercial airplane flights are caused by human error [Nickerson1998](Nickerson, 1998). During takeoff, travel, and landing, the pilot simultaneously communicates with ground control, maneuvers the plane, scans the horizon for other aircraft, and operates controls. The need for a usable interface that works easily and naturally with the pilot’s visual perception is essential.
 

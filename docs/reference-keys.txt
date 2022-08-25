@@ -5,6 +5,7 @@ fig:laptop
 fig:scatter
 fig:scatter2
 fig:love
+fig:anatomy
 history-and-research-methods
 rise-of-cognitive-psychology
 research-methods-in-psychology

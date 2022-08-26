@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Celeste Pilegard"
-date: "Current version rendered 2022-08-08"
+date: "Current version rendered 2022-08-26"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -47,3 +47,110 @@ Research Methods in Psychology
 Source: Scollon, C. N. (2019). Research designs. In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from http://noba.to/acxb2thy
 Research Designs by Christie Napa Scollon is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 Condensed from original; Example experiment under “Experimental research” changed to Mueller and Oppenheimer (2014)
+
+### Chapter 2 {-}
+Perception 
+
+Source: Stangor, C. and Walinga, J. [Stangor2014](2014). Introduction to Psychology – 1st Canadian Edition. Victoria, B.C.: BCcampus. Retrieved from: https://opentextbc.ca/introductiontopsychology/
+Introduction to Psychology - 1st Canadian Edition by Charles Stangor is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Changes and additions (c) 2014 Jennifer Walinga, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+Condensed from Walinga version; American spellings used; Imperial measurements used; some content adapted to suit course.
+Cover photo by Mathilda Khoo on Unsplash.
+
+### Chapter 3 {-}
+Attention 
+
+Source: Friedrich, F. (2019). Attention. In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from http://noba.to/uv9x8df5
+Attention by Frances Friedrich is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Condensed from original version; some content adapted to suit course.
+Cover photo by chuttersnap on Unsplash.
+
+### Chapter 4 {-}
+Working Memory
+
+Source: Multiple authors. Memory. In Cognitive Psychology and Cognitive Neuroscience. Wikibooks. Retrieved from https://en.wikibooks.org/wiki/Cognitive_Psychology_and_Cognitive_Neuroscience
+Wikibooks are licensed under the Creative Commons Attribution-ShareAlike License.
+Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free Documentation License.
+Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. Chapter introduction added. Content added including transition from STM to WM approach, description of episodic buffer, description and evidence for working memory components, addition of episodic buffer.
+Cover photo by Matt Briney on Unsplash.
+
+### Chapter 5 {-}
+Long term memory
+
+Source: Stangor, C. and Walinga, J. (2014). Introduction to Psychology – 1st Canadian Edition. Victoria, B.C.: BCcampus. Retrieved from: https://opentextbc.ca/introductiontopsychology/
+Introduction to Psychology - 1st Canadian Edition by Charles Stangor is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Changes and additions (c) 2014 Jennifer Walinga, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+Condensed from Walinga version; American spellings used; Imperial measurements used; some content adapted to suit course.
+Serial position curve information from: Andrade, M., & Walker, N. (n.d.) Cognitive Psychology. 
+Cognitive Psychology by Mehgan Andrade and Neil Walker is licensed under a Creative Commons Attribution4.0 International License.
+Encoding, Retrieval, and Consolidation
+Source: The following entries accessed from http:/www.en.wikipedia.org/ served as sources for this chapter: Memory Rehearsal; Levels-of-processing Effect; Testing Effect; Encoding Specificity Principle; Transfer-Appropriate Processing; Memory Consolidation.
+Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
+Chapter introduction added. Transitions and images added. Edited for content and clarity throughout.
+Some encoding specificity principle information from: Andrade, M., & Walker, N. (n.d.) Cognitive Psychology. 
+Cognitive Psychology by Mehgan Andrade and Neil Walker is licensed under a Creative Commons Attribution4.0 International License.
+Cover photo by Julian Dik on Unsplash. Working Memory vs. Long-Term Memory
+
+### Chapter 6 {-}
+Memory in Context
+
+Kinds of Memory Biases; Misinformation Effect
+Source: Laney, C. & Loftus, E. F. (2019). Eyewitness testimony and memory biases. In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from http://noba.to/uy49tm37
+Eyewitness Testimony and Memory Biases by Cara Laney and Elizabeth F. Loftus is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Condensed from original
+Schematic Processing; Source Monitoring; Flashbulb Memories
+Stangor, C. and Walinga, J. (2014). Introduction to Psychology – 1st Canadian Edition. Victoria, B.C.: BCcampus. Retrieved from: https://opentextbc.ca/introductiontopsychology/
+Introduction to Psychology - 1st Canadian Edition by Charles Stangor is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Changes and additions (c) 2014 Jennifer Walinga, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+Condensed from original; American spellings used; cultural references updated for American audience
+Forgetting
+Source: Spielman, R. M. OpenStax, Psychology. OpenStax CNX. http://cnx.org/contents/4abf04bf-93a0-45c3-9cbc-2cefd46e68cc@12.2.
+Psychology by Spielman (+ multiple authors) is licensed under a Creative Commons Attribution 4.0 International License
+Condensed from original
+Cover photo by Markus Spiske on Unsplash.
+
+### Chapter 7 {-}
+Knowledge
+
+Introduction through Theories of Concept Representation
+Source: Murphy, G. (2019). Categories and concepts. In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from http://noba.to/6vu4cpkt
+Categories and Concepts by Gregory Murphy is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Condensed from original version. 
+Concept Organization
+Source: Multiple authors. Memory. In Cognitive Psychology and Cognitive Neuroscience. Wikibooks. Retrieved from https://en.wikibooks.org/wiki/Cognitive_Psychology_and_Cognitive_Neuroscience
+Wikibooks are licensed under the Creative Commons Attribution-ShareAlike License.
+Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free Documentation License.
+Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance.
+Cover photo by Alli Elder on Unsplash.
+
+### Chapter 8 {-}
+Language
+
+Source: Stangor, C. and Walinga, J. (2014). Introduction to Psychology – 1st Canadian Edition. Victoria, B.C.: BCcampus. Retrieved from: https://opentextbc.ca/introductiontopsychology/
+Introduction to Psychology - 1st Canadian Edition by Charles Stangor is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Changes and additions (c) 2014 Jennifer Walinga, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+Condensed from original; American spellings used; cultural references updated for American audience. Bilingualism reverted to Strangor version.
+
+Sentence Processing section from Wikipedia entry (http:/www.en.wikipedia.org/), “Sentence Processing.”
+Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
+
+Cover photo by Eric Muhr on Unsplash.
+
+### Chapter 9 {-}
+Reasoning and Decision Making 
+
+Source: Multiple authors. Memory. In Cognitive Psychology and Cognitive Neuroscience. Wikibooks. Retrieved from https://en.wikibooks.org/wiki/Cognitive_Psychology_and_Cognitive_Neuroscience
+Wikibooks are licensed under the Creative Commons Attribution-ShareAlike License.
+Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free Documentation License.
+Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. 
+Cover photo by Qurratul Ayin Sadia on Unsplash.
+
+### Chapter 9 {-}
+Problem Solving
+
+Source: Multiple authors. Memory. In Cognitive Psychology and Cognitive Neuroscience. Wikibooks. Retrieved from https://en.wikibooks.org/wiki/Cognitive_Psychology_and_Cognitive_Neuroscience
+Wikibooks are licensed under the Creative Commons Attribution-ShareAlike License.
+Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free Documentation License.
+Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. 
+Cover photo by Pixabay on Pexels.
+

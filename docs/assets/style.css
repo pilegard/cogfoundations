@@ -114,29 +114,29 @@ h5 {
 div.learningobjectives {
   background-image: url("../images/learningobjectives.png");
   color: #014770;
-  background-color: #8FD5FE;
-  border: solid 5px #C7EAFE;
+  background-color: #C7EAFE;
+  border: solid 5px #E4F5FF;
 }
 
 div.fyi {
   background-image: url("../images/fyi.png");
-  color: #7F025C;
-  background-color: #FE9BE2;
-  border: solid 5px #FECDF1;
+  color: #356800;
+  background-color: #D3FFA5;
+  border: solid 5px #E7FFCC;
 }
 
 div.takeaways {
   background-image: url("../images/takeaways.png");
-  color: #356800;
-  background-color: #C4FF86;
-  border: solid 5px #E2FFC3;
+  color: #7F025C;
+  background-color: #FECDF1;
+  border: solid 5px #F9DFF3;
 }
 
 div.exercises {
   background-image: url("../images/exercises.png");
   color: #000BBC;
-  background-color: #C9CDFF;
-  border: solid 5px #E4E6FF;
+  background-color: #E4E6FF;
+  border: solid 5px #F2F2FF;
 }
 
 

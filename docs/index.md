@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Celeste Pilegard"
-date: "Current version rendered 2022-08-30"
+date: "Current version rendered 2022-08-31"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

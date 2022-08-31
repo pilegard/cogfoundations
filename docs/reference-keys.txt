@@ -7,6 +7,9 @@ fig:scatter2
 fig:love
 fig:anatomy
 tab:gestalt
+fig:fig1
+fig:fig2
+fig:fig3
 history-and-research-methods
 rise-of-cognitive-psychology
 research-methods-in-psychology
@@ -30,7 +33,7 @@ memory-in-context
 kinds-of-memory-biases
 source-monitoring
 forgetting
-make-image-caption
+glossary-2
 knowledge
 nature-of-categories
 theories-of-concept-representation

@@ -132,7 +132,8 @@ knitr::include_graphics("images/ch2/fig6.jpg")
  
 The Ponzo illusion operates on the same principle. As you can see in \@ref(fig:fig7), “The Ponzo Illusion,” the top yellow bar seems longer than the bottom one, but if you measure them you’ll see that they are exactly the same length. The monocular depth cue of linear perspective leads us to believe that, given two similar objects, the distant one can only cast the same size retinal image as the closer object if it is larger. The topmost bar therefore appears longer.
 
-```{r fig7, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = Figure 7. The Ponzo Illusion. The Ponzo illusion is caused by a failure of the monocular depth cue of linear perspective. Both bars are the same size, even though the top one looks larger.'}
+
+```{r fig7, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 7. The Ponzo Illusion. The Ponzo illusion is caused by a failure of the monocular depth cue of linear perspective. Both bars are the same size, even though the top one looks larger.'}
 knitr::include_graphics("images/ch2/fig7.jpg")
 ```
 

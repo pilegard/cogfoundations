@@ -5,12 +5,15 @@ fig:laptop
 fig:scatter
 fig:scatter2
 fig:love
-fig:anatomy
-fig:mona
-tab:gestalt
 fig:fig1
 fig:fig2
 fig:fig3
+tab:gestalt
+fig:qr
+fig:fig4
+fig:fig5
+fig:fig6
+fig:fig7
 history-and-research-methods
 rise-of-cognitive-psychology
 research-methods-in-psychology
@@ -54,8 +57,3 @@ problem-solving
 restructuring-the-gestalt-approach
 solving-problems-by-analogy
 how-do-experts-solve-problems
-fig:qr
-fig:fig4
-fig:fig5
-fig:fig6
-fig:fig7

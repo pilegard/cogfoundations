@@ -32,8 +32,8 @@ Whereas other animals rely primarily on hearing, smell, or touch to understand t
 As you can see in Figure \@ref(fig:anatomy) light enters the eye through the [cornea], *a clear covering that protects the eye and begins to focus the incoming light*. The light then passes through the [pupil], *a small opening in the center of the eye*. The pupil is surrounded by the [iris], *the colored part of the eye that controls the size of the pupil by constricting or dilating in response to light intensity*. When we enter a dark movie theater on a sunny day, for instance, muscles in the iris open the pupil and allow more light to enter. Complete adaptation to the dark may take up to 20 minutes.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch1/laptop.png" alt="Anatomy of the Human Eye. Behind the pupil is the lens, a structure that focuses the incoming light on the retina, the layer of tissue at the back of the eye that contains photoreceptor cells. Rays from the top of the image strike the bottom of the retina and vice versa, and rays from the left side of the image strike the right part of the retina and vice versa, causing the image on the retina to be upside down." width="60%" />
-<p class="caption">(\#fig:anatomy)Anatomy of the Human Eye. Behind the pupil is the lens, a structure that focuses the incoming light on the retina, the layer of tissue at the back of the eye that contains photoreceptor cells. Rays from the top of the image strike the bottom of the retina and vice versa, and rays from the left side of the image strike the right part of the retina and vice versa, causing the image on the retina to be upside down.</p>
+<img src="images/ch2/fig1.jpg" alt="Anatomy of the Human Eye. Behind the pupil is the lens, a structure that focuses the incoming light on the retina, the layer of tissue at the back of the eye that contains photoreceptor cells. Rays from the top of the image strike the bottom of the retina and vice versa, and rays from the left side of the image strike the right part of the retina and vice versa, causing the image on the retina to be upside down." width="60%" />
+<p class="caption">(\#fig:fig1)Anatomy of the Human Eye. Behind the pupil is the lens, a structure that focuses the incoming light on the retina, the layer of tissue at the back of the eye that contains photoreceptor cells. Rays from the top of the image strike the bottom of the retina and vice versa, and rays from the left side of the image strike the right part of the retina and vice versa, causing the image on the retina to be upside down.</p>
 </div>
 
 Behind the pupil is the [lens], *a structure that focuses the incoming light on the* [retina], *the layer of tissue at the back of the eye that contains photoreceptor cells*. Rays from the top of the image strike the bottom of the retina and vice versa, and rays from the left side of the image strike the right part of the retina and vice versa, causing the image on the retina to be upside down.
@@ -44,12 +44,21 @@ The retina contains layers of neurons specialized to respond to light. As light 
 
 To demonstrate the difference between rods and cones in attention to detail, choose a word in this text and focus on it. Do you notice that the words a few inches to the side seem more blurred? This is because the word you are focusing on strikes the detail-oriented cones, while the words surrounding it strike the less-detail-oriented rods, which are located on the periphery.
 
-Margaret Livingstone @Margaret2000 (Figure 2) found an interesting effect that demonstrates the different processing capacities of the eye’s rods and cones — namely, that the Mona Lisa’s smile, which is widely referred to as “elusive,” is perceived differently depending on how one looks at the painting. Because Leonardo da Vinci painted the smile in low-detail brush strokes, these details are better perceived by our peripheral vision (the rods) than by the cones. Livingstone found that people rated the Mona Lisa as more cheerful when they were instructed to focus on her eyes than they did when they were asked to look directly at her mouth. As Livingstone put it, “She smiles until you look at her mouth, and then it fades, like a dim star that disappears when you look directly at it.”
+Margaret Livingstone @Margaret2000 (\@ref(fig:fig2)) found an interesting effect that demonstrates the different processing capacities of the eye’s rods and cones — namely, that the Mona Lisa’s smile, which is widely referred to as “elusive,” is perceived differently depending on how one looks at the painting. Because Leonardo da Vinci painted the smile in low-detail brush strokes, these details are better perceived by our peripheral vision (the rods) than by the cones. Livingstone found that people rated the Mona Lisa as more cheerful when they were instructed to focus on her eyes than they did when they were asked to look directly at her mouth. As Livingstone put it, “She smiles until you look at her mouth, and then it fades, like a dim star that disappears when you look directly at it.”
 
+(ref:MonaCap) Mona Lisa's smile. 
 
-**Figure 3. Blind Spot Demonstration. You can get an idea of the extent of your blind spot (the place where the optic nerve leaves the retina) by trying this: close your left eye and stare with your right eye at the cross in the diagram. You should be able to see the elephant image to the right (don’t look at it, just notice that it is there). If you can’t see the elephant, move closer or farther away until you can. Now slowly move so that you are closer to the image while you keep looking at the cross. At one distance (around a foot or so depending on your zoom), the elephant will completely disappear from view because its image has fallen on the blind spot.**
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig2.jpg" alt="(ref:MonaCap)" width="30%" />
+<p class="caption">(\#fig:fig2)(ref:MonaCap)</p>
+</div>
 
 The visual cortex is made up of specialized neurons that turn the sensations they receive from the optic nerve into meaningful images. Because there are no photoreceptor cells at the place where the optic nerve leaves the retina, a hole or blind spot in our vision is created (see Figure 3, “Blind Spot Demonstration”). When both of our eyes are open, we don’t experience a problem because our eyes are constantly moving, and one eye makes up for what the other eye misses. But the visual system is also designed to deal with this problem if only one eye is open — the visual cortex simply fills in the small hole in our vision with similar patterns from the surrounding areas, and we never notice the difference. The ability of the visual system to cope with the blind spot is another example of how sensation and perception work together to create meaningful experience.
+
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig3.jpg" alt="Figure 3. Blind Spot Demonstration. You can get an idea of the extent of your blind spot (the place where the optic nerve leaves the retina) by trying this: close your left eye and stare with your right eye at the cross in the diagram. You should be able to see the elephant image to the right (don’t look at it, just notice that it is there). If you can’t see the elephant, move closer or farther away until you can. Now slowly move so that you are closer to the image while you keep looking at the cross. At one distance (around a foot or so depending on your zoom), the elephant will completely disappear from view because its image has fallen on the blind spot." width="60%" />
+<p class="caption">(\#fig:fig3)Figure 3. Blind Spot Demonstration. You can get an idea of the extent of your blind spot (the place where the optic nerve leaves the retina) by trying this: close your left eye and stare with your right eye at the cross in the diagram. You should be able to see the elephant image to the right (don’t look at it, just notice that it is there). If you can’t see the elephant, move closer or farther away until you can. Now slowly move so that you are closer to the image while you keep looking at the cross. At one distance (around a foot or so depending on your zoom), the elephant will completely disappear from view because its image has fallen on the blind spot.</p>
+</div>
 
 ### Perceiving Form {-}
 
@@ -84,6 +93,11 @@ The eyes, ears, nose, tongue, and skin sense the world around us, and in some ca
 
 This meaning making involves the automatic operation of a variety of essential perceptual processes. One of these is sensory interaction — the working together of different senses to create experience. Sensory interaction is involved when taste, smell, and texture combine to create the flavor we experience in food. It is also involved when we enjoy a movie because of the way the images and the music work together.
 
+<div class="figure" style="text-align: center">
+<img src="images/ch2/qr.png" alt="HYPERLINK &quot;http://www.youtube.com/watch?v=jtsfidRq2tw&quot;Watch The McGurk Effect [YouTube]: http://www.youtube.com/watch?v=jtsfidRq2tw" width="60%" />
+<p class="caption">(\#fig:qr)HYPERLINK "http://www.youtube.com/watch?v=jtsfidRq2tw"Watch The McGurk Effect [YouTube]: http://www.youtube.com/watch?v=jtsfidRq2tw</p>
+</div>
+
 Although you might think that we understand speech only through our sense of hearing, it turns out that the visual aspect of speech is also important. One example of sensory interaction is shown in the McGurk effect — an error in perception that occurs when we misperceive sounds because the audio and visual parts of the speech are mismatched. You can witness the effect yourself by viewing “The McGurk Effect.”
 
 Other examples of sensory interaction include the experience of nausea that can occur when the sensory information being received from the eyes and the body does not match information from the vestibular system [Flanagan2004](Flanagan, May, & Dobie 2004) and synesthesia — an experience in which one sensation (e.g., hearing a sound) creates experiences in another (e.g., vision). Most people do not experience synesthesia, but those who do link their perceptions in unusual ways, for instance, by experiencing color when they taste a particular food or by hearing sounds when they see certain objects [Ramachandran2005](Ramachandran, Hubbard, Robertson, & Sagiv, 2005).
@@ -98,13 +112,26 @@ The visual system also corrects for color constancy. Imagine that you are wearin
 
 ### Illusions
 
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig4.jpg" alt="Figure 4. Optical Illusions as a Result of Brightness Constancy (Left) and Color Constancy (Right). Look carefully at the snakelike pattern on the left. Are the green strips really brighter than the background? Cover the white curves and you’ll see they are not. Square A in the right-hand image looks very different from square B, even though they are exactly the same." width="60%" />
+<p class="caption">(\#fig:fig4)Figure 4. Optical Illusions as a Result of Brightness Constancy (Left) and Color Constancy (Right). Look carefully at the snakelike pattern on the left. Are the green strips really brighter than the background? Cover the white curves and you’ll see they are not. Square A in the right-hand image looks very different from square B, even though they are exactly the same.</p>
+</div>
+
 Although our perception is very accurate, it is not perfect. Illusions occur when the perceptual processes that normally help us correctly perceive the world around us are fooled by a particular situation so that we see something that does not exist or that is incorrect. Figure 4, “Optical Illusions as a Result of Brightness Constancy (Left) and Color Constancy (Right),” presents two situations in which our normally accurate perceptions of visual constancy have been fooled.
 
 Another well-known illusion is the Mueller-Lyer illusion (see Figure 5, “The Mueller-Lyer Illusion”). The line segment in the bottom arrow looks longer to us than the one on the top, even though they are both actually the same length. It is likely that the illusion is, in part, the result of the failure of monocular depth cues — the bottom line looks like an edge that is normally farther away from us, whereas the top one looks like an edge that is normally closer.
 
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig5.jpg" alt="Figure 5. The Mueller-Lyer Illusion. The Mueller-Lyer illusion makes the line segment at the top of the left picture appear shorter than the one at the bottom. The illusion is caused, in part, by the monocular distance cue of depth — the bottom line looks like an edge that is normally farther away from us, whereas the top one looks like an edge that is normally closer." width="60%" />
+<p class="caption">(\#fig:fig5)Figure 5. The Mueller-Lyer Illusion. The Mueller-Lyer illusion makes the line segment at the top of the left picture appear shorter than the one at the bottom. The illusion is caused, in part, by the monocular distance cue of depth — the bottom line looks like an edge that is normally farther away from us, whereas the top one looks like an edge that is normally closer.</p>
+</div>
+
 The moon illusion refers to the fact that the moon is perceived to be about 50% larger when it is near the horizon than when it is seen overhead, despite the fact that in both cases the moon is the same size and casts the same size retinal image. The monocular depth cues of position and aerial perspective
 
-**Figure 6 The Moon Illusion. The moon always looks larger on the horizon than when it is high above. But if we take away the surrounding distance cues of the horizon, the illusion disappears.**
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig6.jpg" alt="Figure 6 The Moon Illusion. The moon always looks larger on the horizon than when it is high above. But if we take away the surrounding distance cues of the horizon, the illusion disappears." width="60%" />
+<p class="caption">(\#fig:fig6)Figure 6 The Moon Illusion. The moon always looks larger on the horizon than when it is high above. But if we take away the surrounding distance cues of the horizon, the illusion disappears.</p>
+</div>
 
  (see Figure 6, “The Moon Illusion”) create the illusion that things that are lower and more hazy are farther away. The skyline of the horizon (trees, clouds, outlines of buildings) also gives a cue that the moon is far away, compared to when it is at its zenith. If we look at a horizon moon through a tube of rolled-up paper, taking away the surrounding horizon cues, the moon will immediately appear smaller.
  

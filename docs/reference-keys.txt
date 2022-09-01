@@ -6,6 +6,7 @@ fig:scatter
 fig:scatter2
 fig:love
 fig:anatomy
+fig:mona
 tab:gestalt
 fig:fig1
 fig:fig2
@@ -53,3 +54,8 @@ problem-solving
 restructuring-the-gestalt-approach
 solving-problems-by-analogy
 how-do-experts-solve-problems
+fig:qr
+fig:fig4
+fig:fig5
+fig:fig6
+fig:fig7

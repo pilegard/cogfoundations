@@ -58,3 +58,5 @@ problem-solving
 restructuring-the-gestalt-approach
 solving-problems-by-analogy
 how-do-experts-solve-problems
+sentence-processing
+add-in-table

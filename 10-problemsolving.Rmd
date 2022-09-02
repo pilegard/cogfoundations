@@ -48,7 +48,7 @@ In current research internal and external representations are distinguished: an 
 
 Generally speaking, problem representations are models of the situation as experienced by the solver. Representing a problem means to analyze it and split it into separate components, including objects, predicates, state space, operators, and selection criteria.
 
-The efficiency of problem solving depends on the underlying representations in a person’s mind, which usually also involves personal aspects. Re-analyzing the problem along different dimensions, or changing from one representation to another, can result in arriving at a new understanding of a problem. This is called restructuring. The following example illustrates this:
+The efficiency of problem solving depends on the underlying representations in a person’s mind, which usually also involves personal aspects. Re-analyzing the problem along different dimensions, or changing from one representation to another, can result in arriving at a new understanding of a problem. This is called [restructuring]. The following example illustrates this:
 
 Two boys of different ages are playing badminton. The older one is a more skilled player, and therefore the outcome of matches between the two becomes predictable. After repeated defeats the younger boy finally loses interest in playing. The older boy now faces a problem, namely that he has no one to play with anymore.
 
@@ -56,17 +56,17 @@ The usual options, according to M. Wertheimer (1945/82), range from “offering 
 
 The older boy instead comes up with a different solution: He proposes that they should try to keep the birdie in play as long as possible. Thus they change from a game of competition to one of cooperation. The proposal is happily accepted and the game is on again.
 
-The key in this story is that the older boy restructured the problem, having found that his attitude toward the game made it difficult to keep the younger boy playing. With the new type of game the problem is solved: the older boy is not bored, and the younger boy is not frustrated.
+The key in this story is that the older boy *restructured* the problem, having found that his attitude toward the game made it difficult to keep the younger boy playing. With the new type of game the problem is solved: the older boy is not bored, and the younger boy is not frustrated.
 
 In some cases, new representations can make a problem more difficult or much easier to solve. In the latter case insight– the sudden realization of a problem’s solution – may be the key to finding a solution.
 
 ### Insight {-}
 
-There are two very different ways of approaching a goal-oriented situation. In one case an organism readily reproduces the response to the given problem from past experience. This is called reproductive thinking.
+There are two very different ways of approaching a *goal-oriented situation*. In one case an organism readily reproduces the response to the given problem from past experience. This is called [reproductive thinking].
 
-The second way requires something new and different to achieve the goal—prior learning is of little help here. Such productive thinking is sometimes argued to involve insight. Gestalt psychologists state that insight problems are a separate category of problems in their own right.
+The second way requires *something new and different* to achieve the goal—prior learning is of little help here. Such [productive thinking] is sometimes argued to involve [insight]. Gestalt psychologists state that insight problems are a separate category of problems in their own right.
 
-Tasks that might involve insight usually have certain features: they require something new and non-obvious to be done, and in most cases they are difficult enough to predict that the initial solution attempt will be unsuccessful. When you solve a problem of this kind you often have a so called “aha” experience: the solution pops into mind all of a sudden. In one moment you have no idea how to answer the problem, and you feel you are not making any progress trying out different ideas, but in the next moment the problem is solved.
+Tasks that might involve insight usually have certain features: they require something new and non-obvious to be done, and in most cases they are difficult enough to predict that the initial solution attempt will be unsuccessful. When you solve a problem of this kind you often have a so called [“aha” experience]: *the solution pops into mind all of a sudden*. In one moment you have no idea how to answer the problem, and you feel you are not making any progress trying out different ideas, but in the next moment the problem is solved.
 
 For readers who would like to experience such an effect, here is an example of an insight problem: Knut is given four pieces of a chain; each made up of three links. The task is to link it all up to a closed loop. To open a link costs 2 cents, and to close a link costs 3 cents. Knut has 15 cents to spend. What should Knut do?
 
@@ -78,17 +78,14 @@ If you want to know the correct solution, turn to the next page.
 
 To show that solving insight problems involves restructuring, psychologists have created a number of problems that are more difficult to solve for participants with previous experiences, since it is harder for them to change the representation of the given situation.
 
-For non-insight problems the opposite is the case. Solving arithmetical problems, for instance, requires schemas, through which one can get to the solution step by step.
+For *non-insight* problems the opposite is the case. Solving arithmetical problems, for instance, requires [schemas], through which one can get to the solution step by step.
 
 ### Fixation {-}
 
-Sometimes, previous experience or familiarity can even make problem solving more difficult. This is the case whenever habitual directions get in the way of finding new directions – an effect called fixation.
+Sometimes, previous experience or familiarity can even make problem solving more difficult. This is the case whenever habitual directions get in the way of finding new directions – an effect called [fixation].
 
 #### Functional fixedness {-}
-
-
-
-Functional fixedness concerns the solution of object use problems. The basic idea is that when the usual function an object is emphasized, it will be far more difficult for a person to use that object in a novel manner. An example for this effect is the candle problem: Imagine you are given a box of matches, some candles and tacks. On the wall of the room there is a cork-board. Your task is to fix the candle to the cork-board in such a way that no wax will drop on the floor when the candle is lit. Got an idea?
+Functional fixedness concerns the solution of *object use problems*. The basic idea is that when the usual function an object is emphasized, it will be far more difficult for a person to use that object in a novel manner. An example for this effect is the [candle problem]: Imagine you are given a box of matches, some candles and tacks. On the wall of the room there is a cork-board. Your task is to fix the candle to the cork-board in such a way that no wax will drop on the floor when the candle is lit. Got an idea?
 
 ```{r fig2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 7. Relation between (monetary) gains/losses and their subjective value according to Prospect Theory.'}
 #knitr::include_graphics("images/ch9/fig2.jpg")
@@ -100,7 +97,7 @@ Here’s a clue: when people are confronted with a problem and given certain obj
 #knitr::include_graphics("images/ch9/fig3.jpg")
 ```
 
-A further example is the two-string problem: Knut is left in a room with a pair of pliers and given the task to bind two strings together that are hanging from the ceiling. The problem he faces is that he can never reach both strings at a time because they are just too far away from each other. What can Knut do?
+A further example is the [two-string problem]: Knut is left in a room with a pair of pliers and given the task to bind two strings together that are hanging from the ceiling. The problem he faces is that he can never reach both strings at a time because they are just too far away from each other. What can Knut do?
 
 ```{r fig4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 7. Relation between (monetary) gains/losses and their subjective value according to Prospect Theory.'}
 #knitr::include_graphics("images/ch9/fig4.jpg")
@@ -108,18 +105,16 @@ A further example is the two-string problem: Knut is left in a room with a pair 
 
 Solution: Knut has to recognize he can use the pliers in a novel function: as weight for a pendulum. He can tie them to one of the strings, push it away, hold the other string and wait for the first one to swing toward him. 
 
-
-
 #### Mental fixedness {-}
-Functional fixedness as involved in the examples above illustrates a mental set: a person’s tendency to respond to a given task in a manner based on past experience. Because Knut maps an object to a particular function he has difficulty varying the way of use (i.e., pliers as pendulum's weight).
+Functional fixedness as involved in the examples above illustrates a [mental set]: *a person’s tendency to respond to a given task in a manner based on past experience*. Because Knut maps an object to a particular function he has difficulty varying the way of use (i.e., pliers as pendulum's weight).
 
-One approach to studying fixation was to study wrong-answer verbal insight problems. In these problems, people tend to give an incorrect answer when failing to solve a problem rather than to give no answer at all.
+One approach to studying fixation was to study *wrong-answer verbal insight problems*. In these problems, people tend to give an incorrect answer when failing to solve a problem rather than to give no answer at all.
 
 A typical example: People are told that on a lake the area covered by water lilies doubles every 24 hours and that it takes 60 days to cover the whole lake. Then they are asked how many days it takes to cover half the lake. The typical response is “30 days” (whereas 59 days is correct).
 
-These wrong solutions are due to an inaccurate interpretation, or representation, of the problem. This can happen because of sloppiness (a quick shallow reading of the problem and/or weak monitoring of their efforts made to come to a solution). In this case error feedback should help people to reconsider the problem features, note the inadequacy of their first answer, and find the correct solution. If, however, people are truly fixated on their incorrect representation, being told the answer is wrong does not help. In a study by P.I. Dallop and R.L. Dominowski in 1992 these two possibilities were investigated. In approximately one third of the cases error feedback led to right answers, so only approximately one third of the wrong answers were due to inadequate monitoring.
+These wrong solutions are due to an *inaccurate interpretation, or representation*, of the problem. This can happen because of sloppiness (a quick shallow reading of the problem and/or weak monitoring of their efforts made to come to a solution). In this case error feedback should help people to reconsider the problem features, note the inadequacy of their first answer, and find the correct solution. If, however, people are truly fixated on their incorrect representation, being told the answer is wrong does not help. In a study by P.I. Dallop and R.L. Dominowski in 1992 these two possibilities were investigated. In approximately one third of the cases error feedback led to right answers, so only approximately one third of the wrong answers were due to inadequate monitoring.
 
-Another approach is the study of examples with and without a preceding analogous task. In cases such like the water-jug task, analogous thinking indeed leads to a correct solution, but to take a different way might make the case much simpler:
+Another approach is the study of examples with and without a preceding analogous task. In cases such like the *water-jug task*, analogous thinking indeed leads to a correct solution, but to take a different way might make the case much simpler:
 
 Imagine Knut again, this time he is given three jugs with different capacities and is asked to measure the required amount of water. He is not allowed to use anything except the jugs and as much water as he likes. In the first case the sizes are: 127 cups, 21 cups and 3 cups. His goal is to measure 100 cups of water.
 
@@ -149,11 +144,11 @@ M. Gick and K. Holyoak presented Duncker's radiation problem to a group of parti
 
 Following these results, Gick and Holyoak concluded that analogical problem solving consists of three steps:
 
-1. Recognizing that an analogical connection exists between the source and the base problem.
+1. [Recognizing] that an analogical connection exists between the source and the base problem.
 
-2. Mapping corresponding parts of the two problems onto each other (fortress → tumour, army → ray, etc.).
+2. [Mapping] corresponding parts of the two problems onto each other (fortress → tumour, army → ray, etc.).
 
-3. Applying the mapping to generate a parallel solution to the target problem (using little groups of soldiers approaching from different directions → sending several weaker rays from different directions).
+3. [Applying] the mapping to generate a parallel solution to the target problem (using little groups of soldiers approaching from different directions → sending several weaker rays from different directions).
 
 Next, Gick and Holyoak started looking for factors that could help the recognizing and mapping processes.
 

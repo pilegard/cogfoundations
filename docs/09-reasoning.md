@@ -32,10 +32,9 @@ In this example it is obvious that the premises are about rather general informa
 
 ### Categorical syllogisms {-}
 
-In categorical syllogisms, the statements of the premises typically begin with “all”, “none” or “some” and the conclusion starts with “therefore,” “thus,” or “hence.” These kinds of syllogisms describe a relationship between two categories. In the example given above in the introduction of deductive reasoning these categories are Spain and the need for shorts and T-Shirts. Two different approaches serve the study of categorical syllogisms: the normative approach and the descriptive approach.
+In categorical syllogisms, the statements of the premises typically begin with “all”, “none” or “some” and the conclusion starts with “therefore,” “thus,” or “hence.” These kinds of syllogisms describe a relationship between two categories. In the example given above in the introduction of deductive reasoning these categories are *Spain* and *the need for shorts and T-Shirts*. Two different approaches serve the study of categorical syllogisms: the [normative approach] and the [descriptive approach].
 
 #### The normative approach {-}
-
 <div class="figure" style="text-align: center">
 <img src="images/ch9/fig1.jpg" alt="Figure 1. Euler Circles" width="60%" />
 <p class="caption">(\#fig:fig1)Figure 1. Euler Circles</p>
@@ -43,11 +42,11 @@ In categorical syllogisms, the statements of the premises typically begin with �
 
 The normative approach to categorical syllogisms is based on logic, and deals with the problem of categorizing conclusions as either valid or invalid. “Valid” means that the conclusion follows logically from the premises whereas “invalid” means the contrary. Two basic principles and a method called Euler Circles have been developed to help make validity judgments. The first principle was created by Aristotle, and states “If the two premises are true, the conclusion of a valid syllogism must be true” (cp. Goldstein, 2005). The second principle states “The validity of a syllogism is determined only by its form, not its content.” These two principles explain why the following syllogism is (surprisingly) valid:
 
-All flowers are animals.
+>All flowers are animals.
 
-All animals can jump. 
+>All animals can jump. 
 
-Therefore, all flowers can jump.
+>Therefore, all flowers can jump.
 
 Even though it is quite obvious that the first premise is not true and further that the conclusion is not true, the whole syllogism is still valid. That is, when you apply formal logic to the syllogism in the example, the conclusion is valid.
 
@@ -57,9 +56,9 @@ It is possible to display a syllogism formally with symbols or letters and expla
 
 The descriptive approach is concerned with estimating people’s ability to judge the validity of syllogisms and explaining errors people make. This psychological approach uses two methods in order to study people’s performance:
 
-  Method of evaluation: People are given two premises and a conclusion. Their task is to judge        whether the syllogism is valid.
+>Method of evaluation: People are given two premises and a conclusion. Their task is to judge whether the syllogism is valid.
 
-  Method of production: Participants are given two premises. Their task is to develop a logically     valid conclusion.
+>Method of production: Participants are given two premises. Their task is to develop a logically valid conclusion.
   
 In addition to the form of a syllogism, the content can influence a person’s decision and cause the person to neglect logical thinking. The belief bias states that people tend to judge syllogisms with believable conclusions as valid, while they tend to judge syllogisms with unbelievable conclusions as invalid. Given a conclusion as like “Some bananas are pink”, hardly any participants would judge the syllogism as valid, even though it might be logically valid according to its premises (e.g. Some bananas are fruits. All fruits are pink.)
 
@@ -67,18 +66,20 @@ In addition to the form of a syllogism, the content can influence a person’s d
 
 Another type of syllogism is called “conditional syllogism.” Just like the categorical syllogisms, they also have two premises and a conclusion. The difference is that the first premise has the form “If … then”. Syllogisms like this one are common in everyday life. Consider the following example from the story about Knut:
 
- Premise 1: If it is raining, Knut’s wife needs an umbrella.
+>Premise 1: If it is raining, Knut’s wife needs an umbrella.
  
- Premise 2: It is raining.
+>Premise 2: It is raining.
  
- Conclusion: Therefore, Knut’s wife needs an umbrella.
+>Conclusion: Therefore, Knut’s wife needs an umbrella.
  
-Conditional syllogisms are typically given in the abstract form: “If p then q”, where “p” is called the antecedent and “q” the consequent.
+Conditional syllogisms are typically given in the abstract form: “If p then q”, where “p” is called the [antecedent] and “q” the [consequent].
 
 #### Forms of conditional syllogisms {-}
 
-There are four major forms of conditional syllogisms: modus ponens, modus tollens, denying the antecedent, and affirming the consequent. These are illustrated in the table below (Figure 2) by means of the conditional syllogism above (i.e. If it is raining, Knut’s wife needs an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
+There are four major forms of conditional syllogisms: [modus ponens], [modus tollens], [denying the antecedent], and [affirming the consequent]. These are illustrated in the table below (Figure 2) by means of the conditional syllogism above (i.e. If it is raining, Knut’s wife needs an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
 Figure 2. Different kinds of conditional syllogisms
+
+## ADD IN TABLE
 
 As we can see, the validity of the syllogisms with valid conclusions is easier to judge correctly than the validity of the syllogisms with invalid conclusions. The conclusion in the instance of the modus ponens is apparently valid. In the example it is very clear that Knut’s wife needs an umbrella if it is raining.
 
@@ -104,13 +105,13 @@ In the abstract version of the Wason Selection Task, four cards are shown to the
 
 There are two different approaches to explain why participants’ performance is significantly better in the case of the beer/drinking-age problem than in the abstract version of the Wason Selection Task: the permission schemas approach and the evolutionary approach.
 
-The rule, “if a person is 21 years old or older then they are allowed to drink alcohol,” is well-known as an experience from everyday life. Based on a lifetime of learning rules in which one must satisfy some criteria for permission to perform a specific act, we have a permission schema already stored in long-term memory to think about such situations. Participants can apply this previously-learned permission schema to the Wason Selection Task for real–world items to improve participants’ performance. On the contrary such a permission schema from everyday life does not exist for the abstract version of the Wason Selection Task.
+The rule, “if a person is 21 years old or older then they are allowed to drink alcohol,” is well-known as an experience from everyday life. Based on a lifetime of learning rules in which one must satisfy some criteria for permission to perform a specific act, we have a [permission schema] already stored in long-term memory to think about such situations. Participants can apply this previously-learned permission schema to the Wason Selection Task for real–world items to improve participants’ performance. On the contrary such a permission schema from everyday life does not exist for the abstract version of the Wason Selection Task.
 
-The evolutionary approach concerns the human ability of cheater detection . This approach states that an important aspect of human behavior across our evolutionary history is the ability for people to cooperate in a way that is mutually beneficial. As long as a person who receives a benefit also pays the relevant cost, everything works well in a social exchange. If someone cheats, however, and receives a benefit from others without paying the cost, problems arise. It is assumed that the ability to detect cheaters became a part of the human cognitive makeup during evolution. This cognitive ability improves the performance in the beer/drinking-age version of the Wason Selection Task as it allows people to detect a cheating person who does not behave according to the rule. Cheater-detection does not work in the case of the abstract version of the Wason Selection Task as vowels and numbers cannot behave in any way, much less cheat, and so the cheater detection mechanism is not activated.
+The evolutionary approach concerns the human ability of [cheater detection]. This approach states that an important aspect of human behavior across our evolutionary history is the ability for people to cooperate in a way that is mutually beneficial. As long as a person who receives a benefit also pays the relevant cost, everything works well in a social exchange. If someone cheats, however, and receives a benefit from others without paying the cost, problems arise. It is assumed that the ability to detect cheaters became a part of the human cognitive makeup during evolution. This cognitive ability improves the performance in the beer/drinking-age version of the Wason Selection Task as it allows people to detect a cheating person who does not behave according to the rule. Cheater-detection does not work in the case of the abstract version of the Wason Selection Task as vowels and numbers cannot behave in any way, much less cheat, and so the cheater detection mechanism is not activated.
 
 ## Inductive reasoning
 
-So far we have discussed deductive reasoning, which is reaching conclusions based on logical rules applied to a set of premises. However, many problems cannot be represented in a way that would make it possible to use these rules to come to a conclusion. Inductive reasoning is the process of making observations and applying those observations via generalization to a different problem. Therefore one infers from a special case to the general principle, which is just the opposite of the procedure of deductive reasoning (Figure 5). A good example of inductive reasoning is the following:
+So far we have discussed deductive reasoning, which is reaching conclusions based on logical rules applied to a set of premises. However, many problems cannot be represented in a way that would make it possible to use these rules to come to a conclusion. [Inductive reasoning] is the process of making observations and applying those observations via generalization to a different problem. Therefore one infers from a special case to the general principle, which is just the opposite of the procedure of deductive reasoning (Figure 5). A good example of inductive reasoning is the following:
  
  Premise: All crows Knut and his wife have ever seen are black.
  
@@ -122,13 +123,13 @@ In this example it is obvious that Knut and his wife infer from the simple obser
 
 ### Forms of inductive reasoning {-}
 
-The two different forms of inductive reasoning are “strong” and “weak” induction. The former indicates that the truth of the conclusion is very likely if the assumed premises are true. An example for this form of reasoning is the one given in the previous section. In this case it is obvious that the premise (“All crows Knut and his wife have ever seen are black”) gives good evidence for the conclusion (“All crows on earth are black”) to be true. Nevertheless it is still possible, although very unlikely, that not all crows are black.
+The two different forms of inductive reasoning are “*strong*” and “*weak*” induction. The former indicates that the truth of the conclusion is very likely if the assumed premises are true. An example for this form of reasoning is the one given in the previous section. In this case it is obvious that the premise (“All crows Knut and his wife have ever seen are black”) gives good evidence for the conclusion (“All crows on earth are black”) to be true. Nevertheless it is still possible, although very unlikely, that not all crows are black.
 
 On the contrary, conclusions reached by “weak induction” are supported by the premises in a relatively weak manner. In this approach, the truth of the premises makes the truth of the conclusion possible, but not likely. An example for this kind of reasoning is the following:
 
- Premise: Knut always listens to music with his iPhone.
+>Premise: Knut always listens to music with his iPhone.
 
- Conclusion: Therefore, he reasons that all music is only heard with iPhones.
+>Conclusion: Therefore, he reasons that all music is only heard with iPhones.
 
 In this instance the conclusion is obviously false. The information the premise contains is not very representative and although it is true, it does not give decisive evidence for the truth of the conclusion.
 
@@ -138,19 +139,19 @@ To sum it up, strong inductive reasoning yields conclusions which are very proba
 
 If the strength of the conclusion of an inductive argument has to be determined, three factors concerning the premises play a decisive role. The of Knut and his wife’s observations about crows (see previous sections) displays these factors:
 
-When Knut and his wife observe, in addition to the black crows in Germany, the crows in Spain, the number of observations they make concerning the crows increases. Furthermore, the representativeness of these observations is supported if Knut and his wife observe the crows at different times and in different places and see that they are black every time. The quality of the evidence for all crows being black increases if Knut and his wife add scientific measurements that support the conclusion. For example, they could find out that the crows’ genes determine that the only color they can be is black.
+When Knut and his wife observe, in addition to the black crows in Germany, the crows in Spain, the *number of observations* they make concerning the crows increases. Furthermore, the *representativeness of these observations* is supported if Knut and his wife observe the crows at different times and in different places and see that they are black every time. The *quality of the evidence* for all crows being black increases if Knut and his wife add scientific measurements that support the conclusion. For example, they could find out that the crows’ genes determine that the only color they can be is black.
 
 Conclusions reached through a process of inductive reasoning are never definitely true, as no one has seen all crows on earth. It is possible, although very unlikely, that there is a green or brown exemplar. The three above factors contribute to the strength of an inductive argument. The stronger these factors are, the more reliable the conclusions reached through induction.
 
 ### Processes and constraints {-}
 
-In a process of inductive reasoning, people often make use of certain heuristics. These heuristics often help people make adequate conclusions, but sometimes may cause errors. In the following sections, two of these heuristics (availability heuristic and representativeness heuristic) are explained. Subsequently, the confirmation bias is introduced, which can influence people to use their own opinions in reasoning without realizing it.
+In a process of inductive reasoning, people often make use of certain heuristics. These heuristics often help people make adequate conclusions, but sometimes may cause errors. In the following sections, two of these heuristics [(availability heuristic] and [representativeness heuristic]) are explained. Subsequently, the [confirmation bias] is introduced, which can influence people to use their own opinions in reasoning without realizing it.
 
 #### The availability heuristic {-}
 
 Things that are more easily remembered are judged to be more prevalent. An example of this is an experiment done by Lichtenstein et al. (1978). Participants were asked to choose from a list which causes of death occur most often. Because of the availability heuristic people, judged more “spectacular” causes like homicide or tornadoes to cause more deaths than others, like asthma. The reason for this is that, for example, films and news in television are very often about spectacular and interesting causes of death. This is why this information is more readily available to the subjects in the experiment.
 
-Another effect of the availability heuristic is called illusory correlations. People tend to judge according to stereotypes. It seems to them that there are correlations between certain events which in reality do not exist— this is what is known as “prejudice.” Usually a correlation seems to exist between negative features and a certain class of people. If, for example, one's neighbor is jobless and very lazy one tends to correlate these two attributes and create the prejudice that all jobless people are lazy. This illusory correlation occurs because one takes into account information which is available and judges this to be prevalent in many cases.
+Another effect of the availability heuristic is called [illusory correlations]. People tend to judge according to stereotypes. It seems to them that there are correlations between certain events which in reality do not exist— this is what is known as “prejudice.” Usually a correlation seems to exist between negative features and a certain class of people. If, for example, one's neighbor is jobless and very lazy one tends to correlate these two attributes and create the prejudice that all jobless people are lazy. This illusory correlation occurs because one takes into account information which is available and judges this to be prevalent in many cases.
 
 
 
@@ -158,7 +159,7 @@ Another effect of the availability heuristic is called illusory correlations. Pe
 
 If people have to judge the probability of an event, they try to find a comparable event and assume that the two events have a similar probability. Amos Tversky and Daniel Kahneman (1974) presented the following task to their participants in an experiment: “We randomly chose a man from the population of the U.S., Robert, who wears glasses, speaks quietly and reads a lot. Is it more likely that he is a librarian or a farmer?” More of the participants answered that Robert is a librarian, which is an effect of the representativeness heuristic. Participants compared the description of Robert with the typical depiction of a librarian, and found that the description was more like a librarian than a farmer. So, the event of a typical librarian is more comparable with Robert than the event of a typical farmer. Of course this effect may lead to errors, as Robert is randomly chosen from the population and as it is perfectly possible that he is a farmer even though he speaks quietly and wears glasses.
 
-The representativeness heuristic also leads to errors in reasoning in cases where the conjunction rule is violated. This rule states that the conjunction of two events is never more likely to be the case than the single events alone. An example for this is the case of the feminist bank teller (Tversky & Kahneman, 1983). If we are introduced to a woman who is very interested in women’s rights and has participated in many political activities in college, and we are to decide whether it is more likely that she is a bank teller or a feminist bank teller, we are drawn to conclude the latter as the facts we have learned about her resemble the event of a feminist bank teller more than the event of only being a bank teller.
+The representativeness heuristic also leads to errors in reasoning in cases where the [conjunction rule] is violated. This rule states that the conjunction of two events is never more likely to be the case than the single events alone. An example for this is the case of the feminist bank teller (Tversky & Kahneman, 1983). If we are introduced to a woman who is very interested in women’s rights and has participated in many political activities in college, and we are to decide whether it is more likely that she is a bank teller or a feminist bank teller, we are drawn to conclude the latter as the facts we have learned about her resemble the event of a feminist bank teller more than the event of only being a bank teller.
 
 However, it is in fact more likely that somebody is just a bank teller than it is that someone is a feminist in addition to being a bank teller. This effect is illustrated in Figure 7, where the green square, which stands for just being a bank teller, is much larger and thus more probable than the smaller orange square, which displays the conjunction of bank tellers and feminists, which is a subset of bank tellers.
 
@@ -166,7 +167,7 @@ However, it is in fact more likely that somebody is just a bank teller than it i
 
 People tend to use what they believe to be true or good to when using evidence to make inferences. If, for example, someone believes that they have bad luck on Friday the thirteenth, they will especially look for every negative event on this particular date but will be inattentive to negative events on other days. This behavior strengthens the belief that there exists a relationship between Friday the thirteenth and having bad luck. This example shows that all information is not equally taken into account to come to a conclusion, but rather on seeks out information which supports one's own belief. This effect leads to errors as people tend to reason in a subjective manner, if personal interests and beliefs are involved.
 
-All the mentioned factors influence the subjective probability of an event so that it differs from the actual probability (probability heuristic). Of course all of these factors do not always appear alone, but they influence one another and can occur in combination during the process of reasoning.
+All the mentioned factors influence the subjective probability of an event so that it differs from the actual probability ([probability heuristic]). Of course all of these factors do not always appear alone, but they influence one another and can occur in combination during the process of reasoning.
 
 ### Induction vs. deduction {-}
 
@@ -175,17 +176,17 @@ Figure 8. Induction vs. deduction
 
 ## Decision making
 
-The psychological process of decision making is critical in everyday daily life. Imagine Knut deciding between packing more blue or more green shirts for his vacation (which would only have minor consequences) but also about applying a specific job or having children with his wife (which would have important consequences in his future life).
+The psychological process of [decision making] is critical in everyday daily life. Imagine Knut deciding between packing more blue or more green shirts for his vacation (which would only have minor consequences) but also about applying a specific job or having children with his wife (which would have important consequences in his future life).
 
-There are three different ways to analyze decision making. The normative approach assumes a rational decision-maker with well-defined preferences. The descriptive approach is based on empirical observations and on experimental studies of choice behavior. The prescriptive approach develops methods to improve decision making.
+There are three different ways to analyze decision making. The [normative approach] assumes a rational decision-maker with well-defined preferences. The [descriptive approach] is based on empirical observations and on experimental studies of choice behavior. The [prescriptive approach] develops methods to improve decision making.
 
 ### Misleading effects {-}
 
 People may struggle to make the “right” decision because of different misleading effects, which mainly arise because of the constraints of inductive reasoning. In general this means that our model of a situation or problem might not be ideal to solve it in an optimal way.
 
-One misleading effect is the so-called focusing illusion. By considering only the most obvious aspects of a situation to make a decision, people often neglect more important aspects. For example, in considering job offers in different locations, a person may pay too much attention to salient aspects of a location such as weather, and relatively less to highly important aspects such as circumstances at work.
+One misleading effect is the so-called [focusing illusion]. By considering only the most obvious aspects of a situation to make a decision, people often neglect more important aspects. For example, in considering job offers in different locations, a person may pay too much attention to salient aspects of a location such as weather, and relatively less to highly important aspects such as circumstances at work.
 
-The way a problem is framed can evoke different decision strategies. If a problem is framed in terms of gains, people tend to use a risk-aversion strategy, while framing a problem in terms of losses leads to a risk-taking strategy. An example of the same problem and predictably different choices is the following experiment: A group of people is asked to imagine themselves \$300 richer than they are. They are then confronted with the choice of a sure gain of \$100 or an equal chance to gain \$200 or nothing. Most people avoid the risk and take the sure gain, which means they take the risk-aversion strategy. Alternatively, if people are asked to assume themselves to be \$500 richer than in reality, given the options of a sure loss of \$100 or an equal chance to lose \$200 or nothing, the majority opts for the risk of losing \$200, which represents a risk-taking strategy. This phenomenon is known as a framing effect and can also be illustrated by figure 8 above, which shows a concave function for gains and a convex one for losses. (Foundations of Cognitive Psychology, Levitin, D. J., 2002)
+The way a problem is framed can evoke different decision strategies. If a problem is framed in terms of gains, people tend to use a risk-aversion strategy, while framing a problem in terms of losses leads to a risk-taking strategy. An example of the same problem and predictably different choices is the following experiment: A group of people is asked to imagine themselves \$300 richer than they are. They are then confronted with the choice of a sure gain of \$100 or an equal chance to gain \$200 or nothing. Most people avoid the risk and take the sure gain, which means they take the risk-aversion strategy. Alternatively, if people are asked to assume themselves to be \$500 richer than in reality, given the options of a sure loss of \$100 or an equal chance to lose \$200 or nothing, the majority opts for the risk of losing \$200, which represents a risk-taking strategy. This phenomenon is known as a [framing effect] and can also be illustrated by figure 8 above, which shows a concave function for gains and a convex one for losses. (Foundations of Cognitive Psychology, Levitin, D. J., 2002)
 
 
 
@@ -198,7 +199,7 @@ The way a problem is framed can evoke different decision strategies. If a proble
 :::exercises
 ##### Exercises {-}
 1. a
-2. b
+2. b 
 :::
 
 

@@ -2,8 +2,6 @@
 
 Although language is often used for the transmission of information (“turn right at the next light and then go straight,” “Place tab A into slot B”), this is only its most mundane function. Language also allows us to access existing knowledge, to draw conclusions, to set and accomplish goals, and to understand and communicate complex social relationships. Language is fundamental to our ability to think, and without it we would be nowhere near as intelligent as we are.
 
-
-
 Human language is the most complex behavior on the planet and, at least as far as we know, in the universe. Language involves both the ability to comprehend spoken and written words and to create communication in real time when we speak or write. Most languages are oral, generated through speaking. Speaking involves a variety of complex cognitive, social, and biological processes including operation of the vocal cords, and the coordination of breath with movements of the throat, mouth, and tongue.
 
 Other languages are sign languages, in which the communication is expressed by movements of the hands. The most common sign language is American Sign Language (ASL), commonly used in many countries across the world and adapted for use in varying countries.
@@ -11,6 +9,12 @@ Other languages are sign languages, in which the communication is expressed by m
 Language can be conceptualized in terms of sounds, meaning, and the environmental factors that help us understand it. Phonemes are the elementary sounds of our language, morphemes are the smallest units of meaning in a language, syntax is the set of grammatical rules that control how words are put together, and contextual information is the elements of communication that are not part of the content of language but that help us understand its meaning.
 
 ## The Components of Language
+
+:::learningobjectives
+##### LEARNING OBJECTIVES {-}
+1. XX
+2. XX
+:::
 
 A phoneme is the smallest unit of sound that makes a meaningful difference in a language. The word “bit” has three phonemes, /b/, /i/, and /t/ (in transcription, phonemes are placed between slashes), and the word “pit” also has three: /p/, /i/, and /t/. In spoken languages, phonemes are produced by the positions and movements of the vocal tract, including our lips, teeth, tongue, vocal cords, and throat, whereas in sign languages phonemes are defined by the shapes and movement of the hands.
 
@@ -58,6 +62,11 @@ Constraint-based theories of language comprehension emphasize how people make us
 
 Anyone who has tried to master a second language as an adult knows the difficulty of language learning. And yet children learn languages easily and naturally. Children who are not exposed to language early in their lives will likely never learn one. Case studies, including Victor the “Wild Child,” who was abandoned as a baby in France and not discovered until he was 12, and Genie, a child whose parents kept her locked in a closet from 18 months until 13 years of age, are (fortunately) two of the only known examples of these deprived children. Both of these children made some progress in socialization after they were rescued, but neither of them ever developed language (Rymer, 1993). This is also why it is important to determine quickly if a child is deaf and to begin immediately to communicate in sign language. Deaf children who are not exposed to sign language during their early years will likely never learn it (Mayberry, Lock, & Kazmi, 2002).
 
+<div class="figure" style="text-align: center">
+<img src="images/ch8/fig1.jpg" alt="Figure 1. Figure 1 Drawing of Brain Showing Broca’s and Wernicke’s Areas." width="60%" />
+<p class="caption">(\#fig:fig1)Figure 1. Figure 1 Drawing of Brain Showing Broca’s and Wernicke’s Areas.</p>
+</div>
+
 For the 90% of people who are right-handed, language is stored and controlled by the left cerebral cortex, although for some left-handers this pattern is reversed. These differences can easily be seen in the results of neuroimaging studies that show that listening to and producing language creates greater activity in the left hemisphere than in the right. Broca’s area, an area in front of the left hemisphere near the motor cortex, is responsible for language production (Figure 1, “Drawing of Brain Showing Broca’s and Wernicke’s Areas”). This area was first localized in the 1860s by the French physician Paul Broca, who studied patients with lesions to various parts of the brain. Wernicke’s area, an area of the brain next to the auditory cortex, is responsible for language comprehension.
 
 Evidence for the importance of Broca’s and Wernicke’s areas in language is seen in patients who experience aphasia, a condition in which language functions are severely impaired. People with Broca’s aphasia have difficulty producing speech, whereas people with damage to Wernicke’s area can produce speech, but what they say makes no sense and they have trouble understanding language.
@@ -67,6 +76,11 @@ Evidence for the importance of Broca’s and Wernicke’s areas in language is s
 Language learning begins even before birth, because the fetus can hear muffled versions of speaking from outside the womb. Moon, Cooper, and Fifer (1993) found that infants only two days old sucked harder on a pacifier when they heard their mothers’ native language being spoken than when they heard a foreign language, even when strangers were speaking the languages. Babies are also aware of the patterns of their native language, showing surprise when they hear speech that has a different patterns of phonemes than those they are used to (Saffran, Aslin, & Newport, 2004).
 
 During the first year or so after birth, and long before they speak their first words, infants are already learning language. One aspect of this learning is practice in producing speech. By the time they are six to eight weeks old, babies start making vowel sounds (ooohh, aaahh, goo) as well as a variety of cries and squeals to help them practice.
+
+<div class="figure" style="text-align: center">
+<img src="images/ch8/fig2.jpg" alt="Figure 2. Practicing Language. Babies often engage in vocal exchanges to help them practice language." width="60%" />
+<p class="caption">(\#fig:fig2)Figure 2. Practicing Language. Babies often engage in vocal exchanges to help them practice language.</p>
+</div>
 
 At about seven months, infants begin babbling, engaging in intentional vocalizations that lack specific meaning. Children babble as practice in creating specific sounds, and by the time they are one year old, the babbling uses primarily the sounds of the language that they are learning (de Boysson-Bardies, Sagart, & Durand, 1984). These vocalizations have a conversational tone that sounds meaningful even though it isn’t. Babbling also helps children understand the social, communicative function of language (Figure 2, “Practicing Language”). Children who are exposed to sign language babble in sign by making hand movements that represent real language (Petitto & Marentette, 1991).
 
@@ -119,10 +133,12 @@ For many years psyhcologists assumed that there was a **[critical period]** (*a 
 
 An important study by Jacqueline Johnson and Elissa Newport @JohnsonNewport1989 using Chinese and Korean speakers who ahd learned English as a second language provided the first insight. The participants were all adults who had immigrated to the United States between three and 39 years of age and who were tested on their English skills by being asked to detect grammatical errors in sentences. Johnson and Newport found that the participants who had begun learning English before they were seven years old learned it as well as native English speakers but that the ability to learn English dropped off gradually for the participants who had started later. Newport and Johnson also found a correlation between the age of acquisition and the variance in the ultimate learning of the language. While early learners were almost all successful in acquiring their language to a high degree of proficiency, later learners showed much greater individual variation. 
 
-Johnson and Newport's finding that children who immigrated before they were seven years old learned English fluently seemed consistent with the idea of a critical period in language learning. But their finding of gradual decrease in proficiency for those immigrated between eight and 39 years of age was not - rather, it suggested that there might not be a single critical period  of language learning that ended at puberty, as early theorists had expected, but that language learning at later ages is imply better when it occurs earlier. This idea was reinforced in research by @Hakuta2003, who examined census records of language learning in millions of Chinese and Spanish immigrants. The census form asks respondents to describe their own English ability using one of five categories: not at all, not well, well, very well, and speak only English. The results of this research dealt another blow to the idea of the critical period, because it showed that regardless of what year was used as a cutoff point for the end of the critical period, there was no evidence for any discontinuity in langague-learning potential. Rather, the results (Figure 10.10 "English Proficiency in Native Chinese Speakers") showed that the degree of success in second-language acquisision declined steadily throughout the respondent's life span. The difficulty of learning lanaguage as one gets older is probably due to the fact that, with age, the brain loses its [plastucuty] - that is, *its ability to develop new neural connections*.
+Johnson and Newport's finding that children who immigrated before they were seven years old learned English fluently seemed consistent with the idea of a critical period in language learning. But their finding of gradual decrease in proficiency for those immigrated between eight and 39 years of age was not - rather, it suggested that there might not be a single critical period  of language learning that ended at puberty, as early theorists had expected, but that language learning at later ages is imply better when it occurs earlier. This idea was reinforced in research by @Hakuta2003, who examined census records of language learning in millions of Chinese and Spanish immigrants. The census form asks respondents to describe their own English ability using one of five categories: not at all, not well, well, very well, and speak only English. The results of this research dealt another blow to the idea of the critical period, because it showed that regardless of what year was used as a cutoff point for the end of the critical period, there was no evidence for any discontinuity in language-learning potential. Rather, the results (Figure 10.10 "English Proficiency in Native Chinese Speakers") showed that the degree of success in second-language acquisition declined steadily throughout the respondent's life span. The difficulty of learning language as one gets older is probably due to the fact that, with age, the brain loses its [plasticity] - that is, *its ability to develop new neural connections*.
 
-### add in image
-Figure caption: Figure 10.10 English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.
+<div class="figure" style="text-align: center">
+<img src="images/ch8/fig3.jpg" alt="Figure 3. English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration." width="60%" />
+<p class="caption">(\#fig:fig3)Figure 3. English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.</p>
+</div>
 :::
 
 ### Can Animals Learn Language? {-}
@@ -137,7 +153,22 @@ The most proficient nonhuman language speaker is Kanzi, a bonobo who lives at th
 
 And yet even Kanzi does not have a true language in the same way that humans do. Human babies learn words faster and faster as they get older, but Kanzi does not. Each new word he learns is almost as difficult as the one before. Kanzi usually requires many trials to learn a new sign, whereas human babies can speak words after only one exposure. Kanzi’s language is focused primarily on food and pleasure and only rarely on social relationships. Although he can combine words, he generates few new phrases and cannot master syntactic rules beyond the level of about a two-year-old human child (Greenfield & Savage-Rumbaugh, 1991).
 
+
+
 In sum, although many animals communicate, none of them has a true language. With some exceptions, the information that can be communicated in nonhuman species is limited primarily to displays of liking or disliking, and related to basic motivations of aggression and mating. Humans also use this more primitive type of communication, in the form of nonverbal behaviors such as eye contact, touch, hand signs, and interpersonal distance, to communicate their like or dislike for others, but they (unlike animals) also supplant this more primitive communication with language. Although other animal brains share similarities to ours, only the human brain is complex enough to create language. What is perhaps most remarkable is that although language never appears in nonhumans, language is universal in humans. All humans, unless they have a profound brain abnormality or are completely isolated from other humans, learn language.
+
+:::takeaways
+##### Key Takeaways {-}
+- a
+- b
+:::
+
+:::exercises
+##### Exercises {-}
+1. a
+2. b
+:::
+
 
 References
 Andrews, I. (1982). Bilinguals out of focus: A critical discussion. International Review of Applied Linguistics in Language Teaching, 20(4), 297–305.

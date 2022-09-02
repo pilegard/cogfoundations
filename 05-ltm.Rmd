@@ -17,6 +17,9 @@ Our memories allow us to do relatively simple things, such as remembering where 
 As we discussed in the last chapter, working memory is a temporary storage space for information that is being actively stored and manipulated in consciousness. Information that is not rehearsed will be forgotten within 18 to 30 seconds. Long-term memory, on the other hand, is where we store everything from a few moments to the earliest thing we can remember. There is theoretically no upper limit to the amount of information we can store in long-term memory.
 
 ### The Serial Position Curve {-}
+```{r fig1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 1. The serial position curve is the result of both primacy effects and recency effects.'}
+knitr::include_graphics("images/ch5/fig1.jpeg")
+```
 
 The distinction between working memory and long-term memory can be demonstrated with the serial position curve. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in Figure 1. People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The primacy effect refers to a tendency to better remember stimuli that are presented early in a list. The recency effect refers to the tendency to better remember stimuli that are presented later in a list.
 
@@ -150,6 +153,19 @@ Memory consolidation is a category of processes that stabilize a memory trace af
 #### Sleep consolidation {-}
 
 Rapid eye movement (REM) sleep has been thought of to be an important concept in the overnight learning in humans by establishing information in the hippocampal and cortical regions of the brain. REM sleep elicits an increase in neuronal activity following an enriched or novel waking experience, thus increasing neuronal plasticity and therefore playing an essential role in the consolidation of memories. Researchers have noted strong reactivation of the hippocampus during sleep immediately after a learning task. This reactivation led to enhanced performance on the learned task (Wamsley et al., 2010). Researchers following this line of work have come to assume that dreams are a by-product of the reactivation of the brain areas and this can explain why dreams may be unrelated to the information being consolidated. The dream experience itself is not what enhances memory performance but rather it is the reactivation of the neural circuits that causes this. 
+
+:::takeaways
+##### Key Takeaways {-}
+- a
+- b
+:::
+
+:::exercises
+##### Exercises {-}
+1. a
+2. b
+:::
+
 
 References
 Atkinson, R. C., & Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes. In K. Spence (Ed.), The psychology of learning and motivation (Vol. 2). Oxford, England: Academic Press. 

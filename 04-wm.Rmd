@@ -16,6 +16,10 @@ When people talk about memory, they are describing the mind’s ability to encod
 
 ## Short-Term Memory
 
+```{r fig1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 1. Atkinson and Shiffrin’s Modal Model of Memory. Image from Wikimedia Commons.'}
+#knitr::include_graphics("images/ch4/fig1.jpg")
+```
+
 In the middle of the 20th century, many scientists were interested in short-term memory (STM), or how humans can hold small amounts of information actively in their minds for a short period of time. In 1968, Richard Atkinson and Richard proposed a model of memory referred to as the Modal Model of Memory (Figure 1). In this model, information first enters sensory memory, which is a highly transient storage space for information that recently entered your sensory system. This information is high quality but fades away very quickly. Have you ever had the experience of hearing someone say something when you weren’t really paying attention, then repeating it immediately in your head, and then being able to understand it? For about three seconds, you can play back the auditory information that you just heard. You can even hear it in the speaker’s original tone of voice! You use your sensory memory to do this. 
 
 The next stage the Modal Model is short-term memory. Information that you pay attention to from sensory memory enters the short-term memory store. As the name suggests, information is retained in the Short Term Memory for a rather short period of time (15–30 seconds). In order to keep information in short-term memory, you must rehearse it.
@@ -68,6 +72,19 @@ The functions of the central executive can be broken down into three categories:
 
 ### The episodic buffer {-}
 Science is an ongoing process, and so despite the usefulness of Baddeley and Hitch’s working memory model, it was updated in 2000 to add another component: the episodic buffer (Baddeley, 2000). The episodic buffer is a limited capacity, temporary storage system that is controlled by the central executive and integrates information from a variety of sources including long-term memory. The episodic buffer was added to help account for human performance in complex cognition— for example, we can remember many more words when we remember a meaningful sentence than when we remember a random word list. The episodic buffer was added to help account for this and other phenomena in which working memory performance seemingly requires additional storage as well as interfacing with long-term memory. 
+
+:::takeaways
+##### Key Takeaways {-}
+- a
+- b
+:::
+
+:::exercises
+##### Exercises {-}
+1. a
+2. b
+:::
+
 
 References
 Atkinson, R. C. & Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes.In K. Spence & J. Spence (Eds.), The psychology of learning and motivation (Volume 2). New York: Academic Press.

@@ -119,6 +119,19 @@ Most people acknowledge the distraction caused by texting while driving and the 
 
 It may be useful to think of attention as a mental resource, one that is needed to focus on and fully process important information, especially when there is a lot of distracting “noise” threatening to obscure the message. Our selective attention system allows us to find or track an object or conversation in the midst of distractions. Whether the selection process occurs early or late in the analysis of those events has been the focus of considerable research, and in fact how selection occurs may very well depend on the specific conditions. With respect to divided attention, in general we can only perform one cognitively demanding task at a time, and we may not even be aware of unattended events even though they might seem too obvious to miss (check out some examples in the Outside Resources below). This type of inattention blindness can occur even in well-learned tasks, such as driving while talking on a cell phone. Understanding how attention works is clearly important, even for our everyday lives.
 
+:::takeaways
+##### Key Takeaways {-}
+- a
+- b
+:::
+
+:::exercises
+##### Exercises {-}
+1. a
+2. b
+:::
+
+
 References
 Bargh, J., & Morsella, E. (2008). The unconscious mind. Perspectives on Psychological Science, 3(1), 73–79.
 Beilock, S. L., & Carr, T. H. (2001). On the fragility of skilled performance: What governs choking under pressure? Journal of Experimental Psychology: General, 130, 701–725.

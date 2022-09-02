@@ -16,6 +16,12 @@ The conclusion in this example follows directly from the premises, but it includ
 
 ## Deductive reasoning
 
+:::learningobjectives
+##### LEARNING OBJECTIVES {-}
+1. XX
+2. XX
+:::
+
 Deductive reasoning is concerned with syllogisms in which the conclusion follows logically from the premises. The following example about Knut makes this process clear:
 
 1. Premise: Knut knows: If it is warm, one needs shorts and t-shirts.
@@ -168,6 +174,17 @@ One misleading effect is the so-called focusing illusion. By considering only th
 
 The way a problem is framed can evoke different decision strategies. If a problem is framed in terms of gains, people tend to use a risk-aversion strategy, while framing a problem in terms of losses leads to a risk-taking strategy. An example of the same problem and predictably different choices is the following experiment: A group of people is asked to imagine themselves \$300 richer than they are. They are then confronted with the choice of a sure gain of \$100 or an equal chance to gain \$200 or nothing. Most people avoid the risk and take the sure gain, which means they take the risk-aversion strategy. Alternatively, if people are asked to assume themselves to be \$500 richer than in reality, given the options of a sure loss of \$100 or an equal chance to lose \$200 or nothing, the majority opts for the risk of losing \$200, which represents a risk-taking strategy. This phenomenon is known as a framing effect and can also be illustrated by figure 8 above, which shows a concave function for gains and a convex one for losses. (Foundations of Cognitive Psychology, Levitin, D. J., 2002)
 
+:::takeaways
+##### Key Takeaways {-}
+- a
+- b
+:::
+
+:::exercises
+##### Exercises {-}
+1. a
+2. b
+:::
 
 
 References

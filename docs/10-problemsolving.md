@@ -32,6 +32,12 @@ The line between well-defined and ill-defined problems is not always neat: ill-d
 
 ## Restructuring: The Gestalt Approach 
 
+:::learningobjectives
+##### LEARNING OBJECTIVES {-}
+1. XX
+2. XX
+:::
+
 One dominant approach to problem solving originated from Gestalt psychologists in the 1920s. Their understanding of problem solving emphasizes behavior in situations requiring relatively novel means of attaining goals and suggests that problem solving involves a process called restructuring. With a Gestalt approach, two main questions have to be considered to understand the process of problem solving: 1) How is a problem represented in a person's mind?, and 2) How does solving this problem involve a reorganization or restructuring of this representation?
 
 ### How is a problem represented in the mind? {-}
@@ -153,6 +159,19 @@ In 1981 M. Chi and her co-workers took a set of 24 physics problems and presente
 ### Analysis {-}
 
 Experts often spend more time analyzing a problem before actually trying to solve it. This way of approaching a problem may often result in what appears to be a slow start, but in the long run this strategy is much more effective. A novice, on the other hand, might start working on the problem right away, but often reach dead ends as they chose a wrong path in the very beginning.
+
+:::takeaways
+##### Key Takeaways {-}
+- a
+- b
+:::
+
+:::exercises
+##### Exercises {-}
+1. a
+2. b
+:::
+
 
 References
 Chase, W. G., & Simon, H. A. (1973). Perception in chess. Cognitive psychology, 4(1), 55-81.

@@ -1,6 +1,11 @@
 # Knowledge
 
 
+<div class="figure" style="text-align: center">
+<img src="images/ch7/fig1.jpg" alt="Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]" width="60%" />
+<p class="caption">(\#fig:fig1)Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]</p>
+</div>
+
 People form mental concepts of categories of objects, which permit them to respond appropriately to new objects they encounter. Most concepts cannot be strictly defined but are organized around the “best” examples or prototypes, which have the properties most common in the category. Objects fall into many different categories, but there is usually a most salient one, called the basic-level category, which is at an intermediate level of specificity (e.g., chairs, rather than furniture or desk chairs). Concepts are closely related to our knowledge of the world, and people can more easily learn concepts that are consistent with their knowledge. Theories of concepts argue either that people learn a summary description of a whole category or else that they learn exemplars of the category. 
 
 Consider the following set of objects: some dust, papers, a computer monitor, two pens, a cup, and an orange. What do these things have in common? Only that they all happen to be on my desk as I write this. This set of things can be considered a category, a set of objects that can be treated as equivalent in some way. But, most of our categories seem much more informative—they share many properties. For example, consider the following categories: trucks, wireless devices, weddings, psychopaths, and trout. Although the objects in a given category are different from one another, they have many commonalities. When you know something is a truck, you know quite a bit about it. The psychology of categories concerns how people learn, remember, and use informative categories such as trucks or psychopaths.
@@ -15,11 +20,27 @@ Simpler organisms, such as animals and human infants, also have concepts (Maresc
 
 ## Nature of Categories
 
+:::learningobjectives
+##### LEARNING OBJECTIVES {-}
+1. XX
+2. XX
+:::
+
+<div class="figure" style="text-align: center">
+<img src="images/ch7/fig2.jpg" alt="Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]" width="60%" />
+<p class="caption">(\#fig:fig2)Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]</p>
+</div>
+
 Traditionally, it has been assumed that categories are well-defined. This means that you can give a definition that specifies what is in and out of the category. Such a definition has two parts. First, it provides the necessary features for category membership: What must objects have in order to be in it? Second, those features must be jointly sufficient for membership: If an object has those features, then it is in the category. For example, if I defined a dog as a four-legged animal that barks, this would mean that every dog is four-legged, an animal, and barks, and also that anything that has all those properties is a dog.
 
 Unfortunately, it has not been possible to find definitions for many familiar categories. Definitions are neat and clear-cut; the world is messy and often unclear. For example, consider our definition of dogs. In reality, not all dogs have four legs; not all dogs bark. I knew a dog that lost her bark with age (this was an improvement); no one doubted that she was still a dog. It is often possible to find some necessary features (e.g., all dogs have blood and breathe), but these features are generally not sufficient to determine category membership (you also have blood and breathe but are not a dog).
 
 Even in domains where one might expect to find clear-cut definitions, such as science and law, there are often problems. For example, many people were upset when Pluto was downgraded from its status as a planet to a dwarf planet in 2006. Upset turned to outrage when they discovered that there was no hard-and-fast definition of planethood: “Aren’t these astronomers scientists? Can’t they make a simple definition?” In fact, they couldn’t. After an astronomical organization tried to make a definition for planets, a number of astronomers complained that it might not include accepted planets such as Neptune and refused to use it. If everything looked like our Earth, our moon, and our sun, it would be easy to give definitions of planets, moons, and stars, but the universe has sadly not conformed to this ideal.
+
+<div class="figure" style="text-align: center">
+<img src="images/ch7/table1.jpg" alt="Table 1. Examples of two categories, with members ordered by typicality (from Rosch &amp; Mervis, 1975)" width="60%" />
+<p class="caption">(\#fig:table1)Table 1. Examples of two categories, with members ordered by typicality (from Rosch & Mervis, 1975)</p>
+</div>
 
 ### Typicality {-}
 
@@ -28,6 +49,11 @@ Even among items that clearly are in a category, some seem to be “better” me
 You can find out which category members are typical merely by asking people. Table 1 shows a list of category members in order of their rated typicality. Typicality is perhaps the most important variable in predicting how people interact with categories. The following text box is a partial list of what typicality influences.
 
 We can understand the two phenomena of borderline members and typicality as two sides of the same coin. Think of the most typical category member: This is often called the category prototype. Items that are less and less similar to the prototype become less and less typical. At some point, these less typical items become so atypical that you start to doubt whether they are in the category at all. Is a rug really an example of furniture? It’s in the home like chairs and tables, but it’s also different from most furniture in its structure and use. From day to day, you might change your mind as to whether this atypical example is in or out of the category. So, changes in typicality ultimately lead to borderline members.
+
+<div class="figure" style="text-align: center">
+<img src="images/ch7/textbox1.jpg" alt="Text Box 1." width="60%" />
+<p class="caption">(\#fig:textbox1)Text Box 1.</p>
+</div>
 
 #### Source of Typicality {-}
 
@@ -39,9 +65,19 @@ According to Rosch and Mervis, then, it is not because a robin is a very common 
 
 In a classic experiment, Rosch and Mervis (1975) made up two new categories, with arbitrary features. Subjects viewed example after example and had to learn which example was in which category. Rosch and Mervis constructed some items that had features that were common in the category and other items that had features less common in the category. The subjects learned the first type of item before they learned the second type. Furthermore, they then rated the items with common features as more typical. In another experiment, Rosch and Mervis constructed items that differed in how many features were shared with a different category. The more features were shared, the longer it took subjects to learn which category the item was in. These experiments, and many later studies, support both parts of the family resemblance theory.
 
+<div class="figure" style="text-align: center">
+<img src="images/ch7/fig3.jpg" alt="When you think of “bird,” how closely does the robin resemble your general figure? [Image: CC0 Public Domain, https://goo.gl/m25gce]" width="60%" />
+<p class="caption">(\#fig:fig3)When you think of “bird,” how closely does the robin resemble your general figure? [Image: CC0 Public Domain, https://goo.gl/m25gce]</p>
+</div>
+
 ## Theories of Concept Representation
 
 Now that we know these facts about the psychology of concepts, the question arises of how concepts are mentally represented. There have been two main answers. The first, somewhat confusingly called the prototype theory suggests that people have a summary representation of the category, a mental description that is meant to apply to the category as a whole. (The significance of summary will become apparent when the next theory is described.) This description can be represented as a set of weighted features (Smith & Medin, 1981). The features are weighted by their frequency in the category. For the category of birds, having wings and feathers would have a very high weight; eating worms would have a lower weight; living in Antarctica would have a lower weight still, but not zero, as some birds do live there.
+
+<div class="figure" style="text-align: center">
+<img src="images/ch7/fig4.jpg" alt="If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Image: Adhi Rachdian, https://goo.gl/dQyUwf, CC BY 2.0, https://goo.gl/BRvSA7]" width="60%" />
+<p class="caption">(\#fig:fig4)If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Image: Adhi Rachdian, https://goo.gl/dQyUwf, CC BY 2.0, https://goo.gl/BRvSA7]</p>
+</div>
 
 The idea behind prototype theory is that when you learn a category, you learn a general description that applies to the category as a whole: Birds have wings and usually fly; some eat worms; some swim underwater to catch fish. People can state these generalizations, and sometimes we learn about categories by reading or hearing such statements (“The kimodo dragon can grow to be 10 feet long”).
 When you try to classify an item, you see how well it matches that weighted list of features. For example, if you saw something with wings and feathers fly onto your front lawn and eat a worm, you could (unconsciously) consult your concepts and see which ones contained the features you observed. This example possesses many of the highly weighted bird features, and so it should be easy to identify as a bird.
@@ -66,14 +102,31 @@ One of the first scientists who thought about structural models of human memory 
 
 In the picture on the right hand side, Collins and Quillians network with added properties at each node is shown. As already mentioned, the skeleton-nodes are interconnected by links. At the nodes, concept names are added. General concepts are on the top and more particular ones at the bottom. By looking at the concept "car", one gets the information that a car has 4 wheels, has an engine, has windows, and furthermore moves around, needs fuel, is manmade.
 
-#### Image caption {-}
-Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. 
+
+<div class="figure" style="text-align: center">
+<img src="images/ch7/fig5.jpg" alt="Figure 5. Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. " width="60%" />
+<p class="caption">(\#fig:fig5)Figure 5. Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. </p>
+</div>
+
 
 These pieces of information must be stored somewhere. It would take too much space if every detail must be stored at every level. So the information of a car is stored at the base level and further information about specific cars, e.g. BMW, is stored at the lower level, where you do not need the fact that the BMW also has four wheels, if you already know that it is a car. This way of storing shared properties at a higher-level node is called cognitive economy. 
 
 Information that is shared by several concepts is stored in the highest parent node. All child nodes below the information bearer also contain the properties of the parent node. However, there are exceptions. Sometimes a special car has not four wheels, but three. This specific property is stored in the child node.  Evidence for this structure can be found by the sentence verification technique. In experiments participants had to answer statements about concepts with "yes" or "no". It took longer to say "yes" if the concept-bearing nodes were further apart. 
 
 The phenomenon that adjacent concepts are activated is called spreading activation. These concepts are far more easily accessed by memory, they are "primed". This was studied and backed by David Meyer and Roger Schaneveldt (1971) with a lexical-decision task. Participants had to decide if word pairs were words or non-words. They were faster at finding real word pairs if the concepts of the two words were near each other in a semantic network. 
+
+
+:::takeaways
+##### Key Takeaways {-}
+- a
+- b
+:::
+
+:::exercises
+##### Exercises {-}
+1. a
+2. b
+:::
 
 
 References

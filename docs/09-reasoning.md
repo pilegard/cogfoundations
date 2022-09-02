@@ -36,6 +36,11 @@ In categorical syllogisms, the statements of the premises typically begin with �
 
 #### The normative approach {-}
 
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig1.jpg" alt="Figure 1. Euler Circles" width="60%" />
+<p class="caption">(\#fig:fig1)Figure 1. Euler Circles</p>
+</div>
+
 The normative approach to categorical syllogisms is based on logic, and deals with the problem of categorizing conclusions as either valid or invalid. “Valid” means that the conclusion follows logically from the premises whereas “invalid” means the contrary. Two basic principles and a method called Euler Circles have been developed to help make validity judgments. The first principle was created by Aristotle, and states “If the two premises are true, the conclusion of a valid syllogism must be true” (cp. Goldstein, 2005). The second principle states “The validity of a syllogism is determined only by its form, not its content.” These two principles explain why the following syllogism is (surprisingly) valid:
 
 All flowers are animals.
@@ -91,6 +96,10 @@ The Wason Selection Task is a famous experiment which shows that people make mor
 
 In the abstract version of the Wason Selection Task, four cards are shown to the participants with a letter on one side and a number on the other (Figure 3). The task is to indicate the minimum number of cards that have to be turned over to test whether the following rule is observed: “If there is a vowel on one side then there is an even number on the other side.” 53% of participants selected the ‘E’ card which is correct, because turning this card over is necessary to test the truth of the rule. However another card still needs to be turned over. 64% indicated that the ‘4’ card has to be turned over which is not right. Only 4% of participants answered correctly that the ‘7’ card needs to be turned over in addition to the ‘E’. The correctness of turning over these two cards becomes more obvious if the same task is stated in terms of real-world items instead of vowels and numbers. One of the experiments for determining this was the beer/drinking-age problem used by Richard Griggs and James Cox (1982). This experiment is identical to the Wason Selection Task except that instead of numbers and letters on the cards, everyday terms (beer, soda and ages) were used (Figure 4). Griggs and Cox gave the following rule to participants: “If a person is drinking beer then he or she must be older than 21.” In this case 73% of participants answered correctly, that the cards with “beer” and “14 years” have to be turned over to test whether the rule is kept.
 
+
+
+
+
 #### Why is the performance better in the case of real–world items? {-}
 
 There are two different approaches to explain why participants’ performance is significantly better in the case of the beer/drinking-age problem than in the abstract version of the Wason Selection Task: the permission schemas approach and the evolutionary approach.
@@ -108,6 +117,8 @@ So far we have discussed deductive reasoning, which is reaching conclusions base
  Conclusion: Therefore, they reason that all crows on earth are black.
 
 In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure 6, this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
+
+
 
 ### Forms of inductive reasoning {-}
 
@@ -141,6 +152,8 @@ Things that are more easily remembered are judged to be more prevalent. An examp
 
 Another effect of the availability heuristic is called illusory correlations. People tend to judge according to stereotypes. It seems to them that there are correlations between certain events which in reality do not exist— this is what is known as “prejudice.” Usually a correlation seems to exist between negative features and a certain class of people. If, for example, one's neighbor is jobless and very lazy one tends to correlate these two attributes and create the prejudice that all jobless people are lazy. This illusory correlation occurs because one takes into account information which is available and judges this to be prevalent in many cases.
 
+
+
 #### The representativeness heuristic {-}
 
 If people have to judge the probability of an event, they try to find a comparable event and assume that the two events have a similar probability. Amos Tversky and Daniel Kahneman (1974) presented the following task to their participants in an experiment: “We randomly chose a man from the population of the U.S., Robert, who wears glasses, speaks quietly and reads a lot. Is it more likely that he is a librarian or a farmer?” More of the participants answered that Robert is a librarian, which is an effect of the representativeness heuristic. Participants compared the description of Robert with the typical depiction of a librarian, and found that the description was more like a librarian than a farmer. So, the event of a typical librarian is more comparable with Robert than the event of a typical farmer. Of course this effect may lead to errors, as Robert is randomly chosen from the population and as it is perfectly possible that he is a farmer even though he speaks quietly and wears glasses.
@@ -173,6 +186,8 @@ People may struggle to make the “right” decision because of different mislea
 One misleading effect is the so-called focusing illusion. By considering only the most obvious aspects of a situation to make a decision, people often neglect more important aspects. For example, in considering job offers in different locations, a person may pay too much attention to salient aspects of a location such as weather, and relatively less to highly important aspects such as circumstances at work.
 
 The way a problem is framed can evoke different decision strategies. If a problem is framed in terms of gains, people tend to use a risk-aversion strategy, while framing a problem in terms of losses leads to a risk-taking strategy. An example of the same problem and predictably different choices is the following experiment: A group of people is asked to imagine themselves \$300 richer than they are. They are then confronted with the choice of a sure gain of \$100 or an equal chance to gain \$200 or nothing. Most people avoid the risk and take the sure gain, which means they take the risk-aversion strategy. Alternatively, if people are asked to assume themselves to be \$500 richer than in reality, given the options of a sure loss of \$100 or an equal chance to lose \$200 or nothing, the majority opts for the risk of losing \$200, which represents a risk-taking strategy. This phenomenon is known as a framing effect and can also be illustrated by figure 8 above, which shows a concave function for gains and a convex one for losses. (Foundations of Cognitive Psychology, Levitin, D. J., 2002)
+
+
 
 :::takeaways
 ##### Key Takeaways {-}

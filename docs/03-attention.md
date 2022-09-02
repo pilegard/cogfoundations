@@ -19,10 +19,9 @@ Before we begin exploring attention in its various forms, take a moment to consi
 
 William James wrote extensively about attention in the late 1800s. An often quoted passage (James, 1890/1983) beautifully captures how intuitively obvious the concept of attention is, while it remains very difficult to define in measurable, concrete terms:
 
-### FORMAT THIS AS A QUOTE {-}
-Everyone knows what attention is. It is the taking possession by the mind, in clear and vivid form, of one out of what seem several simultaneously possible objects or trains of thought. Focalization, concentration of consciousness are of its essence. It implies withdrawal from some things in order to deal effectively with others. (pp. 381–382)
+> Everyone knows what attention is. It is the taking possession by the mind, in clear and vivid form, of one out of what seem several simultaneously possible objects or trains of thought. Focalization, concentration of consciousness are of its essence. It implies withdrawal from some things in order to deal effectively with others. (pp. 381–382)
 
-Notice that this description touches on the conscious nature of attention, as well as the notion that what is in consciousness is often controlled voluntarily but can also be determined by events that capture our attention. Implied in this description is the idea that we seem to have a limited capacity for information processing, and that we can only attend to or be consciously aware of a small amount of information at any given time.
+Notice that this description touches on the conscious nature of attention, as well as the notion that what is in consciousness is often controlled voluntarily but can also be determined by events that capture our attention. Implied in this description is the idea that we seem to have a [limited capacity] for information processing, and *that we can only attend to or be consciously aware of a small amount of information at any given time*.
 
 Many aspects of attention have been studied in the field of psychology. In some respects, we define different types of attention by the nature of the task used to study it. For example, a crucial issue in World War II was how long an individual could remain highly alert and accurate while watching a radar screen for enemy planes, and this problem led psychologists to study how attention works under such conditions. When watching for a rare event, it is easy to allow concentration to lag. (This a continues to be a challenge today for TSA agents, charged with looking at images of the contents of your carry-on items in search of knives, guns, or shampoo bottles larger than 3 oz.) Attention in the context of this type of search task refers to the level of sustained attention or vigilance one can maintain. In contrast, [divided attention] tasks allow us to determine how well individuals can attend to many sources of information at once. Spatial attention refers specifically to how we focus on one part of our environment and how we move attention to other locations in the environment. These are all examples of different aspects of attention, but an implied element of most of these ideas is the concept of [selective attention]; some information is attended to while other information is intentionally blocked out. This module will focus on important issues in selective and divided attention, addressing these questions:
 
@@ -123,6 +122,19 @@ More relevant to our current lifestyles are questions about multitasking while t
 Most people acknowledge the distraction caused by texting while driving and the reason seems obvious: Your eyes are off the road and your hands and at least one hand (often both) are engaged while texting. However, the problem is not simply one of occupied hands or eyes, but rather that the cognitive demands on our limited capacity systems can seriously impair driving performance (Strayer, Watson, & Drews, 2011). The effect of a cell phone conversation on performance (such as not noticing someone’s brake lights or responding more slowly to them) is just as significant when the individual is having a conversation with a hands-free device as with a handheld phone; the same impairments do not occur when listening to the radio or a book on tape (Strayer & Johnston, 2001). Moreover, studies using eye-tracking devices have shown that drivers are less likely to later recognize objects that they did look at when using a cell phone while driving (Strayer & Drews, 2007). These findings demonstrate that cognitive distractions such as cell phone conversations can produce inattentional blindness, or a lack of awareness of what is right before your eyes (see also, Simons & Chabris, 1999). Sadly, although we all like to think that we can multitask while driving, in fact the percentage of people who can truly perform cognitive tasks without impairing their driving performance is estimated to be about 2% (Watson & Strayer, 2010).
 
 It may be useful to think of attention as a mental resource, one that is needed to focus on and fully process important information, especially when there is a lot of distracting “noise” threatening to obscure the message. Our selective attention system allows us to find or track an object or conversation in the midst of distractions. Whether the selection process occurs early or late in the analysis of those events has been the focus of considerable research, and in fact how selection occurs may very well depend on the specific conditions. With respect to divided attention, in general we can only perform one cognitively demanding task at a time, and we may not even be aware of unattended events even though they might seem too obvious to miss (check out some examples in the Outside Resources below). This type of inattention blindness can occur even in well-learned tasks, such as driving while talking on a cell phone. Understanding how attention works is clearly important, even for our everyday lives.
+
+:::takeaways
+##### Key Takeaways {-}
+- a
+- b
+:::
+
+:::exercises
+##### Exercises {-}
+1. a
+2. b
+:::
+
 
 References
 Bargh, J., & Morsella, E. (2008). The unconscious mind. Perspectives on Psychological Science, 3(1), 73–79.

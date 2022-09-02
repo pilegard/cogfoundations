@@ -70,6 +70,8 @@ For readers who would like to experience such an effect, here is an example of a
 
 If you want to know the correct solution, turn to the next page.
 
+
+
 To show that solving insight problems involves restructuring, psychologists have created a number of problems that are more difficult to solve for participants with previous experiences, since it is harder for them to change the representation of the given situation.
 
 For non-insight problems the opposite is the case. Solving arithmetical problems, for instance, requires schemas, through which one can get to the solution step by step.
@@ -80,16 +82,27 @@ Sometimes, previous experience or familiarity can even make problem solving more
 
 #### Functional fixedness {-}
 
+
+
 Functional fixedness concerns the solution of object use problems. The basic idea is that when the usual function an object is emphasized, it will be far more difficult for a person to use that object in a novel manner. An example for this effect is the candle problem: Imagine you are given a box of matches, some candles and tacks. On the wall of the room there is a cork-board. Your task is to fix the candle to the cork-board in such a way that no wax will drop on the floor when the candle is lit. Got an idea?
+
+
 
 Here’s a clue: when people are confronted with a problem and given certain objects to solve it, it is difficult for them to figure out that they could use the objects in a different way. In this example, the box has to be recognized as a support rather than as a container— tack the matchbox to the wall, and place the candle upright in the box. The box will catch the falling wax.
 
+
+
 A further example is the two-string problem: Knut is left in a room with a pair of pliers and given the task to bind two strings together that are hanging from the ceiling. The problem he faces is that he can never reach both strings at a time because they are just too far away from each other. What can Knut do?
+
+
 
 Solution: Knut has to recognize he can use the pliers in a novel function: as weight for a pendulum. He can tie them to one of the strings, push it away, hold the other string and wait for the first one to swing toward him. 
 
+
+
 #### Mental fixedness {-}
 Functional fixedness as involved in the examples above illustrates a mental set: a person’s tendency to respond to a given task in a manner based on past experience. Because Knut maps an object to a particular function he has difficulty varying the way of use (i.e., pliers as pendulum's weight).
+
 One approach to studying fixation was to study wrong-answer verbal insight problems. In these problems, people tend to give an incorrect answer when failing to solve a problem rather than to give no answer at all.
 
 A typical example: People are told that on a lake the area covered by water lilies doubles every 24 hours and that it takes 60 days to cover the whole lake. Then they are asked how many days it takes to cover half the lake. The typical response is “30 days” (whereas 59 days is correct).
@@ -107,6 +120,8 @@ Participants who are given the 100 cup task first choose a complicated way to so
 ## Solving Problems by Analogy
 
 One special kind of restructuring is analogical problem solving. Here, to find a solution to one problem (i.e., the target problem) an analogous solution to another problem (i.e., the base problem) is presented.
+
+
 
 An example for this kind of strategy is the radiation problem posed by K. Duncker in 1945:
 

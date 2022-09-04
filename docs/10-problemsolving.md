@@ -50,7 +50,7 @@ The efficiency of problem solving depends on the underlying representations in a
 
 Two boys of different ages are playing badminton. The older one is a more skilled player, and therefore the outcome of matches between the two becomes predictable. After repeated defeats the younger boy finally loses interest in playing. The older boy now faces a problem, namely that he has no one to play with anymore.
 
-The usual options, according to M. Wertheimer (1945/82), range from “offering candy” and “playing a different game” to “not playing at full ability” and “shaming the younger boy into playing.” All of these strategies aim at making the younger boy stay.
+The usual options, according to @Wertheimer1945, range from “offering candy” and “playing a different game” to “not playing at full ability” and “shaming the younger boy into playing.” All of these strategies aim at making the younger boy stay.
 
 The older boy instead comes up with a different solution: He proposes that they should try to keep the birdie in play as long as possible. Thus they change from a game of competition to one of cooperation. The proposal is happily accepted and the game is on again.
 
@@ -118,7 +118,7 @@ One special kind of restructuring is analogical problem solving. Here, to find a
 
 
 
-An example for this kind of strategy is the radiation problem posed by K. Duncker in 1945:
+An example for this kind of strategy is the radiation problem posed by @Duncker1945:
 
 As a doctor you have to treat a patient with a malignant, inoperable tumor, buried deep inside the body. There exists a special kind of ray which is harmless at a low intensity, but at sufficiently high intensity is able to destroy the tumor. At such high intensity, however, the ray will also destroy the healthy tissue it passes through on the way to the tumor. What can be done to destroy the tumor while preserving the healthy tissue?
 
@@ -160,11 +160,11 @@ Expertise is domain specific— when it comes to problems that are outside the e
 
 ### Knowledge {-}
 
-An experiment by Chase and Simon (1973) dealt with the question of how well experts and novices are able to reproduce positions of chess pieces on chess boards after a brief presentation. The results showed that experts were far better at reproducing actual game positions, but that their performance was comparable with that of novices when the chess pieces were arranged randomly on the board. Chase and Simon concluded that the superior performance on actual game positions was due to the ability to recognize familiar patterns: A chess expert has up to 50,000 patterns stored in his memory. In comparison, a good player might know about 1,000 patterns by heart and a novice only few to none at all. This very detailed knowledge is of crucial help when an expert is confronted with a new problem in his field. Still, it is not only the amount of knowledge that makes an expert more successful. Experts also organize their knowledge differently from novices.
+An experiment by @Chase1973 dealt with the question of how well experts and novices are able to reproduce positions of chess pieces on chess boards after a brief presentation. The results showed that experts were far better at reproducing actual game positions, but that their performance was comparable with that of novices when the chess pieces were arranged randomly on the board. Chase and Simon concluded that the superior performance on actual game positions was due to the ability to recognize familiar patterns: A chess expert has up to 50,000 patterns stored in his memory. In comparison, a good player might know about 1,000 patterns by heart and a novice only few to none at all. This very detailed knowledge is of crucial help when an expert is confronted with a new problem in his field. Still, it is not only the amount of knowledge that makes an expert more successful. Experts also organize their knowledge differently from novices.
 
 ### Organization {-}
 
-In 1981 M. Chi and her co-workers took a set of 24 physics problems and presented them to a group of physics professors as well as to a group of students with only one semester of physics. The task was to group the problems based on their similarities. The students tended to group the problems based on their surface structure (i.e., similarities of objects used in the problem, such as sketches illustrating the problem), whereas the professors used their deep structure (i.e., the general physical principles that underlie the problems) as criteria. By recognizing the actual structure of a problem experts are able to connect the given task to the relevant knowledge they already have (e.g., another problem they solved earlier which required the same strategy).
+In @Chi1981 and her co-workers took a set of 24 physics problems and presented them to a group of physics professors as well as to a group of students with only one semester of physics. The task was to group the problems based on their similarities. The students tended to group the problems based on their surface structure (i.e., similarities of objects used in the problem, such as sketches illustrating the problem), whereas the professors used their deep structure (i.e., the general physical principles that underlie the problems) as criteria. By recognizing the actual structure of a problem experts are able to connect the given task to the relevant knowledge they already have (e.g., another problem they solved earlier which required the same strategy).
 
 ### Analysis {-}
 

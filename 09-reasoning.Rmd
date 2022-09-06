@@ -2,7 +2,7 @@
 ```{r lan2000, echo = FALSE, out.width='100%', fig.align = 'center'}
 # knitr::include_graphics("images/ch2/???.png")
 ```
-Hello! We like to think that we make important decisions rationally, logically, and without bias or error— but what if that’s not the case?
+We like to think that we make important decisions rationally, logically, and without bias or error— but what if that’s not the case?
 
 Let us consider the following scene of Knut's life: It is a rainy summer afternoon in Germany and Knut and his wife are tired of watching the black crows in their garden. They decide to escape from the dreary weather and take a vacation to Spain, as Knut and his wife have never been there before. They will leave the next day, and he is packing his bag. He packs the crucial things first: underwear, socks, pajamas, and a toiletry bag with a toothbrush, shampoo, soap, sun tan lotion, and bug spray. Knut cannot find the bug spray, and his wife volunteers to go buy a new bottle. He advises her to take an umbrella for the walk to the pharmacy as it is raining outside, and then he turns back to packing. But what did he already pack into his bag? Immediately, he remembers and continues, putting together outfits and packing his clothing. Since it is summer, Knut packs mostly shorts and t-shirts. After half an hour, he is finally convinced that he has done everything necessary for a nice vacation.
 

@@ -53,8 +53,7 @@ Whereas phonemes are the smallest units of sound in language, a [morpheme] is *a
 
 [Semantics] is *the meaning of words and sentences*. Languages denote, refer to, and represent things. Words do not possess fixed meanings but change their interpretation as a function of the context in which they are spoken. We use contextual information — *the information surrounding language—to help us interpret it*. The study of this kind of contextual information is called [pragmatics]. Examples of contextual information include the knowledge that we have and that we know that other people have, and nonverbal expressions such as facial expressions, postures, gestures, and tone of voice. Misunderstandings can easily arise if people aren’t attentive to contextual information or if some of it is missing, such as it may be in newspaper headlines or in text messages.
 
-An example that can help differentiate semantics and pragmatics is the sentence, "It's cold in here." The denotational meaning (i.e. semantics) of the sentence refers to the temperature in the room. But perhaps someone says this situation to someone sitting next to an open window. Now, this sentence means something like "please close the window." That is the pragmatic meaning. 
-
+An example that can help differentiate semantics and pragmatics is the sentence, "It's cold in here." The denotational meaning (i.e. semantics) of the sentence refers to the temperature in the room. But perhaps someone says this situation to someone sitting next to an open window. Now, this sentence means something like "please close the window."  That is the pragmatic meaning. 
 :::fyi
 ### Examples in Which Syntax Is Correct but the Interpretation Can Be Ambiguous
 * Grandmother of Eight Makes Hole in One
@@ -66,6 +65,13 @@ An example that can help differentiate semantics and pragmatics is the sentence,
 :::
 
 ## Mechanisms of Language
+
+The two major components of language that are studied in cognitive psychology are language production and language comprehension. Language production encompasses the process of converting thoughts into language, while language comprehension, or language processing, is the process of decoding language back into thoughts. Successful communication happens when the listener correctly decodes the speech signal produced by the speaker, understanding the intended message.
+
+```{r fig2, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'A model of communication with language
+exchanges to help them practice language.'}
+knitr::include_graphics("images/ch8/model_of_language_draft.jpg")
+```
 
 ### Language Processing {-}
 
@@ -86,8 +92,8 @@ Language learning begins even before birth, because the fetus can hear muffled v
 During the first year or so after birth, and long before they speak their first words, infants are already learning language. One aspect of this learning is practice in producing speech. By the time they are six to eight weeks old, babies start making vowel sounds (ooohh, aaahh, goo) as well as a variety of cries and squeals to help them practice.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch8/fig2.jpg" alt="Figure 2. Practicing Language. Babies often engage in vocal exchanges to help them practice language." width="60%" />
-<p class="caption">(\#fig:fig2)Figure 2. Practicing Language. Babies often engage in vocal exchanges to help them practice language.</p>
+<img src="images/ch8/fig2.jpg" alt="Practicing Language. Babies often engage in vocal exchanges to help them practice language." width="60%" />
+<p class="caption">(\#fig:fig3)Practicing Language. Babies often engage in vocal exchanges to help them practice language.</p>
 </div>
 
 At about seven months, infants begin [babbling], engaging in *intentional vocalizations that lack specific meaning*. Children babble as practice in creating specific sounds, and by the time they are one year old, the babbling uses primarily the sounds of the language that they are learning [@deBoysson-Bardies1984]. These vocalizations have a conversational tone that sounds meaningful even though it isn’t. Babbling also helps children understand the social, communicative function of language (Figure 2, “Practicing Language”). Children who are exposed to sign language babble in sign by making hand movements that represent real language [@Petitto1991].
@@ -133,8 +139,8 @@ An important study by Jacqueline Johnson and Elissa Newport @Johnson1989 using C
 Johnson and Newport's finding that children who immigrated before they were seven years old learned English fluently seemed consistent with the idea of a critical period in language learning. But their finding of gradual decrease in proficiency for those immigrated between eight and 39 years of age was not - rather, it suggested that there might not be a single critical period  of language learning that ended at puberty, as early theorists had expected, but that language learning at later ages is imply better when it occurs earlier. This idea was reinforced in research by @Hakuta2003, who examined census records of language learning in millions of Chinese and Spanish immigrants. The census form asks respondents to describe their own English ability using one of five categories: not at all, not well, well, very well, and speak only English. The results of this research dealt another blow to the idea of the critical period, because it showed that regardless of what year was used as a cutoff point for the end of the critical period, there was no evidence for any discontinuity in language-learning potential. Rather, the results (Figure 10.10 "English Proficiency in Native Chinese Speakers") showed that the degree of success in second-language acquisition declined steadily throughout the respondent's life span. The difficulty of learning language as one gets older is probably due to the fact that, with age, the brain loses its [plasticity] - that is, *its ability to develop new neural connections*.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch8/fig3.jpg" alt="Figure 3. English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration." width="60%" />
-<p class="caption">(\#fig:fig3)Figure 3. English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.</p>
+<img src="images/ch8/fig3.jpg" alt="English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration." width="60%" />
+<p class="caption">(\#fig:fig4)English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.</p>
 </div>
 :::
 

@@ -46,7 +46,9 @@ theories-of-concept-representation
 organization-of-concepts
 language
 what-is-language
+examples-in-which-syntax-is-correct-but-the-interpretation-can-be-ambiguous
 mechanisms-of-language
+can-you-understand-these-garden-path-sentences-the-first-time
 language-acquisition
 research-focus-when-can-we-best-learn-language-testing-the-critical-period-hypothesis
 language-and-thought
@@ -60,5 +62,3 @@ problem-solving
 restructuring-the-gestalt-approach
 solving-problems-by-analogy
 how-do-experts-solve-problems
-examples-in-which-syntax-is-correct-but-the-interpretation-can-be-ambiguous
-can-you-understand-these-garden-path-sentences-the-first-time

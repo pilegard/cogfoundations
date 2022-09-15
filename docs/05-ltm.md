@@ -12,10 +12,13 @@ Our memories allow us to do relatively simple things, such as remembering where 
 
 ## WORKING MEMORY VS. LONG-TERM MEMORY
 
-As we discussed in the last chapter, working memory is a temporary storage space for information that is being actively stored and manipulated in consciousness. Information that is not rehearsed will be forgotten within 18 to 30 seconds. Long-term memory, on the other hand, is where we store everything from a few moments to the earliest thing we can remember. There is theoretically no upper limit to the amount of information we can store in long-term memory.
+As we discussed in the last chapter, working memory is a temporary storage space for information that is being actively stored and manipulated in consciousness. Information that is not trained on will be forgotten within 18 to 30 seconds. Long-term memory, on the other hand, is where we store everything from a few moments to the earliest thing we can remember. There is theoretically no upper limit to the amount of information we can store in long-term memory.
 
 ### The Serial Position Curve {-}
-
+<div class="figure" style="text-align: center">
+<img src="images/ch5/fig1.jpg" alt="The serial position curve is the result of both primacy effects and recency effects." width="60%" />
+<p class="caption">(\#fig:fig1)The serial position curve is the result of both primacy effects and recency effects.</p>
+</div>
 
 The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \@ref(fig:fig1). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented later in a list*.
 
@@ -65,6 +68,11 @@ The first form of long-term memory we will discuss is explicit memory. We are me
 
 Explicit memory is assessed using measures in which the individual being tested must consciously attempt to remember the information. A [recall memory test] is *a measure of explicit memory that involves bringing from memory information that has previously been remembered*. We rely on our recall memory when we take an essay test, because the test requires us to generate previously remembered information. A multiple-choice test is an example of a [recognition memory test], *a measure of explicit memory that involves determining whether information has been seen or learned before*.
 
+<div class="figure" style="text-align: center">
+<img src="images/ch5/fig2.jpg" alt="Types of long-term memory." width="60%" />
+<p class="caption">(\#fig:fig2)Types of long-term memory.</p>
+</div>
+
 Your own experiences taking tests will probably lead you to agree with the scientific research finding that recall is more difficult than recognition. Recall, such as required on essay tests, involves two steps: first generating an answer and then determining whether it seems to be the correct one. Recognition, as on multiple-choice test, only involves determining which item from a list seems most correct [@Haist1992]. Although they involve different processes, recall and recognition memory measures tend to be correlated. Students who do better on a multiple-choice exam will also, by and large, do better on an essay exam (Bridgeman & Morgan, 1996).
 
 A third way of measuring memory is known as relearning (Nelson, 1985). Measures of [relearning] (or savings) *assess how much more quickly information is processed or learned when it is studied again after it has already been learned but then forgotten*. If you have taken some French courses in the past, for instance, you might have forgotten most of the vocabulary you learned. But if you were to work on your French again, you’d learn the vocabulary much faster the second time around. Relearning can be a more sensitive measure of memory than either recall or recognition because it allows assessing memory in terms of “how much” or “how fast” rather than simply “correct” versus “incorrect” responses. Relearning also allows us to measure memory for procedures like driving a car or playing a piano piece, as well as memory for facts and figures.
@@ -88,10 +96,10 @@ Now read the following sentence carefully:
 Then try again to make words out of the word fragments.
 
 ### MAKE IMAGE
-_ i b _ a _ y
-_ h _ s _ _ i _ n
-_ o _ k
-_ h _ i s _
+>1. _ i b _ a _ y <br/>
+2. _ h _ s _ _ i _ n <br/>
+3. _ o _ k <br/>
+4. _ h _ i s _ <br/>
 
 I think you might find that it is easier to complete fragments 1 and 3 as “library” and “book,” respectively, after you read the sentence than it was before you read it. However, reading the sentence didn’t really help you to complete fragments 2 and 4 as “physician” and “chaise.” This difference in implicit memory probably occurred because as you read the sentence, the concept of “library” (and perhaps “book”) was primed, even though they were never mentioned explicitly. Once a concept is primed it influences our behaviors, for instance, on word fragment tests.
 
@@ -107,13 +115,19 @@ bingo man the forgetful plays
 
 The other half of the research participants also made sentences, but from words that had nothing to do with elderly stereotypes. The purpose of this task was to prime stereotypes of elderly people in memory for some of the participants but not for others.
 
-The experimenters then assessed whether the priming of elderly stereotypes would have any effect on the students’ behavior — and indeed it did. When the research participant had gathered all of his or her belongings, thinking that the experiment was over, the MISING
+The experimenters then assessed whether the priming of elderly stereotypes would have any effect on the students’ behavior — and indeed it did. When the research participant had gathered all of his or her belongings, thinking that the experiment was over, the experimenter thanked hum or her for participating and gave directions to the closest elevator. Then, without the participants knowing it, the experimenters recorded the amount of time that the participant spent walking from the doorway of the experimental room toward the elevator. As you can see in \@ref(fig:fig3), “Research Results.” participants who had made sentences using words related to elderly stereotypes took on the behaviors of the elderly — they walked significantly more slowly as they left the experimental room.  
+
+
+
+To determine if these priming effects occurred out of the awareness of the participants, Bargh and his colleagues asked still another group of students to complete the priming task and then to indicate whether they thought the words they had used to make the sentences had any relationship to each other, or could possibly have influenced their behavior in any way. These students had no awareness of the possibility that the words might have been related to the elderly or could have influenced their behavior.
 :::
 
 
 ## Encoding, Retrieval, and Consolidation
 
 Imagine you are able to perfectly study for an exam. You take notes in lecture and read the textbook as the quarter moves along. As you approach the exam, you develop study materials, test yourself on the information, and go to the professor’s office hours to ask about the parts you find the most difficult. The day before the exam, you explain all of the important concepts from class to your best friend. You get a good night’s sleep, and the next morning you find that remembering the important concepts from class feels even easier than it felt the night before. The questions on the exam include bits of information that help you retrieve the concepts that you studied so hard to understand. You leave feeling like your exam performance was a good reflection of the hard work you put in to studying.
+
+
 
 In this situation, you were able to successfully encode, retrieve, and consolidate the information you sought to learn. [Encoding] refers to *storing new information in long-term memory*. This is the process you engaged in during lecture and studying. [Retrieval] refers to *remembering information from long-term memory*. This is what you did when you tested yourself on information and when you took the exam. [Consolidation] is *the stabilization of long-term memories after initial encoding*. Consolidation is aided by sleep, which is why you felt even more confident in your knowledge by getting a good night of sleep before the exam. The following sections will discuss the factors that affect encoding, retrieval, and consolidation.
 
@@ -123,9 +137,11 @@ In this situation, you were able to successfully encode, retrieve, and consolida
 [Maintenance rehearsal] is a type of memory rehearsal that is useful in maintaining information in working memory. Because this usually involves repeating information without thinking about its meaning or connecting it to other information, the information is not usually transferred to long term memory. That is, maintenance rehearsal does not usually lead to encoding new long-term memories. An example of maintenance rehearsal would be repeating a phone number mentally, or aloud until the number is entered into the phone to make the call. The number is held in working memory long enough to make the call, but never transferred to long term memory. An hour, or even five minutes after the call, the phone number will no longer be remembered. 
 
 #### Depth of processing {-}
-The [levels-of-processing effect], identified by Fergus I. M. Craik and Robert S. Lockhart in 1972, describes memory recall of stimuli as a function of the depth of mental processing at encoding. Deeper levels of analysis produce more elaborate, longer-lasting, and stronger memory traces than shallow levels of analysis. Depth of processing falls on a shallow to deep continuum. Shallow processing (e.g., processing based on phonemic and orthographic components) leads to a fragile memory trace that is susceptible to rapid decay. Conversely, deep processing (e.g., semantic processing) results in a more durable memory trace.
+The [levels-of-processing effect], identified by Fergus @Craik1972, describes memory recall of stimuli as a function of the depth of mental processing at encoding. Deeper levels of analysis produce more elaborate, longer-lasting, and stronger memory traces than shallow levels of analysis. Depth of processing falls on a shallow to deep continuum. Shallow processing (e.g., processing based on phonemic and orthographic components) leads to a fragile memory trace that is susceptible to rapid decay. Conversely, deep processing (e.g., semantic processing) results in a more durable memory trace.
 
 This theory contradicts the multi-store Atkinson-Shiffrin memory model which represents memory strength as being continuously variable, the assumption being that rehearsal always improves long-term memory. They argued that rehearsal that consists simply of repeating previous analyses (maintenance rehearsal) doesn't enhance long-term memory.
+
+
 
 In a study from @Craik1975 participants were given a list of 60 words. Each word was presented along with three questions. The participant had to answer one of them. Those three questions were in one of three categories. One category of questions was about how the word was presented visually ("Is the word shown in italics?"). This category of questions was meant to promote [orthographic processing], or *processing related to how the word was written*. The second category of questions was about the phonemic qualities of the word ("Does the word begin with the sound 'bee'?"). This category was meant to promote [phonological processing], or *processing related to how the words sound*. The third category of questions was presented so that the reader was forced to think about the word within a certain context ("Can you meet one in the street [a friend]”?). This category of questions was meant to promote [semantic processing], or *processing related to the words’ meaning*. The result of this study showed that the more deeply words were processed at encoding, the more likely they were to be remembered later.
 
@@ -137,8 +153,12 @@ The testing effect is the finding that encoding into long-term memory is often i
 ### Retrieval {-}
 Information stored in the memory is retrieved by way of association with other memories. Some memories can not be recalled by simply thinking about them. Rather, one must think about something associated with it. For example, if someone tries and fails to recollect the memories he had about a vacation he went on, and someone mentions the fact that he hired a classic car during this vacation, this may make him remember all sorts of things from that trip, such as what he ate there, where he went and what books he read. 
 
+
+
 #### Encoding Specificity Principle {-}
 The [encoding specificity principle] is the *general principle that memory is best when the conditions at encoding match the conditions at retrieval*. For example, take the song on the radio: perhaps you heard it while you were at a terrific party, having a great, philosophical conversation with a friend. Thus, the song became part of that whole complex experience. Years later, even though you haven’t thought about that party in ages, when you hear the song on the radio, the whole experience rushes back to you. In general, the encoding specificity principle states that, to the extent a retrieval cue (the song) matches or overlaps the memory trace of an experience (the party, the conversation), it will be effective in evoking the memory. One example of the encoding specificity principle is [transfer-appropriate processing], in which *memory is best when the type of cognitive processing at recall matches the type of cognitive processing at encoding*. This was empirically shown in a study by @Morris1977 using semantic and rhyme tasks. In a standard recognition test, memory was better following semantic processing compared to rhyme processing, as predicted by the levels-of-processing effect. However, in a rhyming recognition test, memory was better for those who engaged in rhyme processing compared to semantic processing. This adds a level of complexity to the levels-of-processing theory: while the levels-of-processing framework generally holds for a normal recognition test, performance on rhyming tests is actually better with phonological than semantic processing at encoding.
+
+
 
 Other facets of the encoding specificity principle include context-dependent memory. [Context-dependent learning] refers to *an increase in retrieval when the external situation in which information is learned matches the situation in which it is remembered*. @Godden1975 conducted a study to test this idea using scuba divers. They asked the divers to learn a list of words either when they were on land or when they were underwater. Then they tested the divers on their memory, either in the same or the opposite situation. The divers’ memory was better when they were tested in the same context in which they had learned the words than when they were tested in the other context. In this instance, the physical context itself provided cues for retrieval.
 
@@ -192,3 +212,40 @@ Simon, H. A., & Chase, W. G. (1973). Skill in chess. American Scientist, 61(4), 
 
 Wamsley, E. J., Tucker, M., Payne, J. D., Benavides, J. A., & Stickgold, R. (2010). Dreaming of a learning task is associated with enhanced sleep-dependent memory consolidation. Current Biology, 20(9), 850-855.
 Wang, Y., Liu, D., & Wang, Y. (2003). Discovering the capacity of human memory. Brain & Mind, 4(2), 189–198. 
+
+## Glossary
+
+##### serial position curve {-}
+
+##### primacy effect {-}
+
+##### recency effect {-}
+
+##### Episodic memory {-}
+
+##### recall memory test {-}
+
+##### relearning {-}
+
+##### Procedural memory {-}
+
+##### classical conditioning effects {-}
+
+##### priming {-}
+
+##### levels-of-processing effect {-}
+
+##### orthographic processing {-}
+
+##### phonological processing {-}
+
+##### semantic processing {-}
+
+##### self-reference effect {-}
+
+##### transfer-appropriate processing {-}
+
+##### Context-dependent learning {-}
+
+##### state-dependent memory {-}
+

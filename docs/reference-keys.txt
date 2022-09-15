@@ -35,11 +35,12 @@ working-memory-vs.-long-term-memory
 concept-focus-differences-between-brains-and-computers
 make-image
 encoding-retrieval-and-consolidation
+glossary-2
 memory-in-context
 kinds-of-memory-biases
 source-monitoring
 forgetting
-glossary-2
+glossary-3
 knowledge
 nature-of-categories
 theories-of-concept-representation
@@ -52,7 +53,7 @@ can-you-understand-these-garden-path-sentences-the-first-time
 language-acquisition
 research-focus-when-can-we-best-learn-language-testing-the-critical-period-hypothesis
 language-and-thought
-glossary-3
+glossary-4
 reasoning-and-decision-making
 deductive-reasoning
 add-in-table

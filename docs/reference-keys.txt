@@ -63,3 +63,5 @@ problem-solving
 restructuring-the-gestalt-approach
 solving-problems-by-analogy
 how-do-experts-solve-problems
+st.-petersberg-paradox
+st.-petersburg-paradox

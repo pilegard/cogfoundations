@@ -207,7 +207,7 @@ A classic paradox dating back to 1713, the St. Petersburg Paradox, describes a g
 
 
 ### Constructed Preferences {-}
-Contrary to theorists’ claim that rational decision makers always have well-defined preferences, real-life decision makers tend to have different preferences depending on how choices are presented to them. Two common examples of this are *default effects* and *framing effects*.
+Contrary to theorists’ claim that rational decision makers always have well-defined preferences, real-life decision makers tend to make different selections depending on how choices are presented to them. Two common examples of this are *default effects* and *framing effects*.
 
 **Default Effects**: The default effect refers to the tendency for decision makers to choose a pre-selected option, rather than select non-pre-selected options in a particular choice context. A classic example of this effect concerns organ donations across different countries. In some countries, such as Austria and France, citizens are signed up to be organ donors by default. That is, unless a citizen actively selects to not be an organ donor, they will be presumed to be one. In other countries, such as the United States, citizens are presumed not to be organ donors unless they actively select to be one. In countries like Austria and France, organ donor rates are typically as high as 99% (Johnson and Goldstein, 2003). In the United States, organ donor rates are approximately 54% (Penn Medicine, 2022). This large gap is partially due to the different default option in each country.
 

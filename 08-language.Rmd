@@ -89,7 +89,7 @@ The first of these tasks, [speech segmentation], requires the listener to tell w
 
 Part of telling words apart requires listeners to tell two sounds apart. For example, to tell the words 'pat' and 'bat' apart, you have to be able to tell the difference between the two sounds /p/ and /b/. We know that infants are born able to understand all phonemes, but as they get older, they lose their ability to do so. By 10 months of age a child’s ability to recognize phonemes becomes very similar to that of the adult speakers of the native language. Phonemes that were initially differentiated come to be treated as equivalent [@Werker2002].
 
-![](https://www.youtube.com/watch?v=WvM5bqUsbu8 )
+[![Tuning into Speech Sounds]("images/ch8/tuning_into_speech_sounds.png")(https://www.youtube.com/watch?v=WvM5bqUsbu8)]
 
 Research, like that done by [@saffran1996] and [@Werker2002], tells us that as children learn a particular language, they very quickly start to pick up on statistical patterns in the language and start to pay attention only to the relevant acoustic information that helps them tell sounds apart in their language.
 
@@ -97,7 +97,7 @@ Research, like that done by [@saffran1996] and [@Werker2002], tells us that as c
 
 Sentence processing takes place whenever a reader or listener processes a language utterance, either in isolation or in the context of a conversation or a text. To do this, you group words into phrases, based on the syntactic rules from your language, in order to determine what the sentence means. This process is called [parsing]. By and large, this happens so quickly and automatically, that it's hard to notice yourself doing it. 
 
-Let's look at examples of when parsing is very hard. [Garden path sentences] are sentences that start out in a way that makes you think the sentence means one thing, but information at the end of the sentence forces you to reevaluate the meaning of the sentence. These are all over the place, if you're looking out for them. [link to this article: https://www.theguardian.com/world/2018/apr/10/spanish-politicians-urged-to-resign-over-fake-degree-claims]
+Let's look at examples of when parsing is very hard. [Garden path sentences] are sentences that start out in a way that makes you think the sentence means one thing, but information at the end of the sentence forces you to reevaluate the meaning of the sentence. These are [all over the place](https://www.theguardian.com/world/2018/apr/10/spanish-politicians-urged-to-resign-over-fake-degree-claims), if you're looking out for them.
 
 :::fyi
 ### Can you understand these Garden Path Sentences the first time?
@@ -161,13 +161,11 @@ More current research that has controlled for these factors has found that, alth
 
 As the previous chapter showed, language learning is not usually difficult or effortful for young children. As long as they’re in an environment where they have access to language used by adults, they’ll learn it pretty quickly. One reason it’s so easy for little ones is because of their neural plasticity: their brains are super-keen to make new connections in response to their experiences. The older you get, the harder it is for your brain to grow new neural pathways, so the harder it is to learn new things. It’s not impossible by any means, it just takes more effort!
 
-On the other hand, adults have some advantages over children. We have metacognitive skills we can apply consciously to language learning, such as memorizing new vocabulary and morphology, choosing to study a little bit each day, or seeking out books, movies, podcasts or other media in our new language. We also have metalinguistic awareness that we can employ. For example, we can consciously practice placing our articulators in new positions, or we can compare and contrast the syntactic structures in our new language with those from our L1.
+On the other hand, adults have some advantages over children. We have metacognitive skills we can apply consciously to language learning, such as memorizing new vocabulary and morphology, choosing to study a little bit each day, or seeking out books, movies, podcasts or other media in our new language. We also have metalinguistic awareness that we can employ. For example, we can consciously practice placing our articulators in new positions, or we can compare and contrast the syntactic structures in our new language with those from our L1 (first language).
 
 Another factor that can make language learning harder for adults than for children is our self-consciousness. Learning a new language usually involves interacting with other people, including other people who are more proficient than us. If you’re adult who’s used to being seen as competent, it can be embarrassing to feel like a beginner and to make mistakes.
 
-Like the field of Linguistics as a whole, the subfield of Second Language Acquisition is often narrowly focused on grammar, especially on acquiring phonetics, morphology and syntax. This approach to teaching and learning is related to colonial ways of thinking that treat language as an object or asset that can be acquired in isolation from people, communities, and relationships [@czaykowska2017;@lukaniec2022;@mackenzie2022].
-
-But as we’ve been learning throughout this book, language is not just a collection of structural properties! Chapter 2 showed that our language use is interwoven with our emotions and identities. And unlike babies developing an L1, adult language learners bring all kinds of cultural knowledge, traditions, expectations and, yes, emotions to our language learning, which we may or may not be consciously aware of. 
+Like the field of Linguistics as a whole, the subfield of Second Language Acquisition is often narrowly focused on grammar, especially on acquiring phonetics, morphology and syntax. This approach to teaching and learning is related to colonial ways of thinking that treat language as an object or asset that can be acquired in isolation from people, communities, and relationships [@czaykowska2017;@lukaniec2022;@mackenzie2022]. 
 
 :::fyi
 ### Research Focus: When can we best learn language? Testing the critical period hypothesis
@@ -187,7 +185,11 @@ knitr::include_graphics("images/ch8/fig3.jpg")
 
 Researchers have been asking for decades whether the specific language(s) you speak affects the way you think. This hypothesis is often called the Sapir-Whorf Hypothesis [@sapir-whorf1956]. There are two versions of this theory: a strong version and a weak version. The strong version, called [linguistic determinism], is that the language you speak will determine, or limit, the way that you think. The weak version, called [linguistic relativity], is the hypothesis that people who speak different languages think differently as a result, or that language influences your thought but does not limit it. 
 
+While there is little evidence for linguistic determinism, there are a variety of studies that support the conclusion that language influences thought, though indirectly via mechanisms like attention. One of these studies is about the perception of color. Different languages have different color terms. Russian has two words for the range of colors we call 'blue' in English. One corresponds to light blues, and the other to dark blues. As a result, Russian speakers are better than English speakers at discriminating between shades of blue, when one fell into the light blue category, and the other the dark blue category [@winawer2007].
 
+Another piece of evidence comes from grammatical gender. If you have studied a language like French or Spanish, you know that some language categorize nouns into groups, called grammatical genders. So every noun will be either masculine or feminine. [@semenuks2017] found that speakers tended to use feminine-associated words to describe objects that had feminine grammatical gender. For example, if bridge is feminine in French, speakers would be more likely to describe it using an adjective with the gender associations as the gender of the noun. So, the grammatical groups that nouns fall into affects how you might describe those nouns. 
+
+These examples show how language may - even in quite a limited way - influence the way we think about these things. 
 
 :::takeaways
 ##### Key Takeaways {-}
@@ -229,17 +231,30 @@ Pragmatics refers to the meaning of words and sentences in context, where the su
 
 ##### dialect {-}
 
+A dialect is a subdivision, or version, of a language that may be associated with a geographical location or socioeconomic group. 
+
 ##### sociolect {-}
+
+A sociolect is a version of a language that is associated with a particular social group.
 
 ##### idiolect {-}
 
+An idiolect is the version of a language that a speaker speaks, which is unique to that speaker. 
+
 ##### babbling {-}
+
+Babbling consists of intentional vocalizations that lack specific meaning produced by young children when they are learning language.
 
 ##### overextensions {-}
 
+Overextentions are when a learning of a language - often a child - uses a word in a broader context than appropriate. 
+
 ##### Bilingualism {-}
 
+Bilingualism refers to the state of being able to speak two languages.
+
 ##### critical period {-}
+
 
 ##### linguistic determinism {-}
 

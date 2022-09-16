@@ -185,6 +185,10 @@ knitr::include_graphics("images/ch8/fig3.jpg")
 
 ## Language and Thought
 
+Researchers have been asking for decades whether the specific language(s) you speak affects the way you think. This hypothesis is often called the Sapir-Whorf Hypothesis [@sapir-whorf1956]. There are two versions of this theory: a strong version and a weak version. The strong version, called [linguistic determinism], is that the language you speak will determine, or limit, the way that you think. The weak version, called [linguistic relativity], is the hypothesis that people who speak different languages think differently as a result, or that language influences your thought but does not limit it. 
+
+
+
 :::takeaways
 ##### Key Takeaways {-}
 - a
@@ -236,4 +240,8 @@ Pragmatics refers to the meaning of words and sentences in context, where the su
 ##### Bilingualism {-}
 
 ##### critical period {-}
+
+##### linguistic determinism {-}
+
+##### linguistic relativity {-} 
 

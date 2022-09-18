@@ -29,7 +29,7 @@ There are a number of explanations for primacy and recency effects, but one of t
 According to Baddeley’s model, working memory includes a central executive, phonological loop, visuospatial sketchpad, and episodic buffer. What is the structure of long-term memory? As you can see in \@ref(fig:fig2), long-term memory can be divided into two major categories of memory types: explicit memory and implicit memory, which can be further divided into multiple sub-types: semantic, episodic, procedural, priming, and conditioning memory.
 
 :::fyi
-### Concept Focus: Differences between brains and computers
+##### Concept Focus: Differences between brains and computers
 * In computers, information can be accessed only if one knows the exact location of the
 memory. In the brain, information can be accessed through spreading activation 
 from closely related concepts.
@@ -104,24 +104,6 @@ Then try again to make words out of the word fragments.
 I think you might find that it is easier to complete fragments 1 and 3 as “library” and “book,” respectively, after you read the sentence than it was before you read it. However, reading the sentence didn’t really help you to complete fragments 2 and 4 as “physician” and “chaise.” This difference in implicit memory probably occurred because as you read the sentence, the concept of “library” (and perhaps “book”) was primed, even though they were never mentioned explicitly. Once a concept is primed it influences our behaviors, for instance, on word fragment tests.
 
 Our everyday behaviors are influenced by priming in a wide variety of situations. Seeing an advertisement for cigarettes may make us start smoking, seeing the flag of our home country may arouse our patriotism, and seeing a student from a rival school may arouse our competitive spirit. And these influences on our behaviors may occur without our being aware of them.
-
-:::fyi
-#### Research Focus: Priming Outside Awareness Influences Behavior {-}
-
-One of the most important characteristics of implicit memories is that they are frequently formed and used *automatically* , without much effort or awareness on our part. In one demonstration of the automaticity and influence of priming effects, John Bargh and his colleagues [@Bargh1996] conducted a study in which they showed undergraduate students lists of five scrambled words, each of which they were to make into a sentence. Furthermore, for half of the research participants, the words were related to stereotypes of the elderly. These participants saw words such as the following:
-
->in Victoria retired live people 
-bingo man the forgetful plays
-
-The other half of the research participants also made sentences, but from words that had nothing to do with elderly stereotypes. The purpose of this task was to prime stereotypes of elderly people in memory for some of the participants but not for others.
-
-The experimenters then assessed whether the priming of elderly stereotypes would have any effect on the students’ behavior — and indeed it did. When the research participant had gathered all of his or her belongings, thinking that the experiment was over, the experimenter thanked hum or her for participating and gave directions to the closest elevator. Then, without the participants knowing it, the experimenters recorded the amount of time that the participant spent walking from the doorway of the experimental room toward the elevator. As you can see in \@ref(fig:fig3), “Research Results.” participants who had made sentences using words related to elderly stereotypes took on the behaviors of the elderly — they walked significantly more slowly as they left the experimental room.  
-
-
-
-To determine if these priming effects occurred out of the awareness of the participants, Bargh and his colleagues asked still another group of students to complete the priming task and then to indicate whether they thought the words they had used to make the sentences had any relationship to each other, or could possibly have influenced their behavior in any way. These students had no awareness of the possibility that the words might have been related to the elderly or could have influenced their behavior.
-:::
-
 
 ## Encoding, Retrieval, and Consolidation
 

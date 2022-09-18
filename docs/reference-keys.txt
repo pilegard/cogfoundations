@@ -59,6 +59,7 @@ deductive-reasoning
 add-in-table
 inductive-reasoning
 decision-making
+st.-petersburg-paradox
 problem-solving
 restructuring-the-gestalt-approach
 solving-problems-by-analogy

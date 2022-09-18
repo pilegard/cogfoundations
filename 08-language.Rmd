@@ -100,7 +100,7 @@ Sentence processing takes place whenever a reader or listener processes a langua
 Let's look at examples of when parsing is very hard. [Garden path sentences] are sentences that start out in a way that makes you think the sentence means one thing, but information at the end of the sentence forces you to reevaluate the meaning of the sentence. These are [all over the place](https://www.theguardian.com/world/2018/apr/10/spanish-politicians-urged-to-resign-over-fake-degree-claims), if you're looking out for them.
 
 :::fyi
-### Can you understand these Garden Path Sentences the first time?
+##### Can you understand these Garden Path Sentences the first time?
 * The horse raced past the barn fell.
 * The old man the boat.
 * When Fred eats food gets thrown.
@@ -145,7 +145,7 @@ Despite knowing how damaging language deprivation can be, there is one group of 
 
 A cochlear implant (CI) is an electronic prosthetic device that is implanted surgically. It takes sounds from the environment and converts them to electrical signals. Those signals then get transmitted to the brain via the auditory nerve [@NIH-NIDCD]. In developed countries, it is very common for deaf children to receive a CI between ages one and three years. Even so, most kids with CIs still score well below hearing kids on standard tests of language proficiency, even when they’ve had the implant for several years – not because of any deficit in the children, but because the electrical signals from a cochlear implant are not a sufficient language environment for typical development [@mauldin2019]. But in spite of this evidence, there’s still a persistent stigma around sign languages and deafness, and many parents, teachers, and medical professionals consider it so important for children to “pass” in a hearing world that they don’t offer access to signed language because they fear that it might interfere with the child’s eventual acquisition of spoken language. Because of this belief that vocal language is better than sign language, known as *oralism*, many deaf children have no exposure to language before receiving a CI, and after implantation have access only to the atypical electrical signals produced by the device. 
 
-This language deprivation leads to long-term impairments in social and cognitive function and, ironically, to lower scores on tests of vocal language comprehension [@hall2019; @hall2017;@humphries2016;@lillo2021]. In contrast, when deaf children of hearing parents have access to ASL by age six months, their vocabulary develops at a comparable rate to deaf children of deaf signing parents [@caselli2021].
+This language deprivation leads to long-term impairments in social and cognitive function and, ironically, to lower scores on tests of vocal language comprehension [@hall2019; @hall2017; @humphries2016;@lillo2021]. In contrast, when deaf children of hearing parents have access to ASL by age six months, their vocabulary develops at a comparable rate to deaf children of deaf signing parents [@caselli2021].
 
 This evidence from deaf kids shows us just how vital the language environment is, and how important it is that children have access to an ambient language as early as possible. The neural connections that make up mental grammar can only form in response to language input from the environment. Without that input in the first year of life, it’s much harder for the brain to build a mental grammar.
 
@@ -168,7 +168,7 @@ Another factor that can make language learning harder for adults than for childr
 Like the field of Linguistics as a whole, the subfield of Second Language Acquisition is often narrowly focused on grammar, especially on acquiring phonetics, morphology and syntax. This approach to teaching and learning is related to colonial ways of thinking that treat language as an object or asset that can be acquired in isolation from people, communities, and relationships [@czaykowska2017;@lukaniec2022;@mackenzie2022]. 
 
 :::fyi
-### Research Focus: When can we best learn language? Testing the critical period hypothesis
+##### Research Focus: When can we best learn language? Testing the critical period hypothesis
 
 For many years psychologists assumed that there was a [critical period] (*a time in which learning can easily occur*) for language learning, lasting between infancy and puberty, and after which language learning was more difficult or impossible [@brown1967; @Penfield1959]. But later research provided a different interpretation. 
 

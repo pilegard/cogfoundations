@@ -1,5 +1,5 @@
 # Attention
-
+<img src="images/ch3/fig0.png" width="100%" style="display: block; margin: auto;" />
 We use the term “attention“ all the time, but what processes or abilities does that concept really refer to? This chapter will focus on how attention allows us to select certain parts of our environment and ignore other parts, and what happens to the ignored information. A key concept is the idea that we are limited in how much we can do at any one time. So we will also consider what happens when someone tries to do several things at once, such as driving while using electronic devices. Chapter 3 License and Attribution
 
 :::learningobjectives
@@ -12,7 +12,7 @@ We use the term “attention“ all the time, but what processes or abilities do
 
 <div class="figure" style="text-align: center">
 <img src="images/ch3/fig1.jpg" alt="Are you reading these words right here right now? If so, it’s only because you directed your attention toward them. [Image: CC BY 2.0,  HYPERLINK &quot;https://goo.gl/BRvSA7%5D&quot;https://goo.gl/BRvSA7]" width="60%" />
-<p class="caption">(\#fig:fig1)Are you reading these words right here right now? If so, it’s only because you directed your attention toward them. [Image: CC BY 2.0,  HYPERLINK "https://goo.gl/BRvSA7%5D"https://goo.gl/BRvSA7]</p>
+<p class="caption">(\#fig:fig3.1)Are you reading these words right here right now? If so, it’s only because you directed your attention toward them. [Image: CC BY 2.0,  HYPERLINK "https://goo.gl/BRvSA7%5D"https://goo.gl/BRvSA7]</p>
 </div>
 
 Before we begin exploring attention in its various forms, take a moment to consider how you think about the concept. How would you define attention, or how do you use the term? We certainly use the word very frequently in our everyday language: “ATTENTION! USE ONLY AS DIRECTED!” warns the label on the medicine bottle, meaning be alert to possible danger. “Pay attention!” pleads the weary seventh-grade teacher, not warning about danger (with possible exceptions, depending on the teacher) but urging the students to focus on the task at hand. We may refer to a child who is easily distracted as having an attention disorder, although we also are told that Americans have an attention span of about 8 seconds, down from 12 seconds in 2000, suggesting that we all have trouble sustaining concentration for any amount of time (from www.Statisticbrain.com). How that number was determined is not clear from the Web site, nor is it clear how attention span in the goldfish—9 seconds!—was measured, but the fact that our average span reportedly is less than that of a goldfish is intriguing, to say the least.
@@ -37,7 +37,7 @@ Can we pay attention to several sources of information at once, or do we have a 
 
 <div class="figure" style="text-align: center">
 <img src="images/ch3/fig2.jpg" alt="Beyond just hearing your name from the clamor at a party, other words or concepts, particularly unusual or significant ones to you, can also snag your attention. [Image: Ross,  HYPERLINK &quot;https://goo.gl/TVDfTn,&quot;https://goo.gl/TVDfTn, CC BY-NC-SA 2.0,  HYPERLINK &quot;https://goo.gl/Toc0ZF%5D&quot;https://goo.gl/Toc0ZF]" width="60%" />
-<p class="caption">(\#fig:fig2)Beyond just hearing your name from the clamor at a party, other words or concepts, particularly unusual or significant ones to you, can also snag your attention. [Image: Ross,  HYPERLINK "https://goo.gl/TVDfTn,"https://goo.gl/TVDfTn, CC BY-NC-SA 2.0,  HYPERLINK "https://goo.gl/Toc0ZF%5D"https://goo.gl/Toc0ZF]</p>
+<p class="caption">(\#fig:fig3.2)Beyond just hearing your name from the clamor at a party, other words or concepts, particularly unusual or significant ones to you, can also snag your attention. [Image: Ross,  HYPERLINK "https://goo.gl/TVDfTn,"https://goo.gl/TVDfTn, CC BY-NC-SA 2.0,  HYPERLINK "https://goo.gl/Toc0ZF%5D"https://goo.gl/Toc0ZF]</p>
 </div>
 
 However, once you are engaged in conversation with someone, you quickly become aware that you cannot also listen to other conversations at the same time. You also are probably not aware of how tight your shoes feel or of the smell of a nearby flower arrangement. On the other hand, if someone behind you mentions your name, you typically notice it immediately and may start attending to that (much more interesting) conversation. This situation highlights an interesting set of observations. We have an amazing ability to select and track one voice, visual object, etc., even when a million things are competing for our attention, but at the same time, we seem to be limited in how much we can attend to at one time, which in turn suggests that attention is crucial in selecting what is important. How does it all work?
@@ -56,7 +56,7 @@ Broadbent’s Filter Model. Many researchers have investigated how selection occ
 
 <div class="figure" style="text-align: center">
 <img src="images/ch3/fig3.png" alt="Figure 1. This figure shows information going in both the left and right ears. Some basic sensory information, such as pitch, is processed, but the filter only allows the information from one ear to be processed further. Only the information from the left ear is transferred to short-term memory (STM) and conscious awareness, and then further processed for meaning. That means that the ignored information never makes it beyond a basic physical analysis." width="60%" />
-<p class="caption">(\#fig:fig3)Figure 1. This figure shows information going in both the left and right ears. Some basic sensory information, such as pitch, is processed, but the filter only allows the information from one ear to be processed further. Only the information from the left ear is transferred to short-term memory (STM) and conscious awareness, and then further processed for meaning. That means that the ignored information never makes it beyond a basic physical analysis.</p>
+<p class="caption">(\#fig:fig3.3)Figure 1. This figure shows information going in both the left and right ears. Some basic sensory information, such as pitch, is processed, but the filter only allows the information from one ear to be processed further. Only the information from the left ear is transferred to short-term memory (STM) and conscious awareness, and then further processed for meaning. That means that the ignored information never makes it beyond a basic physical analysis.</p>
 </div>
 
 #### Treisman’s Attenuation Model {-}
@@ -66,20 +66,20 @@ Anne Treisman (1960) @Treisman1960 carried out a number of dichotic listening ex
 
 <div class="figure" style="text-align: center">
 <img src="images/ch3/fig4.png" alt="Figure 2. Early selection model." width="60%" />
-<p class="caption">(\#fig:fig4)Figure 2. Early selection model.</p>
+<p class="caption">(\#fig:fig3.4)Figure 2. Early selection model.</p>
 </div>
 
-Results like this, and the fact that you tend to hear meaningful information even when you aren’t paying attention to it, suggest that we do monitor the unattended information to some degree on the basis of its meaning. Therefore, the filter theory can’t be right to suggest that unattended information is completely blocked at the sensory analysis level. Instead, Treisman suggested that selection starts at the physical or perceptual level, but that the unattended information is not blocked completely, it is just weakened or attenuated. As a result, highly meaningful or pertinent information in the unattended ear will get through the filter for further processing at the level of meaning. \@ref(fig:fig4) shows information going in both ears, and in this case there is no filter that completely blocks nonselected information. Instead, selection of the left ear information strengthens that material, while the nonselected information in the right ear is weakened. However, if the preliminary analysis shows that the nonselected information is especially pertinent or meaningful (such as your own name), then the Attenuation Control will instead strengthen the more meaningful information.
+Results like this, and the fact that you tend to hear meaningful information even when you aren’t paying attention to it, suggest that we do monitor the unattended information to some degree on the basis of its meaning. Therefore, the filter theory can’t be right to suggest that unattended information is completely blocked at the sensory analysis level. Instead, Treisman suggested that selection starts at the physical or perceptual level, but that the unattended information is not blocked completely, it is just weakened or attenuated. As a result, highly meaningful or pertinent information in the unattended ear will get through the filter for further processing at the level of meaning. \@ref(fig:fig3.4) shows information going in both ears, and in this case there is no filter that completely blocks nonselected information. Instead, selection of the left ear information strengthens that material, while the nonselected information in the right ear is weakened. However, if the preliminary analysis shows that the nonselected information is especially pertinent or meaningful (such as your own name), then the Attenuation Control will instead strengthen the more meaningful information.
 
 #### Late Selection Models {-}
 <div class="figure" style="text-align: center">
 <img src="images/ch3/fig5.png" alt="Figure 3. Late selection model." width="60%" />
-<p class="caption">(\#fig:fig5)Figure 3. Late selection model.</p>
+<p class="caption">(\#fig:fig3.5)Figure 3. Late selection model.</p>
 </div>
 
 Other selective attention models have been proposed as well. A late selection or response selection model proposed by @Deutsch1963 suggests that all information in the unattended ear is processed on the basis of meaning, not just the selected or highly pertinent information. However, only the information that is relevant for the task response gets into conscious awareness. This model is consistent with ideas of subliminal perception; in other words, that you don’t have to be aware of or attending a message for it to be fully processed for meaning.
 
-You might notice that \@ref(fig:fig5) looks a lot like the Early Selection model—only the location of the selective filter has changed, with the assumption that analysis of meaning occurs before selection occurs, but only the selected information becomes conscious.
+You might notice that \@ref(fig:fig3.5) looks a lot like the Early Selection model—only the location of the selective filter has changed, with the assumption that analysis of meaning occurs before selection occurs, but only the selected information becomes conscious.
 
 #### Multimode Model {-}
 
@@ -89,25 +89,25 @@ This discussion of selective attention has focused on experiments using auditory
 
 :::fyi
 #### Subliminal Perception {-}
-The idea of subliminal perception—that stimuli presented below the threshold for awareness can influence thoughts, feelings, or actions—is a fascinating and kind of creepy one. Can messages you are unaware of, embedded in movies or ads or the music playing in the grocery store, really influence what you buy? Many such claims of the power of subliminal perception have been made. One of the most famous came from a market researcher who claimed that the message “Eat Popcorn” briefly flashed throughout a movie increased popcorn sales by more than 50%, although he later admitted that the study was made up (@Merikle2000). Psychologists have worked hard to investigate whether this is a valid phenomenon. Studying subliminal perception is more difficult than it might seem, because of the difficulty of establishing what the threshold for consciousness is or of even determining what type of threshold is important; for example, Cheesman and @Merikle1984 and @Merikle1986 make an important distinction between objective and subjective thresholds. The bottom line is that there is some evidence that individuals can be influenced by stimuli they are not aware of, but how complex the stimuli can be or the extent to which unconscious material can affect behavior is not settled (e.g., @Bargh2008 ; @Greenwald1992; @Merikle2000).
+The idea of subliminal perception—that stimuli presented below the threshold for awareness can influence thoughts, feelings, or actions—is a fascinating and kind of creepy one. Can messages you are unaware of, embedded in movies or ads or the music playing in the grocery store, really influence what you buy? Many such claims of the power of subliminal perception have been made. One of the most famous came from a market researcher who claimed that the message “Eat Popcorn” briefly flashed throughout a movie increased popcorn sales by more than 50%, although he later admitted that the study was made up [@Merikle2000]. Psychologists have worked hard to investigate whether this is a valid phenomenon. Studying subliminal perception is more difficult than it might seem, because of the difficulty of establishing what the threshold for consciousness is or of even determining what type of threshold is important; for example, Cheesman and @Merikle1984 and @Merikle1986 make an important distinction between objective and subjective thresholds. The bottom line is that there is some evidence that individuals can be influenced by stimuli they are not aware of, but how complex the stimuli can be or the extent to which unconscious material can affect behavior is not settled [e.g., @Bargh2008; @Greenwald1992; @Merikle2000].
 :::
 
 ### Divided Attention and Multitasking {-}
 In spite of the evidence of our limited capacity, we all like to think that we can do several things at once. Some people claim to be able to multitask without any problem: reading a textbook while watching television and talking with friends; talking on the phone while playing computer games; texting while driving. The fact is that we sometimes can seem to juggle several things at once, but the question remains whether dividing attention in this way impairs performance.
-Is it possible to overcome the limited capacity that we experience when engaging in cognitive tasks? We know that with extensive practice, we can acquire skills that do not appear to require conscious attention. As we walk down the street, we don’t need to think consciously about what muscle to contract in order to take the next step. Indeed, paying attention to automated skills can lead to a breakdown in performance, or “choking” (e.g., @Beilock2001 ). But what about higher level, more mentally demanding tasks: Is it possible to learn to perform two complex tasks at the same time?
+Is it possible to overcome the limited capacity that we experience when engaging in cognitive tasks? We know that with extensive practice, we can acquire skills that do not appear to require conscious attention. As we walk down the street, we don’t need to think consciously about what muscle to contract in order to take the next step. Indeed, paying attention to automated skills can lead to a breakdown in performance, or “choking” [e.g., @Beilock2001]. But what about higher level, more mentally demanding tasks: Is it possible to learn to perform two complex tasks at the same time?
 
 <div class="figure" style="text-align: center">
 <img src="images/ch3/fig6.jpg" alt="Unless a task is fully automated, some researchers suggest that “multi-tasking” doesn’t really exist; you are just rapidly switching your attention back and forth between tasks. [Image: CC0 Public Domain,  HYPERLINK &quot;https://goo.gl/m25gce%5D&quot;https://goo.gl/m25gce]" width="60%" />
-<p class="caption">(\#fig:fig6)Unless a task is fully automated, some researchers suggest that “multi-tasking” doesn’t really exist; you are just rapidly switching your attention back and forth between tasks. [Image: CC0 Public Domain,  HYPERLINK "https://goo.gl/m25gce%5D"https://goo.gl/m25gce]</p>
+<p class="caption">(\#fig:fig3.6)Unless a task is fully automated, some researchers suggest that “multi-tasking” doesn’t really exist; you are just rapidly switching your attention back and forth between tasks. [Image: CC0 Public Domain,  HYPERLINK "https://goo.gl/m25gce%5D"https://goo.gl/m25gce]</p>
 </div>
 
 #### Divided Attention Tasks {-}
 
 Unless a task is fully automated, some researchers suggest that “multi-tasking” doesn’t really exist; you are just rapidly switching your attention back and forth between tasks. [Image: CC0 Public Domain, https://goo.gl/m25gce]
 
-In a classic study that examined this type of divided attention task, two participants were trained to take dictation for spoken words while reading unrelated material for comprehension (@Spelke1976). In divided attention tasks such as these, each task is evaluated separately, in order to determine baseline performance when the individual can allocate as many cognitive resources as necessary to one task at a time. Then performance is evaluated when the two tasks are performed simultaneously. A decrease in performance for either task would suggest that even if attention can be divided or switched between the tasks, the cognitive demands are too great to avoid disruption of performance. (We should note here that divided attention tasks are designed, in principle, to see if two tasks can be carried out simultaneously. A related research area looks at task switching and how well we can switch back and forth among different tasks [e.g., Monsell, 2003]. It turns out that switching itself is cognitively demanding and can impair performance.
+In a classic study that examined this type of divided attention task, two participants were trained to take dictation for spoken words while reading unrelated material for comprehension [@Spelke1976]. In divided attention tasks such as these, each task is evaluated separately, in order to determine baseline performance when the individual can allocate as many cognitive resources as necessary to one task at a time. Then performance is evaluated when the two tasks are performed simultaneously. A decrease in performance for either task would suggest that even if attention can be divided or switched between the tasks, the cognitive demands are too great to avoid disruption of performance. (We should note here that divided attention tasks are designed, in principle, to see if two tasks can be carried out simultaneously. A related research area looks at task switching and how well we can switch back and forth among different tasks [e.g., @Monsell2003]. It turns out that switching itself is cognitively demanding and can impair performance.
 
-The focus of the @Spelke1976 study was whether individuals could learn to perform two relatively complex tasks concurrently, without impairing performance. The participants received plenty of practice—the study lasted 17 weeks and they had a 1-hour session each day, 5 days a week. These participants were able to learn to take dictation for lists of words and read for comprehension without affecting performance in either task, and the authors suggested that perhaps there are not fixed limits on our attentional capacity. However, changing the tasks somewhat, such as reading aloud rather than silently, impaired performance initially, so this multitasking ability may be specific to these well-learned tasks. Indeed, not everyone could learn to perform two complex tasks without performance costs [@Hirst1978, although the fact that some can is impressive.
+The focus of the @Spelke1976 study was whether individuals could learn to perform two relatively complex tasks concurrently, without impairing performance. The participants received plenty of practice—the study lasted 17 weeks and they had a 1-hour session each day, 5 days a week. These participants were able to learn to take dictation for lists of words and read for comprehension without affecting performance in either task, and the authors suggested that perhaps there are not fixed limits on our attentional capacity. However, changing the tasks somewhat, such as reading aloud rather than silently, impaired performance initially, so this multitasking ability may be specific to these well-learned tasks. Indeed, not everyone could learn to perform two complex tasks without performance costs [@Hirst1978], although the fact that some can is impressive.
 
 #### Distracted Driving {-}
 
@@ -115,7 +115,7 @@ More relevant to our current lifestyles are questions about multitasking while t
 
 <div class="figure" style="text-align: center">
 <img src="images/ch3/fig7.jpeg" alt="If you look at your phone for just 5 seconds while driving at 55mph, that means you have driven the length of a football field without looking at the road. [Image: CC0 Public Domain, https://goo.gl/m25gce] " width="60%" />
-<p class="caption">(\#fig:fig7)If you look at your phone for just 5 seconds while driving at 55mph, that means you have driven the length of a football field without looking at the road. [Image: CC0 Public Domain, https://goo.gl/m25gce] </p>
+<p class="caption">(\#fig:fig3.7)If you look at your phone for just 5 seconds while driving at 55mph, that means you have driven the length of a football field without looking at the road. [Image: CC0 Public Domain, https://goo.gl/m25gce] </p>
 </div>
 
 
@@ -135,27 +135,4 @@ It may be useful to think of attention as a mental resource, one that is needed 
 2. b
 :::
 
-
-References
-Bargh, J., & Morsella, E. (2008). The unconscious mind. Perspectives on Psychological Science, 3(1), 73–79.
-Beilock, S. L., & Carr, T. H. (2001). On the fragility of skilled performance: What governs choking under pressure? Journal of Experimental Psychology: General, 130, 701–725.
-Broadbent, D. A. (1958). Perception and communication. London, England: Pergamon Press.
-Cheesman, J., & Merikle, P. (1986). Distinguishing conscious from unconscious perceptual processes. Canadian Journal of Psychology, 40, 343–367.
-Cheesman, J., & Merikle, P. (1984). Priming with and without awareness. Perception and Psychophysics, 36, 387–395.
-Cherry, E. C. (1953). Experiments on the recognition of speech with one and two ears. Journal of the Acoustical Society of America, 25, 975–979.
-Deutsch, J. A., & Deutsch, D. (1963). Attention: some theoretical considerations. Psychological Review, 70, 80–90.
-Greenwald, A. G. (1992). New Look 3: Unconscious cognition reclaimed. American Psychologist, 47, 766–779.
-Hirst, W. C., Neisser, U., & Spelke, E. S. (1978). Divided attention. Human Nature, 1, 54–61.
-James, W. (1983). The principles of psychology. Cambridge, MA: Harvard University Press. (Original work published 1890)
-Johnston, W. A., & Heinz, S. P. (1978). Flexibility and capacity demands of attention. Journal of Experimental Psychology: General, 107, 420–435.
-Merikle, P. (2000). Subliminal perception. In A. E. Kazdin (Ed.), Encyclopedia of psychology (Vol. 7, pp. 497–499). New York, NY: Oxford University Press.
-Monsell, S. (2003). Task switching. Trends in Cognitive Science, 7(3), 134–140.
-Moray, N. (1959). Attention in dichotic listening: Affective cues and the influence of instructions. Quarterly Journal of Experimental Psychology, 11, 56–60.
-Neisser, U. (1979). The control of information pickup in selective looking. In A. D. Pick (Ed.), Perception and its development: A tribute to Eleanor J. Gibson (pp. 201–219). Hillsdale, NJ: Lawrence Erlbaum Associates.
-Simons, D. J., & Chabris, C. F. (1999). Gorillas in our midst: Sustained inattentional blindness for dynamic events. Perception, 28, 1059–1074.
-Spelke, E. S., Hirst, W. C., & Neisser, U. (1976). Skills of divided attention. Cognition, 4, 215–250.
-Strayer, D. L., & Drews, F. A. (2007). Cell-phone induced inattention blindness. Current Directions in Psychological Science, 16, 128–131.
-Strayer, D. L., & Johnston, W. A. (2001). Driven to distraction: Dual-task studies of simulated driving and conversing on a cellular telephone. Psychological Science, 12, 462–466.
-Strayer, D. L., Watson, J. M., & Drews, F. A. (2011) Cognitive distraction while multitasking in the automobile. In Brian Ross (Ed.), The Psychology of Learning and Motivation (Vol. 54, pp. 29–58). Burlington, VT: Academic Press.
-Treisman, A. (1960). Contextual cues in selective listening. Quarterly Journal of Experimental Psychology, 12, 242–248.
-Watson, J. M., & Strayer, D. L. (2010). Supertaskers: Profiles in extraordinary multitasking ability. Psychonomic Bulletin & Review, 17, 479–485.
+## Glossary

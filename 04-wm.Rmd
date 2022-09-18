@@ -1,7 +1,7 @@
 # Short-term and Working Memory
 
-```{r lan2000, echo = FALSE, out.width='100%', fig.align = 'center'}
-# knitr::include_graphics("images/ch2/???.png")
+```{r fig4.0, echo = FALSE, out.width='100%', fig.align = 'center'}
+knitr::include_graphics("images/ch4/fig0.png")
 ```
 
 :::learningobjectives
@@ -91,26 +91,4 @@ Science is an ongoing process, and so despite the usefulness of Baddeley and Hit
 2. b
 :::
 
-
-References
-Atkinson, R. C. & Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes.In K. Spence & J. Spence (Eds.), The psychology of learning and motivation (Volume 2). New York: Academic Press.
-Atkinson, R. C. & Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes.In K. Spence & J. Spence (Eds.), The psychology of learning and motivation (Volume 2). New York: Academic Press.
-Baddeley, A. D. (1986). Working Memory. Oxford: Oxford University Press.
-Baddeley, A. (2000). The episodic buffer: A new component of working memory? Trends in Cognitive Sciences, 4(11), 417–423.
-Baddeley, A. D. & Hitch, G. (1974). Working memory. In G. A. Bower (Ed.), Recent advances in learning and motivation (Vol. 8).New York: Academic Press.
-Brandimonte, M. A., Hitch, G. J., & Bishop, D. V. M. (1992). Influence of short-term memory codes on visual image processing:Evidence from image transformation tasks. Journal of Experimental Psychology: Learning, Memory, and Cognition, 18, 157-165.
-Broadbent, D. E. (1958). Perception and communication. New York: Pergamon.
-Brooks, L. R. (1968). Spatial and verbal components of the act of recall. Canadian Journal of Psychology, 22(5), 349-368.
-Chase, W. G. & Simon, H.A. (1973). The mind’s eye in chess. In W. G. Chase (Ed.), Visual information processing.New York: Academic Press.
-Cherry, E. C. (1953). Some experiments on the recognition of speech with one and with two ears.Journal of Acoustical Society of America, 25, 975-979.
-Conrad, R., & Hull, A. J. (1964). Information, acoustic confusion and memory span. British Journal of Psychology, 55(4), 429-432.
-Darwin, C. J., Turvey, M. T., & Crowder, R. G. (1972). An auditory analogue of the Sperling partial report procedure:Evidence for brief auditory storage. Cognitive Psychology, 3, 255-267.
-Deutsch, J. A. & Deutsch, D. (1963). Attention: Some theoretical considerations. Psychological Review, 70, 80-90.
-Goldstein, E. B. (2005). Cognitive Psychology. London: Thomson Leaning, page 157.
-Hebb, D. O. (1948). Organization of behavior. New York: Wiley.
-Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of an automobile destruction:An example of the interaction between language and memory. Journal of Verbal Learning and Verbal Behavior, 13, 585-589.
-Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information.Psychological Review, 63, 81-97.
-Miyake, A., Friedman, N. P., Emerson, M. J., Witzki, A. H., Howerter, A., & Wager, T. D. (2000). The unity and diversity of executive functions and their contributions to complex “frontal lobe” tasks: A latent variable analysis. Cognitive psychology, 41(1), 49-100.
-Perfect, T. J., & Askew, C. (1994). Print adverts: Not remembered but memorable. Applied Cognitive Psychology, 8, 693-703.
-Shallice, T., & Warrington, E. K. (1970). Independent functioning of verbal memory stores: A neuropsychological study.Quarterly Journal of Experimental Psychology,22, 261-273.
-Treisman, A. M. (1964). Monitoring and storage of irrelevant messages and selective attention.Journal of Verbal Learning and Verbal Behaviour, 3, 449-459.
+## Glossary

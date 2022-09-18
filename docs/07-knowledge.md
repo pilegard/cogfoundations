@@ -104,8 +104,8 @@ In the picture on the right hand side, Collins and Quillians network with added 
 
 
 <div class="figure" style="text-align: center">
-<img src="images/ch7/fig5.jpg" alt="Figure 5. Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. " width="60%" />
-<p class="caption">(\#fig:fig7.6)Figure 5. Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. </p>
+<img src="images/ch7/fig5.jpg" alt="Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. " width="60%" />
+<p class="caption">(\#fig:fig7.6)Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. </p>
 </div>
 
 
@@ -128,32 +128,4 @@ The phenomenon that adjacent concepts are activated is called [spreading activat
 2. b
 :::
 
-
-References
-Allen, S. W., & Brooks, L. R. (1991). Specializing the operation of an explicit rule.Journal of Experimental Psychology: General, 120, 3–19.
-Anglin, J. M. (1977). Word, object, and conceptual development. New York, NY: W. W. Norton.
-Berlin, B. (1992). Ethnobiological classification: Principles of categorization of plants and animals in traditional societies. Princeton, NJ: Princeton University Press.
-Brown, R. (1958). How shall a thing be called? Psychological Review, 65, 14–21.
-Gelman, S. A. (2003). The essential child: Origins of essentialism in everyday thought. Oxford, UK: Oxford University Press.
-Hampton, J. A. (1979). Polymorphous concepts in semantic memory. Journal of Verbal Learning and Verbal Behavior, 18, 441–461.
-Hirschfeld, L. A. (1996). Race in the making: Cognition, culture, and the child's construction of human kinds. Cambridge, MA: MIT Press.
-Horton, M. S., & Markman, E. M. (1980). Developmental differences in the acquisition of basic and superordinate categories. Child Development, 51, 708–719.
-Keil, F. C. (1989). Concepts, kinds, and cognitive development. Cambridge, MA: MIT Press.
-Maddox, W. T., & Ashby, F. G. (2004). Dissociating explicit and procedural-based systems of perceptual category learning. Behavioural Processes, 66, 309–332.
-Mandler, J. M. (2004). The foundations of mind: Origins of conceptual thought. Oxford, UK: Oxford University Press.
-Mareschal, D., Quinn, P. C., & Lea, S. E. G. (Eds.) (2010). The making of human concepts. Oxford, UK: Oxford University Press.
-McCloskey, M. E., & Glucksberg, S. (1978). Natural categories: Well defined or fuzzy sets? Memory & Cognition, 6, 462–472.
-Medin, D. L., & Ortony, A. (1989). Psychological essentialism. In S. Vosniadou & A. Ortony (Eds.), Similarity and analogical reasoning (pp. 179–195). Cambridge, UK: Cambridge University Press.
-Medin, D. L., & Schaffer, M. M. (1978). Context theory of classification learning. Psychological Review, 85, 207–238.
-Mervis, C. B. (1987). Child-basic object categories and early lexical development. In U. Neisser (Ed.), Concepts and conceptual development: Ecological and intellectual factors in categorization (pp. 201–233). Cambridge, UK: Cambridge University Press.
-Murphy, G. L., & Allopenna, P. D. (1994). The locus of knowledge effects in concept learning. Journal of Experimental Psychology: Learning, Memory, and Cognition, 20, 904–919.
-Murphy, G. L., & Brownell, H. H. (1985). Category differentiation in object recognition: Typicality constraints on the basic category advantage. Journal of Experimental Psychology: Learning, Memory, and Cognition, 11, 70–84.
-Norenzayan, A., Smith, E. E., Kim, B. J., & Nisbett, R. E. (2002). Cultural preferences for formal versus intuitive reasoning. Cognitive Science, 26, 653–684.
-Rosch, E., & Mervis, C. B. (1975). Family resemblance: Studies in the internal structure of categories. Cognitive Psychology, 7, 573–605.
-Rosch, E., Mervis, C. B., Gray, W., Johnson, D., & Boyes-Braem, P. (1976). Basic objects in natural categories. Cognitive Psychology, 8, 382–439.
-Rosch, E., Simpson, C., & Miller, R. S. (1976). Structural bases of typicality effects. Journal of Experimental Psychology: Human Perception and Performance, 2, 491–502.
-Rosch, E. H. (1973). On the internal structure of perceptual and semantic categories. In T. E. Moore (Ed.), Cognitive development and the acquisition of language (pp. 111–144). New York, NY: Academic Press.
-Smith, E. E., & Medin, D. L. (1981). Categories and concepts. Cambridge, MA: Harvard University Press.
-Smith, J. D., & Minda, J. P. (1998). Prototypes in the mist: The early epochs of category learning. Journal of Experimental Psychology: Learning, Memory, and Cognition, 24, 1411–1436.
-Tanaka, J. W., & Taylor, M. E. (1991). Object categories and expertise: Is the basic level in the eye of the beholder? Cognitive Psychology, 15, 121–149.
-Wisniewski, E. J., & Murphy, G. L. (1989). Superordinate and basic category names in discourse: A textual analysis. Discourse Processes, 12, 245–261.
+## Glossary

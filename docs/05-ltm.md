@@ -1,6 +1,6 @@
 # Long-term Memory
 
-
+<img src="images/ch5/fig0.png" width="100%" style="display: block; margin: auto;" />
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}
@@ -17,16 +17,16 @@ As we discussed in the last chapter, working memory is a temporary storage space
 ### The Serial Position Curve {-}
 <div class="figure" style="text-align: center">
 <img src="images/ch5/fig1.jpg" alt="The serial position curve is the result of both primacy effects and recency effects." width="60%" />
-<p class="caption">(\#fig:fig1)The serial position curve is the result of both primacy effects and recency effects.</p>
+<p class="caption">(\#fig:fig5.1)The serial position curve is the result of both primacy effects and recency effects.</p>
 </div>
 
-The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \@ref(fig:fig1). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented later in a list*.
+The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \@ref(fig:fig5.1). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented later in a list*.
 
 There are a number of explanations for primacy and recency effects, but one of them is in terms of the effects of rehearsal on short-term and long-term memory (@Baddeley2009). Because we can keep the last words that we learned in the presented list in short-term memory by rehearsing them before the memory test begins, they are relatively easily remembered. So the recency effect can be explained in terms of maintenance rehearsal in short-term memory— the most recent words are still available in short-term memory at the time of recall. And the primacy effect may also be due to rehearsal—when we hear the first word in the list we start to rehearse it, making it more likely that it will be moved from short-term to long-term memory. And the same is true for the other words that come early in the list. But for the words in the middle of the list, this rehearsal becomes much harder, making them less likely to be moved to LTM.
 
 ### Structure {-}
 
-According to Baddeley’s model, working memory includes a central executive, phonological loop, visuospatial sketchpad, and episodic buffer. What is the structure of long-term memory? As you can see in \@ref(fig:fig2), long-term memory can be divided into two major categories of memory types: explicit memory and implicit memory, which can be further divided into multiple sub-types: semantic, episodic, procedural, priming, and conditioning memory.
+According to Baddeley’s model, working memory includes a central executive, phonological loop, visuospatial sketchpad, and episodic buffer. What is the structure of long-term memory? As you can see in \@ref(fig:fig5.2), long-term memory can be divided into two major categories of memory types: explicit memory and implicit memory, which can be further divided into multiple sub-types: semantic, episodic, procedural, priming, and conditioning memory.
 
 :::fyi
 ##### Concept Focus: Differences between brains and computers
@@ -70,16 +70,16 @@ Explicit memory is assessed using measures in which the individual being tested 
 
 <div class="figure" style="text-align: center">
 <img src="images/ch5/fig2.jpg" alt="Types of long-term memory." width="60%" />
-<p class="caption">(\#fig:fig2)Types of long-term memory.</p>
+<p class="caption">(\#fig:fig5.2)Types of long-term memory.</p>
 </div>
 
-Your own experiences taking tests will probably lead you to agree with the scientific research finding that recall is more difficult than recognition. Recall, such as required on essay tests, involves two steps: first generating an answer and then determining whether it seems to be the correct one. Recognition, as on multiple-choice test, only involves determining which item from a list seems most correct [@Haist1992]. Although they involve different processes, recall and recognition memory measures tend to be correlated. Students who do better on a multiple-choice exam will also, by and large, do better on an essay exam (Bridgeman & Morgan, 1996).
+Your own experiences taking tests will probably lead you to agree with the scientific research finding that recall is more difficult than recognition. Recall, such as required on essay tests, involves two steps: first generating an answer and then determining whether it seems to be the correct one. Recognition, as on multiple-choice test, only involves determining which item from a list seems most correct [@Haist1992]. Although they involve different processes, recall and recognition memory measures tend to be correlated. Students who do better on a multiple-choice exam will also, by and large, do better on an essay exam [@Bridgeman1996].
 
 A third way of measuring memory is known as relearning (Nelson, 1985). Measures of [relearning] (or savings) *assess how much more quickly information is processed or learned when it is studied again after it has already been learned but then forgotten*. If you have taken some French courses in the past, for instance, you might have forgotten most of the vocabulary you learned. But if you were to work on your French again, you’d learn the vocabulary much faster the second time around. Relearning can be a more sensitive measure of memory than either recall or recognition because it allows assessing memory in terms of “how much” or “how fast” rather than simply “correct” versus “incorrect” responses. Relearning also allows us to measure memory for procedures like driving a car or playing a piano piece, as well as memory for facts and figures.
 
 ## Implicit Memory {-}
 
-While explicit memory consists of the things that we can consciously report that we know, implicit memory refers to knowledge that we cannot consciously access. However, implicit memory is nevertheless exceedingly important to us because it has a direct effect on our behavior. [Implicit memory] refers to *the influence of experience on behavior, even if the individual is not aware of those influences*. As you can see in \@ref(fig:fig2), “Types of Memory,” there are three general types of implicit memory: procedural memory, classical conditioning effects, and priming.
+While explicit memory consists of the things that we can consciously report that we know, implicit memory refers to knowledge that we cannot consciously access. However, implicit memory is nevertheless exceedingly important to us because it has a direct effect on our behavior. [Implicit memory] refers to *the influence of experience on behavior, even if the individual is not aware of those influences*. As you can see in \@ref(fig:fig5.2), “Types of Memory,” there are three general types of implicit memory: procedural memory, classical conditioning effects, and priming.
 
 [Procedural memory] refers to our often *unexplainable knowledge of how to do things*. When we walk from one place to another, speak to another person in English, dial a cell phone, or play a video game, we are using procedural memory. Procedural memory allows us to perform complex tasks, even though we may not be able to explain to others how we do them. There is no way to tell someone how to ride a bicycle; a person has to learn by doing it. The idea of implicit memory helps explain how infants are able to learn. The ability to crawl, walk, and talk are procedures, and these skills are easily and efficiently developed while we are children despite the fact that as adults we have no conscious memory of having learned them.
 
@@ -164,7 +164,7 @@ Memory [consolidation] is a category of *processes that stabilize a memory trace
 
 #### Sleep consolidation {-}
 
-Rapid eye movement (REM) sleep has been thought of to be an important concept in the overnight learning in humans by establishing information in the hippocampal and cortical regions of the brain. REM sleep elicits an increase in neuronal activity following an enriched or novel waking experience, thus increasing neuronal plasticity and therefore playing an essential role in the consolidation of memories. Researchers have noted strong reactivation of the hippocampus during sleep immediately after a learning task. This reactivation led to enhanced performance on the learned task (Wamsley et al., 2010). Researchers following this line of work have come to assume that dreams are a by-product of the reactivation of the brain areas and this can explain why dreams may be unrelated to the information being consolidated. The dream experience itself is not what enhances memory performance but rather it is the reactivation of the neural circuits that causes this. 
+Rapid eye movement (REM) sleep has been thought of to be an important concept in the overnight learning in humans by establishing information in the hippocampal and cortical regions of the brain. REM sleep elicits an increase in neuronal activity following an enriched or novel waking experience, thus increasing neuronal plasticity and therefore playing an essential role in the consolidation of memories. Researchers have noted strong reactivation of the hippocampus during sleep immediately after a learning task. This reactivation led to enhanced performance on the learned task [@Wamsley2010]. Researchers following this line of work have come to assume that dreams are a by-product of the reactivation of the brain areas and this can explain why dreams may be unrelated to the information being consolidated. The dream experience itself is not what enhances memory performance but rather it is the reactivation of the neural circuits that causes this. 
 
 :::takeaways
 ##### Key Takeaways {-}
@@ -178,34 +178,6 @@ Rapid eye movement (REM) sleep has been thought of to be an important concept in
 2. b
 :::
 
-
-References
-Atkinson, R. C., & Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes. In K. Spence (Ed.), The psychology of learning and motivation (Vol. 2). Oxford, England: Academic Press. 
-Baddeley, A. D., Vallar, G., & Shallice, T. (1990). The development of the concept of working memory: Implications and contributions of neuropsychology. In G. Vallar & T. Shallice (Eds.), Neuropsychological impairments of short-term memory (pp. 54–73). New York, NY: Cambridge University Press. 
-Bahrick, H. P. (2000). Long-term maintenance of knowledge. In E. Tulving & F. I. M. Craik (Eds.), The Oxford handbook of memory (pp. 347–362). New York, NY: Oxford University Press. 
-Bargh, J. A., Chen, M., & Burrows, L. (1996). Automaticity of social behavior: Direct effects of trait construct and stereotype activation on action. Journal of Personality & Social Psychology, 71, 230–244. 
-Bower, G. H. (1981). Mood and memory. American psychologist, 36(2), 129.
-Bridgeman, B., & Morgan, R. (1996). Success in college for students with discrepancies between performance on multiple-choice and essay tests. Journal of Educational Psychology, 88(2), 333–340. 
-Carrier, M., & Pashler, H. (1992). The influence of retrieval on retention. Memory & Cognition, 20(6), 633-642.
-Cowan, N., Lichty, W., & Grove, T. R. (1990). Properties of memory for unattended spoken syllables. Journal of Experimental Psychology: Learning, Memory, and Cognition, 16(2), 258–268. 
-Craik, F. I., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. Journal of verbal learning and verbal behavior, 11(6), 671-684.
-Craik, F. I., & Tulving, E. (1975). Depth of processing and the retention of words in episodic memory. Journal of experimental Psychology: general, 104(3), 268.
-Didierjean, A., & Marmèche, E. (2005). Anticipatory representation of visual basketball scenes by novice and expert players. Visual Cognition, 12(2), 265–283. 
-Haist, F., Shimamura, A. P., & Squire, L. R. (1992). On the relationship between recall and recognition memory. Journal of Experimental Psychology: Learning, Memory, and Cognition, 18(4), 691–702. 
-Godden, D. R., & Baddeley, A. D. (1975). Context‐dependent memory in two natural environments: On land and underwater. British Journal of psychology, 66(3), 325-331.
-Jackson, A., Koek, W., & Colpaert, F. C. (1992). NMDA antagonists make learning and recall state-dependent. Behavioural pharmacology.
-Marian, V., & Kaushanskaya, M. (2007). Language context guides memory content. Psychonomic Bulletin & Review, 14(5), 925-933.
-Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. Psychological Review, 63(2), 81–97. 
-Mitchell, D. B. (2006). Nonconscious priming after 17 years: Invulnerable implicit memory? Psychological Science, 17(11), 925–928. 
-Morris, C. D., Bransford, J. D., & Franks, J. J. (1977). Levels of processing versus transfer appropriate processing. Journal of verbal learning and verbal behavior, 16(5), 519-533.
-Nelson, T. O. (1985). Ebbinghaus’s contribution to the measurement of retention: Savings during relearning. Journal of Experimental Psychology: Learning, Memory, and Cognition, 11(3), 472–478. 
-Peterson, L., & Peterson, M. J. (1959). Short-term retention of individual verbal items. Journal of Experimental Psychology, 58(3), 193–198. 
-Roediger III, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological science, 17(3), 249-255.
-Rogers, T. B., Kuiper, N. A., & Kirker, W. S. (1977). Self-reference and the encoding of personal information. Journal of personality and social psychology, 35(9), 677.
-Simon, H. A., & Chase, W. G. (1973). Skill in chess. American Scientist, 61(4), 394–403. Solomon, M. (1995). Mozart: A life. New York, NY: Harper Perennial. Sperling, G. (1960). The information available in brief visual presentation. Psychological Monographs, 74(11), 1–29. Unsworth, N., & Engle, R. W. (2007). On the division of short-term and working memory: An examination of simple and complex span and their relation to higher order abilities. Psychological Bulletin, 133(6), 1038–1066. 
-
-Wamsley, E. J., Tucker, M., Payne, J. D., Benavides, J. A., & Stickgold, R. (2010). Dreaming of a learning task is associated with enhanced sleep-dependent memory consolidation. Current Biology, 20(9), 850-855.
-Wang, Y., Liu, D., & Wang, Y. (2003). Discovering the capacity of human memory. Brain & Mind, 4(2), 189–198. 
 
 ## Glossary
 

@@ -8,9 +8,9 @@ With this story of Knut’s vacation preparation, we will explain the basic prin
 
 In reasoning, available information is taken into account in the form of premises. A conclusion is reached on the basis of these premises through a process of inference. The content of the conclusion goes beyond either one of the premises. To demonstrate, consider the following consideration Knut makes before planning his vacation:
 
- Premise 1: In all countries in southern Europe it is warm during summer.
- Premise 2: Spain is a country in southern Europe.
- Conclusion: Therefore, in Spain it is warm during summer.
+> Premise 1: In all countries in southern Europe it is warm during summer.
+> Premise 2: Spain is a country in southern Europe.
+> Conclusion: Therefore, in Spain it is warm during summer.
  
 The conclusion in this example follows directly from the premises, but it includes information that is not explicitly stated in the premises. This is a typical feature of a process of reasoning. We will discuss the two major kinds of reasoning, inductive reasoning and deductive reasoning, which logically complement of one another.
 
@@ -50,7 +50,7 @@ The normative approach to categorical syllogisms is based on logic, and deals wi
 
 Even though it is quite obvious that the first premise is not true and further that the conclusion is not true, the whole syllogism is still valid. That is, when you apply formal logic to the syllogism in the example, the conclusion is valid.
 
-It is possible to display a syllogism formally with symbols or letters and explain its relationship graphically with the help of diagrams. One way to demonstrate a premise graphically is to use Euler circles (pronounced “oyler”). Starting with a circle to represent the first premise and adding one or more circles for the second one (Figure 1), one can compare the constructed diagrams with the conclusion. The displayed syllogism in Figure 1 is obviously valid. The conclusion shows that everything that can jump contains animals which again contains flowers. This aligns with the two premises which point out that flowers are animals and thus are able to jump. Euler circles help represent such logic.
+It is possible to display a syllogism formally with symbols or letters and explain its relationship graphically with the help of diagrams. One way to demonstrate a premise graphically is to use Euler circles (pronounced “oyler”). Starting with a circle to represent the first premise and adding one or more circles for the second one (\@ref(fig:fig9.1)), one can compare the constructed diagrams with the conclusion. The displayed syllogism in (\@ref(fig:fig9.1)) is obviously valid. The conclusion shows that everything that can jump contains animals which again contains flowers. This aligns with the two premises which point out that flowers are animals and thus are able to jump. Euler circles help represent such logic.
 
 #### The descriptive approach {-}
 
@@ -76,10 +76,16 @@ Conditional syllogisms are typically given in the abstract form: “If p then q�
 
 #### Forms of conditional syllogisms {-}
 
-There are four major forms of conditional syllogisms: [modus ponens], [modus tollens], [denying the antecedent], and [affirming the consequent]. These are illustrated in the table below (Figure 2) by means of the conditional syllogism above (i.e. If it is raining, Knut’s wife needs an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
-Figure 2. Different kinds of conditional syllogisms
+There are four major forms of conditional syllogisms: [modus ponens], [modus tollens], [denying the antecedent], and [affirming the consequent]. These are illustrated in the table below (\@ref(tab:Syllogisms)) by means of the conditional syllogism above (i.e. If it is raining, Knut’s wife needs an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
 
-## ADD IN TABLE
+|  | Modus Ponens | Modus Tollens | Denying the Antecedent | Affirming the Consequent |
+|---|---|---|---|---|
+| Description | The antecedent of the first premise is affirmed in the second premise.  | The consequent of the first premise is negated in the second premise. | The antecedent of the first premise is negates in the second premise. | The antecedent of the first premise is affirmed in the second premise. |
+| Formal | If P then Q.  P Therefore Q. | If P the Q.  Not-Q Therefore Not-P. | If P then Q.  Not-P Therefore Not-Q. | If P then Q.  Q Therefore P. |
+| Example | If it is raining, Knut's wife needs an umbrella. It is raining. Therefore Knut's wife needs an umbrella. | If it is raining, Knut's wife needs an umbrella. Knut's wife does not need an umbrella. Therefore it is not raining. | If it is raining, Knut's wife needs an umbrella.  It is not raining. Therefore Knut's wife does not need an umbrella. | If it is raining, Knut's wife needs an umbrella. Knut's wife needs an umbrella. Therefore it is raining.  |
+| Validity | Valid | VALID | INVALID | INVALID |
+| Correct Judgements | 97 % correctly identify as valid.  | 60% correctly identify as valid. | 40% correctly identify as invalid. | 40% correctly identify as invalid. |
+Table: (\#tab:Syllogisms) Different kinds of conditional syllogisms.
 
 As we can see, the validity of the syllogisms with valid conclusions is easier to judge correctly than the validity of the syllogisms with invalid conclusions. The conclusion in the instance of the modus ponens is apparently valid. In the example it is very clear that Knut’s wife needs an umbrella if it is raining.
 
@@ -93,9 +99,9 @@ The four kinds of syllogisms have shown that it is not always easy to make corre
 
 #### The Wason Selection Task {-}
 
-The Wason Selection Task is a famous experiment which shows that people make more reasoning errors in abstract situations than when the situation is taken from real life [@Wason1966].
+The Wason Selection Task is a famous experiment which shows that people make more reasoning errors in abstract situations than when the situation is taken from real life [@Wason1960].
 
-In the abstract version of the Wason Selection Task, four cards are shown to the participants with a letter on one side and a number on the other (Figure 3). The task is to indicate the minimum number of cards that have to be turned over to test whether the following rule is observed: “If there is a vowel on one side then there is an even number on the other side.” 53% of participants selected the ‘E’ card which is correct, because turning this card over is necessary to test the truth of the rule. However another card still needs to be turned over. 64% indicated that the ‘4’ card has to be turned over which is not right. Only 4% of participants answered correctly that the ‘7’ card needs to be turned over in addition to the ‘E’. The correctness of turning over these two cards becomes more obvious if the same task is stated in terms of real-world items instead of vowels and numbers. One of the experiments for determining this was the beer/drinking-age problem used by Richard Griggs and James Cox (1982). This experiment is identical to the Wason Selection Task except that instead of numbers and letters on the cards, everyday terms (beer, soda and ages) were used (Figure 4). Griggs and Cox gave the following rule to participants: “If a person is drinking beer then he or she must be older than 21.” In this case 73% of participants answered correctly, that the cards with “beer” and “14 years” have to be turned over to test whether the rule is kept.
+In the abstract version of the Wason Selection Task, four cards are shown to the participants with a letter on one side and a number on the other (\@ref(fig:fig9.2)). The task is to indicate the minimum number of cards that have to be turned over to test whether the following rule is observed: “If there is a vowel on one side then there is an even number on the other side.” 53% of participants selected the ‘E’ card which is correct, because turning this card over is necessary to test the truth of the rule. However another card still needs to be turned over. 64% indicated that the ‘4’ card has to be turned over which is not right. Only 4% of participants answered correctly that the ‘7’ card needs to be turned over in addition to the ‘E’. The correctness of turning over these two cards becomes more obvious if the same task is stated in terms of real-world items instead of vowels and numbers. One of the experiments for determining this was the beer/drinking-age problem used by @Griggs1982. This experiment is identical to the Wason Selection Task except that instead of numbers and letters on the cards, everyday terms (beer, soda and ages) were used (\@ref(fig:fig9.3)). Griggs and Cox gave the following rule to participants: “If a person is drinking beer then he or she must be older than 21.” In this case 73% of participants answered correctly, that the cards with “beer” and “14 years” have to be turned over to test whether the rule is kept.
 
 <img src="images/ch9/fig2.png" width="60%" style="display: block; margin: auto;" />
 
@@ -111,13 +117,13 @@ The evolutionary approach concerns the human ability of [cheater detection]. Thi
 
 ## Inductive reasoning
 
-So far we have discussed deductive reasoning, which is reaching conclusions based on logical rules applied to a set of premises. However, many problems cannot be represented in a way that would make it possible to use these rules to come to a conclusion. [Inductive reasoning] is the process of making observations and applying those observations via generalization to a different problem. Therefore one infers from a special case to the general principle, which is just the opposite of the procedure of deductive reasoning (Figure 5). A good example of inductive reasoning is the following:
+So far we have discussed deductive reasoning, which is reaching conclusions based on logical rules applied to a set of premises. However, many problems cannot be represented in a way that would make it possible to use these rules to come to a conclusion. [Inductive reasoning] is the process of making observations and applying those observations via generalization to a different problem. Therefore one infers from a special case to the general principle, which is just the opposite of the procedure of deductive reasoning (\@ref(fig:fig9.4)). A good example of inductive reasoning is the following:
  
- Premise: All crows Knut and his wife have ever seen are black.
+> Premise: All crows Knut and his wife have ever seen are black.
  
- Conclusion: Therefore, they reason that all crows on earth are black.
+> Conclusion: Therefore, they reason that all crows on earth are black.
 
-In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure 6, this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
+In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering (\@ref(fig:fig9.4)), this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
 
 <img src="images/ch9/fig4.jpg" width="60%" style="display: block; margin: auto;" />
 
@@ -127,9 +133,9 @@ The two different forms of inductive reasoning are “*strong*” and “*weak*�
 
 On the contrary, conclusions reached by “weak induction” are supported by the premises in a relatively weak manner. In this approach, the truth of the premises makes the truth of the conclusion possible, but not likely. An example for this kind of reasoning is the following:
 
->Premise: Knut always listens to music with his iPhone.
+> Premise: Knut always listens to music with his iPhone.
 
->Conclusion: Therefore, he reasons that all music is only heard with iPhones.
+> Conclusion: Therefore, he reasons that all music is only heard with iPhones.
 
 In this instance the conclusion is obviously false. The information the premise contains is not very representative and although it is true, it does not give decisive evidence for the truth of the conclusion.
 
@@ -169,7 +175,7 @@ If people have to judge the probability of an event, they try to find a comparab
 
 The representativeness heuristic also leads to errors in reasoning in cases where the [conjunction rule] is violated. This rule states that the conjunction of two events is never more likely to be the case than the single events alone. An example for this is the case of the feminist bank teller [@Tversky1983]. If we are introduced to a woman who is very interested in women’s rights and has participated in many political activities in college, and we are to decide whether it is more likely that she is a bank teller or a feminist bank teller, we are drawn to conclude the latter as the facts we have learned about her resemble the event of a feminist bank teller more than the event of only being a bank teller.
 
-However, it is in fact more likely that somebody is just a bank teller than it is that someone is a feminist in addition to being a bank teller. This effect is illustrated in Figure 7, where the green square, which stands for just being a bank teller, is much larger and thus more probable than the smaller orange square, which displays the conjunction of bank tellers and feminists, which is a subset of bank tellers.
+However, it is in fact more likely that somebody is just a bank teller than it is that someone is a feminist in addition to being a bank teller. This effect is illustrated in (\@ref(fig:fig9.6)), where the green square, which stands for just being a bank teller, is much larger and thus more probable than the smaller orange square, which displays the conjunction of bank tellers and feminists, which is a subset of bank tellers.
 
 #### Confirmation bias {-}
 
@@ -179,8 +185,16 @@ For example, if someone believes that black cats bring bad luck, they may be add
 
 ### Induction vs. deduction {-}
 
-The table below (Figure 8) summarizes the most prevalent properties and differences between deductive and inductive reasoning which are important to keep in mind.
-Figure 8. Induction vs. deduction
+The table below (\@ref(tab:IndDed)) summarizes the most prevalent properties and differences between deductive and inductive reasoning which are important to keep in mind.
+
+|  | Deductive Reasoning | Inductive Reasoning |
+|---|---|---|
+| Premises | Stated as facts or general principles ("It is warm in the Summer of Spain.") | Based on observations of specific cases ("All crows Knut and his wife have seen are back.") |
+| Conclusion | Conclusion is more special than the information the premises provide. It is reached directly by applying logical rules to the premises. | Conclusion is more general than the information the premises provide. It is reached by generalizing the premises` information. |
+| Validity | If the premises are true, the conclusions must be true. | If the premises are true, the conclusion is probably true. |
+| Usage | More difficult to use (mainly in logical problems). One needs facts which are definitely true.  | Used often in everyday life (fast and easy). Evidence is used instead of proved facts.  |
+
+Table: (\#tab:IndDed) Induction vs. deduction
 
 ## Decision making
 
@@ -194,16 +208,13 @@ There are two main ways to describe and analyze decision making. The “normativ
 **Expected Value Theory**: In the earliest days of probability theory, theorists used Expected Value Theory (EVT) as a normative account. Under EVT, the value of an option is calculated as the probability that option will occur, multiplied by the quantitative value of that option. For example, if a casino offers a game in which there as an 80% chance of winning $10, the “expected value” is .8 x 10 = $8. Because EVT is normative, people should be willing to pay up to $7.99 in order to play that game, because the expected value ($8) is higher than the cost (< $8). However, EVT has several issues as a normative theory. One sizeable issue is that most decisions do not have quantitative outcomes. For example, when deciding whether to take an umbrella due to a 20% chance of rain, there is no clear number that expresses how good or bad it would be to get caught in the rain! A second sizeable issue is that some decisions can have infinitely large expected values but have infinitely small probabilities of occurring, and people are typically uninterested in taking those gambles, despite EVT suggesting they should. This was first demonstrated in a game called the St. Petersburg Paradox, described in box 9.4.1.
 
 :::fyi
-### St. Petersburg Paradox
+##### St. Petersburg Paradox
 A classic paradox dating back to 1713, the St. Petersburg Paradox, describes a game in which a fair coin is flipped repeatedly until it lands on heads, at which point the game ends. The number of times the coin was flipped (including the final heads) is the variable *k*, and the player wins $2^k$ dollars. How much would you be willing to pay to play this game? Most people are unwilling to pay more than ten dollars. However, you might notice that the expected value of this game is infinite, because hypothetically the coin could *never* land on heads, though it's incredibly unlikely. Needless to say, a game with infinite expected value that most people would not pay ten dollars for presents a problem for Expected Value Theory.
 :::
 
 **Expected Utility Theory**: Due to these issues, most modern theorists believe that Expected Utility Theory (EUT) is a better normative account of decision making. Under EUT, “utility” instead of “value” is multiplied by a probability. Utility is a more general term that refers to how subjectively good we believe an outcome to be, and “disutility” refers to how subjectively bad we believe an outcome to be. For example, if Kanut hates to be caught in the rain, he might multiply the chance of rain, 20%, by how much disutility the rain gives him, perhaps -60 “utils” (negative because it’s disutility here). Utils are best thought of as a hypothetical measure of satisfaction with some outcome. Here, Kanut’s expected utility from the rain is .2 x -60 utils = -12 utils. If Kanut knew that packing his heavy umbrella gave him -20 utils, he would decide to forgo packing the umbrella because the expected disutility of carrying the heavy umbrella is more negative than the expected disutility of getting caught in the rain. EUT also accounts for the fact that people typically experience *diminishing marginal utility*. This is the observation that the utility of a gain is proportional to how much of that good you already have. For example, if you have $100 dollars and somebody gives you $5,000, you will experience much more gain in utility than if you have $100,000 and somebody gives you that same $5,000. Diminishing marginal utility helps resolve the issue with EVT demonstrated by the St. Petersburg Paradox because the extremely high potential values cease to be meaningful (if you have $100 billion, the next dollar you earn is meaningless).
 
-**Prospect Theory**: By having participants in experiments report their willingness to play various gambles, Daniel Kahneman and Amos Tversky measured how people actually weigh value and probability, which they called Prospect Theory (Kahneman and Tversky, 1979). The major findings of Prospect Theory (PT), called the probability weighting function and the value function, are shown in Figure XX. The probability weighting function shows that, on average, people tend to overweight small probabilities (i.e., behave as though they have higher probabilities than they actually do), and underweight large probabilities (i.e., behave as though they have lower probabilities than they actually do). The value function shows that, on average, people show diminishing marginal (di)utility for large gains or large losses, and that losses typically have greater disutility than comparably sized gains have utility (hence the “kink” at zero).
-
-## PROSPECT THEORY IMAGES HERE {-}
-
+**Prospect Theory**: By having participants in experiments report their willingness to play various gambles, Daniel Kahneman and Amos Tversky measured how people actually weigh value and probability, which they called Prospect Theory (Kahneman and Tversky, 1979). The major findings of Prospect Theory (PT), called the probability weighting function and the value function, are shown in (\@ref(fig:fig9.7)). The probability weighting function shows that, on average, people tend to overweight small probabilities (i.e., behave as though they have higher probabilities than they actually do), and underweight large probabilities (i.e., behave as though they have lower probabilities than they actually do). The value function shows that, on average, people show diminishing marginal (di)utility for large gains or large losses, and that losses typically have greater disutility than comparably sized gains have utility (hence the “kink” at zero).
 
 ### Constructed Preferences {-}
 Contrary to theorists’ claim that rational decision makers always have well-defined preferences, real-life decision makers tend to make different selections depending on how choices are presented to them. Two common examples of this are *default effects* and *framing effects*.
@@ -221,8 +232,8 @@ People often have the intuition that more options are better, because there is a
 
 
 <div class="figure" style="text-align: center">
-<img src="images/ch9/fig7.png" alt="Figure 7. Relation between (monetary) gains/losses and their subjective value according to Prospect Theory." width="60%" />
-<p class="caption">(\#fig:fig9.7)Figure 7. Relation between (monetary) gains/losses and their subjective value according to Prospect Theory.</p>
+<img src="images/ch9/fig7.png" alt="Relation between (monetary) gains/losses and their subjective value according to Prospect Theory." width="60%" />
+<p class="caption">(\#fig:fig9.7)Relation between (monetary) gains/losses and their subjective value according to Prospect Theory.</p>
 </div>
 
 :::takeaways

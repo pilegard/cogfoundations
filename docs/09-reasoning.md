@@ -1,5 +1,5 @@
 # Reasoning and Decision Making
-
+<img src="images/ch9/fig0.png" width="100%" style="display: block; margin: auto;" />
 We like to think that we make important decisions rationally, logically, and without bias or error— but what if that’s not the case?
 
 Let us consider the following scene of Knut's life: It is a rainy summer afternoon in Germany and Knut and his wife are tired of watching the black crows in their garden. They decide to escape from the dreary weather and take a vacation to Spain, as Knut and his wife have never been there before. They will leave the next day, and he is packing his bag. He packs the crucial things first: underwear, socks, pajamas, and a toiletry bag with a toothbrush, shampoo, soap, sun tan lotion, and bug spray. Knut cannot find the bug spray, and his wife volunteers to go buy a new bottle. He advises her to take an umbrella for the walk to the pharmacy as it is raining outside, and then he turns back to packing. But what did he already pack into his bag? Immediately, he remembers and continues, putting together outfits and packing his clothing. Since it is summer, Knut packs mostly shorts and t-shirts. After half an hour, he is finally convinced that he has done everything necessary for a nice vacation.
@@ -36,8 +36,8 @@ In categorical syllogisms, the statements of the premises typically begin with �
 
 #### The normative approach {-}
 <div class="figure" style="text-align: center">
-<img src="images/ch9/fig1.jpg" alt="Figure 1. Euler Circles" width="60%" />
-<p class="caption">(\#fig:fig1)Figure 1. Euler Circles</p>
+<img src="images/ch9/fig1.jpg" alt="Euler Circles" width="60%" />
+<p class="caption">(\#fig:fig9.1)Euler Circles</p>
 </div>
 
 The normative approach to categorical syllogisms is based on logic, and deals with the problem of categorizing conclusions as either valid or invalid. “Valid” means that the conclusion follows logically from the premises whereas “invalid” means the contrary. Two basic principles and a method called Euler Circles have been developed to help make validity judgments. The first principle was created by Aristotle, and states “If the two premises are true, the conclusion of a valid syllogism must be true” (cp. @Goldstein2005). The second principle states “The validity of a syllogism is determined only by its form, not its content.” These two principles explain why the following syllogism is (surprisingly) valid:
@@ -97,9 +97,9 @@ The Wason Selection Task is a famous experiment which shows that people make mor
 
 In the abstract version of the Wason Selection Task, four cards are shown to the participants with a letter on one side and a number on the other (Figure 3). The task is to indicate the minimum number of cards that have to be turned over to test whether the following rule is observed: “If there is a vowel on one side then there is an even number on the other side.” 53% of participants selected the ‘E’ card which is correct, because turning this card over is necessary to test the truth of the rule. However another card still needs to be turned over. 64% indicated that the ‘4’ card has to be turned over which is not right. Only 4% of participants answered correctly that the ‘7’ card needs to be turned over in addition to the ‘E’. The correctness of turning over these two cards becomes more obvious if the same task is stated in terms of real-world items instead of vowels and numbers. One of the experiments for determining this was the beer/drinking-age problem used by Richard Griggs and James Cox (1982). This experiment is identical to the Wason Selection Task except that instead of numbers and letters on the cards, everyday terms (beer, soda and ages) were used (Figure 4). Griggs and Cox gave the following rule to participants: “If a person is drinking beer then he or she must be older than 21.” In this case 73% of participants answered correctly, that the cards with “beer” and “14 years” have to be turned over to test whether the rule is kept.
 
+<img src="images/ch9/fig2.png" width="60%" style="display: block; margin: auto;" />
 
-
-
+<img src="images/ch9/fig3.png" width="60%" style="display: block; margin: auto;" />
 
 #### Why is the performance better in the case of real–world items? {-}
 
@@ -119,7 +119,7 @@ So far we have discussed deductive reasoning, which is reaching conclusions base
 
 In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure 6, this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
 
-
+<img src="images/ch9/fig4.jpg" width="60%" style="display: block; margin: auto;" />
 
 ### Forms of inductive reasoning {-}
 
@@ -153,11 +153,19 @@ Things that are more easily remembered are judged to be more prevalent. An examp
 
 Another effect of the availability heuristic is called [illusory correlations]. People tend to judge according to stereotypes. It seems to them that there are correlations between certain events which in reality do not exist— this is what is known as “prejudice.” Usually a correlation seems to exist between negative features and a certain class of people. If, for example, one's neighbor is jobless and very lazy one tends to correlate these two attributes and create the prejudice that all jobless people are lazy. This illusory correlation occurs because one takes into account information which is available and judges this to be prevalent in many cases.
 
-
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig5.png" alt="Feminist bank tellers." width="60%" />
+<p class="caption">(\#fig:fig9.5)Feminist bank tellers.</p>
+</div>
 
 #### The representativeness heuristic {-}
 
 If people have to judge the probability of an event, they try to find a comparable event and assume that the two events have a similar probability. Amos Tversky and Daniel Kahneman (@Tversky1974) presented the following task to their participants in an experiment: “We randomly chose a man from the population of the U.S., Robert, who wears glasses, speaks quietly and reads a lot. Is it more likely that he is a librarian or a farmer?” More of the participants answered that Robert is a librarian, which is an effect of the representativeness heuristic. Participants compared the description of Robert with the typical depiction of a librarian, and found that the description was more like a librarian than a farmer. So, the event of a typical librarian is more comparable with Robert than the event of a typical farmer. Of course this effect may lead to errors, as Robert is randomly chosen from the population and as it is perfectly possible that he is a farmer even though he speaks quietly and wears glasses.
+
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig6.png" alt="Deductive and inductive reasoning." width="60%" />
+<p class="caption">(\#fig:fig9.6)Deductive and inductive reasoning.</p>
+</div>
 
 The representativeness heuristic also leads to errors in reasoning in cases where the [conjunction rule] is violated. This rule states that the conjunction of two events is never more likely to be the case than the single events alone. An example for this is the case of the feminist bank teller [@Tversky1983]. If we are introduced to a woman who is very interested in women’s rights and has participated in many political activities in college, and we are to decide whether it is more likely that she is a bank teller or a feminist bank teller, we are drawn to conclude the latter as the facts we have learned about her resemble the event of a feminist bank teller more than the event of only being a bank teller.
 
@@ -212,7 +220,10 @@ People often have the intuition that more options are better, because there is a
 :::
 
 
-
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig7.png" alt="Figure 7. Relation between (monetary) gains/losses and their subjective value according to Prospect Theory." width="60%" />
+<p class="caption">(\#fig:fig9.7)Figure 7. Relation between (monetary) gains/losses and their subjective value according to Prospect Theory.</p>
+</div>
 
 :::takeaways
 ##### Key Takeaways {-}

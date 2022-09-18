@@ -1,12 +1,12 @@
 # Knowledge
+<img src="images/ch7/fig1.png" width="100%" style="display: block; margin: auto;" />
 
+People form mental concepts of categories of objects, which permit them to respond appropriately to new objects they encounter. Most concepts cannot be strictly defined but are organized around the “best” examples or prototypes, which have the properties most common in the category. Objects fall into many different categories, but there is usually a most salient one, called the basic-level category, which is at an intermediate level of specificity (e.g., chairs, rather than furniture or desk chairs). Concepts are closely related to our knowledge of the world, and people can more easily learn concepts that are consistent with their knowledge. Theories of concepts argue either that people learn a summary description of a whole category or else that they learn exemplars of the category. 
 
 <div class="figure" style="text-align: center">
 <img src="images/ch7/fig1.jpg" alt="Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]" width="60%" />
-<p class="caption">(\#fig:fig1)Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]</p>
+<p class="caption">(\#fig:fig7.2)Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]</p>
 </div>
-
-People form mental concepts of categories of objects, which permit them to respond appropriately to new objects they encounter. Most concepts cannot be strictly defined but are organized around the “best” examples or prototypes, which have the properties most common in the category. Objects fall into many different categories, but there is usually a most salient one, called the basic-level category, which is at an intermediate level of specificity (e.g., chairs, rather than furniture or desk chairs). Concepts are closely related to our knowledge of the world, and people can more easily learn concepts that are consistent with their knowledge. Theories of concepts argue either that people learn a summary description of a whole category or else that they learn exemplars of the category. 
 
 Consider the following set of objects: some dust, papers, a computer monitor, two pens, a cup, and an orange. What do these things have in common? Only that they all happen to be on my desk as I write this. This set of things can be considered a [category], *a set of objects that can be treated as equivalent in some way*. But, most of our categories seem much more informative—they share many properties. For example, consider the following categories: trucks, wireless devices, weddings, psychopaths, and trout. Although the objects in a given category are different from one another, they have many commonalities. When you know something is a truck, you know quite a bit about it. The psychology of categories concerns how people learn, remember, and use informative categories such as trucks or psychopaths.
 
@@ -28,7 +28,7 @@ Simpler organisms, such as animals and human infants, also have concepts [@Mares
 
 <div class="figure" style="text-align: center">
 <img src="images/ch7/fig2.jpg" alt="Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]" width="60%" />
-<p class="caption">(\#fig:fig2)Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]</p>
+<p class="caption">(\#fig:fig7.3)Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]</p>
 </div>
 
 Traditionally, it has been assumed that categories are *well-defined*. This means that you can give a definition that specifies what is in and out of the category. Such a definition has two parts. First, it provides the *necessary features* for category membership: What must objects have in order to be in it? Second, those features must be *jointly sufficient* for membership: If an object has those features, then it is in the category. For example, if I defined a dog as a four-legged animal that barks, this would mean that every dog is four-legged, an animal, and barks, and also that anything that has all those properties is a dog.
@@ -67,7 +67,7 @@ In a classic experiment, @Rosch1975 made up two new categories, with arbitrary f
 
 <div class="figure" style="text-align: center">
 <img src="images/ch7/fig3.jpg" alt="When you think of “bird,” how closely does the robin resemble your general figure? [Image: CC0 Public Domain, https://goo.gl/m25gce]" width="60%" />
-<p class="caption">(\#fig:fig3)When you think of “bird,” how closely does the robin resemble your general figure? [Image: CC0 Public Domain, https://goo.gl/m25gce]</p>
+<p class="caption">(\#fig:fig7.4)When you think of “bird,” how closely does the robin resemble your general figure? [Image: CC0 Public Domain, https://goo.gl/m25gce]</p>
 </div>
 
 ## Theories of Concept Representation
@@ -76,7 +76,7 @@ Now that we know these facts about the psychology of concepts, the question aris
 
 <div class="figure" style="text-align: center">
 <img src="images/ch7/fig4.jpg" alt="If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Image: Adhi Rachdian, https://goo.gl/dQyUwf, CC BY 2.0, https://goo.gl/BRvSA7]" width="60%" />
-<p class="caption">(\#fig:fig4)If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Image: Adhi Rachdian, https://goo.gl/dQyUwf, CC BY 2.0, https://goo.gl/BRvSA7]</p>
+<p class="caption">(\#fig:fig7.5)If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Image: Adhi Rachdian, https://goo.gl/dQyUwf, CC BY 2.0, https://goo.gl/BRvSA7]</p>
 </div>
 
 The idea behind prototype theory is that when you learn a category, you learn a general description that applies to the category as a whole: Birds have wings and usually fly; some eat worms; some swim underwater to catch fish. People can state these generalizations, and sometimes we learn about categories by reading or hearing such statements (“The kimodo dragon can grow to be 10 feet long”).
@@ -105,7 +105,7 @@ In the picture on the right hand side, Collins and Quillians network with added 
 
 <div class="figure" style="text-align: center">
 <img src="images/ch7/fig5.jpg" alt="Figure 5. Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. " width="60%" />
-<p class="caption">(\#fig:fig5)Figure 5. Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. </p>
+<p class="caption">(\#fig:fig7.6)Figure 5. Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. </p>
 </div>
 
 

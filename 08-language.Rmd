@@ -1,6 +1,6 @@
 # Language
-```{r lan2000, echo = FALSE, out.width='100%', fig.align = 'center'}
-# knitr::include_graphics("images/ch2/???.png")
+```{r fig8.1, echo = FALSE, out.width='100%', fig.align = 'center'}
+knitr::include_graphics("images/ch8/fig1.png")
 ```
 
 Although language is often used for the transmission of information (“turn right at the next light and then go straight,” “Place tab A into slot B”), this is only its most mundane function. Language also allows us to access existing knowledge, to draw conclusions, to set and accomplish goals, and to understand and communicate complex social relationships. 
@@ -26,7 +26,7 @@ Despite their wide abilities to communicate, efforts to teach animals to use lan
 And yet even Kanzi does not have a true language in the same way that humans do. Human babies learn words faster and faster as they get older, but Kanzi does not. Each new word he learns is almost as difficult as the one before. Kanzi usually requires many trials to learn a new sign, whereas human babies can speak words after only one exposure. Kanzi’s language is focused primarily on food and pleasure and only rarely on social relationships. Although he can combine words, he generates few new phrases and cannot master syntactic rules beyond the level of about a two-year-old human child [@Greenfield1991].
 
 ```{r qr, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = ' HYPERLINK "http://www.youtube.com/watch?v=2Dhc2zePJFE"Watch: “Kanzi and Novel Sentences” [YouTube]: http://www.youtube.com/watch?v=2Dhc2zePJFE'}
-#knitr::include_graphics("images/ch8/qr.jpg")
+knitr::include_graphics("images/ch8/qr.png")
 ```
 
 In sum, although many animals communicate, none of them has a true language. With some exceptions, the information that can be communicated in nonhuman species is limited primarily to displays of liking or disliking, and related to basic motivations of aggression and mating. Humans also use this more primitive type of communication, in the form of nonverbal behaviors such as eye contact, touch, hand signs, and interpersonal distance, to communicate their like or dislike for others, but they (unlike animals) also supplant this more primitive communication with language. Although other animal brains share similarities to ours, only the human brain is complex enough to create language. What is perhaps most remarkable is that although language never appears in non-humans, language is universal in humans. All humans, unless they have a profound brain abnormality or are completely isolated from other humans, learn language.
@@ -73,7 +73,7 @@ An example that can help differentiate semantics and pragmatics is the sentence,
 
 The two major components of language that are studied in cognitive psychology are language production and language comprehension. Language production encompasses the process of converting thoughts into language, while language comprehension, or language processing, is the process of decoding language back into thoughts. Successful communication happens when the listener correctly decodes the speech signal produced by the speaker, understanding the intended message.
 
-```{r fig2, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'A model of communication with language exchanges to help them practice language.'}
+```{r fig8.2, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'A model of communication with language exchanges to help them practice language.'}
 knitr::include_graphics("images/ch8/model_of_language_draft.jpg")
 ```
 
@@ -119,7 +119,7 @@ Language learning begins even before birth, because the fetus can hear muffled v
 
 During the first year or so after birth, and long before they speak their first words, infants are already learning language. One aspect of this learning is practice in producing speech. By the time they are six to eight weeks old, babies start making vowel sounds (ooohh, aaahh, goo) as well as a variety of cries and squeals to help them practice.
 
-```{r fig3, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Practicing Language. Babies often engage in vocal exchanges to help them practice language.'}
+```{r fig8.3, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Practicing Language. Babies often engage in vocal exchanges to help them practice language.'}
 knitr::include_graphics("images/ch8/fig2.jpg")
 ```
 
@@ -176,7 +176,7 @@ An important study by Jacqueline Johnson and Elissa Newport [@Johnson1989] using
 
 Johnson and Newport's finding that children who immigrated before they were seven years old learned English fluently seemed consistent with the idea of a critical period in language learning. But their finding of gradual decrease in proficiency for those immigrated between eight and 39 years of age was not - rather, it suggested that there might not be a single critical period  of language learning that ended at puberty, as early theorists had expected, but that language learning at later ages is imply better when it occurs earlier. This idea was reinforced in research by [@Hakuta2003, who examined census records of language learning in millions of Chinese and Spanish immigrants. The census form asks respondents to describe their own English ability using one of five categories: not at all, not well, well, very well, and speak only English. The results of this research dealt another blow to the idea of the critical period, because it showed that regardless of what year was used as a cutoff point for the end of the critical period, there was no evidence for any discontinuity in language-learning potential. Rather, the results (Figure 10.10 "English Proficiency in Native Chinese Speakers") showed that the degree of success in second-language acquisition declined steadily throughout the respondent's life span. The difficulty of learning language as one gets older is probably due to the fact that, with age, the brain loses its [plasticity] - that is, *its ability to develop new neural connections*.
 
-```{r fig4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.'}
+```{r fig8.4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.'}
 knitr::include_graphics("images/ch8/fig3.jpg")
 ```
 :::

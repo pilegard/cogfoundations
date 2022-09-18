@@ -1,13 +1,13 @@
 # Knowledge
-```{r lan2000, echo = FALSE, out.width='100%', fig.align = 'center'}
-# knitr::include_graphics("images/ch2/???.png")
-```
-
-```{r fig1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]'}
-knitr::include_graphics("images/ch7/fig1.jpg")
+```{r fig7.1, echo = FALSE, out.width='100%', fig.align = 'center'}
+ knitr::include_graphics("images/ch7/fig1.png")
 ```
 
 People form mental concepts of categories of objects, which permit them to respond appropriately to new objects they encounter. Most concepts cannot be strictly defined but are organized around the “best” examples or prototypes, which have the properties most common in the category. Objects fall into many different categories, but there is usually a most salient one, called the basic-level category, which is at an intermediate level of specificity (e.g., chairs, rather than furniture or desk chairs). Concepts are closely related to our knowledge of the world, and people can more easily learn concepts that are consistent with their knowledge. Theories of concepts argue either that people learn a summary description of a whole category or else that they learn exemplars of the category. 
+
+```{r fig7.2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]'}
+knitr::include_graphics("images/ch7/fig1.jpg")
+```
 
 Consider the following set of objects: some dust, papers, a computer monitor, two pens, a cup, and an orange. What do these things have in common? Only that they all happen to be on my desk as I write this. This set of things can be considered a [category], *a set of objects that can be treated as equivalent in some way*. But, most of our categories seem much more informative—they share many properties. For example, consider the following categories: trucks, wireless devices, weddings, psychopaths, and trout. Although the objects in a given category are different from one another, they have many commonalities. When you know something is a truck, you know quite a bit about it. The psychology of categories concerns how people learn, remember, and use informative categories such as trucks or psychopaths.
 
@@ -27,7 +27,7 @@ Simpler organisms, such as animals and human infants, also have concepts [@Mares
 2. XX
 :::
 
-```{r fig2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]'}
+```{r fig7.3, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [Image: CC0 Public Domain, https://goo.gl/m25gce]'}
 knitr::include_graphics("images/ch7/fig2.jpg")
 ```
 
@@ -63,7 +63,7 @@ According to Rosch and Mervis, then, it is not because a robin is a very common 
 
 In a classic experiment, @Rosch1975 made up two new categories, with arbitrary features. Subjects viewed example after example and had to learn which example was in which category. Rosch and Mervis constructed some items that had features that were common in the category and other items that had features less common in the category. The subjects learned the first type of item before they learned the second type. Furthermore, they then rated the items with common features as more typical. In another experiment, Rosch and Mervis constructed items that differed in how many features were shared with a different category. The more features were shared, the longer it took subjects to learn which category the item was in. These experiments, and many later studies, support both parts of the family resemblance theory.
 
-```{r fig3, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'When you think of “bird,” how closely does the robin resemble your general figure? [Image: CC0 Public Domain, https://goo.gl/m25gce]'}
+```{r fig7.4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'When you think of “bird,” how closely does the robin resemble your general figure? [Image: CC0 Public Domain, https://goo.gl/m25gce]'}
 knitr::include_graphics("images/ch7/fig3.jpg")
 ```
 
@@ -71,7 +71,7 @@ knitr::include_graphics("images/ch7/fig3.jpg")
 
 Now that we know these facts about the psychology of concepts, the question arises of how concepts are mentally represented. There have been two main answers. The first, somewhat confusingly called the [prototype theory] suggests that people have a *summary representation of the category, a mental description that is meant to apply to the category as a whole*. (The significance of *summary* will become apparent when the next theory is described.) This description can be represented as a set of *weighted features* (Smith & Medin, 1981). The features are weighted by their frequency in the category. For the category of birds, having wings and feathers would have a very high weight; eating worms would have a lower weight; living in Antarctica would have a lower weight still, but not zero, as some birds do live there.
 
-```{r fig4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Image: Adhi Rachdian, https://goo.gl/dQyUwf, CC BY 2.0, https://goo.gl/BRvSA7]'}
+```{r fig7.5, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Image: Adhi Rachdian, https://goo.gl/dQyUwf, CC BY 2.0, https://goo.gl/BRvSA7]'}
 knitr::include_graphics("images/ch7/fig4.jpg")
 ```
 
@@ -99,7 +99,7 @@ One of the first scientists who thought about structural models of human memory 
 In the picture on the right hand side, Collins and Quillians network with added properties at each node is shown. As already mentioned, the skeleton-nodes are interconnected by links. At the nodes, concept names are added. General concepts are on the top and more particular ones at the bottom. By looking at the concept "car", one gets the information that a car has 4 wheels, has an engine, has windows, and furthermore moves around, needs fuel, is manmade.
 
 
-```{r fig5, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 5. Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. '}
+```{r fig7.6, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 5. Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. '}
 knitr::include_graphics("images/ch7/fig5.jpg")
 ```
 

@@ -1,5 +1,5 @@
 # Language
-
+<img src="images/ch8/fig1.png" width="100%" style="display: block; margin: auto;" />
 
 Although language is often used for the transmission of information (“turn right at the next light and then go straight,” “Place tab A into slot B”), this is only its most mundane function. Language also allows us to access existing knowledge, to draw conclusions, to set and accomplish goals, and to understand and communicate complex social relationships. 
 
@@ -23,7 +23,10 @@ Despite their wide abilities to communicate, efforts to teach animals to use lan
 
 And yet even Kanzi does not have a true language in the same way that humans do. Human babies learn words faster and faster as they get older, but Kanzi does not. Each new word he learns is almost as difficult as the one before. Kanzi usually requires many trials to learn a new sign, whereas human babies can speak words after only one exposure. Kanzi’s language is focused primarily on food and pleasure and only rarely on social relationships. Although he can combine words, he generates few new phrases and cannot master syntactic rules beyond the level of about a two-year-old human child [@Greenfield1991].
 
-
+<div class="figure" style="text-align: center">
+<img src="images/ch8/qr.png" alt=" HYPERLINK &quot;http://www.youtube.com/watch?v=2Dhc2zePJFE&quot;Watch: “Kanzi and Novel Sentences” [YouTube]: http://www.youtube.com/watch?v=2Dhc2zePJFE" width="60%" />
+<p class="caption">(\#fig:qr) HYPERLINK "http://www.youtube.com/watch?v=2Dhc2zePJFE"Watch: “Kanzi and Novel Sentences” [YouTube]: http://www.youtube.com/watch?v=2Dhc2zePJFE</p>
+</div>
 
 In sum, although many animals communicate, none of them has a true language. With some exceptions, the information that can be communicated in nonhuman species is limited primarily to displays of liking or disliking, and related to basic motivations of aggression and mating. Humans also use this more primitive type of communication, in the form of nonverbal behaviors such as eye contact, touch, hand signs, and interpersonal distance, to communicate their like or dislike for others, but they (unlike animals) also supplant this more primitive communication with language. Although other animal brains share similarities to ours, only the human brain is complex enough to create language. What is perhaps most remarkable is that although language never appears in non-humans, language is universal in humans. All humans, unless they have a profound brain abnormality or are completely isolated from other humans, learn language.
 
@@ -71,7 +74,7 @@ The two major components of language that are studied in cognitive psychology ar
 
 <div class="figure" style="text-align: center">
 <img src="images/ch8/model_of_language_draft.jpg" alt="A model of communication with language exchanges to help them practice language." width="80%" />
-<p class="caption">(\#fig:fig2)A model of communication with language exchanges to help them practice language.</p>
+<p class="caption">(\#fig:fig8.2)A model of communication with language exchanges to help them practice language.</p>
 </div>
 
 ### Language Processing {-}
@@ -118,7 +121,7 @@ During the first year or so after birth, and long before they speak their first 
 
 <div class="figure" style="text-align: center">
 <img src="images/ch8/fig2.jpg" alt="Practicing Language. Babies often engage in vocal exchanges to help them practice language." width="60%" />
-<p class="caption">(\#fig:fig3)Practicing Language. Babies often engage in vocal exchanges to help them practice language.</p>
+<p class="caption">(\#fig:fig8.3)Practicing Language. Babies often engage in vocal exchanges to help them practice language.</p>
 </div>
 
 At about seven months, infants begin [babbling], engaging in *intentional vocalizations that lack specific meaning*. Children babble as practice in creating specific sounds, and by the time they are one year old, the babbling uses primarily the sounds of the language that they are learning [@deBoysson-Bardies1984]. These vocalizations have a conversational tone that sounds meaningful even though it isn’t. Babbling also helps children understand the social, communicative function of language (Figure 2.3, “Practicing Language”). Children who are exposed to sign language babble in sign by making hand movements that represent real language [@Petitto1991].
@@ -176,7 +179,7 @@ Johnson and Newport's finding that children who immigrated before they were seve
 
 <div class="figure" style="text-align: center">
 <img src="images/ch8/fig3.jpg" alt="English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration." width="60%" />
-<p class="caption">(\#fig:fig4)English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.</p>
+<p class="caption">(\#fig:fig8.4)English Proficiency in Native Chinese Speakers. Hakuta, Bialystok, and Wiley (2003) found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.</p>
 </div>
 :::
 

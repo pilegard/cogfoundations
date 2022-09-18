@@ -1,6 +1,6 @@
 # Reasoning and Decision Making
-```{r lan2000, echo = FALSE, out.width='100%', fig.align = 'center'}
-# knitr::include_graphics("images/ch2/???.png")
+```{r 9.0, echo = FALSE, out.width='100%', fig.align = 'center'}
+ knitr::include_graphics("images/ch9/fig0.png")
 ```
 We like to think that we make important decisions rationally, logically, and without bias or error— but what if that’s not the case?
 
@@ -37,7 +37,7 @@ In this example it is obvious that the premises are about rather general informa
 In categorical syllogisms, the statements of the premises typically begin with “all”, “none” or “some” and the conclusion starts with “therefore,” “thus,” or “hence.” These kinds of syllogisms describe a relationship between two categories. In the example given above in the introduction of deductive reasoning these categories are *Spain* and *the need for shorts and T-Shirts*. Two different approaches serve the study of categorical syllogisms: the [normative approach] and the [descriptive approach].
 
 #### The normative approach {-}
-```{r fig1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 1. Euler Circles'}
+```{r fig9.1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Euler Circles'}
 knitr::include_graphics("images/ch9/fig1.jpg")
 ```
 
@@ -98,12 +98,12 @@ The Wason Selection Task is a famous experiment which shows that people make mor
 
 In the abstract version of the Wason Selection Task, four cards are shown to the participants with a letter on one side and a number on the other (Figure 3). The task is to indicate the minimum number of cards that have to be turned over to test whether the following rule is observed: “If there is a vowel on one side then there is an even number on the other side.” 53% of participants selected the ‘E’ card which is correct, because turning this card over is necessary to test the truth of the rule. However another card still needs to be turned over. 64% indicated that the ‘4’ card has to be turned over which is not right. Only 4% of participants answered correctly that the ‘7’ card needs to be turned over in addition to the ‘E’. The correctness of turning over these two cards becomes more obvious if the same task is stated in terms of real-world items instead of vowels and numbers. One of the experiments for determining this was the beer/drinking-age problem used by Richard Griggs and James Cox (1982). This experiment is identical to the Wason Selection Task except that instead of numbers and letters on the cards, everyday terms (beer, soda and ages) were used (Figure 4). Griggs and Cox gave the following rule to participants: “If a person is drinking beer then he or she must be older than 21.” In this case 73% of participants answered correctly, that the cards with “beer” and “14 years” have to be turned over to test whether the rule is kept.
 
-```{r fig2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 2.'}
-#knitr::include_graphics("images/ch9/fig2.jpg")
+```{r fig9.2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = ''}
+knitr::include_graphics("images/ch9/fig2.png")
 ```
 
-```{r fig3, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 3.'}
-#knitr::include_graphics("images/ch9/fig3.jpg")
+```{r fig9.3, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = ''}
+knitr::include_graphics("images/ch9/fig3.png")
 ```
 
 #### Why is the performance better in the case of real–world items? {-}
@@ -124,8 +124,8 @@ So far we have discussed deductive reasoning, which is reaching conclusions base
 
 In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure 6, this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
 
-```{r fig5, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 6.'}
-#knitr::include_graphics("images/ch9/fig5.jpg")
+```{r fig9.4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = ''}
+knitr::include_graphics("images/ch9/fig4.jpg")
 ```
 
 ### Forms of inductive reasoning {-}
@@ -160,13 +160,17 @@ Things that are more easily remembered are judged to be more prevalent. An examp
 
 Another effect of the availability heuristic is called [illusory correlations]. People tend to judge according to stereotypes. It seems to them that there are correlations between certain events which in reality do not exist— this is what is known as “prejudice.” Usually a correlation seems to exist between negative features and a certain class of people. If, for example, one's neighbor is jobless and very lazy one tends to correlate these two attributes and create the prejudice that all jobless people are lazy. This illusory correlation occurs because one takes into account information which is available and judges this to be prevalent in many cases.
 
-```{r fig6, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 6. Feminist bank tellers.'}
-#knitr::include_graphics("images/ch9/fig6.jpg")
+```{r fig9.5, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Feminist bank tellers.'}
+knitr::include_graphics("images/ch9/fig5.png")
 ```
 
 #### The representativeness heuristic {-}
 
 If people have to judge the probability of an event, they try to find a comparable event and assume that the two events have a similar probability. Amos Tversky and Daniel Kahneman (@Tversky1974) presented the following task to their participants in an experiment: “We randomly chose a man from the population of the U.S., Robert, who wears glasses, speaks quietly and reads a lot. Is it more likely that he is a librarian or a farmer?” More of the participants answered that Robert is a librarian, which is an effect of the representativeness heuristic. Participants compared the description of Robert with the typical depiction of a librarian, and found that the description was more like a librarian than a farmer. So, the event of a typical librarian is more comparable with Robert than the event of a typical farmer. Of course this effect may lead to errors, as Robert is randomly chosen from the population and as it is perfectly possible that he is a farmer even though he speaks quietly and wears glasses.
+
+```{r fig9.6, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Deductive and inductive reasoning.'}
+knitr::include_graphics("images/ch9/fig6.png")
+```
 
 The representativeness heuristic also leads to errors in reasoning in cases where the [conjunction rule] is violated. This rule states that the conjunction of two events is never more likely to be the case than the single events alone. An example for this is the case of the feminist bank teller [@Tversky1983]. If we are introduced to a woman who is very interested in women’s rights and has participated in many political activities in college, and we are to decide whether it is more likely that she is a bank teller or a feminist bank teller, we are drawn to conclude the latter as the facts we have learned about her resemble the event of a feminist bank teller more than the event of only being a bank teller.
 
@@ -221,8 +225,8 @@ People often have the intuition that more options are better, because there is a
 :::
 
 
-```{r fig7, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 7. Relation between (monetary) gains/losses and their subjective value according to Prospect Theory.'}
-#knitr::include_graphics("images/ch9/fig7.jpg")
+```{r fig9.7, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 7. Relation between (monetary) gains/losses and their subjective value according to Prospect Theory.'}
+knitr::include_graphics("images/ch9/fig7.png")
 ```
 
 :::takeaways

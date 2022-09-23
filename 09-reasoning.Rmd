@@ -34,13 +34,9 @@ In this example it is obvious that the premises are about rather general informa
 
 ### Categorical syllogisms {-}
 
-In categorical syllogisms, the statements of the premises typically begin with “all”, “none” or “some” and the conclusion starts with “therefore,” “thus,” or “hence.” These kinds of syllogisms describe a relationship between two categories. In the example given above in the introduction of deductive reasoning these categories are *Spain* and *the need for shorts and T-Shirts*. Two different approaches serve the study of categorical syllogisms: the [normative approach] and the [descriptive approach].
+In categorical syllogisms, the statements of the premises typically begin with “all”, “none” or “some” and the conclusion starts with “therefore,” “thus,” or “hence.” These kinds of syllogisms describe a relationship between two categories. In the example given above in the introduction of deductive reasoning these categories are *Spain* and *the need for shorts and T-Shirts*. Two different approaches serve the study of categorical syllogisms: the "normative approach" and the "descriptive approach".
 
 #### The normative approach {-}
-```{r fig9.1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Euler Circles'}
-knitr::include_graphics("images/ch9/fig1.jpg")
-```
-
 The normative approach to categorical syllogisms is based on logic, and deals with the problem of categorizing conclusions as either valid or invalid. “Valid” means that the conclusion follows logically from the premises whereas “invalid” means the contrary. Two basic principles and a method called Euler Circles have been developed to help make validity judgments. The first principle was created by Aristotle, and states “If the two premises are true, the conclusion of a valid syllogism must be true” (cp. @Goldstein2005). The second principle states “The validity of a syllogism is determined only by its form, not its content.” These two principles explain why the following syllogism is (surprisingly) valid:
 
 >All flowers are animals.
@@ -51,7 +47,11 @@ The normative approach to categorical syllogisms is based on logic, and deals wi
 
 Even though it is quite obvious that the first premise is not true and further that the conclusion is not true, the whole syllogism is still valid. That is, when you apply formal logic to the syllogism in the example, the conclusion is valid.
 
-It is possible to display a syllogism formally with symbols or letters and explain its relationship graphically with the help of diagrams. One way to demonstrate a premise graphically is to use Euler circles (pronounced “oyler”). Starting with a circle to represent the first premise and adding one or more circles for the second one (\@ref(fig:fig9.1)), one can compare the constructed diagrams with the conclusion. The displayed syllogism in (\@ref(fig:fig9.1)) is obviously valid. The conclusion shows that everything that can jump contains animals which again contains flowers. This aligns with the two premises which point out that flowers are animals and thus are able to jump. Euler circles help represent such logic.
+It is possible to display a syllogism formally with symbols or letters and explain its relationship graphically with the help of diagrams. One way to demonstrate a premise graphically is to use Euler circles (pronounced “oyler”). Starting with a circle to represent the first premise and adding one or more circles for the second one (Figure 9.1), one can compare the constructed diagrams with the conclusion. The displayed syllogism in Figure 9.1 is obviously valid. The conclusion shows that everything that can jump contains animals which again contains flowers. This aligns with the two premises which point out that flowers are animals and thus are able to jump. Euler circles help represent such logic.
+
+```{r fig9.1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Euler Circles'}
+knitr::include_graphics("images/ch9/fig1.jpg")
+```
 
 #### The descriptive approach {-}
 
@@ -73,18 +73,18 @@ Another type of syllogism is called “conditional syllogism.” Just like the c
  
 >Conclusion: Therefore, Knut’s wife needs an umbrella.
  
-Conditional syllogisms are typically given in the abstract form: “If p then q”, where “p” is called the [antecedent] and “q” the [consequent].
+Conditional syllogisms are typically given in the abstract form: “If p then q”, where “p” is called the "antecedent" and “q” the "consequent".
 
 #### Forms of conditional syllogisms {-}
 
-There are four major forms of conditional syllogisms: [modus ponens], [modus tollens], [denying the antecedent], and [affirming the consequent]. These are illustrated in the table below (\@ref(tab:Syllogisms)) by means of the conditional syllogism above (i.e. If it is raining, Knut’s wife needs an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
+There are four major forms of conditional syllogisms: "modus ponens", "modus tollens", "denying the antecedent", and "affirming the consequent". These are illustrated in the table below (\@ref(tab:Syllogisms)) by means of the conditional syllogism above (i.e. If it is raining, Knut’s wife needs an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
 
 |  | Modus Ponens | Modus Tollens | Denying the Antecedent | Affirming the Consequent |
 |---|---|---|---|---|
 | Description | The antecedent of the first premise is affirmed in the second premise.  | The consequent of the first premise is negated in the second premise. | The antecedent of the first premise is negates in the second premise. | The antecedent of the first premise is affirmed in the second premise. |
 | Formal | If P then Q.  P Therefore Q. | If P the Q.  Not-Q Therefore Not-P. | If P then Q.  Not-P Therefore Not-Q. | If P then Q.  Q Therefore P. |
 | Example | If it is raining, Knut's wife needs an umbrella. It is raining. Therefore Knut's wife needs an umbrella. | If it is raining, Knut's wife needs an umbrella. Knut's wife does not need an umbrella. Therefore it is not raining. | If it is raining, Knut's wife needs an umbrella.  It is not raining. Therefore Knut's wife does not need an umbrella. | If it is raining, Knut's wife needs an umbrella. Knut's wife needs an umbrella. Therefore it is raining.  |
-| Validity | Valid | VALID | INVALID | INVALID |
+| Validity | Valid | Valid | Invalid | Invalid |
 | Correct Judgements | 97 % correctly identify as valid.  | 60% correctly identify as valid. | 40% correctly identify as invalid. | 40% correctly identify as invalid. |
 Table: (\#tab:Syllogisms) Different kinds of conditional syllogisms.
 
@@ -102,13 +102,13 @@ The four kinds of syllogisms have shown that it is not always easy to make corre
 
 The Wason Selection Task is a famous experiment which shows that people make more reasoning errors in abstract situations than when the situation is taken from real life [@Wason1960].
 
-In the abstract version of the Wason Selection Task, four cards are shown to the participants with a letter on one side and a number on the other (\@ref(fig:fig9.2)). The task is to indicate the minimum number of cards that have to be turned over to test whether the following rule is observed: “If there is a vowel on one side then there is an even number on the other side.” 53% of participants selected the ‘E’ card which is correct, because turning this card over is necessary to test the truth of the rule. However another card still needs to be turned over. 64% indicated that the ‘4’ card has to be turned over which is not right. Only 4% of participants answered correctly that the ‘7’ card needs to be turned over in addition to the ‘E’. The correctness of turning over these two cards becomes more obvious if the same task is stated in terms of real-world items instead of vowels and numbers. One of the experiments for determining this was the beer/drinking-age problem used by @Griggs1982. This experiment is identical to the Wason Selection Task except that instead of numbers and letters on the cards, everyday terms (beer, soda and ages) were used (\@ref(fig:fig9.3)). Griggs and Cox gave the following rule to participants: “If a person is drinking beer then he or she must be older than 21.” In this case 73% of participants answered correctly, that the cards with “beer” and “14 years” have to be turned over to test whether the rule is kept.
+In the abstract version of the Wason Selection Task, four cards are shown to the participants with a letter on one side and a number on the other (Figure 9.2). The task is to indicate the minimum number of cards that have to be turned over to test whether the following rule is observed: “If there is a vowel on one side then there is an even number on the other side.” 53% of participants selected the ‘E’ card which is correct, because turning this card over is necessary to test the truth of the rule. However another card still needs to be turned over. 64% indicated that the ‘4’ card has to be turned over which is not right. Only 4% of participants answered correctly that the ‘7’ card needs to be turned over in addition to the ‘E’. The correctness of turning over these two cards becomes more obvious if the same task is stated in terms of real-world items instead of vowels and numbers. One of the experiments for determining this was the beer/drinking-age problem used by @Griggs1982. This experiment is identical to the Wason Selection Task except that instead of numbers and letters on the cards, everyday terms (beer, soda and ages) were used (Figure 9.3). Griggs and Cox gave the following rule to participants: “If a person is drinking beer then he or she must be older than 21.” In this case 73% of participants answered correctly, that the cards with “beer” and “14 years” have to be turned over to test whether the rule is kept.
 
-```{r fig9.2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = ''}
+```{r fig9.2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Original Wason Selection Task cards'}
 knitr::include_graphics("images/ch9/fig2.png")
 ```
 
-```{r fig9.3, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = ''}
+```{r fig9.3, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Drinking-age Wason Selection Task'}
 knitr::include_graphics("images/ch9/fig3.png")
 ```
 
@@ -128,7 +128,7 @@ So far we have discussed deductive reasoning, which is reaching conclusions base
  
 > Conclusion: Therefore, they reason that all crows on earth are black.
 
-In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering (\@ref(fig:fig9.4)), this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
+In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering (Figure 9.4), this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
 
 ```{r fig9.4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = ''}
 knitr::include_graphics("images/ch9/fig4.jpg")

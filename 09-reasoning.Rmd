@@ -20,8 +20,8 @@ The conclusion in this example follows directly from the premises, but it includ
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}
-1. XX
-2. XX
+1. Understand deductive and inductive reasoning
+2. Understand the main theories of decision making, as well as examples of how people's choice contexts affect the decisions they make
 :::
 
 Deductive reasoning is concerned with syllogisms in which the conclusion follows logically from the premises. The following example about Knut makes this process clear:
@@ -245,14 +245,14 @@ People often have the intuition that more options are better, because there is a
 
 :::takeaways
 ##### Key Takeaways {-}
-- a
-- b
+- Deductive reasoning describes when we draw a specific conclusion from general premises. Inductive reasoning describes the opposite process, where we draw general conclusions from specific premises.
+- Normative and descriptive theories of decision making do not always align. People typically use heuristics (cognitive shortcuts) rather than formal logic and reasoning. These heuristics often help people arrive at sufficiently accurate conclusions, though they sometimes result in reasoning errors.
 :::
 
 :::exercises
 ##### Exercises {-}
-1. a
-2. b 
+1. Imagine a gamble with a 20% probability of winning $50. How much money does Expected Value Theory suggest you should be willing to pay to try this gamble?
+2. Describe default effects and framing effects. How are those psychological phenomena divergent from what a perfectly "rational" decision maker would do?
 :::
 
 

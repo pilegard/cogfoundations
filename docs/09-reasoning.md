@@ -151,31 +151,29 @@ Conclusions reached through a process of inductive reasoning are never definitel
 
 ### Processes and constraints {-}
 
-In a process of inductive reasoning, people often make use of certain heuristics. These heuristics often help people make adequate conclusions, but sometimes may cause errors. In the following sections, two of these heuristics [(availability heuristic] and [representativeness heuristic]) are explained. Subsequently, the [confirmation bias] is introduced, which can influence people to use their own opinions in reasoning without realizing it.
+In the process of inductive reasoning people often make use of heuristics. These heuristics help people make judgments, but sometimes cause errors when the cues they are sensitive to are misleading. In the following sections, two of these heuristics, [the availability heuristic] and [the representativeness heuristic], are explained. Subsequently, [confirmation bias] is introduced, which refers to when people rely too heavily on their own prior beliefs when assessing new evidence.
 
 #### The availability heuristic {-}
 
-Things that are more easily remembered are judged to be more prevalent. An example of this is an experiment done by @Lichtenstein1978. Participants were asked to choose from a list which causes of death occur most often. Because of the availability heuristic people, judged more “spectacular” causes like homicide or tornadoes to cause more deaths than others, like asthma. The reason for this is that, for example, films and news in television are very often about spectacular and interesting causes of death. This is why this information is more readily available to the subjects in the experiment.
+The availability heuristic refers to when people judge more memorable events (or examplars more generally) to be more frequent than less memorable events. In Kahneman and Tversky's paper introducing the heuristic, they describe that "Availability is an ecologically valid clue for the judgment of frequency because, in general, frequent events are easier to recall or imagine than infrequent ones. However, availability is also affected by various factors which are unrelated to actual frequency" (TVERSKY KAHNEMAN 1973). In other words, while an event's memorability is often a good cue as to how frequent that event is, this cue is imperfect.
 
-Another effect of the availability heuristic is called [illusory correlations]. People tend to judge according to stereotypes. It seems to them that there are correlations between certain events which in reality do not exist— this is what is known as “prejudice.” Usually a correlation seems to exist between negative features and a certain class of people. If, for example, one's neighbor is jobless and very lazy one tends to correlate these two attributes and create the prejudice that all jobless people are lazy. This illusory correlation occurs because one takes into account information which is available and judges this to be prevalent in many cases.
+For example, in an experiment done by Sarah Lichtenstein and colleagues, participants were asked to choose from a list which causes of death occur most often. Because of the availability heuristic, people judged more “spectacular” causes like homicide or tornadoes to cause more deaths than less dramatic causes, like asthma. They propose that this is because dramatic causes of death are disproportionately publicized in media, resulting in easier recall for participants and thus erroneously higher estimates of frequency (LICHTENSTEIN ET AL 1978).
+
+#### The representativeness heuristic {-}
+
+Similarly to the availability heuristic, the representativeness heuristic is used when people judge frequency. However in this case, people rely on a judgment of *similarity* instead of using memorability as a cue. For example, Tversky and Kahneman (TVERSKY KAHNEMAN 1983) gave the following description to a group of participants:
+
+"Linda is 31 years old, single, outspoken and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations."
+
+They then asked participants to rank a series of descriptions in order of how likely they were to describe Linda. Most participants rated "Linda is a bank teller and is active in the feminist movement" as more likely than "Linda is a bank teller". However, this is logically impossible, as the first description *includes* the second (Figure 7). Because the participants based their judgment on similarity between the description of Linda and being "active in the feminist movement", rather than reasoning in line with the formal laws of logic, most committed this "conjunction fallacy".
+
+Like the availability heuristic though, the representativeness heuristic is often accurate and useful. Tversky and Kahneman write: "Representativeness tends to covary with frequency: Common instances and frequent events are generally more representative than unusual instances and rare events" (TVERSKY KAHNEMAN 1983).
+
 
 <div class="figure" style="text-align: center">
 <img src="images/ch9/fig5.png" alt="Feminist bank tellers." width="60%" />
 <p class="caption">(\#fig:fig9.5)Feminist bank tellers.</p>
 </div>
-
-#### The representativeness heuristic {-}
-
-If people have to judge the probability of an event, they try to find a comparable event and assume that the two events have a similar probability. Amos Tversky and Daniel Kahneman (@Tversky1974) presented the following task to their participants in an experiment: “We randomly chose a man from the population of the U.S., Robert, who wears glasses, speaks quietly and reads a lot. Is it more likely that he is a librarian or a farmer?” More of the participants answered that Robert is a librarian, which is an effect of the representativeness heuristic. Participants compared the description of Robert with the typical depiction of a librarian, and found that the description was more like a librarian than a farmer. So, the event of a typical librarian is more comparable with Robert than the event of a typical farmer. Of course this effect may lead to errors, as Robert is randomly chosen from the population and as it is perfectly possible that he is a farmer even though he speaks quietly and wears glasses.
-
-<div class="figure" style="text-align: center">
-<img src="images/ch9/fig6.png" alt="Deductive and inductive reasoning." width="60%" />
-<p class="caption">(\#fig:fig9.6)Deductive and inductive reasoning.</p>
-</div>
-
-The representativeness heuristic also leads to errors in reasoning in cases where the [conjunction rule] is violated. This rule states that the conjunction of two events is never more likely to be the case than the single events alone. An example for this is the case of the feminist bank teller [@Tversky1983]. If we are introduced to a woman who is very interested in women’s rights and has participated in many political activities in college, and we are to decide whether it is more likely that she is a bank teller or a feminist bank teller, we are drawn to conclude the latter as the facts we have learned about her resemble the event of a feminist bank teller more than the event of only being a bank teller.
-
-However, it is in fact more likely that somebody is just a bank teller than it is that someone is a feminist in addition to being a bank teller. This effect is illustrated in (\@ref(fig:fig9.6)), where the green square, which stands for just being a bank teller, is much larger and thus more probable than the smaller orange square, which displays the conjunction of bank tellers and feminists, which is a subset of bank tellers.
 
 #### Confirmation bias {-}
 
@@ -184,6 +182,11 @@ Confirmation bias refers to a set of related phenomena wherein people seek or in
 For example, if someone believes that black cats bring bad luck, they may be additionally inclined to notice or remember negative events that occurred after seeing a black cat.
 
 ### Induction vs. deduction {-}
+
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig6.png" alt="Deductive and inductive reasoning." width="60%" />
+<p class="caption">(\#fig:fig9.6)Deductive and inductive reasoning.</p>
+</div>
 
 The table below (\@ref(tab:IndDed)) summarizes the most prevalent properties and differences between deductive and inductive reasoning which are important to keep in mind.
 

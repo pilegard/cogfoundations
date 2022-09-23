@@ -31,14 +31,7 @@ According to Baddeley’s model, working memory includes a central executive, ph
 :::fyi
 ##### Concept Focus: Differences between brains and computers
 * In computers, information can be accessed only if one knows the exact location of the
-memory. In the brain, information can be accessed through spreading activation 
-from closely related concepts.
-* The brain operates primarily in parallel, meaning that it is multitasking on many
-different action at the same time. Although this is changing as new computers are
-developed, most computers are primarily serial - they finish one task before they start another. 
-** This is really not true - threading on cpus is common
-* In the brain, there is no difference between hardware (the mechanical aspects of the computer)
-and software (the programs that run on the hardware).
+memory. In the brain, information can be accessed through spreading activation from closely related concepts. Further, there is no exact location of a stored memory in the brain.
 * Computers differentiate memory (e.g. the hard drive) from processing 
 (the central processing unit), but in brains there is no such distinction.
 In the brain (but not in computers) existing memory is used to interpret and 
@@ -52,12 +45,12 @@ dendrites, neurons, and neurotransmitters, and that doesn't include the approxim
 1 trillion glial cells that may also be important for information processing and memory.
 
 Although cognitive psychology began in earnest at about the same time that the
-eclectronic computer was first being developed, and although cogntiive psycholgists 
+eclectronic computer was first being developed, and although cognitive psycholgists 
 have frequently used the computer as a model for understanding how the brain 
 operates, research in cognitive neuroscience has revealed many important differences
 between brains and computers. The neuroscientists Chris Chatham (2007) 
 [http://scienceblogs.com/developingintelligence/2007/03/27/why-the-brain-is-not-like-a-co/ HYPER link] provided 
-the list of differences between brains and compuaters shown here. You might want 
+the list of differences between brains and computers shown here. You might want 
 to check out the website and responses to it. 
 [http://scienceblogs.com/developingintelligence/2007/03.27/why-the-brain-is-not-like-a-co/ HYPER link]
 :::
@@ -81,7 +74,7 @@ A third way of measuring memory is known as relearning (Nelson, 1985). Measures 
 
 While explicit memory consists of the things that we can consciously report that we know, implicit memory refers to knowledge that we cannot consciously access. However, implicit memory is nevertheless exceedingly important to us because it has a direct effect on our behavior. [Implicit memory] refers to *the influence of experience on behavior, even if the individual is not aware of those influences*. As you can see in \@ref(fig:fig5.2), “Types of Memory,” there are three general types of implicit memory: procedural memory, classical conditioning effects, and priming.
 
-[Procedural memory] refers to our often *unexplainable knowledge of how to do things*. When we walk from one place to another, speak to another person in English, dial a cell phone, or play a video game, we are using procedural memory. Procedural memory allows us to perform complex tasks, even though we may not be able to explain to others how we do them. There is no way to tell someone how to ride a bicycle; a person has to learn by doing it. The idea of implicit memory helps explain how infants are able to learn. The ability to crawl, walk, and talk are procedures, and these skills are easily and efficiently developed while we are children despite the fact that as adults we have no conscious memory of having learned them.
+[Procedural memory] refers to our often *unexplainable knowledge of how to do things*. When we walk from one place to another, speak to another person in English, dial a cell phone, or play a video game, we are using procedural memory. Procedural memory allows us to perform complex tasks, even though we may not be able to explain to others how we do them. There is no way to tell someone how to ride a bicycle; a person has to learn by doing it. The idea of implicit memory helps explain how infants are able to learn. The ability to crawl, walk, and talk are procedures, and these skills are easily and efficiently developed while we are children despite the fact that as adults we have no conscious memory of having learned them. Also note that within procedural memory, it is often divided into three sub-types: cognitive, motor, and perceptual. 
 
 A second type of implicit memory is [classical conditioning effects], *in which we learn, often without effort or awareness, to associate neutral stimuli (such as a sound or a light) with another stimulus (such as food), which creates a naturally occurring response, such as enjoyment or salivation*. The memory for the association is demonstrated when the conditioned stimulus (the sound) begins to create the same response as the unconditioned stimulus (the food) did before the learning.
 
@@ -138,6 +131,11 @@ Later work by @Rogers1977 expanded the levels-of-processing effect by demonstrat
 #### The Testing Effect {-}
 The testing effect is the finding that encoding into long-term memory is often increased when some of the learning period is devoted to retrieving the to-be-remembered information. The first documented empirical studies on the testing effect were published by @Abbott1909. Later, @Carrier1992 showed that testing does not just provide an additional practice opportunity, but produces better results than other forms of studying. In their experiment, learners who tested their knowledge during practice later remembered more information than learners who spent the same amount of time studying the complete information. Additionally, a study done by @Roediger2006 showed that students in a repeated-testing condition recalled much more after a week than did students in a repeated-study condition (61% vs. 40%), even though students in the former condition read the passage only 3.4 times and those in the latter condition read it 14.2 times.
 
+#### The Spacing Effect {-}
+The spacing effect (SE), the benefit of temporally spaced practice relative to massed practice, is one of the most robust phenomena that improves declarative memory (Polyn, Norma, and Kahana, 2009; Lohnas & Kahana, 2014; Mozer et al., 2009; Cepede et al., 2008; Benjamin & Tullis, 2011). Note that this is the spaced repetition of the same information and not different information. 
+
+There are several key mechanisms that are currently believed to underlie the spacing effect: contextual drift, study phase retrieval, and different time scales of learning. In the next chapter, we'll more about the importance of context in memory. Contextual drift refers to the diversity of contexts at each study time point. The more diverse the contexts over encounters, the stronger the resulting memory. An analogy for this concept **XX.** Study-phase retrieval is the reactivation of a prior memory, including its original context, upon restudy. Thus, when one encounters some information again, this will reactivate a prior memory, making that memory stronger. **XX** even for the same information, there are multiple learning rates that underlie it. For example, there could be a slow learning rate to represent some types of information and a fast learning rate to represent other types of information.      
+
 ### Retrieval {-}
 Information stored in the memory is retrieved by way of association with other memories. Some memories can not be recalled by simply thinking about them. Rather, one must think about something associated with it. For example, if someone tries and fails to recollect the memories he had about a vacation he went on, and someone mentions the fact that he hired a classic car during this vacation, this may make him remember all sorts of things from that trip, such as what he ate there, where he went and what books he read. 
 
@@ -162,9 +160,9 @@ Whereas context-dependent memory refers to a match in the external situation bet
 
 Memory [consolidation] is a category of *processes that stabilize a memory trace after its initial acquisition*.
 
-#### Sleep consolidation {-}
+#### Sleep consolidation INCORRECT {-}
 
-Rapid eye movement (REM) sleep has been thought of to be an important concept in the overnight learning in humans by establishing information in the hippocampal and cortical regions of the brain. REM sleep elicits an increase in neuronal activity following an enriched or novel waking experience, thus increasing neuronal plasticity and therefore playing an essential role in the consolidation of memories. Researchers have noted strong reactivation of the hippocampus during sleep immediately after a learning task. This reactivation led to enhanced performance on the learned task [@Wamsley2010]. Researchers following this line of work have come to assume that dreams are a by-product of the reactivation of the brain areas and this can explain why dreams may be unrelated to the information being consolidated. The dream experience itself is not what enhances memory performance but rather it is the reactivation of the neural circuits that causes this. 
+Rapid eye movement (REM) sleep has been thought of to be an important concept in the overnight learning in humans by establishing information in the hippocampal and cortical regions of the brain. REM sleep elicits an increase in neuronal activity following an enriched or novel waking experience, thus increasing neuronal plasticity and therefore playing an essential role in the consolidation of memories. Researchers have noted strong reactivation of the hippocampus during sleep immediately after a learning task. **This reactivation led to enhanced performance on the learned task [@Wamsley2010]**. Researchers following this line of work have come to assume that dreams are a by-product of the reactivation of the brain areas and this can explain why dreams may be unrelated to the information being consolidated. The dream experience itself is not what enhances memory performance but rather it is the reactivation of the neural circuits that causes this. 
 
 :::takeaways
 ##### Key Takeaways {-}

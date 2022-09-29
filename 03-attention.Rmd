@@ -91,6 +91,7 @@ The idea of subliminal perception—that stimuli presented below the threshold f
 
 ### Divided Attention and Multitasking {-}
 In spite of the evidence of our limited capacity, we all like to think that we can do several things at once. Some people claim to be able to multitask without any problem: reading a textbook while watching television and talking with friends; talking on the phone while playing computer games; texting while driving. The fact is that we sometimes can seem to juggle several things at once, but the question remains whether dividing attention in this way impairs performance.
+
 Is it possible to overcome the limited capacity that we experience when engaging in cognitive tasks? We know that with extensive practice, we can acquire skills that do not appear to require conscious attention. As we walk down the street, we don’t need to think consciously about what muscle to contract in order to take the next step. Indeed, paying attention to automated skills can lead to a breakdown in performance, or “choking” [e.g., @Beilock2001]. But what about higher level, more mentally demanding tasks: Is it possible to learn to perform two complex tasks at the same time?
 
 ```{r fig3.6, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Unless a task is fully automated, some researchers suggest that “multi-tasking” doesn’t really exist; you are just rapidly switching your attention back and forth between tasks. [Image: CC0 Public Domain,  HYPERLINK "https://goo.gl/m25gce%5D"https://goo.gl/m25gce]'}

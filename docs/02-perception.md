@@ -26,7 +26,7 @@ In many ways our senses are quite remarkable. The human eye can detect the equiv
 
 ### Seeing {-}
 
-Whereas other animals rely primarily on hearing, smell, or touch to understand the world around them, human beings rely in large part on vision. A large part of our cerebral cortex is devoted to seeing, and we have substantial visual skills. Seeing begins when light falls on the eyes, initiating the process of [transduction], *the conversion of stimuli detected by receptor cells to electrical impulses that are transported to the brain*. Once this visual information reaches the visual cortex, it is processed by a variety of neurons that detect colors, shapes, and motion, and that create meaningful perceptions out of the incoming stimuli.
+Whereas other animals rely primarily on hearing, smell, or touch to understand the world around them, human beings rely in large part on vision. A large part of our cerebral cortex is devoted to seeing, and we have substantial visual skills. Seeing begins when light falls on the eyes, initiating the process of [transduction], *the conversion of light detected by receptor cells to electrical impulses that are transported to the brain*. Once this visual information reaches the visual cortex, it is processed by a variety of neurons that detect colors, shapes, and motion, and that create meaningful perceptions out of the incoming stimuli.
 
 ### The Sensing Eye and the Perceiving Visual Cortex {-}
 
@@ -60,20 +60,6 @@ The visual cortex is made up of specialized neurons that turn the sensations the
 <p class="caption">(\#fig:fig2.3)Figure 3. Blind Spot Demonstration. You can get an idea of the extent of your blind spot (the place where the optic nerve leaves the retina) by trying this: close your left eye and stare with your right eye at the cross in the diagram. You should be able to see the elephant image to the right (don’t look at it, just notice that it is there). If you can’t see the elephant, move closer or farther away until you can. Now slowly move so that you are closer to the image while you keep looking at the cross. At one distance (around a foot or so depending on your zoom), the elephant will completely disappear from view because its image has fallen on the blind spot.</p>
 </div>
 
-### Perceiving Form {-}
-
-One of the important processes required in vision is the perception of form. German psychologists in the 1930s and 1940s, including Max Wertheimer (1880-1943), Kurt Koffka (1886-1941), and Wolfgang Köhler (1887-1967), argued that we create forms out of their component sensations based on the idea of the [gestalt], *a meaningfully organized whole*. The idea of the gestalt is that the “whole is more than the sum of its parts.” Some examples of how gestalt principles lead us to see more than what is actually there are summarized in Table \@ref(tab:gestalt).
-
-Table: (\#tab:gestalt) Summary of Gestalt Principles of Form Perception
-
-| Principle | Description | Example | Image |
-| :----- | :-------- | :------------- | :-----: |
-| Figure and ground | We structure input so that we always see a figure (image) against a ground (background). | At right, you may see a vase or you may see two faces, but in either case, you will organize the image as a figure against a ground. | ![](images/ch2/gestalt1.jpg) |
-| Similarity | Stimuli that are similar to each other tend to be grouped together. | You are more likely to see three similar columns among the XYX characters at right than you are to see four rows. |  ![](images/ch2/gestalt2.jpg) |
-| Proximity | We tend to group nearby figures together. | Do you see four or eight images at right? Principles of proximity suggest that you might see only four.  | ![](images/ch2/gestalt3.jpg) |
-| Continuity | We tend to perceive stimuli in smooth, continuous ways rather than in more discontinuous ways. | At right, most people see a line of dots that moves from the lower left to the upper right, rather than a line that moves from the left and then suddenly turns down. The principle of continuity leads us to see most lines as following the smoothest possible path. |  ![](images/ch2/gestalt4.jpg) |
-| Closure | We tend to fill in gaps in an incomplete image to create a complete, whole object. | Closure leads us to see a single spherical object at right rather than a set of unrelated cones. | ![](images/ch2/gestalt5.jpg)  |
-
 ### Perceiving Depth {-}
 
 [Depth perception] is *the ability to perceive three-dimensional space and to accurately judge distance*. Without depth perception, we would be unable to drive a car, thread a needle, or simply navigate our way around the supermarket [@Howard2001]. 
@@ -96,13 +82,26 @@ Although the best cues to depth occur when both eyes work together, we are able 
 Table: (\#tab:Monocular) Monocular Depth Cues That Help Us Judge Depth at a Distance.
 
 
-## Accuracy and Inaccuracy in Perception
+### Perceiving Form {-}
 
-The eyes, ears, nose, tongue, and skin sense the world around us, and in some cases perform preliminary information processing on the incoming data. But by and large, we do not experience sensation — we experience the outcome of perception, the total package that the brain puts together from the pieces it receives through our senses and that the brain creates for us to experience. When we look out the window at a view of the countryside, or when we look at the face of a good friend, we don’t just see a jumble of colors and shapes — we see, instead, an image of a countryside or an image of a friend [@Goodale2006].
+One of the important processes required in vision is the perception of form. German psychologists in the 1930s and 1940s, including Max Wertheimer (1880-1943), Kurt Koffka (1886-1941), and Wolfgang Köhler (1887-1967), argued that we create forms out of their component sensations based on the idea of the [gestalt], *a meaningfully organized whole*. The idea of the gestalt is that the “whole is more than the sum of its parts.” Some examples of how gestalt principles lead us to see more than what is actually there are summarized in Table \@ref(tab:gestalt).
+
+Table: (\#tab:gestalt) Summary of Gestalt Principles of Form Perception
+
+| Principle | Description | Example | Image |
+| :----- | :-------- | :------------- | :-----: |
+| Figure and ground | We structure input so that we always see a figure (image) against a ground (background). | At right, you may see a vase or you may see two faces, but in either case, you will organize the image as a figure against a ground. | ![](images/ch2/gestalt1.jpg) |
+| Similarity | Stimuli that are similar to each other tend to be grouped together. | You are more likely to see three similar columns among the XYX characters at right than you are to see four rows. |  ![](images/ch2/gestalt2.jpg) |
+| Proximity | We tend to group nearby figures together. | Do you see four or eight images at right? Principles of proximity suggest that you might see only four.  | ![](images/ch2/gestalt3.jpg) |
+| Continuity | We tend to perceive stimuli in smooth, continuous ways rather than in more discontinuous ways. | At right, most people see a line of dots that moves from the lower left to the upper right, rather than a line that moves from the left and then suddenly turns down. The principle of continuity leads us to see most lines as following the smoothest possible path. |  ![](images/ch2/gestalt4.jpg) |
+| Closure | We tend to fill in gaps in an incomplete image to create a complete, whole object. | Closure leads us to see a single spherical object at right rather than a set of unrelated cones. | ![](images/ch2/gestalt5.jpg)  |
+
+## Perception: The Process of Integrating Information 
+The eyes, ears, nose, tongue, and skin sense the world around us, and in some cases perform preliminary information processing on the incoming data. But by and large, what we end up "seeing" or experiencing is a result of our brain's interpretation of the sensory information coming in, rather than a direct read out of that information. When we look out the window at a view of the countryside, or when we look at the face of a good friend, we don’t just see a jumble of colors and shapes — we see, instead, an image of a countryside or an image of a friend [@Goodale2006]. How our brain interprets and integrates sensory information in a way that leads to our everyday experience largely depends on attention, working memory, and other cognitive processes discussed in future chapters of this book. 
 
 ### How the Perceptual System Interprets the Environment {-}
 
-This meaning making involves the automatic operation of a variety of essential perceptual processes. One of these is [sensory interaction] — *the working together of different senses to create experience*. Sensory interaction is involved when taste, smell, and texture combine to create the flavor we experience in food. It is also involved when we enjoy a movie because of the way the images and the music work together.
+This process of understanding involves the automatic operation of a variety of essential perceptual processes. One of these is [sensory interaction] — *the working together of different senses to create experience*. Sensory interaction is involved when taste, smell, and texture combine to create the flavor we experience in food. It is also involved when we enjoy a movie because of the way the images and the music work together.
 
 <div class="figure" style="text-align: center">
 <img src="images/ch2/qr.png" alt="HYPERLINK &quot;http://www.youtube.com/watch?v=jtsfidRq2tw&quot;Watch The McGurk Effect [YouTube]: http://www.youtube.com/watch?v=jtsfidRq2tw" width="60%" />

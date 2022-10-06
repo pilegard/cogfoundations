@@ -64,3 +64,4 @@ restructuring-the-gestalt-approach
 solving-problems-by-analogy
 how-do-experts-solve-problems
 working-memory-meaning-and-distinctiveness
+perception-information-integration

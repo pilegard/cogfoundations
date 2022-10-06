@@ -88,7 +88,6 @@ Now read the following sentence carefully:
 
 Then try again to make words out of the word fragments.
 
-### MAKE IMAGE
 >1. _ i b _ a _ y <br/>
 2. _ h _ s _ _ i _ n <br/>
 3. _ o _ k <br/>

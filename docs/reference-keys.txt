@@ -63,3 +63,4 @@ problem-solving
 restructuring-the-gestalt-approach
 solving-problems-by-analogy
 how-do-experts-solve-problems
+perception-information-integration

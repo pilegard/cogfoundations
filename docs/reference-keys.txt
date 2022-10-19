@@ -18,7 +18,7 @@ research-methods-in-psychology
 glossary
 perception
 sensation-and-perception
-perception-the-process-of-integrating-information
+perception-information-integration
 illusions
 the-important-role-of-expectations-in-perception
 glossary-1
@@ -32,7 +32,6 @@ glossary-3
 long-term-memory
 working-memory-vs.-long-term-memory
 concept-focus-differences-between-brains-and-computers
-make-image
 encoding-retrieval-and-consolidation
 glossary-4
 memory-in-context
@@ -63,4 +62,3 @@ problem-solving
 restructuring-the-gestalt-approach
 solving-problems-by-analogy
 how-do-experts-solve-problems
-perception-information-integration

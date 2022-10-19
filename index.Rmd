@@ -64,7 +64,7 @@ Source: Friedrich, F. (2019). Attention. In R. Biswas-Diener & E. Diener (Eds), 
 Attention by Frances Friedrich is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 Source: Milich, R. & Roberts, W. (2022). Adhd and behavior disorders in children. In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from http://noba.to/cpxg6b27 
 ADHD and Behavior Disorders in Children by Richard Milich and Walter Roberts are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-Condensed from original version; some content adapted to suit course.
+Condensed from original version; some content adapted to suit course. 
 Cover photo by chuttersnap on Unsplash.
 
 ### Chapter 4 {-}
@@ -147,7 +147,7 @@ Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free D
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. 
 Cover photo by Qurratul Ayin Sadia on Unsplash.
 
-### Chapter 9 {-}
+### Chapter 10 {-}
 Problem Solving
 
 Source: Multiple authors. Memory. In Cognitive Psychology and Cognitive Neuroscience. Wikibooks. Retrieved from https://en.wikibooks.org/wiki/Cognitive_Psychology_and_Cognitive_Neuroscience

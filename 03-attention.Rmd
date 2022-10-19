@@ -6,8 +6,8 @@ We use the term “attention“ all the time, but what processes or abilities do
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}
-1. XX
-2. XX
+1. Understand early dichotic listening experiments that informed how we think about selective attention, and models that have since been proposed to describe how we selectively attend to some things over others. 
+2. Appreciate that our cognitive system can control our attentional resources, while recognizing the limits and constraints we face. 
 :::
 
 ### What is Attention? {-}

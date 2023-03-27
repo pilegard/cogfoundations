@@ -20,9 +20,10 @@ github-repo: pilegard/cogfoundations
 ![](images/cover.png)
 
 ## About the Book {-}
-This collaborative book project is led by Celeste Pilegard, but represents the work of dozens of authors and collaborators listed below. Dr. Pilegard is an Associate Teaching Professor in the Department of Psychology at the University of California, San Diego. Correspondence and inquiries can be sent to Celeste Pilegard at [pilegard@ucsd.edu](mailto:pilegard@ucsd.edu). 
+This collaborative book project is led by Celeste Pilegard, but represents the work of dozens of authors and collaborators listed below. Dr. Pilegard is an Assistant Teaching Professor in the Department of Psychology at the University of California, San Diego. Correspondence and inquiries can be sent to [Celeste Pilegard](mailto:pilegard@ucsd.edu). 
 
-For errors or other feedback, please use this form: https://forms.gle/83CBvAgLuJshRfz37.
+Please use this [Google form](https://forms.gle/83CBvAgLuJshRfz37) to let us know if you've used the book in your course. If you notice an error or would like to suggest an improvement, please open an issue on the [GitHub site](https://github.com/pilegard/cogfoundations), submit a pull request with the suggested change, use this [Google form](https://forms.gle/83CBvAgLuJshRfz37), or [send an email](mailto:pilegard@ucsd.edu).
+
 Many thanks to the original authors for their work and for choosing open licenses.
 
 ### Second Edition {-}
@@ -37,10 +38,12 @@ The second edition of this book built on the first edition by bringing in a team
 
 M. Gupta reformatted the book for bookdown. C. Pilegard updated the chapters on History and Problem Solving. C. Pilegard edited all chapters.
 
+The second edition of this book was supported by the Course Development and Instructional Improvement Program sponsored by the Division of Undergraduate Education at the University of California, San Diego.
+
 ### First Edition {-}
 The first edition of this book was aggregated from multiple Open Educational Resources by Celeste Pilegard. All adaptations, revisions, and transformations of source material were completed by Celeste Pilegard.
 
-The original authors of the content in the first edition of the book are listed below:
+The original authors of the work remixed for the first edition of the book are listed below:
 
 - Mehgan Andrade, College of the Canyons
 - Mara Aruguete, Lincoln University
@@ -71,7 +74,7 @@ The original authors of the content in the first edition of the book are listed 
 - Authors of the [Cognitive Psychology and Cognitive Neuroscience Wikibook](https://en.wikibooks.org/wiki/Cognitive_Psychology_and_Cognitive_Neuroscience)
 - Wikipedia authors
 
-C. Pilegard also authored original portions of the first edition where noted below.
+C. Pilegard authored original portions of the first edition where noted below.
 
 ## License and Attributions {-}
 Unless otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.

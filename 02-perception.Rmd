@@ -122,7 +122,7 @@ The visual system also corrects for color constancy. Imagine that you are wearin
 Another complication is that there are still significant gaps in our understanding of the human perceptual system. For instance, consider this: if perception is an integrative process that takes time, whatever we see now is no longer what is in front of us. Yet, humans can do amazing time-sensitive feats like hitting a 90-mph fastball in a baseball game. It appears then that a fundamental function of visual perception is not just to know what is happening around you now, but actually to make an accurate inference about what you are about to see next [@Enns2008], so that you can keep up with the world. Understanding how this future-oriented, predictive function of perception is achieved in the brain is a largely unsolved challenge, and just another piece of the puzzle that computer vision models will have to solve as well.
 ::: 
 
-### Illusions
+### Illusions {-}
 
 ```{r constancy, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Optical Illusions as a Result of Brightness Constancy (Left) and Color Constancy (Right). Look carefully at the snakelike pattern on the left. Are the green strips really brighter than the background? Cover the white curves and you’ll see they are not. Square A in the right-hand image looks very different from square B, even though they are exactly the same.'}
 knitr::include_graphics("images/ch2/fig4.jpg")

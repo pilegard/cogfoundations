@@ -1,6 +1,6 @@
 --- 
 title: "Cognitive Foundations"
-author: "Celeste Pilegard"
+author: "Edited by Celeste Pilegard"
 date: "Current version rendered `r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book

@@ -37,6 +37,8 @@ perception-information-integration
 glossary-1
 attention
 what-is-attention
+selective-attention
+controlling-attention
 glossary-2
 short-term-and-working-memory
 short-term-memory

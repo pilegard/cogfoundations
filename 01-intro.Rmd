@@ -6,13 +6,16 @@ knitr::include_graphics("images/ch1/lan2000.png")
 
 Philosophers have wondered about the mind at least as far back as Socrates. Yet the scientific study of the mind only began much more recently. What changed, and what tools can we use to study the mind?
 
-## Rise of Cognitive Psychology
-
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}
 1. Describe the precursors to the establishment of the science of cognitive psychology.
 2. Identify key individuals and events in the history of cognitive psychology.
+3. Articulate the difference between correlational and experimental designs.
+4. Understand how experiments help us to infer causality.
+5. List a strength and weakness of different research designs.
 :::
+
+## Rise of Cognitive Psychology
 
 Precursors to American psychology can be found in philosophy and physiology. Philosophers such as John Locke (1632–1704) and Thomas Reid (1710–1796) promoted [empiricism], the idea that all knowledge comes from experience. The work of Locke, Reid, and others emphasized the role of the human observer and the primacy of the senses in defining how the mind comes to acquire knowledge. In American colleges and universities in the early 1800s, these principles were taught as courses on mental and moral philosophy. Most often these courses taught about the mind based on the faculties of intellect, will, and the senses [@fuchs2000].
 
@@ -44,32 +47,7 @@ Although no one person is entirely responsible for starting the cognitive revolu
 
 European psychology had never really been as influenced by behaviorism as had American psychology; and thus, the cognitive revolution helped reestablish lines of communication between European psychologists and their American counterparts. Furthermore, psychologists began to cooperate with scientists in other fields, like anthropology, linguistics, computer science, and neuroscience, among others. This interdisciplinary approach often was referred to as the cognitive sciences, and the influence and prominence of this particular perspective resonates in modern-day psychology [@miller2003]. Next, we will look at the research methods psychologists use to ask questions about the world.
 
-:::fyi
-##### FYI {-}
-- a
-- b
-:::
-
-:::takeaways
-##### Key Takeaways {-}
-- a
-- b
-:::
-
-:::exercises
-##### Exercises {-}
-1. a
-2. b
-:::
-
 ## Research Methods in Psychology
-
-:::learningobjectives
-##### Learning Objectives {-}
-1. Articulate the difference between correlational and experimental designs.
-2. Understand how experiments help us to infer causality.
-3. List a strength and weakness of different research designs.
-:::
 
 One of the important steps in scientific inquiry is to test our research questions, otherwise known as hypotheses. However, there are many ways to test hypotheses in psychological research. Which method you choose will depend on the type of questions you are asking, as well as what resources are available to you. All methods have limitations, which is why the best research uses a variety of methods.
 
@@ -171,14 +149,15 @@ Just look at any major news outlet and you’ll find research routinely being re
 
 :::takeaways
 ##### Key Takeaways {-}
-- a
-- b
+- People have asked questions about the mind for centuries, but only relatively recently took a scientific approach. Psychology, and cognitive psychology especially, is a young science.
+- In order to be a savvy consumer of research, you need to understand the pros and cons of different methods and the distinctions among them. Plus, understanding how psychologists systematically go about answering research questions will help you to solve problems in other domains, both personal and professional, not just in psychology.
 :::
 
 :::exercises
 ##### Exercises {-}
-1. a
-2. b
+1. Discussion: How were early researchers important to the development of psychology as a science?
+2. Practice: Make a list of the schools of thought that preceded the cognitive revolution and write a short description of each.
+3. Compare: What are some key differences between experimental and correlational research?
 :::
 
 ## Glossary

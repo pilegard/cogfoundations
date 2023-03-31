@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Celeste Pilegard"
-date: "Current version rendered 2023-03-27"
+date: "Current version rendered 2023-03-30"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -20,14 +20,14 @@ github-repo: pilegard/cogfoundations
 ![](images/cover.png)
 
 ## About the Book {-}
-This collaborative book project is led by Celeste Pilegard, but represents the work of dozens of authors and collaborators listed below. Dr. Pilegard is an Assistant Teaching Professor in the Department of Psychology at the University of California, San Diego. Correspondence and inquiries can be sent to [Celeste Pilegard](mailto:pilegard@ucsd.edu). 
+This collaborative book project is led by Celeste Pilegard, but represents the work of dozens of authors and collaborators listed below. Dr. Pilegard is an Assistant Teaching Professor in the Department of Psychology at the University of California, San Diego. Correspondence can be sent to [Celeste Pilegard](mailto:pilegard@ucsd.edu). 
 
-Please use this [Google form](https://forms.gle/83CBvAgLuJshRfz37) to let us know if you've used the book in your course. If you notice an error or would like to suggest an improvement, please open an issue on the [GitHub site](https://github.com/pilegard/cogfoundations), submit a pull request with the suggested change, use this [Google form](https://forms.gle/83CBvAgLuJshRfz37), or [send an email](mailto:pilegard@ucsd.edu).
+Please use this [Google form](https://forms.gle/83CBvAgLuJshRfz37) to let us know if you've used the book in your course. If you notice an error or would like to suggest an improvement, please use the [GitHub site](https://github.com/pilegard/cogfoundations) to open an issue or submit a pull request with the suggested change, use this [Google form](https://forms.gle/83CBvAgLuJshRfz37), or [send an email](mailto:pilegard@ucsd.edu) with "Cognitive Foundations OER" in the subject line.
 
-Many thanks to the original authors for their work and for choosing open licenses.
+This book was formatted using the [bookdown](https://bookdown.org/) package.
 
 ### Second Edition {-}
-The second edition of this book built on the first edition by bringing in a team of UC San Diego graduate students as content experts to edit and update each chapter. The content experts are listed below:
+The second edition of this book builds on the first edition with updates, improvements, and edits by a team of UC San Diego graduate student content experts:
 
 - Catherine Arnett (Language)
 - Pria Daniel (Attention)
@@ -36,9 +36,9 @@ The second edition of this book built on the first edition by bringing in a team
 - Hayden Schill (Perception, Working Memory)
 - Anne Yilmaz (Memory in Context)
 
-M. Gupta reformatted the book for bookdown. C. Pilegard updated the chapters on History and Problem Solving. C. Pilegard edited all chapters.
+M. Gupta and C. Pilegard reformatted the book using the bookdown. C. Pilegard updated the chapters on History and Problem Solving. C. Pilegard edited all chapters.
 
-The second edition of this book was supported by the Course Development and Instructional Improvement Program sponsored by the Division of Undergraduate Education at the University of California, San Diego.
+The second edition of this book was supported by a Course Development and Instructional Improvement Program grant awarded to C. Pilegard. The program is sponsored by the Division of Undergraduate Education at the University of California, San Diego.
 
 ### First Edition {-}
 The first edition of this book was aggregated from multiple Open Educational Resources by Celeste Pilegard. All adaptations, revisions, and transformations of source material were completed by Celeste Pilegard.
@@ -75,6 +75,8 @@ The original authors of the work remixed for the first edition of the book are l
 - Wikipedia authors
 
 C. Pilegard authored original portions of the first edition where noted below.
+
+Many thanks to the original authors for their work and for choosing open licenses.
 
 ## License and Attributions {-}
 Unless otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.

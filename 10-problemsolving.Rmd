@@ -52,7 +52,7 @@ The efficiency of problem solving depends on the underlying representations in a
 
 Two boys of different ages are playing badminton. The older one is a more skilled player, and therefore the outcome of matches between the two becomes predictable. After repeated defeats the younger boy finally loses interest in playing. The older boy now faces a problem, namely that he has no one to play with anymore.
 
-The usual options, according to @Wertheimer1945, range from “offering candy” and “playing a different game” to “not playing at full ability” and “shaming the younger boy into playing.” All of these strategies aim at making the younger boy stay.
+The usual options, according to @wertheimer1945productive, range from “offering candy” and “playing a different game” to “not playing at full ability” and “shaming the younger boy into playing.” All of these strategies aim at making the younger boy stay.
 
 The older boy instead comes up with a different solution: He proposes that they should try to keep the birdie in play as long as possible. Thus they change from a game of competition to one of cooperation. The proposal is happily accepted and the game is on again.
 
@@ -126,7 +126,7 @@ Participants who are given the 100 cup task first choose a complicated way to so
 
 One special kind of restructuring is analogical problem solving. Here, to find a solution to one problem (i.e., the target problem) an analogous solution to another problem (i.e., the base problem) is presented.
 
-An example for this kind of strategy is the radiation problem posed by @Duncker1945:
+An example for this kind of strategy is the radiation problem posed by @duncker1945problem:
 
 As a doctor you have to treat a patient with a malignant, inoperable tumor, buried deep inside the body. There exists a special kind of ray which is harmless at a low intensity, but at sufficiently high intensity is able to destroy the tumor. At such high intensity, however, the ray will also destroy the healthy tissue it passes through on the way to the tumor. What can be done to destroy the tumor while preserving the healthy tissue?
 
@@ -189,14 +189,3 @@ Experts often spend more time analyzing a problem before actually trying to solv
 1. a
 2. b
 :::
-
-
-References
-Chase, W. G., & Simon, H. A. (1973). Perception in chess. Cognitive psychology, 4(1), 55-81.
-Chi, M. T., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. Cognitive science, 5(2), 121-152.
-Duncker, K., & Lees, L. S. (1945). On problem-solving. Psychological monographs, 58(5).
-Gick, M. L., & Holyoak, K. J. (1980). Analogical problem solving. Cognitive psychology, 12(3), 306-355.
-Gick, M. L., & Holyoak, K. J. (1983). Schema induction and analogical transfer. Cognitive psychology, 15(1), 1-38.
-Goldstein, E.B. (2005). Cogntive Psychology. Connecting Mind, Research, and Everyday Experience. Belmont: Thomson Wadsworth.
-R.L. Dominowski and P. Dallob, Insight and Problem Solving. In The Nature of Insight, R.J. Sternberg & J.E. Davidson (Eds). MIT Press: USA, pp.33-62 (1995).
-Wertheimer, M., (1945). Productive thinking. New York: Harper.

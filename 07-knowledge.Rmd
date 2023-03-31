@@ -37,7 +37,7 @@ Unfortunately, it has not been possible to find definitions for many familiar ca
 
 Even in domains where one might expect to find clear-cut definitions, such as science and law, there are often problems. For example, many people were upset when Pluto was downgraded from its status as a planet to a dwarf planet in 2006. Upset turned to outrage when they discovered that there was no hard-and-fast definition of planethood: “Aren’t these astronomers scientists? Can’t they make a simple definition?” In fact, they couldn’t. After an astronomical organization tried to make a definition for planets, a number of astronomers complained that it might not include accepted planets such as Neptune and refused to use it. If everything looked like our Earth, our moon, and our sun, it would be easy to give definitions of planets, moons, and stars, but the universe has sadly not conformed to this ideal.
 
-```{r table1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Table 1. Examples of two categories, with members ordered by typicality (from Rosch & Mervis, 1975)'}
+```{r table1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Table 1. Examples of two categories, with members ordered by typicality (from Rosch and Mervis, 1975)'}
 knitr::include_graphics("images/ch7/table1.jpg")
 ```
 
@@ -94,7 +94,7 @@ The Semantic Network approach proposes that concepts of the mind are arranged in
 
 #### Collins and Quillian's Model {-}
 
-One of the first scientists who thought about structural models of human memory that could be run on a computer was @Quillian1967. Together with Allan Collins, he developed the Semantic Network with related categories and with a hierarchical organization. 
+One of the first scientists who thought about structural models of human memory that could be run on a computer was @quillian1967word. Together with Allan Collins, he developed the Semantic Network with related categories and with a hierarchical organization. 
 
 In the picture on the right hand side, Collins and Quillians network with added properties at each node is shown. As already mentioned, the skeleton-nodes are interconnected by links. At the nodes, concept names are added. General concepts are on the top and more particular ones at the bottom. By looking at the concept "car", one gets the information that a car has 4 wheels, has an engine, has windows, and furthermore moves around, needs fuel, is manmade.
 
@@ -108,7 +108,7 @@ These pieces of information must be stored somewhere. It would take too much spa
 
 Information that is shared by several concepts is stored in the highest parent node. All child nodes below the information bearer also contain the properties of the parent node. However, there are exceptions. Sometimes a special car has not four wheels, but three. This specific property is stored in the child node.  Evidence for this structure can be found by the sentence verification technique. In experiments participants had to answer statements about concepts with "yes" or "no". It took longer to say "yes" if the concept-bearing nodes were further apart. 
 
-The phenomenon that adjacent concepts are activated is called [spreading activation]. These concepts are far more easily accessed by memory, they are "primed". This was studied and backed by @Meyer1971 with a lexical-decision task. Participants had to decide if word pairs were words or non-words. They were faster at finding real word pairs if the concepts of the two words were near each other in a semantic network. 
+The phenomenon that adjacent concepts are activated is called [spreading activation]. These concepts are far more easily accessed by memory, they are "primed". This was studied and backed by @meyer1971facilitation with a lexical-decision task. Participants had to decide if word pairs were words or non-words. They were faster at finding real word pairs if the concepts of the two words were near each other in a semantic network. 
 
 
 :::takeaways

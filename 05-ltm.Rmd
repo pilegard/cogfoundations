@@ -117,7 +117,7 @@ The [levels-of-processing effect], identified by Fergus @Craik1975, describes me
 
 This theory contradicts the multi-store Atkinson-Shiffrin memory model which represents memory strength as being continuously variable, the assumption being that rehearsal always improves long-term memory. They argued that rehearsal that consists simply of repeating previous analyses (maintenance rehearsal) doesn't enhance long-term memory.
 
-```{r fig5.4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Levels of processing based on evidence from Craik & Tulving. Rogers and colleagues would later add an even deeper level - self-reference.'}
+```{r fig5.4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Levels of processing based on evidence from Craik and Tulving.'}
 knitr::include_graphics("images/ch5/fig4.png")
 ```
 

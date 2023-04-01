@@ -11,7 +11,6 @@ knitr::include_graphics("images/ch4/fig0.png")
 :::
 
 Working memory is like your mind’s workspace— a limited capacity system for storage and processing of information. While early researchers focused on the storage function of working memory, contemporary scientists stress the processing and manipulation functions of the system. In fact, the name for the system was changed from “short-term memory” to “working memory” to emphasize the processing function of this stage of memory. Today, scientists primarily use the term “working memory” instead of “short-term memory. 
-Chapter 4 License and Attribution
 
 When people talk about memory, they are describing the mind’s ability to encode, store, and retrieve information. Our ability to remember is what allows us to learn from our experiences. How does our brain store and later retrieve information? Many different models of memory have evolved in an attempt to answer this question. Distinctions are drawn between working memory and long-term memory based on the period of time information is accessible after it is first encountered. [Sensory Memory], also known as Iconic Memory, has the smallest time span for accessibility of information. With [Short Term] and [Working Memory], information is accessible seconds to minutes after it is first encountered. [Long Term Memory] has an accessibility period from minutes to years to decades. 
 
@@ -19,7 +18,7 @@ In more recent research, the distinctions between working and long-term memory f
 
 ## Short-Term Memory
 
-```{r fig4.1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Figure 1. Atkinson and Shiffrin’s Modal Model of Memory. Image from Wikimedia Commons.'}
+```{r modalmodel, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Atkinson and Shiffrin’s Modal Model of Memory.'}
 knitr::include_graphics("images/ch4/fig1.png")
 ```
 
@@ -46,7 +45,7 @@ Although the Modal Model of short-term memory proposed by Atkinson and Shiffrin 
 ## Working Memory 
 According to Baddeley, [working memory] is not only capable of storage, but also of the manipulation of incoming information. Baddeley and Hitch’s 1974 model consists of three parts: two storages spaces called the phonological loop and the visuospatial sketch pad, and a control unit call the central executive.
 
-```{r fig4.2, echo = FALSE, out.width='60%', fig.align = 'center'}
+```{r baddeley, echo = FALSE, out.width='60%', fig.align = 'center'}
 knitr::include_graphics("images/ch4/fig2.png")
 ```
 
@@ -71,7 +70,7 @@ Both lists are seven words long, and yet people are much worse at a list like th
 
 The next component of working memory is the [visuospatial sketch pad], which *handles visual and spatial information*. Like the phonological loop, the visuospatial sketchpad is primarily a storage space. What evidence do we have that visual and spatial information is stored independently from auditory and verbal information? Look at the block letter F to the right. In an example experiment, you would be instructed to memorize the letter, and then, starting with the starred corner and then traveling up and around the letter, indicate whether each corner is an outside corner (like the starred corner) or an inside corner (like the fifth corner as you travel around the shape). In one condition, participants would verbally say “outside” or “inside” for each corner. In the other condition, participants would point at the words “outside” and “inside” displayed in front of them for each corner. @Brooks1968 conducted an experiment similar to this one, and found that participants were much better at the task when they could verbally indicate the type of corner than when they had to point. Why? We have two storage spaces in working memory and each of them is limited in capacity. Mentally traveling around the block letter and judging the corners is a spatial task, and so it puts a load on the visuospatial sketchpad. If you add pointing on top of that, participants’ visuospatial sketchpads get overloaded and they struggle to do both simultaneously. If instead you allow participants to respond verbally, they are distributing the response aspect of the task onto the phonological loop. That way, neither storage system becomes overloaded.
 
-```{r fig4.3, echo = FALSE, out.width='10%', fig.align = 'center'}
+```{r blockf, echo = FALSE, out.width='10%', fig.align = 'center'}
 knitr::include_graphics("images/ch4/fig3.png")
 ```
 

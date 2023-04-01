@@ -12,25 +12,21 @@
 
 Our memories allow us to do relatively simple things, such as remembering where we parked our car or the name of the current governor of California, but also allow us to form complex memories, such as how to ride a bicycle or to write a computer program. Moreover, our memories define us as individuals — they are our experiences, our relationships, our successes, and our failures. Without our memories, we would not have a life. 
 
-## WORKING MEMORY VS. LONG-TERM MEMORY
+## Working Memory Vs. Long-Term Memory
 
 As we discussed in the last chapter, working memory is a temporary storage space for information that is being actively stored and manipulated in consciousness. Information that is not trained on will be forgotten within 18 to 30 seconds. Long-term memory, on the other hand, is where we store everything from a few moments to the earliest thing we can remember. There is theoretically no upper limit to the amount of information we can store in long-term memory.
 
 ### The Serial Position Curve {-}
-```{r fig5.1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The serial position curve is the result of both primacy effects and recency effects.'}
+```{r serialposition, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'The serial position curve is the result of both primacy effects and recency effects.'}
 knitr::include_graphics("images/ch5/fig1.jpg")
 ```
 
-The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \@ref(fig:fig5.1). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented later in a list*.
+The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \@ref(fig:serialposition). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented later in a list*.
 
 There are a number of explanations for primacy and recency effects, but one of them is in terms of the effects of rehearsal on short-term and long-term memory (@Baddeley1990). Because we can keep the last words that we learned in the presented list in short-term memory by rehearsing them before the memory test begins, they are relatively easily remembered. So the recency effect can be explained in terms of maintenance rehearsal in short-term memory— the most recent words are still available in short-term memory at the time of recall. And the primacy effect may also be due to rehearsal—when we hear the first word in the list we start to rehearse it, making it more likely that it will be moved from short-term to long-term memory. And the same is true for the other words that come early in the list. But for the words in the middle of the list, this rehearsal becomes much harder, making them less likely to be moved to LTM.
 
-### Structure {-}
-
-According to Baddeley’s model, working memory includes a central executive, phonological loop, visuospatial sketchpad, and episodic buffer. What is the structure of long-term memory? As you can see in \@ref(fig:fig5.2), long-term memory can be divided into two major categories of memory types: explicit memory and implicit memory, which can be further divided into multiple sub-types: semantic, episodic, procedural, priming, and conditioning memory.
-
 :::fyi
-##### Concept Focus: Differences between brains and computers
+##### Concept Focus: Differences between brains and computers {-}
 * In computers, information can be accessed only if one knows the exact location of the
 memory. In the brain, information can be accessed through spreading activation from closely related concepts. Further, there is no exact location of a stored memory in the brain.
 * Computers differentiate memory (e.g. the hard drive) from processing 
@@ -56,13 +52,17 @@ to check out the website and responses to it.
 [http://scienceblogs.com/developingintelligence/2007/03.27/why-the-brain-is-not-like-a-co/ HYPER link]
 :::
 
+## Structure
+
+According to Baddeley’s model, working memory includes a central executive, phonological loop, visuospatial sketchpad, and episodic buffer. What is the structure of long-term memory? As you can see in Figure \@ref(fig:structure), long-term memory can be divided into two major categories of memory types: explicit memory and implicit memory, which can be further divided into multiple sub-types: semantic, episodic, procedural, priming, and conditioning memory.
+
 ### Explicit Memory {-}
 
 The first form of long-term memory we will discuss is explicit memory. We are measuring explicit memory when we assess memory by asking a person to consciously remember things. [Explicit memory] refers to *knowledge or experiences that can be consciously remembered*. There are two types of explicit memory: *episodic and semantic*. [Episodic memory] refers to *the firsthand experiences that we have had (e.g., recollections of our high school graduation day or of the fantastic dinner we had in New York last year)*. [Semantic memory] refers to *our knowledge of facts and concepts about the world* (e.g., that the absolute value of −90 is greater than the absolute value of 9 and that one definition of the word “affect” is “the experience of feeling or emotion”).
 
 Explicit memory is assessed using measures in which the individual being tested must consciously attempt to remember the information. A [recall memory test] is *a measure of explicit memory that involves bringing from memory information that has previously been remembered*. We rely on our recall memory when we take an essay test, because the test requires us to generate previously remembered information. A multiple-choice test is an example of a [recognition memory test], *a measure of explicit memory that involves determining whether information has been seen or learned before*.
 
-```{r fig5.2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Types of long-term memory.'}
+```{r structure, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap = 'Structure of long-term memory.'}
 knitr::include_graphics("images/ch5/fig2.jpg")
 ```
 
@@ -70,9 +70,9 @@ Your own experiences taking tests will probably lead you to agree with the scien
 
 A third way of measuring memory is known as relearning (Nelson, 1985). Measures of [relearning] (or savings) *assess how much more quickly information is processed or learned when it is studied again after it has already been learned but then forgotten*. If you have taken some French courses in the past, for instance, you might have forgotten most of the vocabulary you learned. But if you were to work on your French again, you’d learn the vocabulary much faster the second time around. Relearning can be a more sensitive measure of memory than either recall or recognition because it allows assessing memory in terms of “how much” or “how fast” rather than simply “correct” versus “incorrect” responses. Relearning also allows us to measure memory for procedures like driving a car or playing a piano piece, as well as memory for facts and figures.
 
-## Implicit Memory {-}
+### Implicit Memory {-}
 
-While explicit memory consists of the things that we can consciously report that we know, implicit memory refers to knowledge that we cannot consciously access. However, implicit memory is nevertheless exceedingly important to us because it has a direct effect on our behavior. [Implicit memory] refers to *the influence of experience on behavior, even if the individual is not aware of those influences*. As you can see in \@ref(fig:fig5.2), “Types of Memory,” there are three general types of implicit memory: procedural memory, classical conditioning effects, and priming.
+While explicit memory consists of the things that we can consciously report that we know, implicit memory refers to knowledge that we cannot consciously access. However, implicit memory is nevertheless exceedingly important to us because it has a direct effect on our behavior. [Implicit memory] refers to *the influence of experience on behavior, even if the individual is not aware of those influences*. As you can see in Figure \@ref(fig:structure), there are three general types of implicit memory: procedural memory, classical conditioning effects, and priming.
 
 [Procedural memory] refers to our often *unexplainable knowledge of how to do things*. When we walk from one place to another, speak to another person in English, dial a cell phone, or play a video game, we are using procedural memory. Procedural memory allows us to perform complex tasks, even though we may not be able to explain to others how we do them. There is no way to tell someone how to ride a bicycle; a person has to learn by doing it. The idea of implicit memory helps explain how infants are able to learn. The ability to crawl, walk, and talk are procedures, and these skills are easily and efficiently developed while we are children despite the fact that as adults we have no conscious memory of having learned them. Also note that within procedural memory, it is often divided into three sub-types: cognitive, motor, and perceptual. 
 
@@ -101,7 +101,7 @@ Our everyday behaviors are influenced by priming in a wide variety of situations
 
 Imagine you are able to perfectly study for an exam. You take notes in lecture and read the textbook as the quarter moves along. As you approach the exam, you develop study materials, test yourself on the information, and go to the professor’s office hours to ask about the parts you find the most difficult. The day before the exam, you explain all of the important concepts from class to your best friend. You get a good night’s sleep, and the next morning you find that remembering the important concepts from class feels relatively easy. The questions on the exam include bits of information that help you retrieve the concepts that you studied so hard to understand. You leave feeling like your exam performance was a good reflection of the hard work you put in to studying. 
 
-```{r fig5.3, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo by Robert Bye on Uplash.'}
+```{r library, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo by Robert Bye on Uplash.'}
 knitr::include_graphics("images/ch5/fig3.png")
 ```
 
@@ -117,7 +117,7 @@ The [levels-of-processing effect], identified by Fergus @Craik1975, describes me
 
 This theory contradicts the multi-store Atkinson-Shiffrin memory model which represents memory strength as being continuously variable, the assumption being that rehearsal always improves long-term memory. They argued that rehearsal that consists simply of repeating previous analyses (maintenance rehearsal) doesn't enhance long-term memory.
 
-```{r fig5.4, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Levels of processing based on evidence from Craik and Tulving.'}
+```{r lop, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'Levels of processing based on evidence from Craik and Tulving.'}
 knitr::include_graphics("images/ch5/fig4.png")
 ```
 
@@ -141,14 +141,14 @@ Used together, the testing effect and the spacing effect are two of the most rob
 ### Retrieval {-}
 Information stored in the memory is retrieved by way of association with other memories. Some memories can not be recalled by simply thinking about them. Rather, one must think about something associated with it. For example, if someone tries and fails to recollect the memories he had about a vacation he went on, and someone mentions the fact that he hired a classic car during this vacation, this may make him remember all sorts of things from that trip, such as what he ate there, where he went and what books he read. 
 
-```{r fig5.5, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo albums can be great sources of retrieval cues. Photo by BBH Singapore on Uplash.'}
+```{r albumbs, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo albums can be great sources of retrieval cues. Photo by BBH Singapore on Uplash.'}
 knitr::include_graphics("images/ch5/fig5.png")
 ```
 
 #### Encoding Specificity Principle {-}
 The [encoding specificity principle] is the *general principle that memory is best when the conditions at encoding match the conditions at retrieval*. For example, take the song on the radio: perhaps you heard it while you were at a terrific party, having a great, philosophical conversation with a friend. Thus, the song became part of that whole complex experience. Years later, even though you haven’t thought about that party in ages, when you hear the song on the radio, the whole experience rushes back to you. In general, the encoding specificity principle states that, to the extent a retrieval cue (the song) matches or overlaps the memory trace of an experience (the party, the conversation), it will be effective in evoking the memory. One example of the encoding specificity principle is [transfer-appropriate processing], in which *memory is best when the type of cognitive processing at recall matches the type of cognitive processing at encoding*. This was empirically shown in a study by @Morris1977 using semantic and rhyme tasks. In a standard recognition test, memory was better following semantic processing compared to rhyme processing, as predicted by the levels-of-processing effect. However, in a rhyming recognition test, memory was better for those who engaged in rhyme processing compared to semantic processing. This adds a level of complexity to the levels-of-processing theory: while the levels-of-processing framework generally holds for a normal recognition test, performance on rhyming tests is actually better with phonological than semantic processing at encoding.
 
-```{r fig5.6, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Results from Morris and colleagues` Transfer-Apprpriate Processing experiment.'}
+```{r morris, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Results from Morris and colleagues’ Transfer-Appropriate Processing experiment.'}
 knitr::include_graphics("images/ch5/fig6.png")
 ```
 

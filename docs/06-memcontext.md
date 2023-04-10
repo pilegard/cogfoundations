@@ -1,5 +1,6 @@
 # Memory in Context
-<img src="images/ch6/fig0.png" width="100%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=1\linewidth]{images/ch6/fig0} \end{center}
 
 As we have seen, our memories are not perfect. They fail in part due to our inadequate encoding and storage, and in part due to our inability to accurately retrieve stored information. But memory is also influenced by the setting in which it occurs, by the events that occur to us after we have experienced an event, and by the cognitive processes that we use to help us remember. Although our cognition allows us to attend to, rehearse, and organize information, cognition may also lead to distortions and errors in our judgments and our behaviors.
 
@@ -15,10 +16,14 @@ Memory is susceptible to a wide variety of biases and errors. People can forget 
 
 Some small memory errors are commonplace, and you have no doubt experienced many of them. You set down your keys without paying attention, and then cannot find them later when you go to look for them. You try to come up with a person’s name but cannot find it, even though you have the sense that it is right at the tip of your tongue (psychologists actually call this the tip-of-the-tongue effect, or TOT) [@Brown1991].
 
-<div class="figure" style="text-align: center">
-<img src="images/ch6/fig1.png" alt="For most of our experiences schematas are a benefit and help with information overload. However, they may make it difficult or impossible to recall certain details of a situation later. Do you recall the library as it actually was or the library as approximated by your library schemata? [Dan Kleinman, https://goo.gl/07xyDD, CC BY 2.0, https://goo.gl/BRvSA7]" width="60%" />
-<p class="caption">(\#fig:library2)For most of our experiences schematas are a benefit and help with information overload. However, they may make it difficult or impossible to recall certain details of a situation later. Do you recall the library as it actually was or the library as approximated by your library schemata? [Dan Kleinman, https://goo.gl/07xyDD, CC BY 2.0, https://goo.gl/BRvSA7]</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch6/fig1} 
+
+}
+
+\caption{For most of our experiences schematas are a benefit and help with information overload. However, they may make it difficult or impossible to recall certain details of a situation later. Do you recall the library as it actually was or the library as approximated by your library schemata? [Dan Kleinman, https://goo.gl/07xyDD, CC BY 2.0, https://goo.gl/BRvSA7]}(\#fig:library2)
+\end{figure}
 
 Other sorts of memory biases are more complicated and longer lasting. For example, it turns out that our expectations and beliefs about how the world works can have huge influences on our memories. Because many aspects of our everyday lives are full of redundancies, our memory systems take advantage of the recurring patterns by forming and using schemata, or memory templates [@Alba1983; @brewer1981role]. Thus, we know to expect that a library will have shelves and tables and librarians, and so we don’t have to spend energy noticing these at the time. The result of this lack of attention, however, is that one is likely to remember schema-consistent information (such as tables), and to remember them in a rather generic way, whether or not they were actually present.
 
@@ -60,10 +65,14 @@ Later, subjects were shown pairs of slides. One of the pair was the original sli
 
 This phenomenon is called the misinformation effect, because the misinformation that subjects were exposed to after the event (here in the form of a misleading question) apparently contaminates subjects’ memories of what they witnessed. Hundreds of subsequent studies have demonstrated that memory can be contaminated by erroneous information that people are exposed to after they witness an event [see @frenda2011current; @loftus2005planting]. The misinformation in these studies has led people to incorrectly remember everything from small but crucial details of a perpetrator’s appearance to objects as large as a barn that wasn’t there at all.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch6/fig2.png" alt="Misinformation can be introduced into the memory of a witness between the time of seeing an event and reporting it later. Something as straightforward as which sort of traffic sign was in place at an intersection can be confused if subjects are exposed to erroneous information after the initial incident." width="30%" />
-<p class="caption">(\#fig:trafficsign)Misinformation can be introduced into the memory of a witness between the time of seeing an event and reporting it later. Something as straightforward as which sort of traffic sign was in place at an intersection can be confused if subjects are exposed to erroneous information after the initial incident.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.3\linewidth]{images/ch6/fig2} 
+
+}
+
+\caption{Misinformation can be introduced into the memory of a witness between the time of seeing an event and reporting it later. Something as straightforward as which sort of traffic sign was in place at an intersection can be confused if subjects are exposed to erroneous information after the initial incident.}(\#fig:trafficsign)
+\end{figure}
 
 These studies have demonstrated that young adults (the typical research subjects in psychology) are often susceptible to misinformation, but that children and older adults can be even more susceptible [@bartlett2007eyewitness; @ceci1995jeopardy]. In addition, misinformation effects can occur easily, and without any intention to deceive [@allan2008still]. Even slight differences in the wording of a question can lead to misinformation effects. Subjects in one study were more likely to say yes when asked “Did you see the broken headlight?” than when asked “Did you see a broken headlight?” [@loftus1975leading].
 
@@ -104,15 +113,20 @@ As you’ve come to see, memory is fragile, and forgetting can be frustrating an
 
 Sometimes memory loss happens before the actual memory process begins, which is encoding failure. We can’t remember something if we never stored it in our memory in the first place. This would be like trying to find a book on your e-reader that you never actually purchased and downloaded. Often, in order to remember something, we must pay attention to the details and actively work to process the information (effortful encoding). Lots of times we don’t do this. For instance, think of how many times in your life you’ve seen a penny. Can you accurately recall what the front of a U.S. penny looks like? When researchers Raymond Nickerson and Marilyn Adams (1979) @Nickerson1979 asked this question, they found that most Americans don’t know which one it is. The reason is most likely encoding failure. Most of us never encode the details of the penny. We only encode enough information to be able to distinguish it from other coins. If we don’t encode the information, then it’s not in our long-term memory, so we will not be able to remember it.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch6/fig3.png" alt="Can you tell which coin, (a), (b), (c), or (d) is the accurate depiction of a US nickel? The correct answer is (c)." width="80%" />
-<p class="caption">(\#fig:nickel)Can you tell which coin, (a), (b), (c), or (d) is the accurate depiction of a US nickel? The correct answer is (c).</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/ch6/fig3} 
+
+}
+
+\caption{Can you tell which coin, (a), (b), (c), or (d) is the accurate depiction of a US nickel? The correct answer is (c).}(\#fig:nickel)
+\end{figure}
 ### Interference {-}
 
 Sometimes information is stored in our memory, but for some reason it is inaccessible. This is known as interference, and there are two types: proactive interference and retroactive interference. Have you ever gotten a new phone number or moved to a new address, but right after you tell people the old (and wrong) phone number or address? When the new year starts, do you find you accidentally write the previous year? These are examples of proactive interference: when old information hinders the recall of newly learned information. Retroactive interference happens when information learned more recently hinders the recall of older information. For example, this week you are studying about Freud’s Psychoanalytic Theory. Next week you study the humanistic perspective of Maslow and Rogers. Thereafter, you have trouble remembering Freud’s Psychosexual Stages of Development because you can only remember Maslow’s Hierarchy of Needs.
  
-<img src="images/ch6/fig4.png" width="90%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.9\linewidth]{images/ch6/fig4} \end{center}
 
 :::takeaways
 ##### Key Takeaways {-}

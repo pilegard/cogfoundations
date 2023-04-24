@@ -23,6 +23,7 @@ fig:lateselection
 fig:stroop
 fig:driving
 fig:modalmodel
+fig:chess
 fig:serialposition
 fig:structure
 fig:library
@@ -63,7 +64,6 @@ glossary-2
 short-term-and-working-memory
 short-term-memory
 working-memory
-working-memory-meaning-and-distinctiveness
 glossary-3
 long-term-memory
 working-memory-vs.-long-term-memory

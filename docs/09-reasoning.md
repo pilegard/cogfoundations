@@ -48,7 +48,7 @@ Even though it is quite obvious that the first premise is not true and further t
 It is possible to display a syllogism formally with symbols or letters and explain its relationship graphically with the help of diagrams. One way to demonstrate a premise graphically is to use Euler circles (pronounced “oyler”). Starting with a circle to represent the first premise and adding one or more circles for the second one (Figure 9.1), one can compare the constructed diagrams with the conclusion. The displayed syllogism in Figure 9.1 is obviously valid. The conclusion shows that everything that can jump contains animals which again contains flowers. This aligns with the two premises which point out that flowers are animals and thus are able to jump. Euler circles help represent such logic.
 
 <div class="figure" style="text-align: center">
-<img src="images/ch9/fig1.jpg" alt="Euler Circles" width="60%" />
+<img src="images/ch9/fig1.png" alt="Euler Circles" width="60%" />
 <p class="caption">(\#fig:fig9.1)Euler Circles</p>
 </div>
 
@@ -131,7 +131,7 @@ So far we have discussed deductive reasoning, which is reaching conclusions base
 
 In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering (Figure 9.4), this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
 
-<img src="images/ch9/fig4.jpg" width="60%" style="display: block; margin: auto;" />
+<img src="images/ch9/fig4.png" width="60%" style="display: block; margin: auto;" />
 
 ### Forms of inductive reasoning {-}
 

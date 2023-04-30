@@ -4,67 +4,53 @@
  knitr::include_graphics("images/ch5/fig0.png")
 ```
 
+Our memories allow us to do relatively simple things, such as remembering where we parked our car or the name of the current governor of California, but also allow us to form complex memories, such as how to ride a bicycle or to write a computer program. Moreover, our memories define us as individuals — they are our experiences, our relationships, our successes, and our failures. Without your memories, would you still be you? 
+
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}
-1. XX
-2. XX
+1. Compare and contrast working memory and long-term memory, identifying the features that define each.
+1. Compare and contrast explicit and implicit memory, identifying the features that define each.
+2. Label and review the principles of encoding, storage, and retrieval.
+3. Describe how the context in which we learn information can influence our memory of that information.
 :::
-
-Our memories allow us to do relatively simple things, such as remembering where we parked our car or the name of the current governor of California, but also allow us to form complex memories, such as how to ride a bicycle or to write a computer program. Moreover, our memories define us as individuals — they are our experiences, our relationships, our successes, and our failures. Without our memories, we would not have a life. 
 
 ## Working Memory Vs. Long-Term Memory
 
-As we discussed in the last chapter, working memory is a temporary storage space for information that is being actively stored and manipulated in consciousness. Information that is not trained on will be forgotten within 18 to 30 seconds. Long-term memory, on the other hand, is where we store everything from a few moments to the earliest thing we can remember. There is theoretically no upper limit to the amount of information we can store in long-term memory.
+As we discussed in the last chapter, working memory is a temporary storage space for information that is being actively stored and manipulated in consciousness. Information that is not rehearsed will be forgotten within 18 to 30 seconds. Long-term memory, on the other hand, is where we store everything from a few moments to the earliest thing we can remember. There is theoretically no upper limit to the amount of information we can store in long-term memory.
 
 ### The Serial Position Curve {-}
 ```{r serialposition, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'The serial position curve is the result of both primacy effects and recency effects.'}
 knitr::include_graphics("images/ch5/fig1.jpg")
 ```
 
-The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \@ref(fig:serialposition). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented later in a list*.
+The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \@ref(fig:serialposition). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented at the end of a list*.
 
-There are a number of explanations for primacy and recency effects, but one of them is in terms of the effects of rehearsal on short-term and long-term memory (@Baddeley1990). Because we can keep the last words that we learned in the presented list in short-term memory by rehearsing them before the memory test begins, they are relatively easily remembered. So the recency effect can be explained in terms of maintenance rehearsal in short-term memory— the most recent words are still available in short-term memory at the time of recall. And the primacy effect may also be due to rehearsal—when we hear the first word in the list we start to rehearse it, making it more likely that it will be moved from short-term to long-term memory. And the same is true for the other words that come early in the list. But for the words in the middle of the list, this rehearsal becomes much harder, making them less likely to be moved to LTM.
+Primacy and recency effects can be explanied in terms of the effects of rehearsal on short-term and long-term memory [@Baddeley1990]. Because we can keep the last words that we learned in the presented list in short-term memory by rehearsing them before the memory test begins, they are relatively easily remembered. So the recency effect can be explained in terms of maintenance rehearsal in short-term memory— the most recent words are still available in short-term memory at the time of recall. And the primacy effect can also be explained by rehearsal—when we hear the first word in the list we start to rehearse it, making it more likely that it will be moved from short-term to long-term memory. And the same is true for the other words that come early in the list. But for the words in the middle of the list, this rehearsal becomes much harder, making them less likely to be moved to long-term memory
 
 :::fyi
-##### Concept Focus: Differences between brains and computers {-}
-* In computers, information can be accessed only if one knows the exact location of the
-memory. In the brain, information can be accessed through spreading activation from closely related concepts. Further, there is no exact location of a stored memory in the brain.
-* Computers differentiate memory (e.g. the hard drive) from processing 
-(the central processing unit), but in brains there is no such distinction.
-In the brain (but not in computers) existing memory is used to interpret and 
-store incoming information, and retrieving information from memory changes
-the memory itself.
-* The brain is self-organizing and self-reparing, but computers are not. If a person
-suffers a stroke, neural plasticity will help them recover. 
-* The brain is significantly more complex than any current computer. The brain is estimated
-to have 25,000,000,000,000,000 (25 million billion) interactions among axons, 
-dendrites, neurons, and neurotransmitters, and that doesn't include the approximately 
-1 trillion glial cells that may also be important for information processing and memory.
+##### Brains Vs. Computers {-}
+The distinction between short-term memory and long-term memory might remind you of the distinction between RAM and ROM in a computer. Are brains just computers that live in our heads? Not exactly. Here are some key differences:
 
-Although cognitive psychology began in earnest at about the same time that the
-eclectronic computer was first being developed, and although cognitive psycholgists 
-have frequently used the computer as a model for understanding how the brain 
-operates, research in cognitive neuroscience has revealed many important differences
-between brains and computers. The neuroscientists Chris Chatham (2007) 
-[http://scienceblogs.com/developingintelligence/2007/03/27/why-the-brain-is-not-like-a-co/ HYPER link] provided 
-the list of differences between brains and computers shown here. You might want 
-to check out the website and responses to it. 
-[http://scienceblogs.com/developingintelligence/2007/03.27/why-the-brain-is-not-like-a-co/ HYPER link]
+* In computers, information can be accessed only if one knows the exact location of the memory. In the brain, information can be accessed through spreading activation from closely related concepts. Further, there is no exact location of a stored memory in the brain.
+* Computers differentiate memory (e.g. the hard drive) from processing  (the central processing unit), but in brains there is no such distinction.
+* In the brain (but not in computers) existing memory is used to interpret and  store incoming information, and retrieving information from memory changes the memory itself.
+* The brain is self-organizing and self-reparing, but computers are not. If a person suffers a stroke, neural plasticity will help them recover. 
+* The brain is significantly more complex than any current computer. The brain is estimated to have 25,000,000,000,000,000 (25 million billion) interactions among axons,  dendrites, neurons, and neurotransmitters, and that doesn't include the approximately  1 trillion glial cells that may also be important for information processing and memory.
 :::
 
 ## Structure
 
 According to Baddeley’s model, working memory includes a central executive, phonological loop, visuospatial sketchpad, and episodic buffer. What is the structure of long-term memory? As you can see in Figure \@ref(fig:structure), long-term memory can be divided into two major categories of memory types: explicit memory and implicit memory, which can be further divided into multiple sub-types: semantic, episodic, procedural, priming, and conditioning memory.
 
+```{r structure, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap = 'Structure of long-term memory.'}
+knitr::include_graphics("images/ch5/fig2.png")
+```
+
 ### Explicit Memory {-}
 
 The first form of long-term memory we will discuss is explicit memory. We are measuring explicit memory when we assess memory by asking a person to consciously remember things. [Explicit memory] refers to *knowledge or experiences that can be consciously remembered*. There are two types of explicit memory: *episodic and semantic*. [Episodic memory] refers to *the firsthand experiences that we have had (e.g., recollections of our high school graduation day or of the fantastic dinner we had in New York last year)*. [Semantic memory] refers to *our knowledge of facts and concepts about the world* (e.g., that the absolute value of −90 is greater than the absolute value of 9 and that one definition of the word “affect” is “the experience of feeling or emotion”).
 
 Explicit memory is assessed using measures in which the individual being tested must consciously attempt to remember the information. A [recall memory test] is *a measure of explicit memory that involves bringing from memory information that has previously been remembered*. We rely on our recall memory when we take an essay test, because the test requires us to generate previously remembered information. A multiple-choice test is an example of a [recognition memory test], *a measure of explicit memory that involves determining whether information has been seen or learned before*.
-
-```{r structure, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap = 'Structure of long-term memory.'}
-knitr::include_graphics("images/ch5/fig2.jpg")
-```
 
 Your own experiences taking tests will probably lead you to agree with the scientific research finding that recall is more difficult than recognition. Recall, such as required on essay tests, involves two steps: first generating an answer and then determining whether it seems to be the correct one. Recognition, as on multiple-choice test, only involves determining which item from a list seems most correct [@Haist1992]. Although they involve different processes, recall and recognition memory measures tend to be correlated. Students who do better on a multiple-choice exam will also, by and large, do better on an essay exam [@Bridgeman1996].
 
@@ -82,16 +68,16 @@ The final type of implicit memory is known as [priming], or *changes in behavior
 
 One measure of the influence of priming on implicit memory is the *word fragment test*, in which a person is asked to fill in missing letters to make words. You can try this yourself: First, try to complete the following word fragments, but work on each one for only three or four seconds. Do any words pop into mind quickly?
 
+> 1. _ i b _ a _ y
+> 2. _ h _ s _ _ i _ n
+> 3. _ o _ k
+> 4. _ h _ i s _
+
 Now read the following sentence carefully:
 
-“He got his materials from the shelves, checked them out, and then left the building.”
+> “He got his materials from the shelves, checked them out, and then left the building.”
 
 Then try again to make words out of the word fragments.
-
->1. _ i b _ a _ y <br/>
-2. _ h _ s _ _ i _ n <br/>
-3. _ o _ k <br/>
-4. _ h _ i s _ <br/>
 
 I think you might find that it is easier to complete fragments 1 and 3 as “library” and “book,” respectively, after you read the sentence than it was before you read it. However, reading the sentence didn’t really help you to complete fragments 2 and 4 as “physician” and “chaise.” This difference in implicit memory probably occurred because as you read the sentence, the concept of “library” (and perhaps “book”) was primed, even though they were never mentioned explicitly. Once a concept is primed it influences our behaviors, for instance, on word fragment tests.
 
@@ -117,7 +103,7 @@ The [levels-of-processing effect], identified by Fergus @Craik1975, describes me
 
 This theory contradicts the multi-store Atkinson-Shiffrin memory model which represents memory strength as being continuously variable, the assumption being that rehearsal always improves long-term memory. They argued that rehearsal that consists simply of repeating previous analyses (maintenance rehearsal) doesn't enhance long-term memory.
 
-```{r lop, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'Levels of processing based on evidence from Craik and Tulving.'}
+```{r lop, echo = FALSE, out.width='35%', fig.align = 'center', fig.cap = 'Levels of processing based on evidence from Craik and Tulving.'}
 knitr::include_graphics("images/ch5/fig4.png")
 ```
 
@@ -141,14 +127,14 @@ Used together, the testing effect and the spacing effect are two of the most rob
 ### Retrieval {-}
 Information stored in the memory is retrieved by way of association with other memories. Some memories can not be recalled by simply thinking about them. Rather, one must think about something associated with it. For example, if someone tries and fails to recollect the memories he had about a vacation he went on, and someone mentions the fact that he hired a classic car during this vacation, this may make him remember all sorts of things from that trip, such as what he ate there, where he went and what books he read. 
 
-```{r albumbs, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo albums can be great sources of retrieval cues. Photo by BBH Singapore on Uplash.'}
+```{r albumbs, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo albums can be effective sources of retrieval cues. Photo by BBH Singapore on Uplash.'}
 knitr::include_graphics("images/ch5/fig5.png")
 ```
 
 #### Encoding Specificity Principle {-}
 The [encoding specificity principle] is the *general principle that memory is best when the conditions at encoding match the conditions at retrieval*. For example, take the song on the radio: perhaps you heard it while you were at a terrific party, having a great, philosophical conversation with a friend. Thus, the song became part of that whole complex experience. Years later, even though you haven’t thought about that party in ages, when you hear the song on the radio, the whole experience rushes back to you. In general, the encoding specificity principle states that, to the extent a retrieval cue (the song) matches or overlaps the memory trace of an experience (the party, the conversation), it will be effective in evoking the memory. One example of the encoding specificity principle is [transfer-appropriate processing], in which *memory is best when the type of cognitive processing at recall matches the type of cognitive processing at encoding*. This was empirically shown in a study by @Morris1977 using semantic and rhyme tasks. In a standard recognition test, memory was better following semantic processing compared to rhyme processing, as predicted by the levels-of-processing effect. However, in a rhyming recognition test, memory was better for those who engaged in rhyme processing compared to semantic processing. This adds a level of complexity to the levels-of-processing theory: while the levels-of-processing framework generally holds for a normal recognition test, performance on rhyming tests is actually better with phonological than semantic processing at encoding.
 
-```{r morris, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Results from Morris and colleagues’ Transfer-Appropriate Processing experiment.'}
+```{r morris, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap = 'Results from Morris and colleagues’ Transfer-Appropriate Processing experiment [@Morris1977, Experiment 1].'}
 knitr::include_graphics("images/ch5/fig6.png")
 ```
 
@@ -158,14 +144,14 @@ Whereas context-dependent memory refers to a match in the external situation bet
 
 ### Consolidation {-}
 
-Memory [consolidation] is a category of *processes that stabilize a memory trace after its initial acquisition*.
+Memory [consolidation] is a category of *processes that stabilize a memory after its initial acquisition*.
 
 #### Reduction of Interference {-}
-Often, it is incorrectly stated that consolidation causes more learning. Which would be great if it was true, but regardless of what other textbooks may say, this is a mischaracterization of what is occurring. It is conclusive that consolidation reduces the amount of interference from other memories when one goes to retrieve a memory. Interference occurs because we are constantly taking in information. Imagine the scenario where you study for class A at the beginning of the day and then go to class B and C that same day. All of the information from classes B and C have the potential to interfere with the retrieval of the information that you studied for class A. To reduce this possibility, consolidation needs to occur. This can be illustrated from a study done by @Gais2006. They had two groups of participants, the sleep and the awake group who studied English-German word pairs. The sleep group went to sleep within three hours of learning the pairs. The awake group stayed awake for about 10 hours before sleeping. About a day later, all groups were tested on their memory for those words. They found that the sleep group forgot less material than the awake group. Just like in the opening example, the awake group learned a whole bunch of new information during the day, which had the potential to interfere with the previously learned information. The sleep group on the other hand, had little new information before sleep and also benefited from more immediate consolidation.    
+It is sometimes incorrectly stated that consolidation causes more learning. While this would be great if it were true (imagine learning more in our sleep!) this is a mischaracterization of what is actually occurring. It is more accurate to say that consolidation *reduces the amount of interference from other memories* when we go to retrieve a memory. Imagine a scenario where you study for class A at the beginning of the day and then go to class B and C that same day. All of the information from classes B and C have the potential to interfere with the retrieval of the information that you studied for class A. Consolidation reduces this problem. This can be illustrated from a study done by @Gais2006. Participants in this study first studied English-German word pairs. Participants in one condition (the sleep condition) went to sleep within three hours of learning the pairs. Participants in the other condition (the awake condition) stayed awake for about 10 hours before sleeping. The next day, all groups were tested on their memory for those words. The researchers found that the sleep group forgot less material than the awake group. According to the researchers, this difference can be explained by a reduction in interference: the awake group learned a whole bunch of new information during the day, which had the potential to interfere with the previously learned information. The sleep group on the other hand, had little new information before sleep and also benefited from more immediate consolidation.    
 
 #### Sleep Consolidation {-}
 
-Deep sleep or slow wave sleep (SWS) has been shown to be casually linked to consolidation of memories. @Rasch2007 showed this by pairing learning with a rose odor. During sleep, they re-exposed participants to the same rose odor during different stages of sleep. They found that only re-exposure to the rose odor during SWS increased retention for declarative learning. This study was beginning of what is called target memory reactivation. However, the same was not found for procedural memories, not dependent on the hippocampus. This experimental finding was also confirmed neurologically with the activation of the hippocampus while the rose odor was exposed during sleep. Researchers following this line of work have come to assume that dreams are a by-product of the reactivation of the brain areas and this can explain why dreams may be unrelated to the information being consolidated. The dream experience itself is not what enhances memory performance but rather it is the reactivation of the neural circuits that causes this. 
+Deep sleep, or slow wave sleep (SWS), is associated with the consolidation of memories. @Rasch2007 showed evidence for this by pairing learning with a rose odor. During sleep, the researchers re-exposed participants to the same rose odor during different stages of sleep. They found that only re-exposure to the rose odor during deep sleep increased retention for declarative learning. This study was beginning of what is called (see [box][Targeted Memory Reactivation]). However, the same was not found for procedural memories, which are not dependent on the hippocampus. This experimental finding was also supported neurologically with the activation of the hippocampus while the rose odor was exposed during sleep. Researchers following this line of work have come to assume that dreams are a by-product of the reactivation of the brain areas and this can explain why dreams may be unrelated to the information being consolidated. The dream experience itself is not what enhances memory performance but rather it is the reactivation of the neural circuits that causes this. 
 
 :::fyi
 ##### Targeted Memory Reactivation {-}
@@ -174,50 +160,88 @@ Although sleep by itself does not cause more learning to occur, researchers can 
 
 :::takeaways
 ##### Key Takeaways {-}
-- a
-- b
+- Memory refers to the ability to store and retrieve information over time. For some things our memory is very good, but our active cognitive processing of information ensures that memory is never an exact replica of what we have experienced.
+- Explicit memory refers to experiences that can be intentionally and consciously remembered, and it is measured using recall, recognition, and relearning. Explicit memory includes episodic and semantic memories. Implicit memory refers to the influence of experience on behaviour, even if the individual is not aware of those influences. The three types of implicit memory are procedural memory, classical conditioning, and priming.
+- The capacity of long-term memory is large, and there is no known limit to what we can remember. Information is better remembered when it is meaningfully elaborated. Context- and state-dependent learning, as well as primacy and recency effects, influence long-term memory.
 :::
 
 :::exercises
 ##### Exercises {-}
-1. a
-2. b
+1. Plan a course of action to help you study for your next exam, incorporating as many of the techniques mentioned in this section as possible. Try to implement the plan.
+2. In the film Eternal Sunshine of the Spotless Mind, the characters undergo a medical procedure designed to erase their memories of a painful romantic relationship. Would you engage in such a procedure if it were safely offered to you?
 :::
 
 
 ## Glossary
 
-##### serial position curve {-}
-
-##### primacy effect {-}
-
-##### recency effect {-}
-
-##### Episodic memory {-}
-
-##### recall memory test {-}
-
-##### relearning {-}
-
-##### Procedural memory {-}
-
 ##### classical conditioning effects {-}
 
-##### priming {-}
+A type of implicit memory in which we learn, often without effort or awareness, to associate neutral stimuli with another stimulus, which creates a naturally occurring response
+
+##### context-dependent learning {-}
+
+an increase in retrieval when the external situation in which information is learned matches the situation in which it is remembered
+
+##### episodic memory {-}
+
+explicit recollection of firsthand experiences
 
 ##### levels-of-processing effect {-}
 
+memory recall of stimuli as a function of the depth of mental processing at encoding
+
 ##### orthographic processing {-}
+
+processing related to how a word is written
 
 ##### phonological processing {-}
 
-##### semantic processing {-}
+processing related to how a word sounds
+
+##### primacy effect {-}
+
+a tendency to better remember stimuli that are presented early in a list
+
+##### priming {-}
+
+changes in behavior as a result of experiences that have happened frequently or recently
+
+##### procedural memory {-}
+
+implicit knowledge of how to do things
+
+##### recall memory test {-}
+
+a measure of explicit memory that involves bringing from memory information that has previously been remembered
+
+##### recency effect {-}
+
+the tendency to better remember stimuli that are presented at the end of a list
+
+##### recognition memory test {-}
+
+a measure of explicit memory that involves determining whether information has been seen or learned before
+
+##### relearning {-}
+
+a memory measurement that assesses how much more quickly information is processed or learned when it is studied again after it has already been learned but then forgotten
 
 ##### self-reference effect {-}
 
-##### transfer-appropriate processing {-}
+processing words in terms of their relation to yourself promotes an even higher rate of recall than normal semantic processing
 
-##### Context-dependent learning {-}
+##### semantic processing {-}
+
+processing related to a words’ meaning
+
+##### serial position curve {-}
+
+a graphic depiction of the likelihood of remembering items from a list based on the order in which they were presented
 
 ##### state-dependent memory {-}
 
+superior retrieval of memories when the individual is in the same physiological or psychological state as during encoding
+
+##### transfer-appropriate processing {-}
+
+memory is best when the type of cognitive processing at recall matches the type of cognitive processing at encoding

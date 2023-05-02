@@ -1,7 +1,6 @@
 # Long-term Memory
 
-
-\begin{center}\includegraphics[width=1\linewidth]{images/ch5/fig0} \end{center}
+<img src="images/ch5/fig0.png" width="100%" style="display: block; margin: auto;" />
 
 Our memories allow us to do relatively simple things, such as remembering where we parked our car or the name of the current governor of California, but also allow us to form complex memories, such as how to ride a bicycle or to write a computer program. Moreover, our memories define us as individuals — they are our experiences, our relationships, our successes, and our failures. Without your memories, would you still be you? 
 
@@ -18,14 +17,10 @@ Our memories allow us to do relatively simple things, such as remembering where 
 As we discussed in the last chapter, working memory is a temporary storage space for information that is being actively stored and manipulated in consciousness. Information that is not rehearsed will be forgotten within 18 to 30 seconds. Long-term memory, on the other hand, is where we store everything from a few moments to the earliest thing we can remember. There is theoretically no upper limit to the amount of information we can store in long-term memory.
 
 ### The Serial Position Curve {-}
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{images/ch5/fig1} 
-
-}
-
-\caption{The serial position curve is the result of both primacy effects and recency effects.}(\#fig:serialposition)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch5/fig1.jpg" alt="The serial position curve is the result of both primacy effects and recency effects." width="80%" />
+<p class="caption">(\#fig:serialposition)The serial position curve is the result of both primacy effects and recency effects.</p>
+</div>
 
 The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \@ref(fig:serialposition). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented at the end of a list*.
 
@@ -46,14 +41,10 @@ The distinction between short-term memory and long-term memory might remind you 
 
 According to Baddeley’s model, working memory includes a central executive, phonological loop, visuospatial sketchpad, and episodic buffer. What is the structure of long-term memory? As you can see in Figure \@ref(fig:structure), long-term memory can be divided into two major categories of memory types: explicit memory and implicit memory, which can be further divided into multiple sub-types: semantic, episodic, procedural, priming, and conditioning memory.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.9\linewidth]{images/ch5/fig2} 
-
-}
-
-\caption{Structure of long-term memory.}(\#fig:structure)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch5/fig2.png" alt="Structure of long-term memory." width="90%" />
+<p class="caption">(\#fig:structure)Structure of long-term memory.</p>
+</div>
 
 ### Explicit Memory {-}
 
@@ -96,14 +87,10 @@ Our everyday behaviors are influenced by priming in a wide variety of situations
 
 Imagine you are able to perfectly study for an exam. You take notes in lecture and read the textbook as the quarter moves along. As you approach the exam, you develop study materials, test yourself on the information, and go to the professor’s office hours to ask about the parts you find the most difficult. The day before the exam, you explain all of the important concepts from class to your best friend. You get a good night’s sleep, and the next morning you find that remembering the important concepts from class feels relatively easy. The questions on the exam include bits of information that help you retrieve the concepts that you studied so hard to understand. You leave feeling like your exam performance was a good reflection of the hard work you put in to studying. 
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch5/fig3} 
-
-}
-
-\caption{Photo by Robert Bye on Uplash.}(\#fig:library)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch5/fig3.png" alt="Photo by Robert Bye on Uplash." width="60%" />
+<p class="caption">(\#fig:library)Photo by Robert Bye on Uplash.</p>
+</div>
 
 In this situation, you were able to successfully encode, retrieve, and consolidate the information you sought to learn. [Encoding] refers to *storing new information in long-term memory*. This is the process you engaged in during lecture and studying. [Retrieval] refers to *remembering information from long-term memory*. This is what you did when you tested yourself on information and when you took the exam. [Consolidation] is *the stabilization of long-term memories after initial encoding*. Consolidation insulates your memories from interference from new memories that are formed. Interference causes a retreival failure of the target memory. Consolidation is aided by sleep, which is why you felt even more confident in your knowledge by getting a good night of sleep before the exam. The following sections will discuss the factors that affect encoding, retrieval, and consolidation.
 
@@ -117,14 +104,10 @@ The [levels-of-processing effect], identified by Fergus @Craik1975, describes me
 
 This theory contradicts the multi-store Atkinson-Shiffrin memory model which represents memory strength as being continuously variable, the assumption being that rehearsal always improves long-term memory. They argued that rehearsal that consists simply of repeating previous analyses (maintenance rehearsal) doesn't enhance long-term memory.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.35\linewidth]{images/ch5/fig4} 
-
-}
-
-\caption{Levels of processing based on evidence from Craik and Tulving.}(\#fig:lop)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch5/fig4.png" alt="Levels of processing based on evidence from Craik and Tulving." width="35%" />
+<p class="caption">(\#fig:lop)Levels of processing based on evidence from Craik and Tulving.</p>
+</div>
 
 In a study from @Craik1975 participants were given a list of 60 words. Each word was presented along with three questions. The participant had to answer one of them. Those three questions were in one of three categories. One category of questions was about how the word was presented visually ("Is the word shown in italics?"). This category of questions was meant to promote [orthographic processing], or *processing related to how the word was written*. The second category of questions was about the phonemic qualities of the word ("Does the word begin with the sound 'bee'?"). This category was meant to promote [phonological processing], or *processing related to how the words sound*. The third category of questions was presented so that the reader was forced to think about the word within a certain context ("Can you meet one in the street [a friend]”?). This category of questions was meant to promote [semantic processing], or *processing related to the words’ meaning*. The result of this study showed that the more deeply words were processed at encoding, the more likely they were to be remembered later.
 
@@ -146,26 +129,18 @@ Used together, the testing effect and the spacing effect are two of the most rob
 ### Retrieval {-}
 Information stored in the memory is retrieved by way of association with other memories. Some memories can not be recalled by simply thinking about them. Rather, one must think about something associated with it. For example, if someone tries and fails to recollect the memories he had about a vacation he went on, and someone mentions the fact that he hired a classic car during this vacation, this may make him remember all sorts of things from that trip, such as what he ate there, where he went and what books he read. 
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch5/fig5} 
-
-}
-
-\caption{Photo albums can be effective sources of retrieval cues. Photo by BBH Singapore on Uplash.}(\#fig:albumbs)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch5/fig5.png" alt="Photo albums can be effective sources of retrieval cues. Photo by BBH Singapore on Uplash." width="60%" />
+<p class="caption">(\#fig:albumbs)Photo albums can be effective sources of retrieval cues. Photo by BBH Singapore on Uplash.</p>
+</div>
 
 #### Encoding Specificity Principle {-}
 The [encoding specificity principle] is the *general principle that memory is best when the conditions at encoding match the conditions at retrieval*. For example, take the song on the radio: perhaps you heard it while you were at a terrific party, having a great, philosophical conversation with a friend. Thus, the song became part of that whole complex experience. Years later, even though you haven’t thought about that party in ages, when you hear the song on the radio, the whole experience rushes back to you. In general, the encoding specificity principle states that, to the extent a retrieval cue (the song) matches or overlaps the memory trace of an experience (the party, the conversation), it will be effective in evoking the memory. One example of the encoding specificity principle is [transfer-appropriate processing], in which *memory is best when the type of cognitive processing at recall matches the type of cognitive processing at encoding*. This was empirically shown in a study by @Morris1977 using semantic and rhyme tasks. In a standard recognition test, memory was better following semantic processing compared to rhyme processing, as predicted by the levels-of-processing effect. However, in a rhyming recognition test, memory was better for those who engaged in rhyme processing compared to semantic processing. This adds a level of complexity to the levels-of-processing theory: while the levels-of-processing framework generally holds for a normal recognition test, performance on rhyming tests is actually better with phonological than semantic processing at encoding.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.7\linewidth]{images/ch5/fig6} 
-
-}
-
-\caption{Results from Morris and colleagues’ Transfer-Appropriate Processing experiment [@Morris1977, Experiment 1].}(\#fig:morris)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch5/fig6.png" alt="Results from Morris and colleagues’ Transfer-Appropriate Processing experiment [@Morris1977, Experiment 1]." width="70%" />
+<p class="caption">(\#fig:morris)Results from Morris and colleagues’ Transfer-Appropriate Processing experiment [@Morris1977, Experiment 1].</p>
+</div>
 
 Other facets of the encoding specificity principle include context-dependent memory. [Context-dependent learning] refers to *an increase in retrieval when the external situation in which information is learned matches the situation in which it is remembered*. @Godden1975 conducted a study to test this idea using scuba divers. They asked the divers to learn a list of words either when they were on land or when they were underwater. Then they tested the divers on their memory, either in the same or the opposite situation. The divers’ memory was better when they were tested in the same context in which they had learned the words than when they were tested in the other context. In this instance, the physical context itself provided cues for retrieval.
 

@@ -1,5 +1,6 @@
 # Problem Solving
-<img src="images/ch10/fig0.png" width="100%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=1\linewidth]{images/ch10/fig0} \end{center}
 How do we achieve our goals when the solution is not immediately obvious? What mental blocks are likely to get in our way, and how can we leverage our prior knowledge to solve novel problems?
 
 Knut is sitting at his desk, staring at a blank paper in front of him, and nervously playing with a pen in his right hand. Just a few hours left to hand in his essay and he has not written a word. All of a sudden he smashes his fist on the table and cries out: "I need a plan!"
@@ -70,7 +71,13 @@ For readers who would like to experience such an effect, here is an example of a
 
 If you want to know the correct solution, turn to the next page.
 
-<img src="images/ch10/fig1.png" width="60%" style="display: block; margin: auto;" />
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch10/fig1} 
+
+}
+
+\end{figure}
 
 To show that solving insight problems involves restructuring, psychologists have created a number of problems that are more difficult to solve for participants with previous experiences, since it is harder for them to change the representation of the given situation.
 
@@ -83,15 +90,33 @@ Sometimes, previous experience or familiarity can even make problem solving more
 #### Functional fixedness {-}
 Functional fixedness concerns the solution of *object use problems*. The basic idea is that when the usual function an object is emphasized, it will be far more difficult for a person to use that object in a novel manner. An example for this effect is the [candle problem]: Imagine you are given a box of matches, some candles and tacks. On the wall of the room there is a cork-board. Your task is to fix the candle to the cork-board in such a way that no wax will drop on the floor when the candle is lit. Got an idea?
 
-<img src="images/ch10/fig2.png" width="60%" style="display: block; margin: auto;" />
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch10/fig2} 
+
+}
+
+\end{figure}
 
 Here’s a clue: when people are confronted with a problem and given certain objects to solve it, it is difficult for them to figure out that they could use the objects in a different way. In this example, the box has to be recognized as a support rather than as a container— tack the matchbox to the wall, and place the candle upright in the box. The box will catch the falling wax.
 
-<img src="images/ch10/fig3.png" width="60%" style="display: block; margin: auto;" />
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch10/fig3} 
+
+}
+
+\end{figure}
 
 A further example is the [two-string problem]: Knut is left in a room with a pair of pliers and given the task to bind two strings together that are hanging from the ceiling. The problem he faces is that he can never reach both strings at a time because they are just too far away from each other. What can Knut do?
 
-<img src="images/ch10/fig4.png" width="60%" style="display: block; margin: auto;" />
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch10/fig4} 
+
+}
+
+\end{figure}
 
 Solution: Knut has to recognize he can use the pliers in a novel function: as weight for a pendulum. He can tie them to one of the strings, push it away, hold the other string and wait for the first one to swing toward him. 
 

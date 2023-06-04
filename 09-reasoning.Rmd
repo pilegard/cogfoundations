@@ -254,13 +254,3 @@ People often have the intuition that more options are better, because there is a
 1. Imagine a gamble with a 20% probability of winning $50. How much money does Expected Value Theory suggest you should be willing to pay to try this gamble?
 2. Describe default effects and framing effects. How are those psychological phenomena divergent from what a perfectly "rational" decision maker would do?
 :::
-
-
-References
-Krawczyk,Daniel (2018). Reasoning: The Neuroscience of How We Think. Elsevier.
-Goldstein, E. Bruce (2005). Cognitive Psychology - Connecting, Mind Research, and Everyday Experience. Thomson Wadsworth.
-Marie T. Banich (1997). Neuropsychology. The neural bases of Mental Function. Houghton Mifflin.
-Wilson, Robert A.& Keil, Frank C. (1999). The MIT Encyclopedia of the Cognitive Sciences. Massachusetts: Bradford Book.
-Ward, Jamie (2006). The Student's Guide To Cognitive Science. Psychology Press.
-Levitin, D. J.(2002). Foundations of Cognitve Psychology.
-Schmalhofer, Franz. Slides from the course: Cognitive Psychology and Neuropsychology, Summer Term 2006/2007, University of Osnabrueck

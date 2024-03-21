@@ -1,6 +1,5 @@
 # Problem Solving
-
-\begin{center}\includegraphics[width=1\linewidth]{images/ch10/cover} \end{center}
+<img src="images/ch10/cover.png" width="100%" style="display: block; margin: auto;" />
 
 How do we achieve our goals when the solution is not immediately obvious? What mental blocks are likely to get in our way, and how can we leverage our prior knowledge to solve novel problems?
 
@@ -66,14 +65,10 @@ Would you like to experience such an effect? Here is an example of an insight pr
 
 If you want to know the correct solution, scroll down to Figure \@ref(fig:chain2).
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/chain1} 
-
-}
-
-\caption{The materials for the cheap necklace problem.}(\#fig:chain1)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/chain1.png" alt="The materials for the cheap necklace problem." width="60%" />
+<p class="caption">(\#fig:chain1)The materials for the cheap necklace problem.</p>
+</div>
 
 To show that solving insight problems involves restructuring, psychologists have created a number of problems that are more difficult to solve for participants with previous experiences, since it is harder for them to change the representation of the given situation.
 
@@ -87,67 +82,43 @@ Sometimes, previous experience or familiarity can even make problem solving more
 
 Functional fixedness concerns the solution of *object use problems*. The basic idea is that when the usual function an object is emphasized, it will be far more difficult for a person to use that object in a novel manner. An example for this effect is the *candle problem* [@duncker1945problem]: Imagine you are given a book of matches, a box of tacks, and a candle (Figure \@ref(fig:candle1)). On the wall of the room there is a corkboard. Your task is to fix the candle to the corkboard in such a way that no wax will drop on the floor when the candle is lit. Got an idea?
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/candle1} 
-
-}
-
-\caption{The materials for the candle problem.}(\#fig:candle1)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/candle1.png" alt="The materials for the candle problem." width="60%" />
+<p class="caption">(\#fig:candle1)The materials for the candle problem.</p>
+</div>
 
 If you're having trouble thinking of a solution, try considering the same materials, but presented slightly differently, in Figure \@ref(fig:candle2).
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/candle2} 
-
-}
-
-\caption{The same materials, presented slightly differently.}(\#fig:candle2)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/candle2.png" alt="The same materials, presented slightly differently." width="60%" />
+<p class="caption">(\#fig:candle2)The same materials, presented slightly differently.</p>
+</div>
 
 Here’s a clue: when people are confronted with a problem and given certain objects to solve it, it is difficult for them to figure out that they could use the objects in a different way. In Figure \@ref(fig:candle3), the box is being used as a holder for the tacks. In Figure \@ref(fig:candle2), the box is presented without a specific use. Presenting the materials in the latter fashion helps participants have the insight they need: the box has to be recognized as a support rather than as a container— tack the box to the wall, and place the candle upright in the box. The box will catch the falling wax (Figure \@ref(fig:candle3)).
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.45\linewidth]{images/ch10/candle3} 
-
-}
-
-\caption{A solution to the candle problem.}(\#fig:candle3)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/candle3.png" alt="A solution to the candle problem." width="45%" />
+<p class="caption">(\#fig:candle3)A solution to the candle problem.</p>
+</div>
 
 A further example is the two-string problem [@maier1931reasoning]: You are left in a room with a pair of pliers and given the task to tie two strings together that are hanging from the ceiling (Figure \@ref(fig:twostring). The problem you face is that you can never reach both strings at a time because they are just too far away from each other. What can you do?
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/twostring} 
-
-}
-
-\caption{The two-string problem.}(\#fig:twostring)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/twostring.png" alt="The two-string problem." width="60%" />
+<p class="caption">(\#fig:twostring)The two-string problem.</p>
+</div>
 
 Solution: You must recognize you can use the pliers in a novel function: as weight for a pendulum. You can tie them to one of the strings, push it away, hold the other string and wait for the first one to swing toward you (Figure \@ref(fig:twostring2)). 
 
-\begin{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/twostring2.png" alt="A solution to the two-string problem." width="60%" />
+<p class="caption">(\#fig:twostring2)A solution to the two-string problem.</p>
+</div>
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/twostring2} 
-
-}
-
-\caption{A solution to the two-string problem.}(\#fig:twostring2)
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{images/ch10/chain2} 
-
-}
-
-\caption{The solution to the cheap necklace problem.}(\#fig:chain2)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/chain2.png" alt="The solution to the cheap necklace problem." width="50%" />
+<p class="caption">(\#fig:chain2)The solution to the cheap necklace problem.</p>
+</div>
 
 #### Mental fixedness {-}
 Functional fixedness as involved in the examples above illustrates a [mental set]: *a person’s tendency to respond to a given task in a manner based on past experience*. Because we map an object to a particular function we have difficulty thinking of an alternative use (i.e., pliers as pendulum's weight).

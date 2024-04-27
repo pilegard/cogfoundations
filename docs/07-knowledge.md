@@ -1,5 +1,6 @@
 # Knowledge
-<img src="images/ch7/cover-penguins.png" width="100%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=1\linewidth]{images/ch7/cover-penguins} \end{center}
 
 People form mental concepts of categories of objects, which permit them to respond appropriately to new objects they encounter. Most concepts cannot be strictly defined but are organized around the “best” examples or prototypes, which have the properties most common in the category. Objects fall into many different categories, but there is usually a most salient one, called the [basic-level category], which is at an intermediate level of specificity (e.g., chairs, rather than furniture or desk chairs). Concepts are closely related to our knowledge of the world, and people can more easily learn concepts that are consistent with their knowledge. Theories of concepts argue either that people learn a summary description of a whole category or else that they learn exemplars of the category. 
 
@@ -10,10 +11,14 @@ People form mental concepts of categories of objects, which permit them to respo
 3. Learn how knowledge may influence concept learning.
 :::
 
-<div class="figure" style="text-align: center">
-<img src="images/ch7/truck.jpg" alt="Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [CC0 Public Domain](https://goo.gl/m25gce)" width="50%" />
-<p class="caption">(\#fig:truck)Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [CC0 Public Domain](https://goo.gl/m25gce)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/ch7/truck} 
+
+}
+
+\caption{Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:truck)
+\end{figure}
 
 Consider the following set of objects: some dust, papers, a computer monitor, two pens, a cup, and an orange. What do these things have in common? Only that they all happen to be on my desk as I write this. This set of things can be considered a [category], *a set of objects that can be treated as equivalent in some way*. But, most of our categories seem much more informative—they share many properties. For example, consider the following categories: trucks, wireless devices, weddings, psychopaths, and trout. Although the objects in a given category are different from one another, they have many commonalities. When you know something is a truck, you know quite a bit about it. The psychology of categories concerns how people learn, remember, and use informative categories such as trucks or psychopaths.
 
@@ -27,10 +32,14 @@ Simpler organisms, such as animals and human infants, also have concepts [@Mares
 
 ## Nature of Categories
 
-<div class="figure" style="text-align: center">
-<img src="images/ch7/dog.jpg" alt="Here is a very good dog, but one that does not fit perfectly into a well-defined category where all dogs have four legs. Image: [State Farm](https://goo.gl/KHtu6N), [CC BY 2.0](https://goo.gl/BRvSA7)" width="50%" />
-<p class="caption">(\#fig:dog)Here is a very good dog, but one that does not fit perfectly into a well-defined category where all dogs have four legs. Image: [State Farm](https://goo.gl/KHtu6N), [CC BY 2.0](https://goo.gl/BRvSA7)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/ch7/dog} 
+
+}
+
+\caption{Here is a very good dog, but one that does not fit perfectly into a well-defined category where all dogs have four legs. Image: [State Farm](https://goo.gl/KHtu6N), [CC BY 2.0](https://goo.gl/BRvSA7)}(\#fig:dog)
+\end{figure}
 
 Traditionally, it has been assumed that categories are *well-defined*. This means that you can give a definition that specifies what is in and out of the category. Such a definition has two parts. First, it provides the *necessary features* for category membership: What must objects have in order to be in it? Second, those features must be *jointly sufficient* for membership: If an object has those features, then it is in the category. For example, if I defined a dog as a four-legged animal that barks, this would mean that every dog is four-legged, an animal, and barks, and also that anything that has all those properties is a dog.
 
@@ -82,19 +91,27 @@ According to Rosch and Mervis, then, it is not because a robin is a very common 
 
 In a classic experiment, @Rosch1975 made up two new categories, with arbitrary features. Subjects viewed example after example and had to learn which example was in which category. Rosch and Mervis constructed some items that had features that were common in the category and other items that had features less common in the category. The subjects learned the first type of item before they learned the second type. Furthermore, they then rated the items with common features as more typical. In another experiment, Rosch and Mervis constructed items that differed in how many features were shared with a different category. The more features were shared, the longer it took subjects to learn which category the item was in. These experiments, and many later studies, support both parts of the family resemblance theory.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch7/bird.jpg" alt="When you think of “bird,” how closely does the robin resemble your general figure? [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
-<p class="caption">(\#fig:bird)When you think of “bird,” how closely does the robin resemble your general figure? [CC0 Public Domain](https://goo.gl/m25gce)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/ch7/bird} 
+
+}
+
+\caption{When you think of “bird,” how closely does the robin resemble your general figure? [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:bird)
+\end{figure}
 
 ## Theories of Concept Representation
 
 Now that we know these facts about the psychology of concepts, the question arises of how concepts are mentally represented. There have been two main answers. The first, somewhat confusingly called the [prototype theory] suggests that people have a *summary representation of the category, a mental description that is meant to apply to the category as a whole*. (The significance of *summary* will become apparent when the next theory is described.) This description can be represented as a set of *weighted features* (Smith & Medin, 1981). The features are weighted by their frequency in the category. For the category of birds, having wings and feathers would have a very high weight; eating worms would have a lower weight; living in Antarctica would have a lower weight still, but not zero, as some birds do live there.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch7/lizard.jpg" alt="If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Adhi Rachdian](https://goo.gl/dQyUwf), [CC BY 2.0](https://goo.gl/BRvSA7)" width="60%" />
-<p class="caption">(\#fig:lizard)If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Adhi Rachdian](https://goo.gl/dQyUwf), [CC BY 2.0](https://goo.gl/BRvSA7)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch7/lizard} 
+
+}
+
+\caption{If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Adhi Rachdian](https://goo.gl/dQyUwf), [CC BY 2.0](https://goo.gl/BRvSA7)}(\#fig:lizard)
+\end{figure}
 
 The idea behind prototype theory is that when you learn a category, you learn a general description that applies to the category as a whole: Birds have wings and usually fly; some eat worms; some swim underwater to catch fish. People can state these generalizations, and sometimes we learn about categories by reading or hearing such statements (“The kimodo dragon can grow to be 10 feet long”).
 When you try to classify an item, you see how well it matches that weighted list of features. For example, if you saw something with wings and feathers fly onto your front lawn and eat a worm, you could (unconsciously) consult your concepts and see which ones contained the features you observed. This example possesses many of the highly weighted bird features, and so it should be easy to identify as a bird.
@@ -120,10 +137,14 @@ One of the first scientists who thought about structural models of human memory 
 In the Figure \@ref(fig:network), Collins and Quillian's network with added properties at each node is shown. As already mentioned, the skeleton-nodes are interconnected by links. At the nodes, concept names are added. General concepts are on the top and more particular ones at the bottom. By looking at the concept "car", one gets the information that a car has 4 wheels, has an engine, has windows, and furthermore moves around, needs fuel, is manmade.
 
 
-<div class="figure" style="text-align: center">
-<img src="images/ch7/fig5.png" alt="Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. " width="60%" />
-<p class="caption">(\#fig:network)Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. </p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch7/fig5} 
+
+}
+
+\caption{Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. }(\#fig:network)
+\end{figure}
 
 
 These pieces of information must be stored somewhere. It would take too much space if every detail must be stored at every level. So the information of a car is stored at the base level and further information about specific cars, e.g. BMW, is stored at the lower level, where you do not need the fact that the BMW also has four wheels, if you already know that it is a car. This way of storing shared properties at a higher-level node is called [cognitive economy]. 

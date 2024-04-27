@@ -1,4 +1,4 @@
-# Memory in Context
+# Memory in Context {#memory-in-context}
 ```{r fig6.0, echo = FALSE, out.width='100%', fig.align = 'center'}
 knitr::include_graphics("images/ch6/fig0.png")
 ```

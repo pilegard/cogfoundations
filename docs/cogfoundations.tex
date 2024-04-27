@@ -5,16 +5,19 @@
 \documentclass[
 ]{krantz}
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -88,7 +91,7 @@
 \fi
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={Cognitive Foundations},
   pdfauthor={Edited by Celeste Pilegard},
@@ -97,7 +100,7 @@
 
 \title{Cognitive Foundations}
 \author{Edited by Celeste Pilegard}
-\date{Current version rendered 2023-06-04}
+\date{Current version rendered 2024-04-26}
 
 \begin{document}
 \maketitle
@@ -776,7 +779,7 @@ The study of sensation and perception is exceedingly important for our everyday 
 \hypertarget{sensation-and-perception}{%
 \section{Sensation and Perception}\label{sensation-and-perception}}
 
-The ability to detect and interpret the events that are occurring around us allows us to respond to these stimuli appropriately (\protect\hyperlink{ref-Gibson2000}{Gibson et al., 2000}). In most cases the system is successful, but it is not perfect. In this chapter we will discuss the strengths and limitations of these capacities, focusing on both \protect\hyperlink{sensation}{sensation} --- the stimulation of sensory receptor cells, which is converted to neural impulses --- and \protect\hyperlink{perception-1}{perception} --- our experience as a result of that stimulation. Sensation and perception work seamlessly together to allow us to experience the world through our eyes, ears, nose, tongue, and skin, but also to combine what we are currently learning from the environment with what we already know about it (prior knowledge) in order to make judgments and to choose appropriate behaviors.
+The ability to detect and interpret the events that are occurring around us allows us to respond to these stimuli appropriately (\protect\hyperlink{ref-Gibson2000}{Gibson et al., 2000}). In most cases the system is successful, but it is not perfect. In this chapter we will discuss the strengths and limitations of these capacities, focusing on both \protect\hyperlink{sensation}{sensation} --- the stimulation of sensory receptor cells, which is converted to neural impulses --- and \protect\hyperlink{perception}{perception} --- our experience as a result of that stimulation. Sensation and perception work seamlessly together to allow us to experience the world through our eyes, ears, nose, tongue, and skin, but also to combine what we are currently learning from the environment with what we already know about it (prior knowledge) in order to make judgments and to choose appropriate behaviors.
 
 Humans possess powerful sensory capacities that allow us to sense the kaleidoscope of sights, sounds, smells, and tastes that surround us. Our eyes detect light energy and our ears pick up sound waves. Our skin senses touch, pressure, hot, and cold. Our tongues react to the molecules of the foods we eat, and our noses detect scents in the air. The human sensory and perceptual systems are wired for accuracy, and people are exceedingly good at making use of the wide variety of information available to them (\protect\hyperlink{ref-Stoffregen2001}{Stoffregen \& Bardy, 2001}).
 
@@ -811,7 +814,7 @@ The retina contains layers of neurons specialized to respond to light. As light 
 
 To demonstrate the difference between rods and cones in attention to detail, choose a word in this text and focus on it. Do you notice that the words a few inches to the side seem more blurred? This is because the word you are focusing on strikes the detail-oriented cones, while the words surrounding it strike the less-detail-oriented rods, which are located on the periphery.
 
-Margaret Livingstone Livingstone (\protect\hyperlink{ref-livingstone2000warm}{2000}) (Figure \ref{fig:monalisa}) found an interesting effect that demonstrates the different processing capacities of the eye's rods and cones --- namely, that the Mona Lisa's smile, which is widely referred to as ``elusive,'' is perceived differently depending on how one looks at the painting. Because Leonardo da Vinci painted the smile in low-detail brush strokes, the smile is actually better perceived by the rods in our peripheral vision than by the cones. Livingstone found that people rated the Mona Lisa as more cheerful when they were instructed to focus on her eyes than they did when they were asked to look directly at her mouth. As Livingstone put it, ``She smiles until you look at her mouth, and then it fades, like a dim star that disappears when you look directly at it.''
+Margaret Livingstone (\protect\hyperlink{ref-livingstone2000warm}{2000}) (Figure \ref{fig:monalisa}) found an interesting effect that demonstrates the different processing capacities of the eye's rods and cones --- namely, that the Mona Lisa's smile, which is widely referred to as ``elusive,'' is perceived differently depending on how one looks at the painting. Because Leonardo da Vinci painted the smile in low-detail brush strokes, the smile is actually better perceived by the rods in our peripheral vision than by the cones. Livingstone found that people rated the Mona Lisa as more cheerful when they were instructed to focus on her eyes than they did when they were asked to look directly at her mouth. As Livingstone put it, ``She smiles until you look at her mouth, and then it fades, like a dim star that disappears when you look directly at it.''
 
 \begin{figure}
 
@@ -851,7 +854,7 @@ Although the best cues to depth occur when both eyes work together, we are able 
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
 \caption{\label{tab:monocular} Monocular Depth Cues That Help Us Judge Depth at a Distance.}\tabularnewline
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Name
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -861,9 +864,9 @@ Example
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Image
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endfirsthead
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Name
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -873,15 +876,16 @@ Example
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Image
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Position & We tend to see objects higher up in our field of vision as farther away. & The fence posts at right appear farther away not only because they become smaller but also because they appear higher up in the picture. & \includegraphics{images/ch2/depth1.jpg} \\
 Relative size & Assuming that the objects in a scene are the same size, smaller objects are perceived as father away. & at right, the cars in the distance appear smaller than those nearer to us. & \includegraphics{images/ch2/depth2.jpg} \\
 Linear perspective & Parallel lines appear to converge at a distance. & We know that the tracks at right are parallel. When they appear closer together, we determine they are farther away. & \includegraphics{images/ch2/depth3.jpg} \\
 Light and shadow & The eye receives more reflected light from objects that are closer to us. Normally, light comes from above, so darker images are in shadow. & We see the images at right as extending and indented according to their shadowing. If we invert the picture, the images will reverse. & \includegraphics{images/ch2/depth4.jpg} \\
 Interposition & When one object overlaps another object, we view it as closer. & At right, because the blue star covers the pink bar, it is seen as closer than the yellow moon. & \includegraphics{images/ch2/depth5.jpg} \\
 Aerial perspective & Objects that appear hazy, or that are covered with smog or dust, appear farther away. & The artist who pained the picture on the right used aerial perspective to make the clouds more hazy and this appear farther away. & \includegraphics{images/ch2/depth6.jpg} \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{perceiving-form}{%
@@ -896,7 +900,7 @@ One of the important functions of the visual system is the perception of form. G
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3889}}
   >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1944}}@{}}
 \caption{\label{tab:gestalt} Summary of Gestalt Principles of Form Perception}\tabularnewline
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Principle
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -906,9 +910,9 @@ Example
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 Image
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endfirsthead
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Principle
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -918,14 +922,15 @@ Example
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 Image
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Figure and ground & We structure input so that we always see a figure (image) against a ground (background). & At right, you may see a vase or you may see two faces, but in either case, you will organize the image as a figure against a ground. & \includegraphics{images/ch2/gestalt1.jpg} \\
 Similarity & Stimuli that are similar to each other tend to be grouped together. & You are more likely to see three similar columns among the XYX characters at right than you are to see four rows. & \includegraphics{images/ch2/gestalt2.jpg} \\
 Proximity & We tend to group nearby figures together. & Do you see four or eight images at right? Principles of proximity suggest that you might see only four. & \includegraphics{images/ch2/gestalt3.jpg} \\
 Continuity & We tend to perceive stimuli in smooth, continuous ways rather than in more discontinuous ways. & At right, most people see a line of dots that moves from the lower left to the upper right, rather than a line that moves from the left and then suddenly turns down. The principle of continuity leads us to see most lines as following the smoothest possible path. & \includegraphics{images/ch2/gestalt4.jpg} \\
 Closure & We tend to fill in gaps in an incomplete image to create a complete, whole object. & Closure leads us to see a single spherical object at right rather than a set of unrelated cones. & \includegraphics{images/ch2/gestalt5.jpg} \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{perception-information-integration}{%
@@ -1248,9 +1253,9 @@ The conversion of light detected by receptor cells to electrical impulses that a
 \hypertarget{attention}{%
 \chapter{Attention}\label{attention}}
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch3/fig0} \end{center}
+\begin{center}\includegraphics[width=1\linewidth]{images/3_attention/attnhead} \end{center}
 
-We use the term ``attention`` all the time, but what processes or abilities does that concept really refer to? This chapter will focus on how attention allows us to select certain parts of our environment and ignore other parts, and how effectively we can control our attentional resources. A key concept is the idea that we are limited in how much we can do at any one time. So we will also consider what happens when someone tries to do several things at once, such as driving while using electronic devices. Chapter 3 License and Attribution
+We use the term ``attention`` all the time, but what processes or abilities does that concept really refer to? This chapter will focus on how attention allows us to select certain parts of our environment and ignore other parts, and how effectively we can control our attentional resources. A key concept is the idea that we are limited in how much we can do at any one time. So we will also consider what happens when someone tries to do several things at once, such as driving while using electronic devices.
 
 \hypertarget{learning-objectives-2}{%
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-2}}
@@ -1272,7 +1277,7 @@ We use the term ``attention`` all the time, but what processes or abilities does
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/ch3/attentionsign} 
+{\centering \includegraphics[width=0.5\linewidth]{images/3_attention/attentionsign} 
 
 }
 
@@ -1296,13 +1301,13 @@ As noted above, we often voluntarily control our attention (a process also known
 \subsection*{The Cocktail Party}\label{the-cocktail-party}}
 
 
-\protect\hyperlink{selective-attention-1}{Selective attention} is the ability to select certain stimuli in the environment to process, while ignoring distracting information. One way to get an intuitive sense of how attention works is to consider situations in which attention is used. A party provides an excellent example for our purposes.
+\protect\hyperlink{selective-attention}{Selective attention} is the ability to select certain stimuli in the environment to process, while ignoring distracting information. One way to get an intuitive sense of how attention works is to consider situations in which attention is used. A party provides an excellent example for our purposes.
 
 Imagine many people may be milling around, a dazzling variety of colors and sounds and smells, the buzz of many conversations. When walking around, you don't have to be looking at the person talking; you may start listening with great interest to some gossip while pretending not to hear, and may easily switch to listening to another conversation that grabs your attention as new people walk by. However, once you are engaged in conversation with someone, you quickly become aware that you cannot keep listening to other conversations at the same time. You are also probably \emph{not} aware of how tight your shoes feel or of the smell of a nearby flower arrangement.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.45\linewidth]{images/ch3/cocktailparty} 
+{\centering \includegraphics[width=0.45\linewidth]{images/3_attention/cocktailparty} 
 
 }
 
@@ -1333,7 +1338,7 @@ Many researchers have investigated how selection occurs and what happens to igno
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/ch3/fig3} 
+{\centering \includegraphics[width=0.8\linewidth]{images/3_attention/broadbent} 
 
 }
 
@@ -1352,7 +1357,7 @@ Results like this, and the fact that you tend to hear meaningful information eve
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/ch3/fig4} 
+{\centering \includegraphics[width=0.8\linewidth]{images/3_attention/treisman} 
 
 }
 
@@ -1367,18 +1372,18 @@ Other selective attention models have been proposed as well. A \emph{late select
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/ch3/fig5} 
+{\centering \includegraphics[width=0.8\linewidth]{images/3_attention/lateselection} 
 
 }
 
 \caption{Deutsch and Deutsch late selection model. This figure shows a similar structure to the early selection model, with the major difference being that the location of the selective filter has changed, here being later on in the process. Here, the model makes the assumption that analysis of meaning occurs before selection occurs, but only the selected information becomes conscious.}\label{fig:lateselection}
 \end{figure}
 
-\hypertarget{multimode-model}{%
-\subsubsection*{Multimode Model}\label{multimode-model}}
+\hypertarget{load-theory-of-attention}{%
+\subsubsection*{Load Theory of Attention}\label{load-theory-of-attention}}
 
 
-Why did researchers keep coming up with different models? Because no model really seemed to account for all the data, some of which indicates that nonselected information is blocked completely, whereas some suggests that it can be processed for meaning. The multimode model addresses this apparent inconsistency, suggesting that the stage at which selection occurs can change depending on the task. Johnston \& Heinz (\protect\hyperlink{ref-Johnston1978}{1978}) demonstrated that under some conditions, we can select what to attend to at a very early stage and we do not process the content of the unattended message very much at all. Analyzing physical information, such as attending to information based on whether it sounds like a masculine or feminine voice, is relatively easy; it occurs automatically, rapidly, and doesn't take much effort. Under the right conditions, we can select what to attend to on the basis of the meaning of the messages. However, the late selection option---processing the content of all messages before selection---is more difficult and requires more effort. The benefit, though, is that we have the flexibility to change how we deploy our attention depending upon what we are trying to accomplish, which is one of the greatest strengths of our cognitive system.
+Why did researchers keep coming up with different models? Because no model really seemed to account for all the data, some of which indicates that nonselected information is blocked completely, whereas some suggests that it can be processed for meaning. The load theory of attention addresses this apparent inconsistency, suggesting that the stage at which selection occurs can change depending on the task. Johnston \& Heinz (\protect\hyperlink{ref-Johnston1978}{1978}) demonstrated that under some conditions, we can select what to attend to at a very early stage and we do not process the content of the unattended message very much at all. Analyzing physical information, such as attending to information based on whether it sounds like a masculine or feminine voice, is relatively easy; it occurs automatically, rapidly, and doesn't take much effort. Under the right conditions, we can select what to attend to on the basis of the meaning of the messages. However, the late selection option---processing the content of all messages before selection---is more difficult and requires more effort. The benefit, though, is that we have the flexibility to change how we deploy our attention depending upon what we are trying to accomplish, which is one of the greatest strengths of our cognitive system.
 
 \hypertarget{selective-attention-beyond-the-auditory-domain}{%
 \subsection*{Selective Attention Beyond the Auditory Domain}\label{selective-attention-beyond-the-auditory-domain}}
@@ -1390,7 +1395,7 @@ This discussion of selective attention has focused on experiments using auditory
 \paragraph*{Subliminal Perception}\label{subliminal-perception}}
 \addcontentsline{toc}{paragraph}{Subliminal Perception}
 
-The idea of \emph{subliminal perception} --- that stimuli presented below the threshold for awareness can influence thoughts, feelings, or actions --- is a fascinating and kind of creepy one. Can messages you are unaware of, embedded in movies or ads or the music playing in the grocery store, really influence what you buy? Many such claims of the power of subliminal perception have been made. One of the most famous came from a market researcher who claimed that the message ``Eat Popcorn'' briefly flashed throughout a movie increased popcorn sales by more than 50\%, although he later admitted that the study was made up (\protect\hyperlink{ref-Merikle2004}{Merikle, 2004}). Psychologists have worked hard to investigate whether this is a valid phenomenon. But studying subliminal perception is more difficult than it might seem, because of the difficulty of establishing what the threshold for consciousness is or of even determining what type of threshold is important. For example, Cheesman \& Merikle (\protect\hyperlink{ref-Cheesman1984}{1984}) made an important distinction between objective and subjective thresholds (see also \protect\hyperlink{ref-Cheesman1986}{Cheesman \& Merikle, 1986}). The bottom line is that there is some evidence that individuals can be influenced by stimuli they are not aware of, but how complex the stimuli can be or the extent to which unconscious material can affect behavior is not settled (e.g., \protect\hyperlink{ref-Bargh2014}{Bargh, 2014}; \protect\hyperlink{ref-Greenwald1992}{Greenwald, 1992}; \protect\hyperlink{ref-Merikle2004}{Merikle, 2004}).
+The idea of \emph{subliminal perception} --- that stimuli presented below the threshold for awareness can influence thoughts, feelings, or actions --- is a fascinating and kind of creepy one. Can messages you are unaware of, embedded in movies or ads or the music playing in the grocery store, really influence what you buy? Many such claims of the power of subliminal perception have been made. One of the most famous came from a market researcher who claimed that the message ``Eat Popcorn'' briefly flashed throughout a movie increased popcorn sales by more than 50\%, although he later admitted that the study was made up (\protect\hyperlink{ref-Merikle2004}{Merikle, 2004}). Psychologists have worked hard to investigate whether this is a valid phenomenon. But studying subliminal perception is more difficult than it might seem, because of the difficulty of establishing what the threshold for consciousness is or of even determining what type of threshold is important. For example, Cheesman \& Merikle (\protect\hyperlink{ref-Cheesman1984}{1984}) made an important distinction between objective and subjective thresholds (see also \protect\hyperlink{ref-Cheesman1986}{Cheesman \& Merikle, 1986}). The bottom line is that there is some evidence that individuals can be influenced by stimuli they are not aware of, but how complex the stimuli can be or the extent to which unconscious material can affect behavior is not settled (e.g., \protect\hyperlink{ref-Bargh2014}{Bargh, 2014}; \protect\hyperlink{ref-Greenwald1992}{Greenwald, 1992}; \protect\hyperlink{ref-harris2013two}{Harris et al., 2013}; \protect\hyperlink{ref-Merikle2004}{Merikle, 2004}).
 
 \hypertarget{controlling-attention}{%
 \section{Controlling Attention}\label{controlling-attention}}
@@ -1411,7 +1416,7 @@ A common task used to study attention is the Stroop task, named for J.R. Stroop 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch3/stroop} 
+{\centering \includegraphics[width=0.6\linewidth]{images/3_attention/stroop} 
 
 }
 
@@ -1452,7 +1457,7 @@ In today's technology-driven society, questions regarding multitasking while usi
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/ch3/fig7} 
+{\centering \includegraphics[width=0.5\linewidth]{images/3_attention/driving} 
 
 }
 
@@ -1568,7 +1573,7 @@ The ability to process information for meaning when the individual is not consci
 
 \begin{center}\includegraphics[width=1\linewidth]{images/ch4/fig0} \end{center}
 
-Working memory is like your mind's workspace--- a limited capacity system for storage and processing of information. While early researchers focused on the storage function of working memory, contemporary scientists stress the processing and manipulation functions of the system. In fact, the name for the system was changed from ``short-term memory'' to ``working memory'' to emphasize the processing function of this stage of memory. Today, scientists primarily use the term ``working memory'' instead of ``short-term memory.
+Working memory is like your mind's workspace: a limited capacity system for storage and processing of information. Have you ever noticed that it's hard to understand someone if they throw too much information at you at once? That experience of confusion when receiving more information than we can process is called \emph{working memory overload}. But working memory does more than simply hold information, it also processes and manipulates whatever information you're currently thinking about. In fact, the name scientists use for the system changed over time from ``short-term memory'' to ``working memory'' to emphasize the processing function of this stage of memory.
 
 \hypertarget{learning-objectives-3}{%
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-3}}
@@ -1601,7 +1606,7 @@ In more recent research, the distinctions between working and long-term memory f
 \caption{Atkinson and Shiffrin’s Modal Model of Memory.}\label{fig:modalmodel}
 \end{figure}
 
-In the middle of the 20th century, many scientists were interested in \protect\hyperlink{short-term-memory-1}{short-term memory} (STM), or how humans can hold small amounts of information actively in their minds for a short period of time. In 1968, Richard Atkinson and Richard Shiffrin proposed a model of memory referred to as the Modal Model of Memory (\ref{fig:modalmodel}). In this model, information first enters \protect\hyperlink{sensory-memory}{sensory memory}, which is a highly transient storage space for information that recently entered your sensory system. This information is high quality but fades away very quickly. Have you ever had the experience of hearing someone say something when you weren't really paying attention, then repeating it immediately in your head, and then being able to understand it? For about three seconds, you can play back the auditory information that you just heard. You can even hear it in the speaker's original tone of voice! You use your sensory memory to do this.
+In the middle of the 20th century, many scientists were interested in \protect\hyperlink{short-term-memory}{short-term memory} (STM), or how humans can hold small amounts of information actively in their minds for a short period of time. Atkinson \& Shiffrin (\protect\hyperlink{ref-atkinson1968human}{1968}) wrote a landmark paper that synthesized existing evidence on how memory functions and proposed a model of memory referred to as the Modal Model of Memory (\ref{fig:modalmodel}). In this model, information first enters \protect\hyperlink{sensory-memory}{sensory memory}, which is a highly transient storage space for information that recently entered your sensory system. This information is high quality but fades away very quickly. Have you ever had the experience of hearing someone say something when you weren't really paying attention, then repeating it immediately in your head, and then being able to understand it? For about three seconds, you can play back the auditory information that you just heard. You can even hear it in the speaker's original tone of voice! You use your sensory memory to do this.
 
 The next stage the Modal Model is short-term memory. Information that you pay attention to from sensory memory enters the short-term memory store. As the name suggests, information is retained in the Short Term Memory for a rather short period of time (15--30 seconds). In order to keep information in short-term memory, the model suggests you must rehearse it.
 
@@ -1610,16 +1615,16 @@ How much information can be held in short-term memory? According to George Mille
 Try to remember the following digits:
 
 \begin{quote}
-1 2 2 5 1 9 8 5
+1 2 2 5 1 9 8 4
 \end{quote}
 
 Now try to remember the same digits, but group them differently:
 
 \begin{quote}
-12 - 25 - 1985
+12 - 25 - 1984
 \end{quote}
 
-With this strategy you chunked eight pieces of information (eight digits) to three pieces to remember them as a date on the calendar. You could chunk the information even more efficiently if you recognize 12-25 as a single unit, the date of Christmas. The process of chunking is the process of combining smaller units of information into larger, meaningful units of information. The term ``meaningful'' is subjective--- a meaningful chunk for you might not be a meaningful chunk for me. For example, 3 8 3 5 might not make a meaningful chunk for everyone, but if you're a football buff, you might chunk it as 38--35: the final score of the Super Bowl for the 2022 season.
+With this strategy you chunked eight pieces of information (eight digits) to three pieces to remember them as a date on the calendar. You could chunk the information even more efficiently if you recognize 12-25 as a single unit, the date of Christmas. The process of chunking is the process of combining smaller units of information into larger, meaningful units of information. The term ``meaningful'' is subjective--- a meaningful chunk for you might not be a meaningful chunk for me. For example, 3 5 3 1 might not make a meaningful chunk for everyone, but if you're a student of football history, you might chunk it as 35--31: the final score of the Super Bowl XIII, when Jackie Smith dropped a touchdown pass in the end zone.
 
 A famous experiment concerned with chunking was conducted by Chase \& Simon (\protect\hyperlink{ref-Chase1973}{1973}) with novices and experts in chess playing. When asked to remember certain arrangements of chess pieces on a board, the experts performed significantly better that the novices. However, if the pieces were arranged randomly, i.e.~not corresponding to possible game situations, both the experts and the novices performed equally poorly. The reason is that expert chess players spend hours studying chess games and memorizing board configurations. When trying to remember the layout of a chess board, the experienced chess players do not try to remember single positions of the figures in the correct game situation, but whole chunks of figures from their memory. In random board configurations this strategy cannot work, which shows that chunking (as done by experienced chess players) enhances the performance only in specific memory tasks.
 
@@ -1632,16 +1637,18 @@ A famous experiment concerned with chunking was conducted by Chase \& Simon (\pr
 \caption{Left: A chessboard in the middle of a real game. Right: A random arrangement of chess pieces. Chess experts have significantly better memory for real boards, but perform more like novices for random board configurations.}\label{fig:chess}
 \end{figure}
 
-\hypertarget{from-short-term-memory-to-baddeleys-working-memory-model}{%
-\subsection*{From Short-Term Memory to Baddeley's Working Memory Model}\label{from-short-term-memory-to-baddeleys-working-memory-model}}
+The third stage of the Modal Model is \protect\hyperlink{long-term-memory}{long-term memory}. According to the Modal Model, the important processes for long-term memory are storage (i.e., transferring information from short-term to long-term memory), search (i.e., locating information in the long-term store) and retrieval (i.e., recovering the information from the long-term store). Long-term memory will be the focus of chapters \ref{long-term-memory-chapter} and \ref{memory-in-context}.
+
+\hypertarget{from-the-modal-model-to-baddeleys-working-memory-model}{%
+\subsection*{From the Modal Model to Baddeley's Working Memory Model}\label{from-the-modal-model-to-baddeleys-working-memory-model}}
 
 
-Although the Modal Model of short-term memory proposed by Atkinson and Shiffrin explained aspects of human memory under certain conditions, the model turned out to be limited in its explanatory power. A. D. Baddeley \& Hitch (\protect\hyperlink{ref-baddeley1974working}{1974}) drew attention to problems with the model. For example, Baddeley and Hitch emphasized that we can not only hold information actively in our minds, we can also do things with that information. Whereas the Modal Model conceived of short-term memory as a mostly passive storage space, Baddeley and Hitch emphasized our ability to process and manipulate information. They even set aside the term ``short-term memory'' in favor of ``\protect\hyperlink{working-memory-1}{working memory},'' in order to emphasize the processing and manipulation functions of the system. Scientists don't use the term ``short-term memory'' very often now, and tend to prefer to use ``working memory.'' The modern understanding of the working memory system includes all of the things that early scientists called ``short-term memory,'' but also includes other capabilities as described in the next section.
+Atkinson \& Shiffrin (\protect\hyperlink{ref-atkinson1968human}{1968}) formulated the Modal Model as a foundational framework to guide researchers in developing memory models (\protect\hyperlink{ref-wixted2024atkinson}{Wixted, 2024}). Beyond the simple model, they depicted the short-term store as the central hub of memory activity (\protect\hyperlink{ref-atkinson1971control}{Atkinson \& Shiffrin, 1971}). Building on these ideas, Baddeley \& Hitch (\protect\hyperlink{ref-BADDELEY197447}{1974}) proposed their Working Memory Model. While the Modal Model was relatively focused on the \emph{memory} function of the short-term store, Baddeley and Hitch described a working memory as chiefly an \emph{information processing} system. Notice the difference in terminology: Atkinson and Shiffrin called the temporary memory space ``short-term memory'' while Baddeley and Hitch use the term ``working memory.'' Atkinson and Shiffrin would not dispute this terminology -- indeed, the first page of their introduction says ``the short-term store is the subject's working memory'' (\protect\hyperlink{ref-atkinson1968human}{Atkinson \& Shiffrin, 1968, p. 90}) -- though it has become a common misconception that their 1968 paper asserts that short-term memory is limited to simple storage (\protect\hyperlink{ref-wixted2024atkinson}{Wixted, 2024}). Today, scientists may still use the term ``short-term memory'' when discussing the temporary storage of simple items, but ``working memory'' has become the preferred term, emphasizing the role of the system in complex cognition.
 
 \hypertarget{working-memory}{%
 \section{Working Memory}\label{working-memory}}
 
-According to Baddeley, \protect\hyperlink{working-memory-1}{working memory} is not only capable of storage, but also of the manipulation of incoming information. Baddeley and Hitch's 1974 model consists of three parts: two storages spaces called the phonological loop and the visuospatial sketch pad, and a control unit call the central executive.
+According to Baddeley, \protect\hyperlink{working-memory}{working memory} is capable of both storage and manipulation of incoming information. Baddeley and Hitch's 1974 model consists of three parts: two storages spaces called the phonological loop and the visuospatial sketch pad, and a control unit call the central executive.
 
 \begin{center}\includegraphics[width=0.6\linewidth]{images/ch4/fig2} \end{center}
 
@@ -1673,7 +1680,7 @@ And now try this one:
 carpenter radiate thermostat honesty photograph dinosaur horizon
 \end{quote}
 
-Both lists are seven words long, and yet people are much worse at a list like the second one (\protect\hyperlink{ref-baddeley1975word}{A. D. Baddeley et al., 1975}). This is called the \protect\hyperlink{word-length-effect}{word-length effect}: \emph{lists of short words are recalled better than lists of long words}. If you think back to the research on short-term memory, this result is surprising! According to Miller's magical number, these lists should be remembered equally well because they contain the same number of items. Findings like the word length effect led researchers to conclude that the capacity of the phonological loop should not be measured in number of items, but in amount of time instead: the phonological loop can hold about two seconds of auditory information, which it can replay over and again through an active articulatory process. Imagine you have two seconds of tape--- you could fit a lot more short words on it than long words!
+Both lists are seven words long, and yet people are much worse at a list like the second one (\protect\hyperlink{ref-baddeley1975word}{Baddeley et al., 1975}). This is called the \protect\hyperlink{word-length-effect}{word-length effect}: \emph{lists of short words are recalled better than lists of long words}. If you think back to early research on short-term memory, this result is surprising! According to Miller's magical number, these lists should be remembered equally well because they contain the same number of items. Findings like the word length effect led researchers to conclude that the capacity of the phonological loop should not be measured in number of items, but in amount of time instead: the phonological loop can hold about two seconds of auditory information, which it can replay over and again through an active articulatory process. Imagine you have two seconds of tape--- you could fit a lot more short words on it than long words!
 
 The next component of working memory is the \protect\hyperlink{visuospatial-sketch-pad}{visuospatial sketch pad}, which \emph{handles visual and spatial information}. Like the phonological loop, the visuospatial sketch pad is primarily a storage space. What evidence do we have that visual and spatial information is stored independently from auditory and verbal information? Look at the block letter F to the right. In an example experiment, you would be instructed to memorize the letter, and then, starting with the starred corner and then traveling up and around the letter, indicate whether each corner is an outside corner (like the starred corner) or an inside corner (like the fifth corner as you travel around the shape). In one condition, participants would verbally say ``outside'' or ``inside'' for each corner. In the other condition, participants would point at the words ``outside'' and ``inside'' displayed in front of them for each corner. Brooks (\protect\hyperlink{ref-Brooks1968}{1968}) conducted an experiment similar to this one, and found that participants were much better at the task when they could verbally indicate the type of corner than when they had to point. Why? We have two storage spaces in working memory and each of them is limited in capacity. Mentally traveling around the block letter and judging the corners is a spatial task, and so it puts a load on the visuospatial sketch pad. If you add pointing on top of that, participants' visuospatial sketch pads get overloaded and they struggle to do both simultaneously. If instead you allow participants to respond verbally, they are distributing the response aspect of the task onto the phonological loop. That way, neither storage system becomes overloaded.
 
@@ -1687,11 +1694,11 @@ The functions of the central executive can be broken down into three categories:
 \subsection*{The episodic buffer}\label{the-episodic-buffer}}
 
 
-Science is an ongoing process, and so despite the usefulness of Baddeley and Hitch's working memory model, it was updated in 2000 to add another component: the \protect\hyperlink{episodic-buffer}{episodic buffer} (\protect\hyperlink{ref-Baddeley2000}{A. Baddeley, 2000}). The episodic buffer is a limited capacity, temporary storage system that is controlled by the central executive and integrates information from a variety of sources including long-term memory. The episodic buffer was added to help account for human performance in complex cognition--- for example, we can remember many more words when we remember a meaningful sentence than when we remember a random word list. The episodic buffer was added to help account for this and other phenomena in which working memory performance seemingly requires additional storage as well as interfacing with long-term memory. The addition of the Episodic Buffer paralleled broader movement in the field towards thinking about how knowledge impacts working memory capacity.
+Science is an ongoing process, and so despite the usefulness of Baddeley and Hitch's working memory model, it was updated in 2000 to add another component: the \protect\hyperlink{episodic-buffer}{episodic buffer} (\protect\hyperlink{ref-Baddeley2000}{Baddeley, 2000}). The episodic buffer is a limited capacity, temporary storage system that is controlled by the central executive and integrates information from a variety of sources including long-term memory. The episodic buffer was added to help account for human performance in complex cognition--- for example, we can remember many more words when we remember a meaningful sentence than when we remember a random word list. The episodic buffer was added to help account for this and other phenomena in which working memory performance seemingly requires additional storage as well as interfacing with long-term memory. The addition of the Episodic Buffer paralleled broader movement in the field towards thinking about how knowledge impacts working memory capacity.
 
 \hypertarget{working-memory-meaning-and-distinctiveness}{%
-\subsection*{Working Memory, Meaning, and Distinctiveness}\label{working-memory-meaning-and-distinctiveness}}
-
+\paragraph*{Working Memory, Meaning, and Distinctiveness}\label{working-memory-meaning-and-distinctiveness}}
+\addcontentsline{toc}{paragraph}{Working Memory, Meaning, and Distinctiveness}
 
 People not only have better memory for items that are more meaningful to them (e.g., you can remember 7 real-world objects better than 7 colors), but also for items that are distinct (\protect\hyperlink{ref-Brady2016}{Brady et al., 2016}). The idea that we have better memory for more distinct items in a set (i.e., remembering blue vs.~red is easier than remembering blue vs.~teal) has been around for almost a century. Von Restorff (\protect\hyperlink{ref-Von1933}{1933}) showed that certain things were more or less memorable, not in and of themselves, but in relation to how distinct they were from other stimuli in the set. This idea has recently re-emerged in more recent research on working memory as a way to explain capacity limitations as well as memory errors.
 
@@ -1747,6 +1754,12 @@ A meaningful unit of information held in short-term memory
 
 A helper system in working memory for storing integrated chunks of information
 
+\hypertarget{long-term-memory}{%
+\paragraph*{long-term memory}\label{long-term-memory}}
+\addcontentsline{toc}{paragraph}{long-term memory}
+
+Large-capacity storage for enduring memories.
+
 \hypertarget{phonological-loop}{%
 \paragraph*{phonological loop}\label{phonological-loop}}
 \addcontentsline{toc}{paragraph}{phonological loop}
@@ -1789,8 +1802,8 @@ A reduction in working memory span for longer words compared to shorter words
 
 A function of the brain that allows us to actively hold and manipulate a limited amount of information.
 
-\hypertarget{long-term-memory}{%
-\chapter{Long-term Memory}\label{long-term-memory}}
+\hypertarget{long-term-memory-chapter}{%
+\chapter{Long-term Memory}\label{long-term-memory-chapter}}
 
 \begin{center}\includegraphics[width=1\linewidth]{images/ch5/fig0} \end{center}
 
@@ -1833,7 +1846,7 @@ As we discussed in the last chapter, working memory is a temporary storage space
 
 The distinction between working memory and long-term memory can be demonstrated with the \protect\hyperlink{serial-position-curve}{serial position curve}. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \ref{fig:serialposition}. People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The \protect\hyperlink{primacy-effect}{primacy effect} refers to \emph{a tendency to better remember stimuli that are presented early in a list}. The \protect\hyperlink{recency-effect}{recency effect} refers to \emph{the tendency to better remember stimuli that are presented at the end of a list}.
 
-Primacy and recency effects can be explanied in terms of the effects of rehearsal on short-term and long-term memory (\protect\hyperlink{ref-Baddeley1990}{A. D. Baddeley, 1990}). Because we can keep the last words that we learned in the presented list in short-term memory by rehearsing them before the memory test begins, they are relatively easily remembered. So the recency effect can be explained in terms of maintenance rehearsal in short-term memory--- the most recent words are still available in short-term memory at the time of recall. And the primacy effect can also be explained by rehearsal---when we hear the first word in the list we start to rehearse it, making it more likely that it will be moved from short-term to long-term memory. And the same is true for the other words that come early in the list. But for the words in the middle of the list, this rehearsal becomes much harder, making them less likely to be moved to long-term memory
+Primacy and recency effects can be explanied in terms of the effects of rehearsal on short-term and long-term memory (\protect\hyperlink{ref-Baddeley1990}{Baddeley, 1990}). Because we can keep the last words that we learned in the presented list in short-term memory by rehearsing them before the memory test begins, they are relatively easily remembered. So the recency effect can be explained in terms of maintenance rehearsal in short-term memory--- the most recent words are still available in short-term memory at the time of recall. And the primacy effect can also be explained by rehearsal---when we hear the first word in the list we start to rehearse it, making it more likely that it will be moved from short-term to long-term memory. And the same is true for the other words that come early in the list. But for the words in the middle of the list, this rehearsal becomes much harder, making them less likely to be moved to long-term memory
 
 \hypertarget{brains-vs.-computers}{%
 \paragraph*{Brains Vs. Computers}\label{brains-vs.-computers}}
@@ -2231,7 +2244,7 @@ Other sorts of memory biases are more complicated and longer lasting. For exampl
 
 We have seen that schemas help us remember information by organizing material into coherent representations. However, although schemas can improve our memories by helping us make sense of the world, they may also lead to cognitive biases. Using schemas may lead us to falsely remember things that never happened to us and to distort or misremember things that did.
 
-For one, schemas can lead us to pay attention to and search for information that fits our schemas---leading to something called confirmation bias. \protect\hyperlink{confirmation-bias-1}{Confirmation bias} is the tendency to verify and confirm our existing memories rather than to challenge and disconfirm them. The confirmation bias occurs because once we have schemas, they influence how we seek out and interpret new information. People tend to remember information that fits our schemas better than we remember information that disconfirms them (\protect\hyperlink{ref-stangor1992memory}{Stangor \& McMillan, 1992}), a process that makes our views of the world very difficult to change. Furthermore, we ask questions in ways that confirm our schemas (\protect\hyperlink{ref-trope1997looking}{Trope \& Thompson, 1997}). If we think that a person is an extrovert, we might ask her about ways that she likes to have fun, thereby making it more likely that we will confirm our beliefs. In short, once we begin to believe in something --- for instance, a stereotype about a group of people --- it becomes very difficult to later convince us that these beliefs are not true; the beliefs become self-confirming.
+For one, schemas can lead us to pay attention to and search for information that fits our schemas---leading to something called confirmation bias. \protect\hyperlink{confirmation-bias}{Confirmation bias} is the tendency to verify and confirm our existing memories rather than to challenge and disconfirm them. The confirmation bias occurs because once we have schemas, they influence how we seek out and interpret new information. People tend to remember information that fits our schemas better than we remember information that disconfirms them (\protect\hyperlink{ref-stangor1992memory}{Stangor \& McMillan, 1992}), a process that makes our views of the world very difficult to change. Furthermore, we ask questions in ways that confirm our schemas (\protect\hyperlink{ref-trope1997looking}{Trope \& Thompson, 1997}). If we think that a person is an extrovert, we might ask her about ways that she likes to have fun, thereby making it more likely that we will confirm our beliefs. In short, once we begin to believe in something --- for instance, a stereotype about a group of people --- it becomes very difficult to later convince us that these beliefs are not true; the beliefs become self-confirming.
 
 Darley \& Gross (\protect\hyperlink{ref-darley1983hypothesis}{1983b}) demonstrated how schemas about social class could influence memory. In their research they gave participants a picture and some information about a Grade 4 girl named Hannah. To activate a schema about her social class, Hannah was pictured sitting in front of a nice suburban house for one-half of the participants and pictured in front of an impoverished house in an urban area for the other half. Then the participants watched a video that showed Hannah taking an intelligence test. As the test went on, Hannah got some of the questions right and some of them wrong, but the number of correct and incorrect answers was the same in both conditions. Then the participants were asked to remember how many questions Hannah got right and wrong. Demonstrating that stereotypes had influenced memory, the participants who thought that Hannah had come from an upper-class background remembered that she had gotten more correct answers than those who thought she was from a lower-class background.
 
@@ -2241,7 +2254,7 @@ Our reliance on schemas can also make it more difficult for us to ``think outsid
 \subsection*{Source Monitoring}\label{source-monitoring}}
 
 
-One potential error in memory involves mistakes in differentiating the sources of information. \protect\hyperlink{source-monitoring-1}{Source monitoring} refers to \emph{the ability to accurately identify the source of a memory}. Perhaps you've had the experience of wondering whether you really experienced an event or only dreamed or imagined it. If so, you wouldn't be alone. Rassin et al. (\protect\hyperlink{ref-Rassin2001}{2001}) reported that up to 25\% of undergraduate students reported being confused about real versus dreamed events. Studies suggest that people who are fantasy-prone are more likely to experience source monitoring errors (\protect\hyperlink{ref-Winograd1998}{Winograd et al., 1998}), and such errors also occur more often for both children and the elderly than for adolescents and younger adults (\protect\hyperlink{ref-jacoby2006false}{Jacoby \& Rhodes, 2006}).
+One potential error in memory involves mistakes in differentiating the sources of information. \protect\hyperlink{source-monitoring}{Source monitoring} refers to \emph{the ability to accurately identify the source of a memory}. Perhaps you've had the experience of wondering whether you really experienced an event or only dreamed or imagined it. If so, you wouldn't be alone. Rassin et al. (\protect\hyperlink{ref-Rassin2001}{2001}) reported that up to 25\% of undergraduate students reported being confused about real versus dreamed events. Studies suggest that people who are fantasy-prone are more likely to experience source monitoring errors (\protect\hyperlink{ref-Winograd1998}{Winograd et al., 1998}), and such errors also occur more often for both children and the elderly than for adolescents and younger adults (\protect\hyperlink{ref-jacoby2006false}{Jacoby \& Rhodes, 2006}).
 
 In other cases we may be sure that we remembered the information from real life but be uncertain about exactly where we heard it. Imagine that you read a news story in a tabloid magazine such as the \emph{National Enquirer}. You would probably discounted the information within that story because you know that its source is unreliable. But what if later you were to remember the story but forget the source of the information? If this happens, you might become convinced that the news story is true because you forget to discount it. The \protect\hyperlink{sleeper-effect}{sleeper effect} refers to \emph{attitude change that occurs over time when we forget the source of information} (\protect\hyperlink{ref-Pratkanis1988}{Pratkanis et al., 1988}).
 
@@ -2263,7 +2276,7 @@ In an early study, undergraduate subjects first watched a slideshow depicting a 
 
 Later, subjects were shown pairs of slides. One of the pair was the original slide containing the stop sign; the other was a replacement slide containing a yield sign. Subjects were asked which of the pair they had previously seen. Subjects who had been asked about the yield sign were likely to pick the slide showing the yield sign, even though they had originally seen the slide with the stop sign. In other words, the misinformation in the leading question led to inaccurate memory.
 
-This phenomenon is called the \protect\hyperlink{misinformation-effect-1}{misinformation effect}, because the misinformation that subjects were exposed to after the event (here in the form of a misleading question) apparently contaminates subjects' memories of what they witnessed. Hundreds of subsequent studies have demonstrated that memory can be contaminated by erroneous information that people are exposed to after they witness an event (see \protect\hyperlink{ref-frenda2011current}{Frenda et al., 2011}; \protect\hyperlink{ref-loftus2005planting}{E. F. Loftus, 2005}). The misinformation in these studies has led people to incorrectly remember everything from small but crucial details of a perpetrator's appearance to objects as large as a barn that wasn't there at all.
+This phenomenon is called the \protect\hyperlink{misinformation-effect}{misinformation effect}, because the misinformation that subjects were exposed to after the event (here in the form of a misleading question) apparently contaminates subjects' memories of what they witnessed. Hundreds of subsequent studies have demonstrated that memory can be contaminated by erroneous information that people are exposed to after they witness an event (see \protect\hyperlink{ref-frenda2011current}{Frenda et al., 2011}; \protect\hyperlink{ref-loftus2005planting}{E. F. Loftus, 2005}). The misinformation in these studies has led people to incorrectly remember everything from small but crucial details of a perpetrator's appearance to objects as large as a barn that wasn't there at all.
 
 \begin{figure}
 
@@ -2347,29 +2360,30 @@ It's worth noting that most of the conversation about eyewitness reliability has
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4211}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4211}}@{}}
 \caption{\label{tab:recallrecognition} Recall vs.~Recognition}\tabularnewline
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Recall
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Recognition
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endfirsthead
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Recall
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Recognition
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Description & Calling to mind something that is not present in front of them. & Deciding whether a currently-presented item was previously encountered \\
 Example tasks & ``What did you see?'' ``Tell me about what happened.'' ``Did the perpetrator have a weapon?'' & ``Have you seen this face before?'' ``Is this the car that drove away?'' ``Do you recognize this person?'' ``Is this the voice you heard?'' \\
 Automaticity & Recall is a search process; it requires you to actively search your memory. & Recognition---especially face recognition---is typically an automatic process. Because the item you are considering is physically present (e.g., a photo of a suspect's face), there is no need to search memory. Instead, your brain yields a familiarity signal quickly and automatically. \\
 Effect of time & Generally, the passage of time makes it harder to recall information as more forgetting occurs. However, it is possible to initially fail at remembering something and then successfully remember it later. (Imagine all the times that you've seen someone and thought, ``I wanted to tell you something, but I forgot what it was.'' Then, as you're going to bed, you suddenly remember what you wanted to say.) & On a typical recognition test, after a few seconds of evaluating a stimulus, if it does not seem familiar, spending more time searching memory will not cause it to become more familiar. Because familiarity is an automatic process, you either experience the familiarity signal in a matter of seconds or you don't. \\
-\bottomrule()
 \end{longtable}
 
 There are a lot of situational factors that can affect a witness' memory. These factors include poor vision or viewing conditions during the crime, particularly stressful witnessing experiences, too little time to view the perpetrator or perpetrators, too much delay between witnessing and identifying, and being asked to identify a perpetrator from a race other than one's own (\protect\hyperlink{ref-bornstein2012effects}{Bornstein et al., 2012}; \protect\hyperlink{ref-brigham2007influence}{Brigham et al., 2007}; \protect\hyperlink{ref-burton1999face}{Burton et al., 1999}; \protect\hyperlink{ref-deffenbacher2004meta}{Deffenbacher et al., 2004}). However, the presence of these factors does not necessarily make eyewitnesses more likely to misidentify an innocent person as a perpetrator. In other words, these factors do not implant false memories. Instead, they make it harder for the face of the perpetrator to enter the brain in the first place, increasing the likelihood that an eyewitness will fail to recognize a guilty person even if they are in the lineup (\protect\hyperlink{ref-wixted2017relationship}{Wixted \& Wells, 2017}).
@@ -2383,7 +2397,7 @@ There are many things that the justice system can do to help lineup identificati
 \hypertarget{forgetting}{%
 \section{Forgetting}\label{forgetting}}
 
-As you've come to see, memory is fragile, and forgetting can be frustrating and even embarrassing. But why do we \protect\hyperlink{forgetting-1}{forget}? To answer this question, we will look at several perspectives on forgetting.
+As you've come to see, memory is fragile, and forgetting can be frustrating and even embarrassing. But why do we \protect\hyperlink{forgetting}{forget}? To answer this question, we will look at several perspectives on forgetting.
 
 \hypertarget{encoding-failure}{%
 \subsection*{Encoding Failure}\label{encoding-failure}}
@@ -2573,14 +2587,16 @@ Even in domains where one might expect to find clear-cut definitions, such as sc
 
 \begin{longtable}[]{@{}cc@{}}
 \caption{\label{tab:typicality} Examples of two categories, with members ordered by typicality (from \protect\hyperlink{ref-Rosch1975}{Rosch \& Mervis, 1975})}\tabularnewline
-\toprule()
+\toprule\noalign{}
 Furniture & Fruit \\
-\midrule()
+\midrule\noalign{}
 \endfirsthead
-\toprule()
+\toprule\noalign{}
 Furniture & Fruit \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 chair & orange \\
 table & banana \\
 desk & pear \\
@@ -2591,7 +2607,6 @@ rug & lemon \\
 stove & honeydew \\
 picture & date \\
 vase & tomato \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{typicality}{%
@@ -2600,7 +2615,7 @@ vase & tomato \\
 
 Even among items that clearly are in a category, some seem to be ``better'' members than others (\protect\hyperlink{ref-Rosch1973}{E. H. Rosch, 1973}). Among birds, for example, robins and sparrows are very typical. In contrast, ostriches and penguins are very atypical (meaning not typical). If someone says, ``There's a bird in my yard,'' the image you have will be of a smallish passerine bird such as a robin, not an eagle or hummingbird or turkey.
 
-You can find out which category members are typical merely by asking people. Table \ref{tab:typicality} shows a list of category members in order of their rated typicality. \protect\hyperlink{typicality-1}{Typicality} is perhaps the most important variable in predicting how people interact with categories. Table \ref{tab:influences} is a partial list of what typicality influences.
+You can find out which category members are typical merely by asking people. Table \ref{tab:typicality} shows a list of category members in order of their rated typicality. \protect\hyperlink{typicality}{Typicality} is perhaps the most important variable in predicting how people interact with categories. Table \ref{tab:influences} is a partial list of what typicality influences.
 
 We can understand the two phenomena of borderline members and typicality as two sides of the same coin. Think of the most typical category member: This is often called the category prototype. Items that are less and less similar to the {[}prototype{]} become less and less typical. At some point, these less typical items become so atypical that you start to doubt whether they are in the category at all. Is a rug really an example of furniture? It's in the home like chairs and tables, but it's also different from most furniture in its structure and use. From day to day, you might change your mind as to whether this atypical example is in or out of the category. So, changes in typicality ultimately lead to borderline members.
 
@@ -2608,29 +2623,30 @@ We can understand the two phenomena of borderline members and typicality as two 
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6923}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3077}}@{}}
 \caption{\label{tab:influences} Influences of typicality on cognition.}\tabularnewline
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Influence
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Source
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endfirsthead
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Influence
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Source
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Typical items are judged category members more often & Hampton (\protect\hyperlink{ref-Hampton1979}{1979}) \\
 Speed of categorization is faster for typical items & Rips et al. (\protect\hyperlink{ref-rips1973semantic}{1973}) \\
 Typical members are learned before atypical ones & Rosch \& Mervis (\protect\hyperlink{ref-Rosch1975}{1975}) \\
 Learning a category is easier if typical examples are provided & Mervis \& Pani (\protect\hyperlink{ref-mervis1980acquisition}{1980}) \\
 In language comprehension, references to typical members are understood more easily & Garrod \& Sanford (\protect\hyperlink{ref-garrod1977interpreting}{1977}) \\
 In language production, people tend to say typical items before atypical ones (e.g., ``apples and lemons'' rather than ``lemons and apples'') & Onishi et al. (\protect\hyperlink{ref-onishi2008prototypicality}{2008}) \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{source-of-typicality}{%
@@ -3331,7 +3347,7 @@ There are four major forms of conditional syllogisms: ``modus ponens'', ``modus 
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
 \caption{\label{tab:Syllogisms} Different kinds of conditional syllogisms.}\tabularnewline
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Modus Ponens
@@ -3342,9 +3358,9 @@ Denying the Antecedent
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Affirming the Consequent
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endfirsthead
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Modus Ponens
@@ -3355,14 +3371,15 @@ Denying the Antecedent
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Affirming the Consequent
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Description & The antecedent of the first premise is affirmed in the second premise. & The consequent of the first premise is negated in the second premise. & The antecedent of the first premise is negates in the second premise. & The antecedent of the first premise is affirmed in the second premise. \\
 Formal & If P then Q. P Therefore Q. & If P the Q. Not-Q Therefore Not-P. & If P then Q. Not-P Therefore Not-Q. & If P then Q. Q Therefore P. \\
 Example & If it is raining, Knut's wife needs an umbrella. It is raining. Therefore Knut's wife needs an umbrella. & If it is raining, Knut's wife needs an umbrella. Knut's wife does not need an umbrella. Therefore it is not raining. & If it is raining, Knut's wife needs an umbrella. It is not raining. Therefore Knut's wife does not need an umbrella. & If it is raining, Knut's wife needs an umbrella. Knut's wife needs an umbrella. Therefore it is raining. \\
 Validity & Valid & Valid & Invalid & Invalid \\
 Correct Judgements & 97 \% correctly identify as valid. & 60\% correctly identify as valid. & 40\% correctly identify as invalid. & 40\% correctly identify as invalid. \\
-\bottomrule()
 \end{longtable}
 
 As we can see, the validity of the syllogisms with valid conclusions is easier to judge correctly than the validity of the syllogisms with invalid conclusions. The conclusion in the instance of the modus ponens is apparently valid. In the example it is very clear that Knut's wife needs an umbrella if it is raining.
@@ -3468,7 +3485,7 @@ Conclusions reached through a process of inductive reasoning are never definitel
 \subsection*{Processes and constraints}\label{processes-and-constraints}}
 
 
-In the process of inductive reasoning people often make use of heuristics. These heuristics help people make judgments, but sometimes cause errors when the cues they are sensitive to are misleading. In the following sections, two of these heuristics, \protect\hyperlink{the-availability-heuristic}{the availability heuristic} and \protect\hyperlink{the-representativeness-heuristic}{the representativeness heuristic}, are explained. Subsequently, \protect\hyperlink{confirmation-bias-1}{confirmation bias} is introduced, which refers to when people rely too heavily on their own prior beliefs when assessing new evidence.
+In the process of inductive reasoning people often make use of heuristics. These heuristics help people make judgments, but sometimes cause errors when the cues they are sensitive to are misleading. In the following sections, two of these heuristics, \protect\hyperlink{the-availability-heuristic}{the availability heuristic} and \protect\hyperlink{the-representativeness-heuristic}{the representativeness heuristic}, are explained. Subsequently, \protect\hyperlink{confirmation-bias}{confirmation bias} is introduced, which refers to when people rely too heavily on their own prior beliefs when assessing new evidence.
 
 \hypertarget{the-availability-heuristic}{%
 \subsubsection*{The availability heuristic}\label{the-availability-heuristic}}
@@ -3527,29 +3544,30 @@ The table below (\ref{tab:IndDed}) summarizes the most prevalent properties and 
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
 \caption{\label{tab:IndDed} Induction vs.~deduction}\tabularnewline
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Deductive Reasoning
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Inductive Reasoning
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endfirsthead
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Deductive Reasoning
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Inductive Reasoning
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Premises & Stated as facts or general principles (``It is warm in the Summer of Spain.'') & Based on observations of specific cases (``All crows Knut and his wife have seen are back.'') \\
 Conclusion & Conclusion is more special than the information the premises provide. It is reached directly by applying logical rules to the premises. & Conclusion is more general than the information the premises provide. It is reached by generalizing the premises` information. \\
 Validity & If the premises are true, the conclusions must be true. & If the premises are true, the conclusion is probably true. \\
 Usage & More difficult to use (mainly in logical problems). One needs facts which are definitely true. & Used often in everyday life (fast and easy). Evidence is used instead of proved facts. \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{decision-making}{%
@@ -3995,14 +4013,20 @@ Andrews, I. (1982). Bilinguals out of focus: A critical discussion. \emph{Intern
 \leavevmode\vadjust pre{\hypertarget{ref-APA2000}{}}%
 Association, A. P. (2000). \emph{Diagnostic and statistical manual of mental disorders (4eme ed.) washington}.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Baddeley2000}{}}%
-Baddeley, A. (2000). The episodic buffer: A new component of working memory? \emph{Trends Cogn. Sci.}, \emph{4}(11), 417--423.
+\leavevmode\vadjust pre{\hypertarget{ref-atkinson1968human}{}}%
+Atkinson, R. C., \& Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes. In \emph{Psychology of learning and motivation} (Vol. 2, pp. 89--195). Elsevier.
+
+\leavevmode\vadjust pre{\hypertarget{ref-atkinson1971control}{}}%
+Atkinson, R. C., \& Shiffrin, R. M. (1971). The control of short-term memory. \emph{Scientific American}, \emph{225}(2), 82--91.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Baddeley1990}{}}%
 Baddeley, A. D. (1990). The development of the concept of working memory: Implications and contributions of neuropsychology. In G. Vallar \& T. Shallice (Eds.), \emph{Neuropsychological impairments of {Short-Term} memory} (pp. 54--73). Cambridge University Press.
 
-\leavevmode\vadjust pre{\hypertarget{ref-baddeley1974working}{}}%
-Baddeley, A. D., \& Hitch, G. (1974). Working memory. In \emph{Psychology of learning and motivation} (Vol. 8, pp. 47--89). Elsevier.
+\leavevmode\vadjust pre{\hypertarget{ref-Baddeley2000}{}}%
+Baddeley, A. D. (2000). The episodic buffer: A new component of working memory? \emph{Trends Cogn. Sci.}, \emph{4}(11), 417--423.
+
+\leavevmode\vadjust pre{\hypertarget{ref-BADDELEY197447}{}}%
+Baddeley, A. D., \& Hitch, G. (1974). \emph{Working memory} (G. H. Bower, Ed.; Vol. 8, pp. 47--89). Academic Press.
 
 \leavevmode\vadjust pre{\hypertarget{ref-baddeley1975word}{}}%
 Baddeley, A. D., Thomson, N., \& Buchanan, M. (1975). Word length and the structure of short-term memory. \emph{Journal of Verbal Learning and Verbal Behavior}, \emph{14}(6), 575--589.
@@ -4200,7 +4224,7 @@ Gabbert, F., Memon, A., Allan, K., \& Wright, D. B. (2004). Say it to my face: E
 Gais, S., Lucas, B., \& Born, J. (2006). Sleep after learning aids memory recall. \emph{Learning \& Memory}, \emph{13}(3), 259--262.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Galanter1962}{}}%
-Galanter, E. (1962). \emph{Contemporary psychophysics. In r. Brown, e. Galanter, e. H. Hess, \& g. Mandler (eds.), New directions in psychology}. Holt, Rinehart; Winston.
+Galanter, E. (1962). \emph{Contemporary psychophysics. In r. Brown, e. Galanter, e. H. Hess, \& g. Mandler (eds.), new directions in psychology}. Holt, Rinehart; Winston.
 
 \leavevmode\vadjust pre{\hypertarget{ref-garrod1977interpreting}{}}%
 Garrod, S., \& Sanford, A. (1977). Interpreting anaphoric relations: The integration of semantic information while reading. \emph{Journal of Verbal Learning and Verbal Behavior}, \emph{16}(1), 77--90.
@@ -4262,6 +4286,9 @@ Hall, W. C. (2017). What you don't know can hurt you: The risk of language depri
 \leavevmode\vadjust pre{\hypertarget{ref-Hampton1979}{}}%
 Hampton, J. A. (1979). Polymorphous concepts in semantic memory. \emph{J. Verbal Learning Verbal Behav.}, \emph{18}(4), 441--461.
 
+\leavevmode\vadjust pre{\hypertarget{ref-harris2013two}{}}%
+Harris, C. R., Coburn, N., Rohrer, D., \& Pashler, H. (2013). Two failures to replicate high-performance-goal priming effects. \emph{PloS One}, \emph{8}(8), e72467.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Hartung1998}{}}%
 Hartung, C. M., \& Widiger, T. A. (1998). Gender differences in the diagnosis of mental disorders: Conclusions and controversies of the DSM--IV. \emph{Psychological Bulletin}, \emph{123}(3), 260.
 
@@ -4317,7 +4344,7 @@ Kahneman, D., \& Tversky, A. (1979). Prospect theory: An analysis of decisions u
 Karpicke, J. D., Lehman, M., \& Aue, W. R. (2014). Retrieval-based learning. An episodic context account. In \emph{Psychology of Learning and Motivation - Advances in Research and Theory} (Vol. 61, pp. 237--284). \url{https://doi.org/10.1016/B978-0-12-800283-4.00007-1}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Kraft1978}{}}%
-Kraft, C. (1978). \emph{A psychophysical approach to air safety: Simulator studies of visual illusions in night approaches. In h. L. Pick, h. W. Leibowitz, j. E. Singer, a. Steinschneider, \& h. W. Steenson (eds.), Psychology: From research to practice} (2nd ed.). Plenum Press.
+Kraft, C. (1978). \emph{A psychophysical approach to air safety: Simulator studies of visual illusions in night approaches. In h. L. Pick, h. W. Leibowitz, j. E. Singer, a. Steinschneider, \& h. W. Steenson (eds.), psychology: From research to practice} (2nd ed.). Plenum Press.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Kromann2009}{}}%
 Kromann, C. B., Jensen, M. L., \& Ringsted, C. (2009). The effect of testing on skills learning. \emph{Medical Education}, \emph{43}, 21--27. \url{https://doi.org/10.1111/j.1365-2923.2008.03245.x}
@@ -4723,6 +4750,9 @@ Winawer, J., Witthoft, N., Frank, M. C., Wu, L., Wade, A. R., \& Boroditsky, L. 
 
 \leavevmode\vadjust pre{\hypertarget{ref-Winograd1998}{}}%
 Winograd, E., Peluso, J. P., \& Glover, T. A. (1998). Individual differences in susceptibility to memory illusions. \emph{Appl. Cogn. Psychol.}, \emph{12}(7), S5--S27.
+
+\leavevmode\vadjust pre{\hypertarget{ref-wixted2024atkinson}{}}%
+Wixted, J. T. (2024). Atkinson and shiffrin's (1968) influential model overshadowed their contemporary theory of human memory. \emph{Journal of Memory and Language}, \emph{136}, 104471.
 
 \leavevmode\vadjust pre{\hypertarget{ref-wixted2018rethinking}{}}%
 Wixted, J. T., Mickes, L., \& Fisher, R. P. (2018). Rethinking the reliability of eyewitness memory. \emph{Perspectives on Psychological Science}, \emph{13}(3), 324--335.

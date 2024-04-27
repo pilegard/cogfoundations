@@ -1,4 +1,4 @@
-# Long-term Memory
+# Long-term Memory {#long-term-memory-chapter}
 
 ```{r fig5.0, echo = FALSE, out.width='100%', fig.align = 'center'}
  knitr::include_graphics("images/ch5/fig0.png")

@@ -1,4 +1,4 @@
-# Short-term and Working Memory
+# Short-term and Working Memory {#working-memory-chapter}
 
 ```{r fig4.0, echo = FALSE, out.width='100%', fig.align = 'center'}
 knitr::include_graphics("images/ch4/fig0.png")
@@ -49,16 +49,16 @@ The third stage of the Modal Model is [long-term memory]. According to the Modal
 
 ### From the Modal Model to Baddeley’s Working Memory Model {-}
 
-@atkinson1968human formulated the Modal Model as a foundational framework to guide researchers in developing memory models [@wixted2024atkinson]. Beyond the simple model, they depicted the short-term store as the central hub of memory activity [@atkinson1971control]. Building on these ideas, @BADDELEY197447 proposed their Working Memory Model. While the Modal Model was relatively focused on the *memory* function of the short-term store, Baddeley and Hitch described a working memory as chiefly an *information processing* system. Notice the difference in terminology: Atkinson and Shiffrin called the temporary memory space "short-term memory" while Baddeley and Hitch use the term "working memory." Atkinson and Shiffrin would not dispute this terminology -- indeed, the first page of their introduction says "the short-term store is the subject's working memory" [@atkinson1968human, p. 90] -- though it has become a common misconception that their 1968 paper asserts that short-term memory is limited to simple storage [@wixted2024atkinson]. Today, scientists may still use the term "short-term memory" when discussing the temporary storage of simple items, but "working memory" has become the preferred term, emphasizing the role of the system in complex cognition.
+@atkinson1968human formulated the Modal Model as a foundational framework to guide researchers in developing memory models [@wixted2024atkinson]. Beyond the simple model, they depicted the short-term store as the central hub of memory activity, one that involved both verbal and visual stores [@atkinson1968human; @atkinson1971control]. Building on these ideas, @BADDELEY197447 proposed their Working Memory Model. While the Modal Model was relatively focused on the *memory* function of the short-term store, Baddeley and Hitch described a working memory as chiefly an *information processing* system. Notice the difference in terminology: Atkinson and Shiffrin called the temporary memory space "short-term memory" while Baddeley and Hitch use the term "working memory." Atkinson and Shiffrin would not dispute this terminology -- indeed, the first page of their introduction says "the short-term store is the subject's working memory" [@atkinson1968human, p. 90] -- though it has become a common misconception that their 1968 paper asserts that short-term memory is limited to simple storage [@wixted2024atkinson]. Today, scientists may still use the term "short-term memory" when discussing the temporary storage of simple items, but "working memory" has become the preferred term, emphasizing the role of the system in complex cognition.
 
 ## Working Memory 
-According to Baddeley, [working memory] is capable of both storage and manipulation of incoming information. Baddeley and Hitch’s 1974 model consists of three parts: two storages spaces called the phonological loop and the visuospatial sketch pad, and a control unit call the central executive.
+According to Baddeley, [working memory] is capable of both storage and manipulation of incoming information. Baddeley and Hitch’s 1974 model consists of three parts: two storage spaces called the phonological loop and the visuospatial sketch pad, and a control unit called the central executive.
 
 ```{r baddeley, echo = FALSE, out.width='60%', fig.align = 'center'}
 knitr::include_graphics("images/ch4/fig2.png")
 ```
 
-We will consider each part in turn: The [Phonological Loop] is *responsible for auditory and verbal information, such as phone numbers, people’s names, or general conversation*. One source of evidence that we have a special storage space for auditory information is the [phonological similarity effect]. Read the following list of words, then look away and try to repeat it to yourself:
+We will consider each part in turn: The [phonological loop] is *responsible for auditory and verbal information, such as phone numbers, people’s names, or general conversation*. One source of evidence that we have a special storage space for auditory information is the [phonological similarity effect]. Read the following list of words, then look away and try to repeat it to yourself:
 
 > car rig seam bar rose pop gear
 

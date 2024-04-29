@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Edited by Celeste Pilegard"
-date: "Current version rendered 2024-04-26"
+date: "Current version rendered 2024-04-29"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -36,7 +36,7 @@ The second edition of this book builds on the first edition with updates, improv
 - Hayden Schill (Perception, Working Memory)
 - Anne Yilmaz (Memory in Context)
 
-M. Gupta and C. Pilegard converted the book to bookdown. C. Pilegard redesigned the book layout, updated the chapters on History and Problem Solving, and edited all chapters.
+M. Gupta and C. Pilegard converted the book to bookdown. C. Pilegard redesigned the book layout, updated the chapters on History and Problem Solving, and edited all chapters. We thank John Wixted for his feedback on portions of the chapters on memory.
 
 The second edition of this book was supported by a Course Development and Instructional Improvement Program grant awarded to C. Pilegard. The program is sponsored by the Division of Undergraduate Education at the University of California, San Diego.
 

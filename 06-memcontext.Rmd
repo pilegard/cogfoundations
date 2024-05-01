@@ -1,6 +1,6 @@
 # Memory in Context {#memory-in-context}
 ```{r fig6.0, echo = FALSE, out.width='100%', fig.align = 'center'}
-knitr::include_graphics("images/ch6/fig0.png")
+knitr::include_graphics("images/ch6/fig0.jpeg")
 ```
 
 As we have seen, our memories are not perfect. They fail in part due to our inadequate encoding and storage, and in part due to our inability to accurately retrieve stored information. But memory is also influenced by the setting in which it occurs, by the events that occur to us after we have experienced an event, and by the cognitive processes that we use to help us remember. Although our cognition allows us to attend to, rehearse, and organize information, cognition may also lead to distortions and errors in our judgments and our behaviors.

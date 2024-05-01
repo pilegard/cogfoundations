@@ -1,6 +1,6 @@
 # Language
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch8/fig1} \end{center}
+\begin{center}\includegraphics[width=1\linewidth]{images/ch8/cover} \end{center}
 
 Although language is often used for the transmission of information (“turn right at the next light and then go straight,” “Place tab A into slot B”), this is only its most mundane function. Language also allows us to access existing knowledge, to draw conclusions, to set and accomplish goals, and to understand and communicate complex social relationships. 
 

@@ -1,6 +1,6 @@
 # Knowledge
 ```{r penguins, echo = FALSE, out.width='100%', fig.align = 'center'}
- knitr::include_graphics("images/ch7/cover-penguins.png")
+ knitr::include_graphics("images/ch7/cover-penguins.jpeg")
 ```
 
 People form mental concepts of categories of objects, which permit them to respond appropriately to new objects they encounter. Most concepts cannot be strictly defined but are organized around the “best” examples or prototypes, which have the properties most common in the category. Objects fall into many different categories, but there is usually a most salient one, called the [basic-level category], which is at an intermediate level of specificity (e.g., chairs, rather than furniture or desk chairs). Concepts are closely related to our knowledge of the world, and people can more easily learn concepts that are consistent with their knowledge. Theories of concepts argue either that people learn a summary description of a whole category or else that they learn exemplars of the category. 

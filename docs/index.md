@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Edited by Celeste Pilegard"
-date: "Current version rendered 2024-04-29"
+date: "Current version rendered 2024-04-30"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -174,7 +174,7 @@ Source: Spielman, R. M. OpenStax, Psychology. OpenStax CNX. [http://cnx.org/cont
 Psychology by Spielman (+ multiple authors) is licensed under a Creative Commons Attribution 4.0 International License\
 Condensed from original
 
-Cover photo by Markus Spiske on Unsplash.
+Cover photo by Alex Grodkiewicz on Unsplash.
 
 ### Chapter 7. Knowledge {-}
 #### First edition {-}
@@ -203,7 +203,7 @@ Condensed from original; American spellings used; cultural references updated fo
 Sentence Processing section from Wikipedia entry (http:/www.en.wikipedia.org/), “Sentence Processing.”\
 Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
 
-Cover photo by Eric Muhr on Unsplash.
+Cover photo by Sushil Nash on Unsplash.
 
 ### Chapter 9. Reasoning and Decision Making {-}
 #### First edition {-}
@@ -223,4 +223,4 @@ Wikibooks are licensed under the Creative Commons Attribution-ShareAlike License
 Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free Documentation License.\
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. 
 
-Cover photo by Pixabay on Pexels.
+Cover photo by Zoe Holling on Unsplash.

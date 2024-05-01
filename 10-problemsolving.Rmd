@@ -1,6 +1,6 @@
 # Problem Solving
 ```{r fig10.0, echo = FALSE, out.width='100%', fig.align = 'center'}
- knitr::include_graphics("images/ch10/cover.png")
+ knitr::include_graphics("images/ch10/cover.jpeg")
 ```
 
 How do we achieve our goals when the solution is not immediately obvious? What mental blocks are likely to get in our way, and how can we leverage our prior knowledge to solve novel problems?

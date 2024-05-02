@@ -109,6 +109,9 @@ Introduction to Psychology - 1st Canadian Edition by Charles Stangor is licensed
 Changes and additions (c) 2014 Jennifer Walinga, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.\
 Condensed from Walinga version; American spellings used; Imperial measurements used; some content adapted to suit course.
 
+#### Second edition {-}
+Revisions to first edition version: Structure and framing reorganized. More recent content on multisensory integration added. Computer vision added.
+
 Cover photo by Mathilda Khoo on Unsplash.
 
 ### Chapter 3. Attention {-}
@@ -122,6 +125,9 @@ Source: Milich, R. & Roberts, W. (2022). Adhd and behavior disorders in children
 ADHD and Behavior Disorders in Children by Richard Milich and Walter Roberts are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 Condensed from original version; some content adapted to suit course. 
 
+#### Second edition {-}
+Revisions to first edition version: Chapter edited throughout for clarity. Section on Controlling Attention added. Sections on Divided Attention and Multitasking condensed and added to Controlling Attention. Box about Attention-Deficit/Hyperactivity Disorder (ADHD) added. Learning Objectives, Key Takeaways, Exercises, and Glossary added. 
+
 Cover photo by chuttersnap on Unsplash.
 
 ### Chapter 4. Working Memory {-}
@@ -131,6 +137,9 @@ Source: Multiple authors. Memory. In Cognitive Psychology and Cognitive Neurosci
 Wikibooks are licensed under the Creative Commons Attribution-ShareAlike License.
 Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free Documentation License.\
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. Chapter introduction added. Content added including transition from STM to WM approach, description of episodic buffer, description and evidence for working memory components, addition of episodic buffer.
+
+#### Second edition {-}
+Revisions to first edition version: Edits for clarity and more examples added. Section on working memory and distinctiveness added. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
 
 Cover photo by Matt Briney on Unsplash.
 
@@ -153,6 +162,9 @@ Chapter introduction added. Transitions and images added. Edited for content and
 Some encoding specificity principle information from: Andrade, M., & Walker, N. (n.d.) Cognitive Psychology.\
 Cognitive Psychology by Mehgan Andrade and Neil Walker is licensed under a Creative Commons Attribution4.0 International License.\
 
+#### Second edition {-}
+Revisions to first edition version: Simplified the differences between computers and brains. Additional section of the testing effect and an explanation of a possible mechanism. Addition of the spacing effect and the current mechanisms that we know contribute to it. Clarification of memory consolidation and its relation to sleep. Sleep does not cause more learning, it only reduces interference from other memories. Addition of targeted memory reactivation box during sleep, where it is possible to increase the memory strength during sleep. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
+
 Cover photo by Julian Dik on Unsplash.
 
 ### Chapter 6. Memory in Context {-}
@@ -173,6 +185,9 @@ Forgetting\
 Source: Spielman, R. M. OpenStax, Psychology. OpenStax CNX. [http://cnx.org/contents/4abf04bf-93a0-45c3-9cbc-2cefd46e68cc@12.2](http://cnx.org/contents/4abf04bf-93a0-45c3-9cbc-2cefd46e68cc@12.2).
 Psychology by Spielman (+ multiple authors) is licensed under a Creative Commons Attribution 4.0 International License\
 Condensed from original
+
+#### Second edition {-}
+Revisions to first edition version: Edits for clarity and additional context throughout. Added content on distinction between retrieval and recognition. Emphasis added to demonstrate role of memory contamination over time to reflect more recent research. Citations and characterization of eyewitness memory research substantially updated.
 
 Cover photo by Alex Grodkiewicz on Unsplash.
 
@@ -203,6 +218,12 @@ Condensed from original; American spellings used; cultural references updated fo
 Sentence Processing section from Wikipedia entry (http:/www.en.wikipedia.org/), “Sentence Processing.”\
 Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
 
+#### Second edition {-}
+Revisions to first edition version: Content added to "What is Language", "Linguistic Diversity", and "Language Acquisition" sections from source: Anderson, C., Bjorkman, B., Denis, D., Doner, J., Grant, M., Sanders, N., & Taniguchi, A. (2022). Essentials of Linguistics, 2nd edition. eCampusOntario.
+Essentials of Linguistics, 2nd edition Copyright © 2022 by Catherine Anderson; Bronwyn Bjorkman; Derek Denis; Julianne Doner; Margaret Grant; Nathan Sanders; and Ai Taniguchi is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, except where otherwise noted.\
+
+Edited for clarity and restructured throughout. Citations and context updated. Figures added. "Language and Thought" section added. Original writing added throughout.
+
 Cover photo by Sushil Nash on Unsplash.
 
 ### Chapter 9. Reasoning and Decision Making {-}
@@ -212,6 +233,9 @@ Source: Multiple authors. Memory. In Cognitive Psychology and Cognitive Neurosci
 Wikibooks are licensed under the Creative Commons Attribution-ShareAlike License.
 Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free Documentation License.\
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. 
+
+#### Second edition {-}
+Revisions to first edition version: Sections 9.1 and 9.2 edited mostly for clarity, with subsection on confirmation bias edited for content as well. Section 9.3 on decision making entirely removed and rewritten from scratch, including new subsections on theories of decision making and constructed preferences.
 
 Cover photo by Qurratul Ayin Sadia on Unsplash.
 

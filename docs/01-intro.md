@@ -1,13 +1,9 @@
 # History and Research Methods
 
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{images/ch1/lan2000} 
-
-}
-
-\caption{Around the turn of the 20th century, futurists imagined what a classroom might look like in the year 2000. *Illustration by Jean-Marc Côté, Wikimedia Commons.*}(\#fig:lan2000)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch1/lan2000.png" alt="Around the turn of the 20th century, futurists imagined what a classroom might look like in the year 2000. *Illustration by Jean-Marc Côté, Wikimedia Commons.*" width="100%" />
+<p class="caption">(\#fig:lan2000)Around the turn of the 20th century, futurists imagined what a classroom might look like in the year 2000. *Illustration by Jean-Marc Côté, Wikimedia Commons.*</p>
+</div>
 
 Philosophers have wondered about the mind at least as far back as Socrates. Yet the scientific study of the mind only began much more recently. What changed, and what tools can we use to study the mind?
 
@@ -24,27 +20,19 @@ Philosophers have wondered about the mind at least as far back as Socrates. Yet 
 
 Precursors to American psychology can be found in philosophy and physiology. Philosophers such as John Locke (1632–1704) and Thomas Reid (1710–1796) promoted [empiricism], the idea that all knowledge comes from experience. The work of Locke, Reid, and others emphasized the role of the human observer and the primacy of the senses in defining how the mind comes to acquire knowledge. In American colleges and universities in the early 1800s, these principles were taught as courses on mental and moral philosophy. Most often these courses taught about the mind based on the faculties of intellect, will, and the senses [@fuchs2000].
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.4\linewidth]{images/ch1/pharoah} 
-
-}
-
-\caption{The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:pharoah)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch1/pharoah.png" alt="The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
+<p class="caption">(\#fig:pharoah)The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)</p>
+</div>
 
 ### Analytic introspection {-}
 
 The formal development of modern psychology is usually credited to the work of German physician, physiologist, and philosopher Wilhelm Wundt (1832–1920). Wundt helped to establish the field of experimental psychology by serving as a strong promoter of the idea that psychology could be an experimental field and by providing classes, textbooks, and a laboratory for training students. In 1875, he joined the faculty at the University of Leipzig and quickly began to make plans for the creation of a program of experimental psychology. In 1879, he complemented his lectures on experimental psychology with a laboratory experience: an event that has served as the popular date for the establishment of the science of psychology.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.4\linewidth]{images/ch1/wundt} 
-
-}
-
-\caption{Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:wundt)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch1/wundt.png" alt="Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
+<p class="caption">(\#fig:wundt)Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)</p>
+</div>
 
 The response to the new science was immediate and global. Wundt attracted students from around the world to study the new experimental psychology and work in his lab. Students were trained to offer detailed self-reports of their reactions to various stimuli, a procedure known as [introspection]. The goal was to identify the elements of [consciousness]. In addition to the study of sensation and perception, research was done on mental chronometry, more commonly known as reaction time. The work of Wundt and his students demonstrated that the mind could be measured and the nature of consciousness could be revealed through scientific means. It was an exciting proposition, and one that found great interest in America. After the opening of Wundt’s lab in 1879, it took just four years for the first psychology laboratory to open in the United States [@benjamin2007].
 
@@ -72,14 +60,10 @@ Most psychological research can be divided into two types: experimental and corr
 
 Imagine you are taking notes in class. Should you take typed notes on your laptop, or longhand notes in a notebook? Which method of note taking will help you learn the most from lecture? As long as you’re taking notes, does it really matter?
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{images/ch1/laptop} 
-
-}
-
-\caption{Does note taking medium matter? Experiments can help us find out. *Photo from Unsplash.*}(\#fig:laptop)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch1/laptop.png" alt="Does note taking medium matter? Experiments can help us find out. *Photo from Unsplash.*" width="80%" />
+<p class="caption">(\#fig:laptop)Does note taking medium matter? Experiments can help us find out. *Photo from Unsplash.*</p>
+</div>
 
 Pam A. Mueller and Daniel M. Oppenheimer, psychology researchers at Princeton University and UCLA, set out to test the difference between longhand and laptop note taking [@mueller2014]. Participants in their experiment were told to take notes while they watched video lectures. Half of the participants were given a notebook to take notes, meaning they would take notes longhand, and the other half were given a laptop for note taking, meaning they would type their notes. Afterward, participants completed a test that measured how much participants learned from the lectures.
 
@@ -107,14 +91,10 @@ So, what if you wanted to test whether spending on others is related to happines
 
 To find out how well two variables correspond, we can plot the relation between the two scores on what is known as a scatterplot (Figure \@ref(fig:scatter)). In the scatterplot, each dot represents a data point. (In this case it’s individuals, but it could be some other unit.) Importantly, each dot provides us with two pieces of information—in this case, information about how good the person rated the past month (x-axis) and how happy the person felt in the past month (y-axis). Which variable is plotted on which axis does not matter. 
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter-1} 
-
-}
-
-\caption{Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual.}(\#fig:scatter)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="01-intro_files/figure-html/scatter-1.png" alt="Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual." width="80%" />
+<p class="caption">(\#fig:scatter)Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual.</p>
+</div>
 
 The association between two variables can be summarized statistically using the correlation coefficient (abbreviated as r). A [correlation] coefficient provides information about the direction and strength of the association between two variables. For the example above, the direction of the association is positive. This means that people who perceived the past month as being good reported feeling more happy, whereas people who perceived the month as being bad reported feeling less happy.
 
@@ -122,14 +102,10 @@ With a positive correlation, the two variables go up or down together. In a scat
 
 A negative correlation is one in which the two variables move in opposite directions. That is, as one variable goes up, the other goes down. Figure \@ref(fig:scatter2) shows the association between the average height of males in a country (y-axis) and the pathogen prevalence (or commonness of disease; x-axis) of that country. In this scatterplot, each dot represents a country. Notice how the dots extend from the top left to the bottom right. What does this mean in real-world terms? It means that people are shorter in parts of the world where there is more disease. The r value for a negative correlation is indicated by a negative number—that is, it has a minus (–) sign in front of it. Here, it is –.83.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter2-1} 
-
-}
-
-\caption{Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]}(\#fig:scatter2)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="01-intro_files/figure-html/scatter2-1.png" alt="Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]" width="80%" />
+<p class="caption">(\#fig:scatter2)Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]</p>
+</div>
 
 The strength of a correlation has to do with how well the two variables align. Recall that in Professor Dunn’s correlational study, spending on others positively correlated with happiness: The more money people reported spending on others, the happier they reported to be. At this point you may be thinking to yourself, I know a very generous person who gave away lots of money to other people but is miserable! Or maybe you know of a very stingy person who is happy as can be. Yes, there might be exceptions. If an association has many exceptions, it is considered a weak correlation. If an association has few or no exceptions, it is considered a strong correlation. A strong correlation is one in which the two variables always, or almost always, go together. In the example of happiness and how good the month has been, the association is strong. The stronger a correlation is, the tighter the dots in the scatterplot will be arranged along a sloped line.
 
@@ -147,14 +123,10 @@ What if you want to study the effects of marriage on a variable? For example, do
 
 A quasi-experimental design is similar to experimental research, except that random assignment to conditions is not used. Instead, we rely on existing group memberships (e.g., married vs. single). We treat these as the independent variables, even though we don’t assign people to the conditions and don’t manipulate the variables. As a result, with quasi-experimental designs causal inference is more difficult. For example, married people might differ on a variety of characteristics from unmarried people. If we find that married participants are happier than single participants, it will be hard to say that marriage causes happiness, because the people who got married might have already been happier than the people who have remained single.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.4\linewidth]{images/ch1/love} 
-
-}
-
-\caption{What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*}(\#fig:love)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch1/love.png" alt="What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*" width="40%" />
+<p class="caption">(\#fig:love)What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*</p>
+</div>
 
 ### Longitudinal Studies {-}
 

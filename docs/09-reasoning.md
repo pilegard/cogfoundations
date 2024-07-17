@@ -1,6 +1,5 @@
 # Reasoning and Decision Making
-
-\begin{center}\includegraphics[width=1\linewidth]{images/ch9/fig0} \end{center}
+<img src="images/ch9/fig0.png" width="100%" style="display: block; margin: auto;" />
 We like to think that we make important decisions rationally, logically, and without bias or error— but what if that’s not the case?
 
 Let us consider the following scene of Knut's life: It is a rainy summer afternoon in Germany and Knut and his wife are tired of watching the black crows in their garden. They decide to escape from the dreary weather and take a vacation to Spain, as Knut and his wife have never been there before. They will leave the next day, and he is packing his bag. He packs the crucial things first: underwear, socks, pajamas, and a toiletry bag with a toothbrush, shampoo, soap, sun tan lotion, and bug spray. Knut cannot find the bug spray, and his wife volunteers to go buy a new bottle. He advises her to take an umbrella for the walk to the pharmacy as it is raining outside, and then he turns back to packing. But what did he already pack into his bag? Immediately, he remembers and continues, putting together outfits and packing his clothing. Since it is summer, Knut packs mostly shorts and t-shirts. After half an hour, he is finally convinced that he has done everything necessary for a nice vacation.
@@ -46,14 +45,10 @@ Even though it is quite obvious that the first premise is not true and further t
 
 It is possible to display a syllogism formally with symbols or letters and explain its relationship graphically with the help of diagrams. One way to demonstrate a premise graphically is to use Euler circles (pronounced “oyler”). Starting with a circle to represent the first premise and adding one or more circles for the second one (Figure \@ref(fig:euler)), one can compare the constructed diagrams with the conclusion. The displayed syllogism in Figure 9.1 is obviously valid. The conclusion shows that everything that can jump contains animals which again contains flowers. This aligns with the two premises which point out that flowers are animals and thus are able to jump. Euler circles help represent such logic.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig1} 
-
-}
-
-\caption{Euler Circles}(\#fig:euler)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig1.png" alt="Euler Circles" width="60%" />
+<p class="caption">(\#fig:euler)Euler Circles</p>
+</div>
 
 #### The descriptive approach {-}
 
@@ -104,23 +99,15 @@ The Wason Selection Task is a famous experiment which shows that people make mor
 
 In the abstract version of the Wason Selection Task, four cards are shown to the participants with a letter on one side and a number on the other (Figure \@ref(fig:wason1)). The task is to indicate the minimum number of cards that have to be turned over to test whether the following rule is observed: “If there is a vowel on one side then there is an even number on the other side.” 53% of participants selected the ‘E’ card which is correct, because turning this card over is necessary to test the truth of the rule. However another card still needs to be turned over. 64% indicated that the ‘4’ card has to be turned over which is not right. Only 4% of participants answered correctly that the ‘7’ card needs to be turned over in addition to the ‘E’. The correctness of turning over these two cards becomes more obvious if the same task is stated in terms of real-world items instead of vowels and numbers. One of the experiments for determining this was the beer/drinking-age problem used by @griggs1982elusive. This experiment is identical to the Wason Selection Task except that instead of numbers and letters on the cards, everyday terms (beer, soda and ages) were used (Figure \@ref(fig:wason2)). Griggs and Cox gave the following rule to participants: “If a person is drinking beer then he or she must be older than 21.” In this case 73% of participants answered correctly, that the cards with “beer” and “14 years” have to be turned over to test whether the rule is kept.
 
-\begin{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig2.png" alt="Original Wason Selection Task cards" width="60%" />
+<p class="caption">(\#fig:wason1)Original Wason Selection Task cards</p>
+</div>
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig2} 
-
-}
-
-\caption{Original Wason Selection Task cards}(\#fig:wason1)
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig3} 
-
-}
-
-\caption{Drinking-age Wason Selection Task}(\#fig:wason2)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig3.png" alt="Drinking-age Wason Selection Task" width="60%" />
+<p class="caption">(\#fig:wason2)Drinking-age Wason Selection Task</p>
+</div>
 
 #### Why is the performance better in the case of real–world items? {-}
 
@@ -140,14 +127,10 @@ So far we have discussed deductive reasoning, which is reaching conclusions base
 
 In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure \@ref(fig:induct), this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig4} 
-
-}
-
-\caption{An example of inductive reasoning would be generalizing from the subset of crows you have seen to all crows.}(\#fig:induct)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig4.png" alt="An example of inductive reasoning would be generalizing from the subset of crows you have seen to all crows." width="60%" />
+<p class="caption">(\#fig:induct)An example of inductive reasoning would be generalizing from the subset of crows you have seen to all crows.</p>
+</div>
 
 ### Forms of inductive reasoning {-}
 
@@ -192,14 +175,10 @@ They then asked participants to rank a series of descriptions in order of how li
 Like the availability heuristic though, the representativeness heuristic is often accurate and useful. Tversky and Kahneman write: "Representativeness tends to covary with frequency: Common instances and frequent events are generally more representative than unusual instances and rare events" [@tversky1983extensional].
 
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig5} 
-
-}
-
-\caption{Feminist bank tellers.}(\#fig:bank)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig5.png" alt="Feminist bank tellers." width="60%" />
+<p class="caption">(\#fig:bank)Feminist bank tellers.</p>
+</div>
 
 #### Confirmation bias {-}
 
@@ -209,14 +188,10 @@ For example, if someone believes that black cats bring bad luck, they may be add
 
 ### Induction vs. deduction {-}
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig6} 
-
-}
-
-\caption{Deductive and inductive reasoning.}(\#fig:reasoning)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig6.png" alt="Deductive and inductive reasoning." width="60%" />
+<p class="caption">(\#fig:reasoning)Deductive and inductive reasoning.</p>
+</div>
 
 The table below (\@ref(tab:IndDed)) summarizes the most prevalent properties and differences between deductive and inductive reasoning which are important to keep in mind.
 
@@ -249,14 +224,10 @@ A classic paradox dating back to 1713, the St. Petersburg Paradox, describes a g
 
 **Prospect Theory**: By having participants in experiments report their willingness to play various gambles, Daniel Kahneman and Amos Tversky measured how people actually weigh value and probability, which they called Prospect Theory [@kahneman1979prospect]. The major findings of Prospect Theory (PT), called the probability weighting function and the value function, are shown in Figure \@ref(fig:prospect). The value function shows that, on average, people show diminishing marginal (dis)utility for large gains or large losses, and that losses typically have greater disutility than comparably sized gains have utility (hence the “kink” at zero). The probability weighting function shows that, on average, people tend to overweight small probabilities (i.e., behave as though they have higher probabilities than they actually do), and underweight large probabilities (i.e., behave as though they have lower probabilities than they actually do).
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig7} 
-
-}
-
-\caption{a) value weighting function and b) probability weighting function, both from Prospect Theory. v(.) refers to subjective utility, and w(.) refers to subjective probability.}(\#fig:prospect)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch9/fig7.png" alt="a) value weighting function and b) probability weighting function, both from Prospect Theory. v(.) refers to subjective utility, and w(.) refers to subjective probability." width="60%" />
+<p class="caption">(\#fig:prospect)a) value weighting function and b) probability weighting function, both from Prospect Theory. v(.) refers to subjective utility, and w(.) refers to subjective probability.</p>
+</div>
 
 ### Constructed Preferences {-}
 Contrary to theorists’ claim that rational decision makers always have well-defined preferences, real-life decision makers tend to make different selections depending on how choices are presented to them. Two common examples of this are *default effects* and *framing effects*.

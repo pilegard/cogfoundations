@@ -1,6 +1,5 @@
 # Memory in Context {#memory-in-context}
-
-\begin{center}\includegraphics[width=1\linewidth]{images/ch6/fig0} \end{center}
+<img src="images/ch6/fig0.jpeg" width="100%" style="display: block; margin: auto;" />
 
 As we have seen, our memories are not perfect. They fail in part due to our inadequate encoding and storage, and in part due to our inability to accurately retrieve stored information. But memory is also influenced by the setting in which it occurs, by the events that occur to us after we have experienced an event, and by the cognitive processes that we use to help us remember. Although our cognition allows us to attend to, rehearse, and organize information, cognition may also lead to distortions and errors in our judgments and our behaviors.
 
@@ -20,14 +19,10 @@ experienced many of them. You set down your keys without paying attention, and t
 
 Other sorts of memory biases are more complicated and longer lasting. For example, it turns out that our expectations and beliefs about how the world works can have huge influences on our memories. Because many aspects of our everyday lives are full of redundancies, our memory systems take advantage of the recurring patterns by forming and using [schemas][schema], or memory templates  [@Alba1983; @brewer1981role]. Thus, we know to expect that a library will have shelves and tables and librarians, and so we don’t have to spend energy noticing these at the time. The result of this lack of attention, however, is that one is likely to remember schema-consistent information (such as tables), and to remember them in a rather generic way, whether or not they were actually present. 
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch6/fig1} 
-
-}
-
-\caption{For most of our experiences schematas are a benefit and help with information overload. However, they may make it difficult or impossible to recall certain details of a situation later. Do you recall the library as it actually was or the library as approximated by your library schemata? [Dan Kleinman](https://goo.gl/07xyDDz), [CC BY 2.0](https://goo.gl/BRvSA7)}(\#fig:library2)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch6/fig1.png" alt="For most of our experiences schematas are a benefit and help with information overload. However, they may make it difficult or impossible to recall certain details of a situation later. Do you recall the library as it actually was or the library as approximated by your library schemata? [Dan Kleinman](https://goo.gl/07xyDDz), [CC BY 2.0](https://goo.gl/BRvSA7)" width="60%" />
+<p class="caption">(\#fig:library2)For most of our experiences schematas are a benefit and help with information overload. However, they may make it difficult or impossible to recall certain details of a situation later. Do you recall the library as it actually was or the library as approximated by your library schemata? [Dan Kleinman](https://goo.gl/07xyDDz), [CC BY 2.0](https://goo.gl/BRvSA7)</p>
+</div>
 
 ### Schematic Processing: Distortions Based on Expectations {-}
 
@@ -61,14 +56,10 @@ Later, subjects were shown pairs of slides. One of the pair was the original sli
 
 This phenomenon is called the [misinformation effect], because the misinformation that subjects were exposed to after the event (here in the form of a misleading question) apparently contaminates subjects’ memories of what they witnessed. Hundreds of subsequent studies have demonstrated that memory can be contaminated by erroneous information that people are exposed to after they witness an event [see @frenda2011current; @loftus2005planting]. The misinformation in these studies has led people to incorrectly remember everything from small but crucial details of a perpetrator’s appearance to objects as large as a barn that wasn’t there at all.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{images/ch6/fig2} 
-
-}
-
-\caption{Misinformation can be introduced into the memory of a witness between the time of seeing an event and reporting it later. Something as straightforward as which sort of traffic sign was in place at an intersection can be confused if subjects are exposed to erroneous information after the initial incident. *Original photo by Kevin Lee on Unsplash; edited by C. Pilegard.*}(\#fig:trafficsign)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch6/fig2.png" alt="Misinformation can be introduced into the memory of a witness between the time of seeing an event and reporting it later. Something as straightforward as which sort of traffic sign was in place at an intersection can be confused if subjects are exposed to erroneous information after the initial incident. *Original photo by Kevin Lee on Unsplash; edited by C. Pilegard.*" width="80%" />
+<p class="caption">(\#fig:trafficsign)Misinformation can be introduced into the memory of a witness between the time of seeing an event and reporting it later. Something as straightforward as which sort of traffic sign was in place at an intersection can be confused if subjects are exposed to erroneous information after the initial incident. *Original photo by Kevin Lee on Unsplash; edited by C. Pilegard.*</p>
+</div>
 
 These studies have demonstrated that young adults (the typical research subjects in psychology) are often susceptible to misinformation, but that children and older adults can be even more susceptible [@bartlett2007eyewitness; @ceci1995jeopardy]. In addition, misinformation effects can occur easily, and without any intention to deceive [@allan2008still]. Even slight differences in the wording of a question can lead to misinformation effects. Subjects in one study were more likely to say yes when asked “Did you see the broken headlight?” than when asked “Did you see a broken headlight?” [@loftus1975leading].
 
@@ -114,14 +105,10 @@ An eyewitness is a person who has witnessed a crime either as a victim or as a b
 
 In most jurisdictions in the United States, lineups are typically conducted with pictures, called photo spreads, rather than with actual people standing behind one-way glass [@wells2006eyewitness]. The eyewitness is given a set of small pictures of (typically) six or eight individuals who are dressed similarly, photographed in similar circumstances, and all match the original description that the eyewitness gave police soon-after the crime took place. If the lineup is constructed properly, one of these individuals in the lineup will be the police suspect, and the remainder are “foils” or “fillers.” If the eyewitness identifies the suspect, then the investigation of that suspect is likely to progress. However, suspects can be guilty or innocent. A witness selecting an innocent suspect can lead to a wrongful conviction. Selecting a filler photo will have no negative repercussions as fillers are people known to be innocent of the particular crime that is under investigation.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch6/lineup} 
-
-}
-
-\caption{Most lineups in the United States are conducted with photo spreads.}(\#fig:lineup)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch6/lineup.png" alt="Most lineups in the United States are conducted with photo spreads." width="60%" />
+<p class="caption">(\#fig:lineup)Most lineups in the United States are conducted with photo spreads.</p>
+</div>
 
 With the proliferation of DNA testing, many past criminal cases were reexamined with the people who were convicted now being found to be innocent instead. About 70% of these 375 cases in which convictions were overturned involved eyewitness misidentification [@innocenceproject]. These statistics paired with laboratory-based lineup studies and the knowledge coming from false-memory research painted a very convincing picture that eyewitnesses not only get it wrong frequently, but they don’t even know when they’re getting wrong; namely, that a witness’s confidence is not related to their accuracy [@caputo2007distinguishing; @cutler1995mistaken]. This view proliferated to the degree that it made it into court rulings at the federal level and at the level of state supreme courts [@unitedstatesvgreene; @statevguilbert].
 
@@ -156,21 +143,16 @@ As you’ve come to see, memory is fragile, and forgetting can be frustrating an
 
 Sometimes memory errors happen before the actual memory process begins, which is called an encoding failure. Encoding failures refer to the times that the information never entered our brain to later become a memory. In these cases, we don’t say that we’ve “forgotten” a particular piece of information. Instead, we say that the information is “not available.” We can’t remember or forget something if we never stored it in our memory in the first place. This would be like trying to find a book on your e-reader that you never actually purchased and downloaded. Often, in order to remember something, we must pay attention to the details and actively work to process the information (effortful encoding). Lots of times we don’t do this. For instance, think of how many times in your life you’ve seen a penny. Can you accurately recall what the front of a U.S. penny looks like? When researchers @Nickerson1979 asked this question, they found that most Americans don’t know which one it is. The reason is most likely encoding failure. Most of us never encode the details of the penny. We only encode enough information to be able to distinguish it from other coins. If we don’t encode the information, then it’s not in our long-term memory, so we will not be able to remember it.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{images/ch6/fig3} 
-
-}
-
-\caption{Can you tell which coin, (a), (b), (c), or (d) is the accurate depiction of a US nickel? The correct answer is (c).}(\#fig:nickel)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch6/fig3.png" alt="Can you tell which coin, (a), (b), (c), or (d) is the accurate depiction of a US nickel? The correct answer is (c)." width="80%" />
+<p class="caption">(\#fig:nickel)Can you tell which coin, (a), (b), (c), or (d) is the accurate depiction of a US nickel? The correct answer is (c).</p>
+</div>
 
 ### Interference {-}
 
 Sometimes information is stored in our memory, but for some reason it is inaccessible. This is known as interference, and there are two types: [proactive interference] and [retroactive interference]. Have you ever gotten a new phone number or moved to a new address, but right after you tell people the old (and wrong) phone number or address? When the new year starts, do you find you accidentally write the previous year? These are examples of proactive interference: when old information hinders the recall of newly learned information. Retroactive interference happens when information learned more recently hinders the recall of older information. For example, this week you are studying about Freud’s Psychoanalytic Theory. Next week you study the humanistic perspective of Maslow and Rogers. Thereafter, you have trouble remembering Freud’s Psychosexual Stages of Development because you can only remember Maslow’s Hierarchy of Needs.
 
-
-\begin{center}\includegraphics[width=0.9\linewidth]{images/ch6/fig4} \end{center}
+<img src="images/ch6/fig4.png" width="90%" style="display: block; margin: auto;" />
 
 ### Cue-Overload Principle {-}
 

@@ -1,6 +1,5 @@
 # Attention
-
-\begin{center}\includegraphics[width=1\linewidth]{images/3_attention/attnhead} \end{center}
+<img src="images/3_attention/attnhead.png" width="100%" style="display: block; margin: auto;" />
 We use the term “attention“ all the time, but what processes or abilities does that concept really refer to? This chapter will focus on how attention allows us to select certain parts of our environment and ignore other parts, and how effectively we can control our attentional resources. A key concept is the idea that we are limited in how much we can do at any one time. So we will also consider what happens when someone tries to do several things at once, such as driving while using electronic devices.
 
 :::learningobjectives
@@ -12,14 +11,10 @@ We use the term “attention“ all the time, but what processes or abilities do
 
 ## What is Attention?
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{images/3_attention/attentionsign} 
-
-}
-
-\caption{Are you reading these words right here right now? If so, it’s only because you directed your attention toward them. *Photo by Justin Chrn on Unsplash*}(\#fig:attentionsign)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/3_attention/attentionsign.jpg" alt="Are you reading these words right here right now? If so, it’s only because you directed your attention toward them. *Photo by Justin Chrn on Unsplash*" width="50%" />
+<p class="caption">(\#fig:attentionsign)Are you reading these words right here right now? If so, it’s only because you directed your attention toward them. *Photo by Justin Chrn on Unsplash*</p>
+</div>
 
 Before we begin exploring attention in its various forms, take a moment to consider how you think about the concept. How would you define attention, or how do you use the term? We certainly use the word very frequently in our everyday language: “ATTENTION! USE ONLY AS DIRECTED!” warns the label on the medicine bottle, meaning be alert to possible danger. “Pay attention!” pleads the weary seventh-grade teacher, not warning about danger (with possible exceptions, depending on the teacher) but urging the students to focus on the task at hand. American psychologist and philosopher William James wrote extensively about attention in the late 1800s. An often quoted passage [@james1890principles] beautifully captures how intuitively obvious the concept of attention is, while it remains very difficult to define in concrete and measurable terms:
 
@@ -36,14 +31,10 @@ As noted above, we often voluntarily control our attention (a process also known
 
 Imagine many people may be milling around, a dazzling variety of colors and sounds and smells, the buzz of many conversations. When walking around, you don't have to be looking at the person talking; you may start listening with great interest to some gossip while pretending not to hear, and may easily switch to listening to another conversation that grabs your attention as new people walk by. However, once you are engaged in conversation with someone, you quickly become aware that you cannot keep listening to other conversations at the same time. You  are also probably *not* aware of how tight your shoes feel or of the smell of a nearby flower arrangement. 
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.45\linewidth]{images/3_attention/cocktailparty} 
-
-}
-
-\caption{Beyond just hearing your name from the clamor at a party, other words or concepts, particularly unusual or significant ones to you, can also snag your attention. *Photo by Michael Discenza on Unsplash*}(\#fig:cocktailparty)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/3_attention/cocktailparty.jpg" alt="Beyond just hearing your name from the clamor at a party, other words or concepts, particularly unusual or significant ones to you, can also snag your attention. *Photo by Michael Discenza on Unsplash*" width="45%" />
+<p class="caption">(\#fig:cocktailparty)Beyond just hearing your name from the clamor at a party, other words or concepts, particularly unusual or significant ones to you, can also snag your attention. *Photo by Michael Discenza on Unsplash*</p>
+</div>
 
 On the other hand, if someone behind you mentions your name, you typically notice it immediately and may start attending to that (much more interesting) conversation. This situation highlights an interesting set of observations. We have an amazing ability to select and track one voice or visual object, even when many things are competing for our attention. But at the same time, we seem to be limited in how much we can attend to at one time, which in turn suggests that attention is crucial in selecting what is important. How does it all work?
 
@@ -61,14 +52,10 @@ On the basis of these types of experiments, we clearly have a limited capacity f
 
 Many researchers have investigated how selection occurs and what happens to ignored information. Donald Broadbent was one of the first to try to characterize the selection process. His Filter Model was based on the dichotic listening tasks described above as well as other types of experiments [@Broadbent1958]. He found that people select information on the basis of *physical features*: e.g., the sensory channel (or ear) that a message was coming in, the pitch of the voice, the color or font of a visual message. People seemed vaguely aware of the physical features of the unattended information, but had no knowledge of the meaning. As a result, Broadbent argued that selection occurs *very early*, with no additional processing for the unselected information. A flowchart of the model might look like Figure \@ref(fig:broadbent).
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{images/3_attention/broadbent} 
-
-}
-
-\caption{Broadbent Filter Model. This figure shows information coming in both the left and right ears. Some basic sensory information, such as pitch, is processed, but an internal filter only allows the information from one ear to be processed further. Only the information from the left ear is transferred to short-term memory (STM) and conscious awareness, and then further processed for meaning. Under this model, ignored information never makes it beyond a basic physical analysis.}(\#fig:broadbent)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/3_attention/broadbent.png" alt="Broadbent Filter Model. This figure shows information coming in both the left and right ears. Some basic sensory information, such as pitch, is processed, but an internal filter only allows the information from one ear to be processed further. Only the information from the left ear is transferred to short-term memory (STM) and conscious awareness, and then further processed for meaning. Under this model, ignored information never makes it beyond a basic physical analysis." width="80%" />
+<p class="caption">(\#fig:broadbent)Broadbent Filter Model. This figure shows information coming in both the left and right ears. Some basic sensory information, such as pitch, is processed, but an internal filter only allows the information from one ear to be processed further. Only the information from the left ear is transferred to short-term memory (STM) and conscious awareness, and then further processed for meaning. Under this model, ignored information never makes it beyond a basic physical analysis.</p>
+</div>
 
 #### Treisman’s Attenuation Model {-}
 
@@ -78,27 +65,19 @@ Anne @Treisman1960 carried out a number of dichotic listening experiments in whi
 
 Results like this, and the fact that you tend to hear meaningful information even when you aren’t paying attention to it, suggest that we *do* monitor the unattended information to some degree on the basis of its meaning. Therefore, Broadbent's Filter Model can’t be right because it suggests that unattended information is completely blocked at the sensory analysis level. Instead, Treisman suggested that selection starts at the physical or perceptual level, but that the unattended information is not blocked completely, it is just weakened or *attenuated*. As a result, highly meaningful or pertinent information in the unattended ear will get through the filter for further processing at the level of meaning. A flowchart of her model might look like Figure \@ref(fig:treisman). 
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{images/3_attention/treisman} 
-
-}
-
-\caption{Treisman Attenuation Model, an early selection model. This figure shows information coming in both ears, but in contrast to the early selection model, there is no filter that completely blocks nonselected information. Instead, selection of the left ear information strengthens that material, while the nonselected information in the right ear is weakened. However, if the preliminary analysis shows that the nonselected informatio is especially pertinent or meaningful (such as your own name) then the Attenuation Control will instead strengthen the more meaningful information.}(\#fig:treisman)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/3_attention/treisman.png" alt="Treisman Attenuation Model, an early selection model. This figure shows information coming in both ears, but in contrast to the early selection model, there is no filter that completely blocks nonselected information. Instead, selection of the left ear information strengthens that material, while the nonselected information in the right ear is weakened. However, if the preliminary analysis shows that the nonselected informatio is especially pertinent or meaningful (such as your own name) then the Attenuation Control will instead strengthen the more meaningful information." width="80%" />
+<p class="caption">(\#fig:treisman)Treisman Attenuation Model, an early selection model. This figure shows information coming in both ears, but in contrast to the early selection model, there is no filter that completely blocks nonselected information. Instead, selection of the left ear information strengthens that material, while the nonselected information in the right ear is weakened. However, if the preliminary analysis shows that the nonselected informatio is especially pertinent or meaningful (such as your own name) then the Attenuation Control will instead strengthen the more meaningful information.</p>
+</div>
 
 #### Late Selection Models {-}
 
 Other selective attention models have been proposed as well. A *late selection* or *response selection* model proposed by @Deutsch1963 suggests that all information in the unattended ear is processed on the basis of meaning, not just the selected or highly pertinent information (Figure \@ref(fig:lateselection)). However, only the information that is relevant for the task response gets into conscious awareness. This model is consistent with ideas of subliminal perception; in other words, that you don’t have to be aware of or attending a message for it to be fully processed for meaning.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{images/3_attention/lateselection} 
-
-}
-
-\caption{Deutsch and Deutsch late selection model. This figure shows a similar structure to the early selection model, with the major difference being that the location of the selective filter has changed, here being later on in the process. Here, the model makes the assumption that analysis of meaning occurs before selection occurs, but only the selected information becomes conscious.}(\#fig:lateselection)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/3_attention/lateselection.png" alt="Deutsch and Deutsch late selection model. This figure shows a similar structure to the early selection model, with the major difference being that the location of the selective filter has changed, here being later on in the process. Here, the model makes the assumption that analysis of meaning occurs before selection occurs, but only the selected information becomes conscious." width="80%" />
+<p class="caption">(\#fig:lateselection)Deutsch and Deutsch late selection model. This figure shows a similar structure to the early selection model, with the major difference being that the location of the selective filter has changed, here being later on in the process. Here, the model makes the assumption that analysis of meaning occurs before selection occurs, but only the selected information becomes conscious.</p>
+</div>
 
 #### Load Theory of Attention {-}
 
@@ -125,14 +104,10 @@ Imagine trying to do your homework with many external and internal distractors: 
 
 A common task used to study attention is the Stroop task, named for J.R. Stroop who described it in one of the most highly cited experimental psychology papers ever published [@Stroop1935]. In the classic Stroop task, participants are shown words in different colors, and instructed to say out loud the color of the word (not the word itself) as quickly and accurately as they can. That is, their task is to pay attention to the ink color, and ignore anything else that might distract them. Sometimes words match the color they are printed in, such as the words on the left in Figure \@ref(fig:stroop). Other times words are printed in a color that differs from their meanings, such as the words on the right. 
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/3_attention/stroop} 
-
-}
-
-\caption{Example of congruent (left) and incongruent (right) stimuli in a classic Stroop paradigm.}(\#fig:stroop)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/3_attention/stroop.png" alt="Example of congruent (left) and incongruent (right) stimuli in a classic Stroop paradigm." width="60%" />
+<p class="caption">(\#fig:stroop)Example of congruent (left) and incongruent (right) stimuli in a classic Stroop paradigm.</p>
+</div>
 
 When the word meaning matches its ink color, or they are *congruent*, the task is pretty easy and participants respond relatively quickly and accurately. However, when the word meaning doesn’t match its ink color, or they are *incongruent*, participants tend to respond slower and make more errors (often by reading out the word, rather than its color). Try it yourself! Even with the simple example above, you might notice that you get tripped up with the incongruent stimuli. This is because with incongruent stimuli there is *interference* between processing the physical features of the word (color) and its semantics (meaning), and we need to inhibit the irrelevant yet salient semantic information to succeed at the task. Even if we try to attend to just one thing, we can still be thrown off if other things are distracting enough. 
 
@@ -158,14 +133,10 @@ Unless a task is fully automated, many researchers suggest that “multitasking�
 
 In today's technology-driven society, questions regarding multitasking while using electronic devices have become increasingly relevant. Specifically, research investigating the effects of multitasking while driving—under controlled conditions—has produced some surprising results. While distractions such as applying makeup, tending to children in the back seat, fiddling a CD player, or eating a bowl of cereal while driving can impair performance, we often overestimate our ability to multitask behind the wheel. Despite this, cars are being built with ever more advanced technological capabilities that further encourage multitasking. Given these factors, it is important to ask how effective we truly are at dividing our attention in such situations.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{images/3_attention/driving} 
-
-}
-
-\caption{If you look at your phone for just 5 seconds while driving at 55mph, that means you have driven the length of a football field without looking at the road. *Photo by Alexandre Boucher on Unsplash*}(\#fig:driving)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/3_attention/driving.jpeg" alt="If you look at your phone for just 5 seconds while driving at 55mph, that means you have driven the length of a football field without looking at the road. *Photo by Alexandre Boucher on Unsplash*" width="50%" />
+<p class="caption">(\#fig:driving)If you look at your phone for just 5 seconds while driving at 55mph, that means you have driven the length of a football field without looking at the road. *Photo by Alexandre Boucher on Unsplash*</p>
+</div>
 
 Most people acknowledge the distraction caused by texting while driving and the reason seems obvious: Your eyes are off the road and your hands and at least one hand (often both) are engaged while texting. However, the problem is not simply one of occupied hands or eyes, but rather that the cognitive demands on our limited capacity systems can seriously impair driving performance [@Strayer2011]. The effect of a cell phone conversation on performance (such as not noticing someone’s brake lights or responding more slowly to them) is just as significant when the individual is having a conversation with a hands-free device as with a handheld phone; the same impairments do not occur when listening to the radio or a book on tape [@Strayer2001]. Moreover, studies using eye-tracking devices have shown that drivers are less likely to later recognize objects that they did look at when using a cell phone while driving [@Strayer2007]. These findings demonstrate that cognitive distractions such as cell phone conversations can produce inattentional blindness, or a lack of awareness of what is right before your eyes [see also @Simons1999]. Sadly, although we may think that we can multitask while driving, in fact the percentage of people who can truly perform cognitive tasks without impairing their driving performance is estimated to be only about 2% [@Watson2010]. 
 

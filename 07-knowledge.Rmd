@@ -129,6 +129,10 @@ Information that is shared by several concepts is stored in the highest parent n
 
 The phenomenon that adjacent concepts are activated is called [spreading activation]. These concepts are far more easily accessed by memory, they are "primed". This was studied and backed by @meyer1971facilitation with a lexical-decision task. Participants had to decide if word pairs were words or non-words. They were faster at finding real word pairs if the concepts of the two words were near each other in a semantic network. 
 
+:::fyi
+##### test box {-}
+A paper with a good title is Jean Mandler's *Rememberance of things parsed* [@mandler1977remembrance].
+:::
 
 :::takeaways
 ##### Key Takeaways {-}

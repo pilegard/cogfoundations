@@ -137,14 +137,14 @@ In the first case the sizes are: 127 cups, 21 cups and 3 cups. Your goal is to m
 
 :::fyi
 ##### Fixation on Examples {-}
-When trying to solve an ill-defined problem with many possible solutions, people often find it helpful to look at examples of solutions. You’ve probably done this as a student when you have been assigned to write an essay, or complete a creative final project—it is natural to want to see examples of what you are supposed to do. However, provision of examples is not always a good thing for promoting creative thinking, as examples can be a source of mental fixation. To illustrate, consider one study by @smith1993constraining. In this study, participants were asked to draw pictures of alien creatures. Some participants were provided with examples such as the one in Figure \@ref(fig:creature), and some were not. Do you notice that all of the examples have features in common? What do you think happened to the participants’ drawings when they saw these examples?
+When trying to solve an ill-defined problem with many possible solutions, people often find it helpful to look at examples of solutions. You’ve probably done this as a student when you have been assigned to write an essay, or complete a creative final project—it is natural to want to see examples of what you are supposed to do. However, provision of examples is not always a good thing for promoting creative thinking, as examples can be a source of mental fixation. To illustrate, consider one study by @smith1993constraining. In this study, participants were asked to draw pictures of alien creatures. Some participants were provided with examples such as those in Figure \@ref(fig:creature), and some were not. Do you notice that the examples have features in common? What do you think happened to the participants’ drawings when they saw these examples?
 
 <div class="figure" style="text-align: center">
-<img src="images/ch10/creature.png" alt="@smith1993constraining showed their participants examples similar to these. Drawing by Michael Barlev." width="60%" />
-<p class="caption">(\#fig:creature)@smith1993constraining showed their participants examples similar to these. Drawing by Michael Barlev.</p>
+<img src="images/ch10/creature.png" alt="@smith1993constraining showed their participants examples similar to these. *Drawings by Michael Barlev and Annie Ditta.*" width="60%" />
+<p class="caption">(\#fig:creature)@smith1993constraining showed their participants examples similar to these. *Drawings by Michael Barlev and Annie Ditta.*</p>
 </div>
  
-They were more likely to include the shared features of the examples (i.e., four legs, antennae, tail) in their pictures compared to when participants were not shown examples, demonstrating fixation. This effect persisted—and even increased!—when participants were instructed to be as different as possible from the examples in a follow-up study. However, recent work has shown that sometimes, people can generate more creative ideas when they are given common examples and are told to avoid using them [@george2020need].
+Participants were more likely to include the shared features of the examples (i.e., four legs, antennae, tail) in their pictures compared to when participants were not shown examples, demonstrating fixation. This effect persisted—and even increased!—when participants were instructed to be as different as possible from the examples in a follow-up study. However, recent work has shown that sometimes, people can generate more creative ideas when they are given common examples and are told to avoid using them [@george2020need].
 :::
 
 #### Overcoming Mental Fixation {-}

@@ -131,11 +131,27 @@ These wrong solutions are due to an inaccurate interpretation, or representation
 
 Another approach is the study of examples with and without a preceding analogous task. In cases such like the *water-jug task* [@luchins1942mechanization], analogous thinking indeed leads to a correct solution, but to take a different way might make the case much simpler:
 
-Imagine you are given three jugs with different capacities and are asked to measure the required amount of water. You are not allowed to use anything except the jugs and as much water as you likes. In the first case the sizes are: 127 cups, 21 cups and 3 cups. Your goal is to measure 100 cups of water.
+> Imagine you are given three jugs with different capacities and are asked to measure the required amount of water. You are not allowed to use anything except the jugs and as much water as you likes. 
 
-In the second case you are asked to measure 18 cups from jugs of 39, 15 and 3 cups capacity.
+In the first case the sizes are: 127 cups, 21 cups and 3 cups. Your goal is to measure 100 cups of water. In the second case you are asked to measure 18 cups from jugs of 39, 15 and 3 cups capacity. Participants who are given the 100 cup task first choose a complicated way to solve the second task. Participants who did not know about that complex task solved the 18 cup case by just adding three cups to 15. This fixation on prior problem-solving experience—persisting in using a suboptimal solution, rather than seeking a more efficient solution—is also known as the *Einstellung* effect.
 
-Participants who are given the 100 cup task first choose a complicated way to solve the second task. Participants who did not know about that complex task solved the 18 cup case by just adding three cups to 15.
+:::fyi
+##### Fixation on Examples {-}
+When trying to solve an ill-defined problem with many possible solutions, people often find it helpful to look at examples of solutions. You’ve probably done this as a student when you have been assigned to write an essay, or complete a creative final project—it is natural to want to see examples of what you are supposed to do. However, provision of examples is not always a good thing for promoting creative thinking, as examples can be a source of mental fixation. To illustrate, consider one study by @smith1993constraining. In this study, participants were asked to draw pictures of alien creatures. Some participants were provided with examples such as the one in Figure \@ref(fig:creature), and some were not. Do you notice that all of the examples have features in common? What do you think happened to the participants’ drawings when they saw these examples?
+
+<div class="figure" style="text-align: center">
+<img src="images/ch10/creature.png" alt="@smith1993constraining showed their participants examples similar to these. Drawing by Michael Barlev." width="60%" />
+<p class="caption">(\#fig:creature)@smith1993constraining showed their participants examples similar to these. Drawing by Michael Barlev.</p>
+</div>
+ 
+They were more likely to include the shared features of the examples (i.e., four legs, antennae, tail) in their pictures compared to when participants were not shown examples, demonstrating fixation. This effect persisted—and even increased!—when participants were instructed to be as different as possible from the examples in a follow-up study. However, recent work has shown that sometimes, people can generate more creative ideas when they are given common examples and are told to avoid using them [@george2020need].
+:::
+
+#### Overcoming Mental Fixation {-}
+
+Clearly, mental fixation poses a challenge for solving problems and thinking of creative ideas. Yet, we are able to accomplish these tasks (albeit with some difficulty). So, how is it that we are able to overcome mental fixation and reach solutions? One strategy for overcoming mental fixation is quite simple—take a break from whatever you are working on, and do something else for a while! You’ve probably experienced this before. Perhaps you are working on an essay and have hit a mental road block about what to write next. In frustration, you get up to go take a walk. Then, either during that walk or when you get back to your computer, the idea suddenly hits you in a moment of insight—aha! And you are able to continue with your work. The phenomenon—that we are more likely to come to a solution when taking a break between problem-solving attempts compared to when we work continuously on a problem—is called [incubation].
+
+There are many theories proposed for why incubation periods are effective. One theory is called *forgetting fixation*. Under this theory, attempts to solve problems result in the generation of mental fixation on unhelpful information that impedes progress. However, taking a break gets you out of that mental space, and sometimes even into a new physical space, too! The passage of time, along with this shift in mental and physical context, allows for that unhelpful information to be forgotten, so problem solvers are more able to access new information and apply it to the problem at hand. Often, this work happens unconsciously, which can result in solutions coming to mind all at once, fully formed, in what has been termed an “Aha!” moment [@kounios2009aha]—an insight experience. 
 
 ## Solving Problems by Analogy
 
@@ -162,6 +178,47 @@ The abstract concept that links the target problem with the base problem is call
 
 The experimenters had participants read stories that presented problems and their solutions. One story was the above story about the general, and other stories required the same problem schema (i.e., if a heavy force coming from one direction is not suitable, use multiple smaller forces that simultaneously converge on the target). The experimenters manipulated how many of these stories the participants read before the participants were asked to solve the radiation problem. The experiment showed that in order to solve the target problem, reading two stories with analogical problems is more helpful than reading only one story. This evidence suggests that schema induction can be achieved by exposing people to multiple problems with the same problem schema.
 
+## Creativity
+
+In order to solve problems—particularly ill-defined problems—humans need to think *creatively* and stretch beyond the boundaries of what they have accomplished previously. You may have heard of the phrase “thinking outside of the box” as related to creativity—let’s go through an example to illustrate what this means. In a classic problem-solving task, participants are presented with an array of nine dots and are instructed to connect all 9 dots with four lines, without picking up their writing instrument [@maier1930reasoning]. See Figure \@ref(fig:ninedot) below. 
+
+<div class="figure" style="text-align: center">
+<img src="images/ch10/ninedot.png" alt="The nine-dot problem." width="40%" />
+<p class="caption">(\#fig:ninedot)The nine-dot problem.</p>
+</div>
+
+Think you have a solution? The only way to solve this problem is to literally go “outside of the box” by drawing lines that extend beyond the boundaries of the box that the dots create. This example illustrates how, when we think creatively, we often need to think of novel and appropriate solutions to a task that we have not generated before (see [Restructuring: The Gestalt Approach] section for more information about how we do this). See Figure \@ref(fig:ninedotsolution) for different possible solutions.
+
+<div class="figure" style="text-align: center">
+<img src="images/ch10/ninedotsolution.png" alt="Solutions to the nine-dot problem." width="40%" />
+<p class="caption">(\#fig:ninedotsolution)Solutions to the nine-dot problem.</p>
+</div>
+
+Creativity can be studied in many different ways—from the personal (i.e., identifying what traits are associated with more creative people), to the societal (i.e., what makes something broadly recognized as creative?), to the cognitive (i.e., how is our cognitive system structured such that we are able to think creatively and solve problems when we encounter them?). We will focus on the last approach—often called the *creative cognition approach* [@smith1995creative]. This approach to studying creativity assumes that all humans are capable of creative thought; it is not something special that only some humans have and others do not. Indeed, the creative cognition approach states that the human cognitive system—with all its strengths and its flaws—is built in order to facilitate our ability to think creatively. For example, why would it make sense that our memory system is fallible; that is, why do we forget things that are sometimes important to remember? Our ability to forget has been argued to be a byproduct of our ability to think flexibly and apply old knowledge to new scenarios in ways that are appropriate for the current situation [@ditta2018consideration]. See [The Sins of Human Memory and How They Benefit Creative Thinking] for more information.
+
+:::fyi
+##### The Sins of Human Memory and How They Benefit Creative Thinking {-}
+In a classic paper, @schacter1999seven argued that the flaws in the human memory system—everyday issues we face like forgetting names, misremembering where we encountered a piece of information, and failure to access information we know we have stored in memory—are actually byproducts of an adaptive system. @ditta2018consideration took this argument a step further, and argued that these flaws in the memory system also support creative thinking. For example, losing access to information, like when we forget, helps us overcome the tendency to reproduce mundane solutions to problems that would not be creative or useful. Misremembering information—as when musicians mistakenly attribute a melody as the product of their own mind, rather than another song they heard in the past—is likely a byproduct of our memory system helping us to take old information from its context, and transfer and apply it to a new context where that information might be helpful—but not in its original form. Of course, sometimes these memory errors get us into trouble (as with the musician example—this is called *cryptomnesia* and is an example of accidental plagiarism!), but without a flexible memory system that occasionally produces such errors, we would likely be much less able to solve problems when we encounter them. The “seven sins” of human memory are listed below—see if you can think of why such sins might actually reflect a benefit of the cognitive system!
+
+**Seven Sins of Human Memory**
+
+- Transience: The fact that memory for information declines over time. 
+- Absentmindedness: Without appropriate memory cues to trigger our memory, we may fail to complete a task in the future. 
+- Blocking: Related information impairs our ability to access the piece of information we want (e.g., tip-of-the-tongue phenomenon).
+- Misattribution: Misremembering where you encountered a piece of information.
+- Suggestibility: The fact that our memory can be changed with outside suggestion from others—typically through imagination inflation, where we imagine how an event might have happened and mistakenly attribute that imagination as an actual component of the event.
+- Bias: The fact that we remember information in ways consistent with our own biases (e.g., remembering a political candidate’s speech as being better or worse than it was, based on whether we support or do not support them).
+- Persistence: The fact that memories—particularly highly emotional ones—are resistant to forgetting, even when we want them to be (e.g., post-traumatic stress disorder, PTSD).
+:::
+
+### Defining Creativity {-}
+
+The term [creativity] can mean many things to different people. Thus, when researchers study creativity, they need to operationally define the term. Though scholars disagree about the best way to define creativity, most agree that in order for something to be creative, it must be both novel and appropriate for the situation [@runco2012standard]. [Novelty] is straightforward: an idea must be new (at least to the individual thinking it, if not to society as a whole) to be considered creative, as reproducing what came before is typically not something that most people would call creative. [Appropriateness] refers to the need for the idea to “make sense” in the context of the problem. For example, if we return to the nine-dot problem, a creative solution must involve drawing lines; folding the paper to make multiple dots touch would not be an appropriate solution (though it is certainly outside of the box!). Scholars disagree about “appropriateness,” and you might find yourself agreeing: folding the paper before the drawing the lines is certainly a novel way to approach the problem! Scholars also sometimes include additional characteristics in their definitions of creativity; for example, an idea instilling an element of “surprise” as necessary for something to be labeled as creative [@simonton2018defining].
+
+### Creative Thinking {-}
+
+Creative thinking is sometimes defined as consisting of both divergent and convergent thinking. [Divergent thinking] is when the goal is to explore and idea space and generate as many different ideas as possible. In the lab, divergent thinking is often measured through the Alternative Uses Task, in which participants are presented with everyday household objects and asked to generate as many uses for those objects as possible. Those ideas are then scored on a number of different dimensions, including originality and fluency (i.e., how many ideas they were able to generate). Interestingly, divergent thinking and producing creative ideas seems to be a process that unfolds over time, with some research demonstrating that the most creative ideas come later during the idea generation period, perhaps after the more common ideas that immediately come to mind [@george2020need]. [Convergent thinking], on the other hand, is when the goal is to unite many different concepts into a single idea or smaller subset of ideas. Convergent thinking is typically measured in the lab through the Remote Associates Task (RAT), where participants are presented with three seemingly unrelated words and are asked to find the fourth word that relates to all three words (e.g., WISE-WORK-TOWER; solution: CLOCK). Creativity is determined by counting the number of RAT problem solved correctly. Though convergent and divergent thinking are sometimes studied separately, it is likely that creative thinking involves elements of both types of thinking.
+
 ## How do Experts Solve Problems?
 
 An [expert] is someone who devotes large amounts of their time and energy to one specific field of interest in which they, subsequently, reach a certain level of mastery. It should not be a surprise that experts tend to be better at solving problems in their field than [novices](novice) (i.e., people who are beginners or not as well-trained in a field as experts) are. Experts are faster at coming up with solutions and have a higher rate of correct solutions. But what is the difference between the way experts and non-experts solve problems? Research on the nature of expertise has come up with the following conclusions:
@@ -186,6 +243,9 @@ An experiment by @Chase1973 dealt with the question of how well experts and novi
 
 Experts often spend more time analyzing a problem before actually trying to solve it. This way of approaching a problem may often result in what appears to be a slow start, but in the long run this strategy is much more effective. A novice, on the other hand, might start working on the problem right away, but often reaches dead ends as they chose a wrong path in the very beginning.
 
+### The Curse of Expertise {-}
+Though experts approach problem solving differently and are typically more successful than novices, expertise is not always a good thing. There are some conditions under which knowing too much can lead to inhibition—especially in creative problem solving. For example, in a study using the Remote Associates Task discussed earlier, three types of problems were used [@wiley1998expertise]. First, problems that used terms related to baseball, but where the solution was unrelated to baseball (e.g., PLATE-BROKEN-SHOT; solution: GLASS). Second, problems using baseball terms where the solution was related to baseball (e.g., PLATE-BROKEN-REST; solution: HOME). Third, neutral problems unrelated to baseball at all (e.g., BLUE-KNFIE-COTTAGE; solution: CHEESE). Baseball experts and novices were asked to solve all of the problem types. In this study, experts ended up worse than novices at solving the problems with baseball-unrelated solutions!  The experts were likely too fixated on trying to find a solution related to baseball when it was not appropriate to do so. Thus, having too much knowledge can sometimes reduce our capability to think outside the box.
+
 :::takeaways
 ##### Key Takeaways {-}
 - The way we mentally represent problems affects our ability to solve them. In the case of insight problems, we may need to restructure the way we see the problem in order to arrive at a solution.
@@ -205,13 +265,37 @@ Experts often spend more time analyzing a problem before actually trying to solv
 
 A moment of insight in which a solution pops into the problem solver's head.
 
+##### appropriateness {-}
+
+The extent to which a solution makes sense in the context of the problem.
+
+##### convergent thinking {-}
+
+Creative thinking in which the goal is to unite many different concepts into a single idea or smaller subset of ideas.
+
+##### creativity {-}
+
+The ability to generate novel and appropriate solutions to problems.
+
+##### divergent thinking {-}
+
+Creative thinking in which the goal is to explore and idea space and generate as many different ideas as possible.
+
 ##### expert {-}
 
 A person who reaches mastery in a field following extensive practice.
 
+##### incubation {-}
+
+Individuals become more likely to generate a solution when taking a break between problem-solving attempts compared to when working continuously on a problem.
+
 ##### mental set {-}
 
 A person’s tendency to respond to a given task in a manner based on past experience.
+
+##### novelty {-}
+
+The extent to which a solution to a problem is new, as opposed to reproducing what has come before.
 
 ##### novice {-}
 

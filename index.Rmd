@@ -36,7 +36,7 @@ The second edition of this book builds on the first edition with updates, improv
 - Hayden Schill (Perception, Working Memory)
 - Anne Yilmaz (Memory in Context)
 
-M. Gupta and C. Pilegard converted the book to bookdown. C. Pilegard redesigned the book layout, updated the chapters on History and Problem Solving, and edited all chapters. We thank John Wixted for his feedback on portions of the chapters on memory.
+Additionally, Annie S. Ditta (UC Riverside) completed the second edition edits to the Problem Solving chapter. M. Gupta and C. Pilegard converted the book to bookdown. C. Pilegard redesigned the book layout, updated the chapters on History and Problem Solving, and edited all chapters. We thank John Wixted for his feedback on portions of the chapters on memory.
 
 The second edition of this book was supported by a Course Development and Instructional Improvement Program grant awarded to C. Pilegard. The program is sponsored by the Division of Undergraduate Education at the University of California, San Diego.
 
@@ -246,5 +246,8 @@ Source: Multiple authors. Memory. In Cognitive Psychology and Cognitive Neurosci
 Wikibooks are licensed under the Creative Commons Attribution-ShareAlike License.
 Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free Documentation License.\
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. 
+
+#### Second edition {-}
+New sections added: Creativity, Fixation on Examples, Overcoming Mental Fixation, Curse of Expertise.
 
 Cover photo by Zoe Holling on Unsplash.

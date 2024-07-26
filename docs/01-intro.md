@@ -1,9 +1,13 @@
 # History and Research Methods
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/lan2000.png" alt="Around the turn of the 20th century, futurists imagined what a classroom might look like in the year 2000. *Illustration by Jean-Marc Côté, Wikimedia Commons.*" width="100%" />
-<p class="caption">(\#fig:lan2000)Around the turn of the 20th century, futurists imagined what a classroom might look like in the year 2000. *Illustration by Jean-Marc Côté, Wikimedia Commons.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/ch1/lan2000} 
+
+}
+
+\caption{Around the turn of the 20th century, futurists imagined what a classroom might look like in the year 2000. *Illustration by Jean-Marc Côté, Wikimedia Commons.*}(\#fig:lan2000)
+\end{figure}
 
 Philosophers have wondered about the mind at least as far back as Socrates. Yet the scientific study of the mind only began much more recently. What changed, and what tools can we use to study the mind?
 
@@ -20,19 +24,27 @@ Philosophers have wondered about the mind at least as far back as Socrates. Yet 
 
 Precursors to American psychology can be found in philosophy and physiology. Philosophers such as John Locke (1632–1704) and Thomas Reid (1710–1796) promoted [empiricism], the idea that all knowledge comes from experience. The work of Locke, Reid, and others emphasized the role of the human observer and the primacy of the senses in defining how the mind comes to acquire knowledge. In American colleges and universities in the early 1800s, these principles were taught as courses on mental and moral philosophy. Most often these courses taught about the mind based on the faculties of intellect, will, and the senses [@fuchs2000].
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/pharoah.png" alt="The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
-<p class="caption">(\#fig:pharoah)The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/ch1/pharoah} 
+
+}
+
+\caption{The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:pharoah)
+\end{figure}
 
 ### Analytic introspection {-}
 
 The formal development of modern psychology is usually credited to the work of German physician, physiologist, and philosopher Wilhelm Wundt (1832–1920). Wundt helped to establish the field of experimental psychology by serving as a strong promoter of the idea that psychology could be an experimental field and by providing classes, textbooks, and a laboratory for training students. In 1875, he joined the faculty at the University of Leipzig and quickly began to make plans for the creation of a program of experimental psychology. In 1879, he complemented his lectures on experimental psychology with a laboratory experience: an event that has served as the popular date for the establishment of the science of psychology.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/wundt.png" alt="Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
-<p class="caption">(\#fig:wundt)Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/ch1/wundt} 
+
+}
+
+\caption{Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:wundt)
+\end{figure}
 
 The response to the new science was immediate and global. Wundt attracted students from around the world to study the new experimental psychology and work in his lab. Students were trained to offer detailed self-reports of their reactions to various stimuli, a procedure known as [introspection]. The goal was to identify the elements of [consciousness]. In addition to the study of sensation and perception, research was done on mental chronometry, more commonly known as reaction time. The work of Wundt and his students demonstrated that the mind could be measured and the nature of consciousness could be revealed through scientific means. It was an exciting proposition, and one that found great interest in America. After the opening of Wundt’s lab in 1879, it took just four years for the first psychology laboratory to open in the United States [@benjamin2007].
 
@@ -48,7 +60,9 @@ Behaviorism’s emphasis on objectivity and focus on external behavior had pulle
 
 Although no one person is entirely responsible for starting the cognitive revolution, Noam Chomsky was very influential in the early days of this movement. Chomsky (1928–), an American linguist, was dissatisfied with the influence that behaviorism had had on psychology. He believed that psychology’s focus on behavior was short-sighted and that the field had to re-incorporate mental functioning into its purview if it were to offer any meaningful contributions to understanding behavior [@miller2003].
 
-European psychology had never really been as influenced by behaviorism as had American psychology; and thus, the cognitive revolution helped reestablish lines of communication between European psychologists and their American counterparts. Furthermore, psychologists began to cooperate with scientists in other fields, like anthropology, linguistics, computer science, and neuroscience, among others. This interdisciplinary approach often was referred to as the cognitive sciences, and the influence and prominence of this particular perspective resonates in modern-day psychology [@miller2003]. Next, we will look at the research methods psychologists use to ask questions about the world.
+European psychology had never really been as influenced by behaviorism as had American psychology; and thus, the cognitive revolution helped reestablish lines of communication between European psychologists and their American counterparts. Furthermore, psychologists began to cooperate with scientists in other fields, like anthropology, linguistics, computer science, and neuroscience, among others. This interdisciplinary approach often was referred to as the cognitive sciences, and the influence and prominence of this particular perspective resonates in modern-day psychology [@miller2003].
+
+The field of cognitive psychology continues to grow and improve; for example, researchers such as Ayanna Thomas are working to confront a foundational assumption in cognitive psychology, shaped by a history of scientific racism, that cognition can be understood without respect to context and culture [@thomas2023color]. As new generations of cognitive psychologists enter the field, our understanding of the human mind will continue to improve.  As philosopher of science Naomi Oreskes explains, "How is it that science is self-correcting? — It is not so much that science corrects itself, but that scientists correct each other" [@oreskes2019trust, p. 51]. According to Lee McIntyre, scientists accomplish this by "a commitment to two principles: (1) We care about empirical evidence. (2) We are willing to change our theories in light of new evidence" [@mcintyre2019scientific, pp. 47-48]. Throughout this book you will see examples of how our scientific understanding of the mind has evolved over time; indeed, future editions of this textbook will surely update our current knowledge as new evidence emerges through scientific inquiry. Next, we will look at the research methods psychologists use to ask questions about the world.
 
 ## Research Methods in Psychology
 
@@ -58,22 +72,24 @@ Most psychological research can be divided into two types: experimental and corr
 
 ### Experimental Research {-}
 
-Imagine you are taking notes in class. Should you take typed notes on your laptop, or longhand notes in a notebook? Which method of note taking will help you learn the most from lecture? As long as you’re taking notes, does it really matter?
+Imagine you work for a state health authority during the COVID-19 pandemic. You want to create a graph that will visualize COVID-19 mortality data in order to help people make judgments about pandemic risks. You have can choose between two ways to display the same information: you can create a graph that shows how many people have died each week from COVID-19 during the pandemic, or you can create a graph that shows, *cumulatively*, how many people have died from COVID-19 over the same time period (Figure \@ref(fig:covid)). Which method of displaying information will help people understand their risk? As long as you’re giving people the information, does it really matter?
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/laptop.png" alt="Does note taking medium matter? Experiments can help us find out. *Photo from Unsplash.*" width="80%" />
-<p class="caption">(\#fig:laptop)Does note taking medium matter? Experiments can help us find out. *Photo from Unsplash.*</p>
-</div>
+\begin{figure}
 
-Pam A. Mueller and Daniel M. Oppenheimer, psychology researchers at Princeton University and UCLA, set out to test the difference between longhand and laptop note taking [@mueller2014]. Participants in their experiment were told to take notes while they watched video lectures. Half of the participants were given a notebook to take notes, meaning they would take notes longhand, and the other half were given a laptop for note taking, meaning they would type their notes. Afterward, participants completed a test that measured how much participants learned from the lectures.
+{\centering \includegraphics[width=0.6\linewidth]{images/ch1/covid} 
 
-In an experiment, researchers manipulate, or cause changes, in the [independent variable], and observe or measure any impact of those changes in the [dependent variable]. The independent variable is the one under the experimenter’s control, or the variable that is intentionally altered between groups. In the case of Mueller and Oppenheimer’s experiment, the independent variable was whether participants took notes longhand or using a laptop. The dependent variable is the variable that is not manipulated at all, or the one where the effect happens. One way to help remember this is that the dependent variable “depends” on what happens to the independent variable. In our example, the participants’ learning (the dependent variable in this experiment) depends on how the participants take notes (the independent variable). Thus, any observed changes or group differences in learning can be attributed to note taking method. What Mueller and Oppenheimer found was that the people who took notes longhand learned significantly more from the lectures than those who took notes using a laptop. In other words, the note taking method students use causes a difference in learning. Do you find this surprising? 
+}
 
-But wait! Doesn’t learning depend on a lot of different factors—for instance, how intelligent someone is, or how much they already know about a topic? How can we accurately conclude that the note taking method causes differences in learning, as in the case of Mueller and Oppenheimer’s experiment? The most important thing about experiments is [random assignment]. Participants don’t get to pick which condition they are in (e.g., participants didn’t choose whether they took notes using a laptop or notebook). The experimenter assigns them to a particular condition based on the flip of a coin or the roll of a die or any other random method. Why do researchers do this? Random assignment makes it so the groups, on average, are similar on all characteristics except what the experimenter manipulates.
+\caption{Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*}(\#fig:covid)
+\end{figure}
 
-By randomly assigning people to conditions (laptop versus longhand note taking), some people who already have some knowledge about the lecture topics should end up in each condition. Likewise, some people who have never heard of the lecture topics should end up in each condition. As a result, the distribution of all these factors will generally be consistent across the two groups, and this means that on average the two groups will be relatively equivalent on all these factors. Random assignment is critical to experimentation because if the only difference between the two groups is the independent variable, we can infer that the independent variable is the cause of any observable difference (e.g., in the amount they learn from the lecture).
+During the height of the COVID-19 pandemic, Lace Padilla, a psychology researcher at Northeastern University, set out with her colleagues to test the difference between these graphing methods [@padilla2022impact]. Participants in her experiment were shown a COVID-19 data visualization. Half of the participants were shown a visualization that showed deaths per week, and the other half saw a visualization that showed cumulative deaths. Afterward, participants answered questions about their perception of their risks during the pandemic.
 
-So why do people learn more from a lecture when they take longhand rather than laptop notes? It turns out that when people take notes on a laptop, they tend to take verbatim notes, meaning that they try to type every single word the lecturer says. On the other hand, when people take longhand notes, they tend to take summary notes, meaning that they reframe the ideas in their own words. This additional cognitive processing improves learning.
+In an experiment, researchers manipulate, or cause changes, in the [independent variable], and observe or measure any impact of those changes in the [dependent variable]. The independent variable is the one under the experimenter’s control, or the variable that is intentionally altered between groups. In the case of Professor Padilla's experiment, the independent variable was whether participants saw a graph that showed deaths per week or cumulative deaths. The dependent variable is the variable that is not manipulated at all, or the one where the effect happens. One way to help remember this is that the dependent variable “depends” on what happens to the independent variable. In our example, the participants’ risk perception (the dependent variable in this experiment) depends on the type of data visualization they see (the independent variable). Thus, any observed changes or group differences in risk perception can be attributed to data visualization method. What Professor Padilla and her colleagues found was that the people who saw a graph with cumulative deaths perceived greater pandemic risks than those that saw a graph that showed deaths per week. In other words, the data visualization method causes a difference in risk perception Do you find this surprising? 
+
+But wait! Doesn’t risk perception depend on a lot of different factors—for instance, how cautious a person is in general, or how much background knowledge they have? How can we accurately conclude that the data visualization method causes differences in risk perception, as in the case of Professor Padilla's experiment? The most important thing about experiments is [random assignment]. Participants don’t get to pick which condition they are in (e.g., participants didn’t choose what type of graph they saw). The experimenter assigns them to a particular condition based on the flip of a coin or any other random method. Why do researchers do this? Random assignment makes it so the groups, on average, are similar on all characteristics except what the experimenter manipulates.
+
+By randomly assigning people to conditions (deaths per week vs. cumulative deaths), some people who are naturally very cautious already should end up in each condition, as should some people who like to take risks. Likewise, some people who pay a lot of attention to pandemic news should end up in each condition, as should some people who are less informed. As a result, the distribution of all these factors will generally be consistent across the two groups, and this means that on average the two groups will be relatively equivalent on all these factors. Random assignment is critical to experimentation because if the only difference between the two groups is the independent variable, we can infer that the independent variable is the cause of any observable difference (e.g., in their perception of risk).
 
 #### Other considerations {-}
 
@@ -91,10 +107,14 @@ So, what if you wanted to test whether spending on others is related to happines
 
 To find out how well two variables correspond, we can plot the relation between the two scores on what is known as a scatterplot (Figure \@ref(fig:scatter)). In the scatterplot, each dot represents a data point. (In this case it’s individuals, but it could be some other unit.) Importantly, each dot provides us with two pieces of information—in this case, information about how good the person rated the past month (x-axis) and how happy the person felt in the past month (y-axis). Which variable is plotted on which axis does not matter. 
 
-<div class="figure" style="text-align: center">
-<img src="01-intro_files/figure-html/scatter-1.png" alt="Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual." width="80%" />
-<p class="caption">(\#fig:scatter)Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter-1} 
+
+}
+
+\caption{Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual.}(\#fig:scatter)
+\end{figure}
 
 The association between two variables can be summarized statistically using the correlation coefficient (abbreviated as r). A [correlation] coefficient provides information about the direction and strength of the association between two variables. For the example above, the direction of the association is positive. This means that people who perceived the past month as being good reported feeling more happy, whereas people who perceived the month as being bad reported feeling less happy.
 
@@ -102,10 +122,14 @@ With a positive correlation, the two variables go up or down together. In a scat
 
 A negative correlation is one in which the two variables move in opposite directions. That is, as one variable goes up, the other goes down. Figure \@ref(fig:scatter2) shows the association between the average height of males in a country (y-axis) and the pathogen prevalence (or commonness of disease; x-axis) of that country. In this scatterplot, each dot represents a country. Notice how the dots extend from the top left to the bottom right. What does this mean in real-world terms? It means that people are shorter in parts of the world where there is more disease. The r value for a negative correlation is indicated by a negative number—that is, it has a minus (–) sign in front of it. Here, it is –.83.
 
-<div class="figure" style="text-align: center">
-<img src="01-intro_files/figure-html/scatter2-1.png" alt="Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]" width="80%" />
-<p class="caption">(\#fig:scatter2)Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter2-1} 
+
+}
+
+\caption{Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]}(\#fig:scatter2)
+\end{figure}
 
 The strength of a correlation has to do with how well the two variables align. Recall that in Professor Dunn’s correlational study, spending on others positively correlated with happiness: The more money people reported spending on others, the happier they reported to be. At this point you may be thinking to yourself, I know a very generous person who gave away lots of money to other people but is miserable! Or maybe you know of a very stingy person who is happy as can be. Yes, there might be exceptions. If an association has many exceptions, it is considered a weak correlation. If an association has few or no exceptions, it is considered a strong correlation. A strong correlation is one in which the two variables always, or almost always, go together. In the example of happiness and how good the month has been, the association is strong. The stronger a correlation is, the tighter the dots in the scatterplot will be arranged along a sloped line.
 
@@ -123,10 +147,14 @@ What if you want to study the effects of marriage on a variable? For example, do
 
 A quasi-experimental design is similar to experimental research, except that random assignment to conditions is not used. Instead, we rely on existing group memberships (e.g., married vs. single). We treat these as the independent variables, even though we don’t assign people to the conditions and don’t manipulate the variables. As a result, with quasi-experimental designs causal inference is more difficult. For example, married people might differ on a variety of characteristics from unmarried people. If we find that married participants are happier than single participants, it will be hard to say that marriage causes happiness, because the people who got married might have already been happier than the people who have remained single.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/love.png" alt="What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*" width="40%" />
-<p class="caption">(\#fig:love)What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/ch1/love} 
+
+}
+
+\caption{What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*}(\#fig:love)
+\end{figure}
 
 ### Longitudinal Studies {-}
 

@@ -22,6 +22,8 @@ github-repo: pilegard/cogfoundations
 ## About the Book {-}
 This collaborative book project is led by Celeste Pilegard, but represents the work of dozens of authors and collaborators listed below. Dr. Pilegard is an Associate Teaching Professor in the Department of Psychology at the University of California, San Diego. Correspondence can be sent to [Celeste Pilegard](mailto:pilegard@ucsd.edu). 
 
+ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024. This ISBN-linked version is permanently available at LINK. The updated version of Cognitive Foundations is available at [https://pilegard.github.io/cogfoundations/].
+
 Please use this [Google form](https://forms.gle/83CBvAgLuJshRfz37) to let us know if you've used the book in your course. If you notice an error or would like to suggest an improvement, please use the [GitHub site](https://github.com/pilegard/cogfoundations) to open an issue or submit a pull request with the suggested change, use this [Google form](https://forms.gle/83CBvAgLuJshRfz37), or [send an email](mailto:pilegard@ucsd.edu) with "Cognitive Foundations OER" in the subject line.
 
 This book was formatted using the [bookdown](https://bookdown.org/) package.
@@ -36,7 +38,7 @@ The second edition of this book builds on the first edition with updates, improv
 - Hayden Schill (Perception, Working Memory)
 - Anne Yilmaz (Memory in Context)
 
-Additionally, Annie S. Ditta (UC Riverside) completed the second edition edits to the Problem Solving chapter. M. Gupta and C. Pilegard converted the book to bookdown. C. Pilegard redesigned the book layout, updated the chapters on History and Problem Solving, and edited all chapters. We thank John Wixted for his feedback on portions of the chapters on memory.
+Additionally, Annie S. Ditta (UC Riverside) completed the second edition edits to the Problem Solving chapter. M. Gupta and C. Pilegard converted the book to bookdown. C. Pilegard redesigned the book layout, updated figures throughout, updated the chapter on History, and edited all chapters. We thank John Wixted for his feedback on portions of the chapters on memory.
 
 The second edition of this book was supported by a Course Development and Instructional Improvement Program grant awarded to C. Pilegard. The program is sponsored by the Division of Undergraduate Education at the University of California, San Diego.
 
@@ -99,7 +101,10 @@ Condensed from original
 Research Methods in Psychology\
 Source: Scollon, C. N. (2019). Research designs. In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from http://noba.to/acxb2thy \
 Research Designs by Christie Napa Scollon is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\
-Condensed from original; Example experiment under “Experimental research” changed to Mueller and Oppenheimer (2014)
+Condensed from original; Example experiment under “Experimental research” changed to Mueller and Oppenheimer (2014).
+
+#### Second edition {-}
+Paragraph on ongoing improvements to cognitive psychology added to Rise of Cognitive Psychology section. Example experiment under "Experimental Research" changed to Padilla et al. (2022).
 
 ### Chapter 2. Perception {-}
 #### First edition {-}
@@ -248,6 +253,6 @@ Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free D
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. 
 
 #### Second edition {-}
-New sections added: Creativity, Fixation on Examples, Overcoming Mental Fixation, Curse of Expertise.
+New sections added: Creativity, Fixation on Examples, Overcoming Mental Fixation, Curse of Expertise. All figures updated.
 
 Cover photo by Zoe Holling on Unsplash.

@@ -61,7 +61,7 @@ There are two very different ways of approaching a *goal-oriented situation*. In
 
 The second way requires *something new and different* to achieve the goal—prior learning is of little help here. Such [productive thinking] is sometimes argued to involve [insight]. Gestalt psychologists state that insight problems are a separate category of problems in their own right.
 
-Tasks that might involve insight usually have certain features: they require something new and non-obvious to be done, and in most cases they are difficult enough to predict that the initial solution attempt will be unsuccessful. When you solve a problem of this kind you often have a so called [“aha” experience]: *the solution pops into mind all of a sudden*. In one moment you have no idea how to answer the problem, and you feel you are not making any progress trying out different ideas, but in the next moment the problem is solved.
+Tasks that might involve insight usually have certain features: they require something new and non-obvious to be done, and in most cases they are difficult enough to predict that the initial solution attempt will be unsuccessful. When you solve a problem of this kind you often have a so called ["aha" experience]: *the solution pops into mind all of a sudden*. In one moment you have no idea how to answer the problem, and you feel you are not making any progress trying out different ideas, but in the next moment the problem is solved.
 
 Would you like to experience such an effect? Here is an example of an insight problem from @silveira1971incubation: you are given four pieces of a chain, each made up of three links (see Figure \@ref(fig:chain1)). The task is to link it all up to a closed loop. To open a link costs 2 cents, and to close a link costs 3 cents. You have 15 cents to spend. What should you do?
 
@@ -134,7 +134,7 @@ In the first case the sizes are: 127 cups, 21 cups and 3 cups. Your goal is to m
 ##### Fixation on Examples {-}
 When trying to solve an ill-defined problem with many possible solutions, people often find it helpful to look at examples of solutions. You’ve probably done this as a student when you have been assigned to write an essay, or complete a creative final project—it is natural to want to see examples of what you are supposed to do. However, provision of examples is not always a good thing for promoting creative thinking, as examples can be a source of mental fixation. To illustrate, consider one study by @smith1993constraining. In this study, participants were asked to draw pictures of alien creatures. Some participants were provided with examples such as those in Figure \@ref(fig:creature), and some were not. Do you notice that the examples have features in common? What do you think happened to the participants’ drawings when they saw these examples?
 
-```{r creature, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = '@smith1993constraining showed their participants examples similar to these. *Drawings by Michael Barlev and Annie Ditta.*'}
+```{r creature, echo = FALSE, out.width='85%', fig.align = 'center', fig.cap = '@smith1993constraining showed their participants examples similar to these. *Drawings by Michael Barlev and Annie Ditta.*'}
 knitr::include_graphics("images/ch10/creature.png")
 ```
  

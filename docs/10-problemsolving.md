@@ -1,6 +1,5 @@
 # Problem Solving
-
-\begin{center}\includegraphics[width=1\linewidth]{images/ch10/cover} \end{center}
+<img src="images/ch10/cover.jpeg" width="100%" style="display: block; margin: auto;" />
 
 How do we achieve our goals when the solution is not immediately obvious? What mental blocks are likely to get in our way, and how can we leverage our prior knowledge to solve novel problems?
 
@@ -66,14 +65,10 @@ Would you like to experience such an effect? Here is an example of an insight pr
 
 If you want to know the correct solution, scroll down to Figure \@ref(fig:chain2).
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/chain1} 
-
-}
-
-\caption{The materials for the cheap necklace problem.}(\#fig:chain1)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/chain1.png" alt="The materials for the cheap necklace problem." width="60%" />
+<p class="caption">(\#fig:chain1)The materials for the cheap necklace problem.</p>
+</div>
 
 To show that solving insight problems involves restructuring, psychologists have created a number of problems that are more difficult to solve for participants with previous experiences, since it is harder for them to change the representation of the given situation.
 
@@ -87,67 +82,43 @@ Sometimes, previous experience or familiarity can even make problem solving more
 
 Functional fixedness concerns the solution of *object use problems*. The basic idea is that when the usual function an object is emphasized, it will be far more difficult for a person to use that object in a novel manner. An example for this effect is the *candle problem* [@duncker1945problem]: Imagine you are given a book of matches, a box of tacks, and a candle (Figure \@ref(fig:candle1)). On the wall of the room there is a corkboard. Your task is to fix the candle to the corkboard in such a way that no wax will drop on the floor when the candle is lit. Got an idea?
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/candle1} 
-
-}
-
-\caption{The materials for the candle problem.}(\#fig:candle1)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/candle1.png" alt="The materials for the candle problem." width="60%" />
+<p class="caption">(\#fig:candle1)The materials for the candle problem.</p>
+</div>
 
 If you're having trouble thinking of a solution, try considering the same materials, but presented slightly differently, in Figure \@ref(fig:candle2).
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/candle2} 
-
-}
-
-\caption{The same materials, presented slightly differently.}(\#fig:candle2)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/candle2.png" alt="The same materials, presented slightly differently." width="60%" />
+<p class="caption">(\#fig:candle2)The same materials, presented slightly differently.</p>
+</div>
 
 Here’s a clue: when people are confronted with a problem and given certain objects to solve it, it is difficult for them to figure out that they could use the objects in a different way. In Figure \@ref(fig:candle3), the box is being used as a holder for the tacks. In Figure \@ref(fig:candle2), the box is presented without a specific use. Presenting the materials in the latter fashion helps participants have the insight they need: the box has to be recognized as a support rather than as a container— tack the box to the wall, and place the candle upright in the box. The box will catch the falling wax (Figure \@ref(fig:candle3)).
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.45\linewidth]{images/ch10/candle3} 
-
-}
-
-\caption{A solution to the candle problem.}(\#fig:candle3)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/candle3.png" alt="A solution to the candle problem." width="45%" />
+<p class="caption">(\#fig:candle3)A solution to the candle problem.</p>
+</div>
 
 A further example is the two-string problem [@maier1931reasoning]: You are left in a room with a pair of pliers and given the task to tie two strings together that are hanging from the ceiling (Figure \@ref(fig:twostring). The problem you face is that you can never reach both strings at a time because they are just too far away from each other. What can you do?
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/twostring} 
-
-}
-
-\caption{The two-string problem.}(\#fig:twostring)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/twostring.png" alt="The two-string problem." width="60%" />
+<p class="caption">(\#fig:twostring)The two-string problem.</p>
+</div>
 
 Solution: You must recognize you can use the pliers in a novel function: as weight for a pendulum. You can tie them to one of the strings, push it away, hold the other string and wait for the first one to swing toward you (Figure \@ref(fig:twostring2)). 
 
-\begin{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/twostring2.png" alt="A solution to the two-string problem." width="60%" />
+<p class="caption">(\#fig:twostring2)A solution to the two-string problem.</p>
+</div>
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/twostring2} 
-
-}
-
-\caption{A solution to the two-string problem.}(\#fig:twostring2)
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{images/ch10/chain2} 
-
-}
-
-\caption{The solution to the cheap necklace problem.}(\#fig:chain2)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/chain2.png" alt="The solution to the cheap necklace problem." width="50%" />
+<p class="caption">(\#fig:chain2)The solution to the cheap necklace problem.</p>
+</div>
 
 #### Mental fixedness {-}
 Functional fixedness as involved in the examples above illustrates a [mental set]: *a person’s tendency to respond to a given task in a manner based on past experience*. Because we map an object to a particular function we have difficulty thinking of an alternative use (i.e., pliers as pendulum's weight).
@@ -168,14 +139,10 @@ In the first case the sizes are: 127 cups, 21 cups and 3 cups. Your goal is to m
 ##### Fixation on Examples {-}
 When trying to solve an ill-defined problem with many possible solutions, people often find it helpful to look at examples of solutions. You’ve probably done this as a student when you have been assigned to write an essay, or complete a creative final project—it is natural to want to see examples of what you are supposed to do. However, provision of examples is not always a good thing for promoting creative thinking, as examples can be a source of mental fixation. To illustrate, consider one study by @smith1993constraining. In this study, participants were asked to draw pictures of alien creatures. Some participants were provided with examples such as those in Figure \@ref(fig:creature), and some were not. Do you notice that the examples have features in common? What do you think happened to the participants’ drawings when they saw these examples?
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.85\linewidth]{images/ch10/creature} 
-
-}
-
-\caption{@smith1993constraining showed their participants examples similar to these. *Drawings by Michael Barlev and Annie Ditta.*}(\#fig:creature)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/creature.png" alt="@smith1993constraining showed their participants examples similar to these. *Drawings by Michael Barlev and Annie Ditta.*" width="85%" />
+<p class="caption">(\#fig:creature)@smith1993constraining showed their participants examples similar to these. *Drawings by Michael Barlev and Annie Ditta.*</p>
+</div>
  
 Participants were more likely to include the shared features of the examples (i.e., four legs, antennae, tail) in their pictures compared to when participants were not shown examples, demonstrating fixation. This effect persisted—and even increased!—when participants were instructed to be as different as possible from the examples in a follow-up study. However, recent work has shown that sometimes, people can generate more creative ideas when they are given common examples and are told to avoid using them [@george2020need].
 :::
@@ -215,25 +182,17 @@ The experimenters had participants read stories that presented problems and thei
 
 In order to solve problems—particularly ill-defined problems—humans need to think *creatively* and stretch beyond the boundaries of what they have accomplished previously. You may have heard of the phrase “thinking outside of the box” as related to creativity—let’s go through an example to illustrate what this means. In a classic problem-solving task, participants are presented with an array of nine dots and are instructed to connect all 9 dots with four lines, without picking up their writing instrument [@maier1930reasoning]. See Figure \@ref(fig:ninedot) below. 
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.4\linewidth]{images/ch10/ninedot} 
-
-}
-
-\caption{The nine-dot problem.}(\#fig:ninedot)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/ninedot.png" alt="The nine-dot problem." width="40%" />
+<p class="caption">(\#fig:ninedot)The nine-dot problem.</p>
+</div>
 
 Think you have a solution? The only way to solve this problem is to literally go “outside of the box” by drawing lines that extend beyond the boundaries of the box that the dots create. This example illustrates how, when we think creatively, we often need to think of novel and appropriate solutions to a task that we have not generated before (see [Restructuring: The Gestalt Approach] section for more information about how we do this). See Figure \@ref(fig:ninedotsolution) for different possible solutions.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.4\linewidth]{images/ch10/ninedotsolution} 
-
-}
-
-\caption{Solutions to the nine-dot problem.}(\#fig:ninedotsolution)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch10/ninedotsolution.png" alt="Solutions to the nine-dot problem." width="40%" />
+<p class="caption">(\#fig:ninedotsolution)Solutions to the nine-dot problem.</p>
+</div>
 
 Creativity can be studied in many different ways—from the personal (i.e., identifying what traits are associated with more creative people), to the societal (i.e., what makes something broadly recognized as creative?), to the cognitive (i.e., how is our cognitive system structured such that we are able to think creatively and solve problems when we encounter them?). We will focus on the last approach—often called the *creative cognition approach* [@smith1995creative]. This approach to studying creativity assumes that all humans are capable of creative thought; it is not something special that only some humans have and others do not. Indeed, the creative cognition approach states that the human cognitive system—with all its strengths and its flaws—is built in order to facilitate our ability to think creatively. For example, why would it make sense that our memory system is fallible; that is, why do we forget things that are sometimes important to remember? Our ability to forget has been argued to be a byproduct of our ability to think flexibly and apply old knowledge to new scenarios in ways that are appropriate for the current situation [@ditta2018consideration]. See [The Sins of Human Memory and How They Benefit Creative Thinking] for more information.
 

@@ -22,11 +22,11 @@ github-repo: pilegard/cogfoundations
 ## About the Book {-}
 This collaborative book project is led by Celeste Pilegard, but represents the work of dozens of authors and collaborators listed below. Dr. Pilegard is an Associate Teaching Professor in the Department of Psychology at the University of California, San Diego. Correspondence can be sent to [Celeste Pilegard](mailto:pilegard@ucsd.edu). 
 
-ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024. This ISBN-linked version is permanently available at LINK. The updated version of Cognitive Foundations is available at [https://pilegard.github.io/cogfoundations/].
+Please use this [Google form](https://forms.gle/83CBvAgLuJshRfz37) to let us know if you've used the book in your course. If you notice an error or would like to suggest an improvement, please do one of the following: (1) use the [GitHub site](https://github.com/pilegard/cogfoundations) to open an issue or submit a pull request with the suggested change, (2) use this [Google form](https://forms.gle/83CBvAgLuJshRfz37), or (3) [send an email](mailto:pilegard@ucsd.edu) with "Cognitive Foundations OER" in the subject line.
 
-Please use this [Google form](https://forms.gle/83CBvAgLuJshRfz37) to let us know if you've used the book in your course. If you notice an error or would like to suggest an improvement, please use the [GitHub site](https://github.com/pilegard/cogfoundations) to open an issue or submit a pull request with the suggested change, use this [Google form](https://forms.gle/83CBvAgLuJshRfz37), or [send an email](mailto:pilegard@ucsd.edu) with "Cognitive Foundations OER" in the subject line.
+This book was formatted using [bookdown](https://bookdown.org/), an R package.
 
-This book was formatted using the [bookdown](https://bookdown.org/) package.
+ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024, permanently available at https://github.com/pilegard/cogfoundations/releases/tag/v2.0. The updated version of Cognitive Foundations is available at https://pilegard.github.io/cogfoundations/.
 
 ### Second Edition {-}
 The second edition of this book builds on the first edition with updates, improvements, and edits by a team of UC San Diego graduate student content experts:

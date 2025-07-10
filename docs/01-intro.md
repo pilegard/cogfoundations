@@ -1,9 +1,13 @@
 # History and Research Methods
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/lan2000.png" alt="Around the turn of the 20th century, futurists imagined what a classroom might look like in the year 2000. *Illustration by Jean-Marc Côté, Wikimedia Commons.*" width="100%" />
-<p class="caption">(\#fig:lan2000)Around the turn of the 20th century, futurists imagined what a classroom might look like in the year 2000. *Illustration by Jean-Marc Côté, Wikimedia Commons.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/ch1/lan2000} 
+
+}
+
+\caption{Around the turn of the 20th century, futurists imagined what a classroom might look like in the year 2000. *Illustration by Jean-Marc Côté, Wikimedia Commons.*}(\#fig:lan2000)
+\end{figure}
 
 Philosophers have wondered about the mind at least as far back as Socrates. Yet the scientific study of the mind only began much more recently. What changed, and what tools can we use to study the mind?
 
@@ -20,37 +24,51 @@ Philosophers have wondered about the mind at least as far back as Socrates. Yet 
 
 Precursors to American psychology can be found in philosophy and physiology. Philosophers such as John Locke (1632–1704) and Thomas Reid (1710–1796) promoted [empiricism], the idea that all knowledge comes from experience. The work of Locke, Reid, and others emphasized the role of the human observer and the primacy of the senses in defining how the mind comes to acquire knowledge. In American colleges and universities in the early 1800s, these principles were taught as courses on mental and moral philosophy. Most often these courses taught about the mind based on the faculties of intellect, will, and the senses [@fuchs2000].
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/pharoah.png" alt="The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
-<p class="caption">(\#fig:pharoah)The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)</p>
-</div>
+\begin{figure}
 
-### Analytic introspection {-}
+{\centering \includegraphics[width=0.4\linewidth]{images/ch1/pharoah} 
+
+}
+
+\caption{The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:pharoah)
+\end{figure}
+
+### Experimental Psychology's Foundations {-}
 
 The formal development of modern psychology is usually credited to the work of German physician, physiologist, and philosopher Wilhelm Wundt (1832–1920). Wundt helped to establish the field of experimental psychology by serving as a strong promoter of the idea that psychology could be an experimental field and by providing classes, textbooks, and a laboratory for training students. In 1875, he joined the faculty at the University of Leipzig and quickly began to make plans for the creation of a program of experimental psychology. In 1879, he complemented his lectures on experimental psychology with a laboratory experience: an event that has served as the popular date for the establishment of the science of psychology.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/wundt.png" alt="Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
-<p class="caption">(\#fig:wundt)Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)</p>
-</div>
+\begin{figure}
 
-The response to the new science was immediate and global. Wundt attracted students from around the world to study the new experimental psychology and work in his lab. Students were trained to offer detailed self-reports of their reactions to various stimuli, a procedure known as [introspection]. The goal was to identify the elements of [consciousness]. In addition to the study of sensation and perception, research was done on mental chronometry, more commonly known as reaction time. The work of Wundt and his students demonstrated that the mind could be measured and the nature of consciousness could be revealed through scientific means. It was an exciting proposition, and one that found great interest in America. After the opening of Wundt’s lab in 1879, it took just four years for the first psychology laboratory to open in the United States [@benjamin2007].
+{\centering \includegraphics[width=0.4\linewidth]{images/ch1/wundt} 
+
+}
+
+\caption{Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:wundt)
+\end{figure}
+
+The response to the new science was immediate and global. Wundt attracted students from around the world to study the new experimental psychology and work in his lab. Wundt's experimental methods involved carefully controlled procedures for studying basic mental processes like sensation, perception, and reaction time. Rather than relying on casual self-observation, Wundt developed systematic experimental procedures under controlled laboratory conditions, often involving precise timing and reproducible measurements. Importantly, Wundt believed that his experimental methods could only be used to study basic psychological processes. For more complex mental functions like language, culture, and reasoning, he said psychologists needed to use entirely different approaches through what he called "Völkerpsychologie" (folk psychology), which involved studying history and culture rather than doing laboratory experiments [@mandler2006].
+
+The work of Wundt and his students demonstrated that the mind could be measured and the nature of consciousness could be revealed through scientific means. It was an exciting proposition, and one that found great interest in America. After the opening of Wundt’s lab in 1879, it took just four years for the first psychology laboratory to open in the United States [@benjamin2007]. When experimental psychology came to America, it was significantly transformed by Edward Titchener (1867-1927), who had studied briefly with Wundt but developed quite different ideas about how psychology should work. At Cornell University, Titchener's method, which came to be known as [analytic introspection], involved training participants to carefully examine their own conscious experiences and break them down into basic parts like sensations, images, and feelings. If you've previously read about Wundt as the originator of this kind of research, you're not alone. As @mandler2006 notes, "Titchener is primarily responsible for the identification of Wundt with a dreary psychology concerned with 'introspecting' the contents of mind," which led to lasting confusion about what the founders of experimental psychology actually did.
+
+While Wundt focused on basic sensory processes, other researchers began investigating higher mental processes that would later become central to cognitive psychology. Hermann Ebbinghaus (1850-1909) was the first to bring the experimental method to the study of human memory. Working alone in his laboratory, Ebbinghaus memorized lists of nonsense syllables (like "DAX" or "GEK") and then tested how much he could remember after different time delays. His famous "forgetting curve" showed that we lose information rapidly at first, then more slowly over time—a finding that remains important in cognitive psychology today.
 
 ### The Growth of Psychology {-}
 
-Throughout the first half of the 20th century, psychology continued to grow and flourish in America. It was large enough to accommodate varying points of view on the nature of mind and behavior. Gestalt psychology is a good example. The Gestalt movement began in Germany with the work of Max Wertheimer (1880–1943). Opposed to the reductionist approach of Wundt’s laboratory psychology, Wertheimer and his colleagues Kurt Koffka (1886–1941), Wolfgang Kohler (1887–1967), and Kurt Lewin (1890–1947) believed that studying the whole of any experience was richer than studying individual aspects of that experience. The saying “the whole is greater than the sum of its parts” is a Gestalt perspective. Consider that a melody is an additional element beyond the collection of notes that comprise it. The Gestalt psychologists proposed that the mind often processes information simultaneously rather than sequentially. For instance, when you look at a photograph, you see a whole image, not just a collection of pixels of color. Using Gestalt principles, Wertheimer and his colleagues also explored the nature of learning and thinking. Most of the German Gestalt psychologists were Jewish and were forced to flee the Nazi regime due to the threats posed on both academic and personal freedoms. In America, they were able to introduce a new audience to the Gestalt perspective, demonstrating how it could be applied to perception and learning [@wertheimer1938]. In many ways, the work of the Gestalt psychologists served as a precursor to the rise of cognitive psychology in America [@benjamin2007].
+Throughout the first half of the 20th century, psychology continued to grow and flourish. It was large enough to accommodate varying points of view on the nature of mind and behavior. Gestalt psychology is a good example. The Gestalt movement began in Germany with the work of Max Wertheimer (1880–1943). The Gestalt psychologists opposed the elementalistic approach they saw in some forms of experimental psychology, particularly the attempt to break consciousness down into basic components. Wertheimer and his colleagues Kurt Koffka (1886–1941), Wolfgang Kohler (1887–1967), and Kurt Lewin (1890–1947) believed that studying the whole of any experience was richer than studying individual aspects of that experience. The saying “the whole is greater than the sum of its parts” is a Gestalt perspective. Consider that a melody is an additional element beyond the collection of notes that comprise it. The Gestalt psychologists proposed that the mind often processes information simultaneously rather than sequentially. For instance, when you look at a photograph, you see a whole image, not just a collection of pixels of color. Using Gestalt principles, Wertheimer and his colleagues also explored the nature of learning and thinking. Most of the German Gestalt psychologists were Jewish and were forced to flee the Nazi regime due to the threats posed on both academic and personal freedoms. In America, they were able to introduce a new audience to the Gestalt perspective, demonstrating how it could be applied to perception and learning [@wertheimer1938]. In many ways, the work of the Gestalt psychologists served as a precursor to the rise of cognitive psychology in America [@benjamin2007].
 
-Behaviorism emerged early in the 20th century and became a major force in American psychology. Championed by psychologists such as John B. Watson (1878–1958) and B. F. Skinner (1904–1990), behaviorism rejected any reference to mind and viewed overt and observable behavior as the proper subject matter of psychology. Through the scientific study of behavior, it was hoped that laws of learning could be derived that would promote the prediction and control of behavior. Russian physiologist Ivan Pavlov (1849–1936) influenced early behaviorism in America. His work on conditioned learning, popularly referred to as classical conditioning, provided support for the notion that learning and behavior were controlled by events in the environment and could be explained with no reference to mind or consciousness [@fancher1987].
+[Behaviorism] emerged early in the 20th century and became a major force in American psychology. Championed by psychologists such as John B. Watson (1878–1958) and B. F. Skinner (1904–1990), behaviorism rejected any reference to mind and viewed overt and observable behavior as the proper subject matter of psychology. Watson's behaviorist critique was primarily directed at the introspective methods that had become popular in American psychology, particularly Titchener's analytic introspection [@mandler2006]. Watson argued that asking people to give detailed reports about their thoughts and feelings was unreliable and unscientific. Through the scientific study of behavior, it was hoped that laws of learning could be derived that would promote the prediction and control of behavior. Russian physiologist Ivan Pavlov (1849–1936) influenced early behaviorism in America. His work on conditioned learning, popularly referred to as classical conditioning, provided support for the notion that learning and behavior were controlled by events in the environment and could be explained with no reference to mind or [consciousness] [@fancher1987].
 
 ### Cognitive Revolution {-}
 
-Behaviorism’s emphasis on objectivity and focus on external behavior had pulled psychologists’ attention away from the mind for a prolonged period of time. The early work of the humanistic psychologists redirected attention to the individual human as a whole, and as a conscious and self-aware being. By the 1950s, new disciplinary perspectives in linguistics, neuroscience, and computer science were emerging, and these areas revived interest in the mind as a focus of scientific inquiry. This particular perspective has come to be known as the cognitive revolution [@miller2003]. By 1967, Ulric Neisser published the first textbook entitled Cognitive Psychology, which served as a core text in cognitive psychology courses around the country [@henley2005lost]. Cognitive psychology is the study of mental processes such as attention, memory, perception, language use, problem solving, creativity, and thinking. Much of the work derived from cognitive psychology has been integrated into various other modern disciplines of psychological study including social psychology, personality psychology, abnormal psychology, developmental psychology, educational psychology, and economics.
+Behaviorism’s emphasis on objectivity and focus on external behavior had pulled psychologists’ attention away from the mind for a prolonged period of time. The early work of the humanistic psychologists redirected attention to the individual human as a whole, and as a conscious and self-aware being. By the 1950s, new disciplinary perspectives in linguistics, neuroscience, and computer science were emerging, and these areas revived interest in the mind as a focus of scientific inquiry. This particular perspective has come to be known as the [cognitive revolution] [@miller2003].
 
-Although no one person is entirely responsible for starting the cognitive revolution, Noam Chomsky was very influential in the early days of this movement. Chomsky (1928–), an American linguist, was dissatisfied with the influence that behaviorism had had on psychology. He believed that psychology’s focus on behavior was short-sighted and that the field had to re-incorporate mental functioning into its purview if it were to offer any meaningful contributions to understanding behavior [@miller2003].
+The cognitive revolution was sparked by several key developments. First, the invention of computers provided a new metaphor for understanding the mind as an [information processing] system. Second, researchers began finding evidence for mental processes that behaviorism couldn't explain. For example, Edward Tolman's experiments with rats in mazes showed that animals form "cognitive maps" -- mental representations of their environment -- rather than just learning simple stimulus-response associations [@tolman1948cognitive]. Third, Noam Chomsky, and American linguist, showed that children learn language in ways that behaviorist principles couldn't explain, suggesting the mind has built-in structures for processing information [@chomsky1959]. Chomsky believed that psychology’s focus on behavior was short-sighted and that the field had to re-incorporate mental functioning into its purview if it were to offer any meaningful contributions to understanding behavior [@miller2003].
 
-European psychology had never really been as influenced by behaviorism as had American psychology; and thus, the cognitive revolution helped reestablish lines of communication between European psychologists and their American counterparts. Furthermore, psychologists began to cooperate with scientists in other fields, like anthropology, linguistics, computer science, and neuroscience, among others. This interdisciplinary approach often was referred to as the cognitive sciences, and the influence and prominence of this particular perspective resonates in modern-day psychology [@miller2003].
+By 1967, Ulric Neisser published the first textbook entitled *Cognitive Psychology*, which served as a core text in cognitive psychology courses around the country [@henley2005lost]. Neisser defined [cognitive psychology] as the study of how people encode, store, and retrieve information, outlining the key areas that would define the field: attention, perception, memory, language, and thinking [@neisser1967]. Cognitive psychology differs from earlier approaches in several important ways: it focuses on mental processes rather than just observable behavior, uses the information processing approach to model how the mind works, and studies complex everyday mental activities like reading and problem-solving. Much of the work derived from cognitive psychology has been integrated into various other modern disciplines of psychological study including social psychology, personality psychology, abnormal psychology, developmental psychology, educational psychology, and economics.
 
-The field of cognitive psychology continues to grow and improve; for example, researchers such as Ayanna Thomas are working to confront a foundational assumption in cognitive psychology, shaped by a history of scientific racism, that cognition can be understood without respect to context and culture [@thomas2023color]. As new generations of cognitive psychologists enter the field, our understanding of the human mind will continue to improve.  As philosopher of science Naomi Oreskes explains, "How is it that science is self-correcting? — It is not so much that science corrects itself, but that scientists correct each other" [@oreskes2019trust, p. 51]. According to Lee McIntyre, scientists accomplish this by "a commitment to two principles: (1) We care about empirical evidence. (2) We are willing to change our theories in light of new evidence" [@mcintyre2019scientific, pp. 47-48]. Throughout this book you will see examples of how our scientific understanding of the mind has evolved over time; indeed, future editions of this textbook will surely update our current knowledge as new evidence emerges through scientific inquiry. Next, we will look at the research methods psychologists use to ask questions about the world.
+European psychology had never really been as influenced by behaviorism as had American psychology [@mandler2006]; and thus, the cognitive revolution helped reestablish lines of communication between European psychologists and their American counterparts. Furthermore, psychologists began to cooperate with scientists in other fields, like anthropology, linguistics, computer science, and neuroscience, among others. This interdisciplinary approach often was referred to as the cognitive sciences, and the influence and prominence of this particular perspective resonates in modern-day psychology [@miller2003].
+
+The field of cognitive psychology continues to grow and improve, as modern researchers continue to challenge assumptions within cognitive psychology itself. For example, researchers such as Ayanna Thomas are working to confront a foundational assumption in cognitive psychology, shaped by a history of scientific racism, that cognition can be understood without considering context and culture [@thomas2023color]. As new generations of cognitive psychologists enter the field, our understanding of the human mind will continue to improve.  As philosopher of science Naomi Oreskes explains, "How is it that science is self-correcting? — It is not so much that science corrects itself, but that scientists correct each other" [@oreskes2019trust, p. 51]. According to Lee McIntyre, scientists accomplish this by "a commitment to two principles: (1) We care about empirical evidence. (2) We are willing to change our theories in light of new evidence" [@mcintyre2019scientific, pp. 47-48]. Throughout this book you will see examples of how our scientific understanding of the mind has evolved over time; indeed, future editions of this textbook will surely update our current knowledge as new evidence emerges through scientific inquiry. Next, we will look at the research methods psychologists use to ask questions about the world.
 
 ## Research Methods in Psychology
 
@@ -60,12 +78,16 @@ Most psychological research can be divided into two types: experimental and corr
 
 ### Experimental Research {-}
 
-Imagine you work for a state health authority during the COVID-19 pandemic. You want to create a graph that will visualize COVID-19 mortality data in order to help people make judgments about pandemic risks. You have can choose between two ways to display the same information: you can create a graph that shows how many people have died each week from COVID-19 during the pandemic, or you can create a graph that shows, *cumulatively*, how many people have died from COVID-19 over the same time period (Figure \@ref(fig:covid)). Which method of displaying information will help people understand their risk? As long as you’re giving people the information, does it really matter?
+Imagine you work for a state health authority during the COVID-19 pandemic. You want to create a graph that will visualize COVID-19 mortality data in order to help people make judgments about pandemic risks. You can choose between two ways to display the same information: you can create a graph that shows how many people have died each week from COVID-19 during the pandemic, or you can create a graph that shows, *cumulatively*, how many people have died from COVID-19 over the same time period (Figure \@ref(fig:covid)). Which method of displaying information will help people understand their risk? As long as you’re giving people the information, does it really matter?
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/covid.png" alt="Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*" width="60%" />
-<p class="caption">(\#fig:covid)Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch1/covid} 
+
+}
+
+\caption{Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*}(\#fig:covid)
+\end{figure}
 
 During the height of the COVID-19 pandemic, Lace Padilla, a psychology researcher at Northeastern University, set out with her colleagues to test the difference between these graphing methods [@padilla2022impact]. Participants in her experiment were shown a COVID-19 data visualization. Half of the participants were shown a visualization that showed deaths per week, and the other half saw a visualization that showed cumulative deaths. Afterward, participants answered questions about their perception of their risks during the pandemic.
 
@@ -91,10 +113,14 @@ So, what if you wanted to test whether spending on others is related to happines
 
 To find out how well two variables correspond, we can plot the relation between the two scores on what is known as a scatterplot (Figure \@ref(fig:scatter)). In the scatterplot, each dot represents a data point. (In this case it’s individuals, but it could be some other unit.) Importantly, each dot provides us with two pieces of information—in this case, information about how good the person rated the past month (x-axis) and how happy the person felt in the past month (y-axis). Which variable is plotted on which axis does not matter. 
 
-<div class="figure" style="text-align: center">
-<img src="01-intro_files/figure-html/scatter-1.png" alt="Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual." width="80%" />
-<p class="caption">(\#fig:scatter)Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter-1} 
+
+}
+
+\caption{Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual.}(\#fig:scatter)
+\end{figure}
 
 The association between two variables can be summarized statistically using the correlation coefficient (abbreviated as r). A [correlation] coefficient provides information about the direction and strength of the association between two variables. For the example above, the direction of the association is positive. This means that people who perceived the past month as being good reported feeling more happy, whereas people who perceived the month as being bad reported feeling less happy.
 
@@ -102,10 +128,14 @@ With a positive correlation, the two variables go up or down together. In a scat
 
 A negative correlation is one in which the two variables move in opposite directions. That is, as one variable goes up, the other goes down. Figure \@ref(fig:scatter2) shows the association between the average height of males in a country (y-axis) and the pathogen prevalence (or commonness of disease; x-axis) of that country. In this scatterplot, each dot represents a country. Notice how the dots extend from the top left to the bottom right. What does this mean in real-world terms? It means that people are shorter in parts of the world where there is more disease. The r value for a negative correlation is indicated by a negative number—that is, it has a minus (–) sign in front of it. Here, it is –.83.
 
-<div class="figure" style="text-align: center">
-<img src="01-intro_files/figure-html/scatter2-1.png" alt="Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]" width="80%" />
-<p class="caption">(\#fig:scatter2)Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter2-1} 
+
+}
+
+\caption{Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]}(\#fig:scatter2)
+\end{figure}
 
 The strength of a correlation has to do with how well the two variables align. Recall that in Professor Dunn’s correlational study, spending on others positively correlated with happiness: The more money people reported spending on others, the happier they reported to be. At this point you may be thinking to yourself, I know a very generous person who gave away lots of money to other people but is miserable! Or maybe you know of a very stingy person who is happy as can be. Yes, there might be exceptions. If an association has many exceptions, it is considered a weak correlation. If an association has few or no exceptions, it is considered a strong correlation. A strong correlation is one in which the two variables always, or almost always, go together. In the example of happiness and how good the month has been, the association is strong. The stronger a correlation is, the tighter the dots in the scatterplot will be arranged along a sloped line.
 
@@ -123,10 +153,14 @@ What if you want to study the effects of marriage on a variable? For example, do
 
 A quasi-experimental design is similar to experimental research, except that random assignment to conditions is not used. Instead, we rely on existing group memberships (e.g., married vs. single). We treat these as the independent variables, even though we don’t assign people to the conditions and don’t manipulate the variables. As a result, with quasi-experimental designs causal inference is more difficult. For example, married people might differ on a variety of characteristics from unmarried people. If we find that married participants are happier than single participants, it will be hard to say that marriage causes happiness, because the people who got married might have already been happier than the people who have remained single.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/love.png" alt="What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*" width="40%" />
-<p class="caption">(\#fig:love)What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/ch1/love} 
+
+}
+
+\caption{What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*}(\#fig:love)
+\end{figure}
 
 ### Longitudinal Studies {-}
 
@@ -153,9 +187,18 @@ Beyond these practical concerns, another consideration in selecting a research d
 
 ## Glossary
 
+##### analytic introspection {-}
+A method that involved training participants to carefully examine their own conscious experiences and break them down into basic elements like sensations, images, and feelings.
+
 ##### behaviorism {-}
 
 The study of behavior.
+
+##### cognitive psychology {-}
+The study of how people encode, store, and retrieve information, including mental processes such as attention, memory, perception, language use, problem solving, creativity, and thinking.
+
+##### cognitive revolution {-}
+The movement in psychology beginning in the 1950s that revived interest in the mind as a focus of scientific inquiry, sparked by developments in linguistics, neuroscience, and computer science.
 
 ##### confounds {-}
 
@@ -185,9 +228,8 @@ When the experimenter’s expectations influence the outcome of a study.
 
 The variable the researcher manipulates and controls in an experiment.
 
-##### introspection {-}
-
-A method of focusing on internal processes.
+##### information processing {-}
+The cognitive approach that treats the mind like a computer system that takes in information, processes it, and produces output.
 
 ##### longitudinal study {-}
 
@@ -208,3 +250,6 @@ An experiment that does not require random assignment to conditions.
 ##### random assignment {-}
 
 Assigning participants to receive different conditions of an experiment by chance.
+
+##### structural psychology {-}
+Titchener's approach to psychology that involved training participants to carefully examine their own conscious experiences and break them down into basic parts like sensations, images, and feelings.

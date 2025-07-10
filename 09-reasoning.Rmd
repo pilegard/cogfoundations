@@ -1,34 +1,34 @@
 # Reasoning and Decision Making
 ```{r cover, echo = FALSE, out.width='100%', fig.align = 'center'}
- knitr::include_graphics("images/ch9/fig0.png")
+ knitr::include_graphics("images/ch9/aisle.jpg")
 ```
-We like to think that we make important decisions rationally, logically, and without bias or error— but what if that’s not the case?
 
-Let us consider the following scene of Knut's life: It is a rainy summer afternoon in Germany and Knut and his wife are tired of watching the black crows in their garden. They decide to escape from the dreary weather and take a vacation to Spain, as Knut and his wife have never been there before. They will leave the next day, and he is packing his bag. He packs the crucial things first: underwear, socks, pajamas, and a toiletry bag with a toothbrush, shampoo, soap, sun tan lotion, and bug spray. Knut cannot find the bug spray, and his wife volunteers to go buy a new bottle. He advises her to take an umbrella for the walk to the pharmacy as it is raining outside, and then he turns back to packing. But what did he already pack into his bag? Immediately, he remembers and continues, putting together outfits and packing his clothing. Since it is summer, Knut packs mostly shorts and t-shirts. After half an hour, he is finally convinced that he has done everything necessary for a nice vacation.
+We like to think that we make important decisions rationally, logically, and without bias or error— but what if that’s not the case? Standing in the cereal aisle, for example  you face dozens of choices. You reason that whole grain cereals are healthier, but the colorful box at eye level catches your attention. The "25% more free!" label seems like a good deal, but is it really? Your decision involves weighing nutrition against taste, cost against convenience, and logical analysis against marketing psychology. Even this simple choice reveals the complex interplay between reasoning and decision making that governs daily life.
 
-With this story of Knut’s vacation preparation, we will explain the basic principles of reasoning and decision making. We will demonstrate how much cognitive work is necessary for even this fragment of everyday life.
+In reasoning, available information is taken into account in the form of premises. A conclusion is reached on the basis of these premises through a process of inference. The content of the conclusion goes beyond either one of the premises. To demonstrate, consider the following reasoning process you might use in that cereal aisle:
 
-In reasoning, available information is taken into account in the form of premises. A conclusion is reached on the basis of these premises through a process of inference. The content of the conclusion goes beyond either one of the premises. To demonstrate, consider the following consideration Knut makes before planning his vacation:
-
-> Premise 1: In all countries in southern Europe it is warm during summer.  
-> Premise 2: Spain is a country in southern Europe.  
-> Conclusion: Therefore, in Spain it is warm during summer.
+> Premise 1: All cereals with whole grains are healthier than those without.  
+> Premise 2: This cereal contains whole grains.  
+> Conclusion: Therefore, this cereal is healthier than cereals without whole grains.
  
-The conclusion in this example follows directly from the premises, but it includes information that is not explicitly stated in the premises. This is a typical feature of a process of reasoning. We will discuss the two major kinds of reasoning, inductive reasoning and deductive reasoning, which logically complement of one another.
-
-## Deductive reasoning
+The conclusion in this example follows directly from the premises, but it includes information that is not explicitly stated in the premises. This is a typical feature of a process of reasoning. We will discuss the two major kinds of reasoning, inductive reasoning and deductive reasoning, which logically complement one another.
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}
-1. Understand deductive and inductive reasoning
-2. Understand the main theories of decision making, as well as examples of how people's choice contexts affect the decisions they make
+1. Distinguish between deductive and inductive reasoning
+2. Explain why people make systematic errors in logical reasoning, including belief bias and confirmation bias
+3. Describe how heuristics help with reasoning but can also lead to biases
+4. Compare normative theories of decision making (how we should decide) with descriptive theories (how we actually decide)
+5. Understand how choice context affects decisions through framing effects, default effects, and other influences on our preferences
 :::
 
-Deductive reasoning is concerned with syllogisms in which the conclusion follows logically from the premises. The following example about Knut makes this process clear:
+## Deductive reasoning
 
-1. Premise: Knut knows: If it is warm, one needs shorts and t-shirts.
-2. Premise: He also knows that it is warm in Spain during summer.
-3. Conclusion: Therefore, Knut reasons that he needs shorts and t-shirts in Spain.
+Deductive reasoning is concerned with syllogisms in which the conclusion follows logically from the premises. Consider the following example about preparing for a vacation:
+
+1. Premise:If it is warm, one needs shorts and t-shirts.
+2. Premise: It is warm in Spain during summer.
+3. Conclusion: Therefore, one needs shorts and t-shirts in Spain.
 
 In this example it is obvious that the premises are about rather general information and the resulting conclusion is about a more special case which can be inferred from the two premises. We will now differentiate between the two major kinds of syllogisms: categorical and conditional syllogisms.
 
@@ -63,34 +63,34 @@ In addition to the form of a syllogism, the content can influence a person’s d
 
 ### Conditional syllogisms {-}
 
-Another type of syllogism is called “conditional syllogism.” Just like the categorical syllogisms, they also have two premises and a conclusion. The difference is that the first premise has the form “If … then”. Syllogisms like this one are common in everyday life. Consider the following example from the story about Knut:
+Another type of syllogism is called “conditional syllogism.” Just like the categorical syllogisms, they also have two premises and a conclusion. The difference is that the first premise has the form “If … then”. Syllogisms like this one are common in everyday life. Consider the following example:
 
->Premise 1: If it is raining, Knut’s wife needs an umbrella.  
+>Premise 1: If it is raining, you needs an umbrella.  
 >Premise 2: It is raining.  
->Conclusion: Therefore, Knut’s wife needs an umbrella.
+>Conclusion: Therefore, you need an umbrella.
  
 Conditional syllogisms are typically given in the abstract form: “If p then q”, where “p” is called the "antecedent" and “q” the "consequent".
 
 #### Forms of conditional syllogisms {-}
 
-There are four major forms of conditional syllogisms: "modus ponens", "modus tollens", "denying the antecedent", and "affirming the consequent". These are illustrated in the table below (\@ref(tab:Syllogisms)) by means of the conditional syllogism above (i.e. If it is raining, Knut’s wife needs an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
+There are four major forms of conditional syllogisms: "modus ponens", "modus tollens", "denying the antecedent", and "affirming the consequent". These are illustrated in the table below (\@ref(tab:Syllogisms)) by means of the conditional syllogism above (i.e. If it is raining, you need an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
 
 |  | Modus Ponens | Modus Tollens | Denying the Antecedent | Affirming the Consequent |
 |---|---|---|---|---|
 | Description | The antecedent of the first premise is affirmed in the second premise.  | The consequent of the first premise is negated in the second premise. | The antecedent of the first premise is negates in the second premise. | The antecedent of the first premise is affirmed in the second premise. |
 | Formal | If P then Q.  P Therefore Q. | If P the Q.  Not-Q Therefore Not-P. | If P then Q.  Not-P Therefore Not-Q. | If P then Q.  Q Therefore P. |
-| Example | If it is raining, Knut's wife needs an umbrella. It is raining. Therefore Knut's wife needs an umbrella. | If it is raining, Knut's wife needs an umbrella. Knut's wife does not need an umbrella. Therefore it is not raining. | If it is raining, Knut's wife needs an umbrella.  It is not raining. Therefore Knut's wife does not need an umbrella. | If it is raining, Knut's wife needs an umbrella. Knut's wife needs an umbrella. Therefore it is raining.  |
+| Example | If it is raining, you need an umbrella. It is raining. Therefore you need an umbrella. | If it is raining, you need an umbrella. You do not need an umbrella. Therefore it is not raining. | If it is raining, you need an umbrella. It is not raining. Therefore you do not need an umbrella. | If it is raining, you need an umbrella. You need an umbrella. Therefore it is raining. |
 | Validity | Valid | Valid | Invalid | Invalid |
 | Correct Judgements | 97 % correctly identify as valid.  | 60% correctly identify as valid. | 40% correctly identify as invalid. | 40% correctly identify as invalid. |
 Table: (\#tab:Syllogisms) Different kinds of conditional syllogisms.
 
-As we can see, the validity of the syllogisms with valid conclusions is easier to judge correctly than the validity of the syllogisms with invalid conclusions. The conclusion in the instance of the modus ponens is apparently valid. In the example it is very clear that Knut’s wife needs an umbrella if it is raining.
+As we can see, the validity of the syllogisms with valid conclusions is easier to judge correctly than the validity of the syllogisms with invalid conclusions. The conclusion in the instance of the modus ponens is apparently valid. In the example it is very clear that you need an umbrella if it is raining.
 
-The validity of the modus tollens is more difficult to recognize. Referring to the example, if Knut’s wife does not need an umbrella it can’t be raining. The first premise says that if it is raining, she needs an umbrella. So the reason for Knut’s wife not needing an umbrella is that it is not raining. Consequently, the conclusion is valid.
+The validity of the modus tollens is more difficult to recognize. Referring to the example, if you do not need an umbrella it can’t be raining. The first premise says that if it is raining, she needs an umbrella. So the reason for not needing an umbrella is that it is not raining. Consequently, the conclusion is valid.
 
-The validity of the remaining two kinds of conditional syllogisms is judged correctly by only 40% of people. If the method of denying the antecedent is applied, the second premise says that it is not raining. But from this fact it does not follow logically that Knut’s wife does not need an umbrella— she could need an umbrella for another reason, such as to shield from the sun.
+The validity of the remaining two kinds of conditional syllogisms is judged correctly by only 40% of people. If the method of denying the antecedent is applied, the second premise says that it is not raining. But from this fact it does not follow logically that you do not need an umbrella: you could need an umbrella for another reason, such as to shield from the sun.
 
-Affirming the consequent in the case of the given example means that the second premise says that Knut’s wife needs an umbrella, but again the reason for this can be circumstances apart from rain. So, it does not logically follow that it is raining. Therefore, the conclusion of this syllogism is invalid.
+Affirming the consequent in the case of the given example means that the second premise says that you need an umbrella, but again the reason for this can be circumstances apart from rain. So, it does not logically follow that it is raining. Therefore, the conclusion of this syllogism is invalid.
 
 The four kinds of syllogisms have shown that it is not always easy to make correct judgments concerning the validity of the conclusions. The following passages will deal with other errors people make during the process of conditional reasoning.
 
@@ -120,25 +120,23 @@ The evolutionary approach concerns the human ability of "cheater detection". Thi
 
 So far we have discussed deductive reasoning, which is reaching conclusions based on logical rules applied to a set of premises. However, many problems cannot be represented in a way that would make it possible to use these rules to come to a conclusion. [Inductive reasoning] is the process of making observations and applying those observations via generalization to a different problem. Therefore one infers from a special case to the general principle, which is just the opposite of the procedure of deductive reasoning (\@ref(fig:induct)). A good example of inductive reasoning is the following:
  
-> Premise: All crows Knut and his wife have ever seen are black.
- 
-> Conclusion: Therefore, they reason that all crows on earth are black.
+> Premise: All crows you have ever seen are black.
+> Conclusion: Therefore, you reason that all crows on earth are black.
 
-In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure \@ref(fig:induct), this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
+In this example it is obvious that you infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure \@ref(fig:induct), this means that you infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
 
-```{r induct, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'An example of inductive reasoning would be generalizing from the subset of crows you have seen to all crows.'}
+```{r induct, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'An example of inductive reasoning would be generalizing from the subset of crows you have seen to all crows.'}
 knitr::include_graphics("images/ch9/fig4.png")
 ```
 
 ### Forms of inductive reasoning {-}
 
-The two different forms of inductive reasoning are “*strong*” and “*weak*” induction. The former indicates that the truth of the conclusion is very likely if the assumed premises are true. An example for this form of reasoning is the one given in the previous section. In this case it is obvious that the premise (“All crows Knut and his wife have ever seen are black”) gives good evidence for the conclusion (“All crows on earth are black”) to be true. Nevertheless it is still possible, although very unlikely, that not all crows are black.
+The two different forms of inductive reasoning are “*strong*” and “*weak*” induction. The former indicates that the truth of the conclusion is very likely if the assumed premises are true. An example for this form of reasoning is the one given in the previous section. In this case it is obvious that the premise (“All crows you have ever seen are black”) gives good evidence for the conclusion (“All crows on earth are black”) to be true. Nevertheless it is still possible, although very unlikely, that not all crows are black.
 
 On the contrary, conclusions reached by “weak induction” are supported by the premises in a relatively weak manner. In this approach, the truth of the premises makes the truth of the conclusion possible, but not likely. An example for this kind of reasoning is the following:
 
-> Premise: Knut always listens to music with his iPhone.
-
-> Conclusion: Therefore, he reasons that all music is only heard with iPhones.
+> Premise: You always listen to music with your iPhone.
+> Conclusion: Therefore, all music is only heard with iPhones.
 
 In this instance the conclusion is obviously false. The information the premise contains is not very representative and although it is true, it does not give decisive evidence for the truth of the conclusion.
 
@@ -146,9 +144,9 @@ To sum it up, strong inductive reasoning yields conclusions which are very proba
 
 ### Reliability of conclusions {-}
 
-If the strength of the conclusion of an inductive argument has to be determined, three factors concerning the premises play a decisive role. The of Knut and his wife’s observations about crows (see previous sections) displays these factors:
+If the strength of the conclusion of an inductive argument has to be determined, three factors concerning the premises play a decisive role. The example of observations about crows (see previous sections) displays these factors:
 
-When Knut and his wife observe, in addition to the black crows in Germany, the crows in Spain, the *number of observations* they make concerning the crows increases. Furthermore, the *representativeness of these observations* is supported if Knut and his wife observe the crows at different times and in different places and see that they are black every time. The *quality of the evidence* for all crows being black increases if Knut and his wife add scientific measurements that support the conclusion. For example, they could find out that the crows’ genes determine that the only color they can be is black.
+When you observe crows not just in your hometown but in different countries, the *number of observations* increases. The *representativeness* improves if you observe crows at different times and places. The *quality of evidence* increases if you find scientific research showing that crow genes determine they can only be black.
 
 Conclusions reached through a process of inductive reasoning are never definitely true, as no one has seen all crows on earth. It is possible, although very unlikely, that there is a green or brown exemplar. The three above factors contribute to the strength of an inductive argument. The stronger these factors are, the more reliable the conclusions reached through induction.
 
@@ -166,7 +164,7 @@ For example, in an experiment done by Sarah Lichtenstein and colleagues, partici
 
 Similarly to the availability heuristic, the representativeness heuristic is used when people judge frequency. However in this case, people rely on a judgment of *similarity* instead of using memorability as a cue. For example, @tversky1983extensional gave the following description to a group of participants:
 
-"Linda is 31 years old, single, outspoken and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations."
+> "Linda is 31 years old, single, outspoken and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations."
 
 They then asked participants to rank a series of descriptions in order of how likely they were to describe Linda. Most participants rated "Linda is a bank teller and is active in the feminist movement" as more likely than "Linda is a bank teller". However, this is logically impossible, as the first description *includes* the second (Figure \@ref(fig:bank)). Because the participants based their judgment on similarity between the description of Linda and being "active in the feminist movement", rather than reasoning in line with the formal laws of logic, most committed this "conjunction fallacy".
 
@@ -193,7 +191,7 @@ The table below (\@ref(tab:IndDed)) summarizes the most prevalent properties and
 
 |  | Deductive Reasoning | Inductive Reasoning |
 |---|---|---|
-| Premises | Stated as facts or general principles ("It is warm in the Summer of Spain.") | Based on observations of specific cases ("All crows Knut and his wife have seen are back.") |
+| Premises | Stated as facts or general principles ("It is warm in the Summer of Spain.") | Based on observations of specific cases ("All crows you have seen are black.") |
 | Conclusion | Conclusion is more special than the information the premises provide. It is reached directly by applying logical rules to the premises. | Conclusion is more general than the information the premises provide. It is reached by generalizing the premises` information. |
 | Validity | If the premises are true, the conclusions must be true. | If the premises are true, the conclusion is probably true. |
 | Usage | More difficult to use (mainly in logical problems). One needs facts which are definitely true.  | Used often in everyday life (fast and easy). Evidence is used instead of proved facts.  |
@@ -202,23 +200,26 @@ Table: (\#tab:IndDed) Induction vs. deduction
 
 ## Decision making
 
-The psychological processes of decision making are critical in everyday life. Imagine Knut deciding whether he should pack his heavy umbrella because of a forecasted “20% chance of rain” or selecting between two different types of travel insurance for his vacation.
+The psychological processes of decision making are critical in everyday life. Imagine deciding whether to carry an umbrella because of a forecasted "20% chance of rain" or choosing which of your streaming subscriptions to keep when money is tight.
 
 There are two main ways to describe and analyze decision making. The “normative” approach describes how decision makers *ought* to make decisions. That is, it describes how people *should* behave if they were perfectly rational and had well-defined preferences. Here, “rational” typically means that one adheres to the laws of probability and formal logic. The “descriptive” approach to studying decision making describes how real-life decision makers *actually* make decisions, rather than how they should. A common finding among decision making researchers is that people do not typically follow what a perfectly rational actor would do, though this claim is contentious and widely debated within the field.
 
 
 ### Theories of Decision Making{-}
 
-**Expected Value Theory**: In the earliest days of probability theory, theorists used Expected Value Theory (EVT) as a normative account. Under EVT, the value of an option is calculated as the probability that option will occur, multiplied by the quantitative value of that option. For example, if a casino offers a game in which there as an 80% chance of winning $10, the “expected value” is .8 x 10 = $8. Because EVT is normative, people should be willing to pay up to $7.99 in order to play that game, because the expected value ($8) is higher than the cost (< $8). However, EVT has several issues as a normative theory. One sizeable issue is that most decisions do not have quantitative outcomes. For example, when deciding whether to take an umbrella due to a 20% chance of rain, there is no clear number that expresses how good or bad it would be to get caught in the rain! A second sizeable issue is that some decisions can have infinitely large expected values but have infinitely small probabilities of occurring, and people are typically uninterested in taking those gambles, despite EVT suggesting they should. This was first demonstrated in a game called the St. Petersburg Paradox, described in box 9.4.1.
+#### Expected Value Theory {-}
+In the earliest days of probability theory, theorists used Expected Value Theory (EVT) as a normative account. Under EVT, the value of an option is calculated as the probability that option will occur, multiplied by the quantitative value of that option. For example, if a casino offers a game in which there as an 80% chance of winning $10, the “expected value” is .8 x 10 = $8. Because EVT is normative, people should be willing to pay up to $7.99 in order to play that game, because the expected value ($8) is higher than the cost (< $8). However, EVT has several issues as a normative theory. One sizeable issue is that most decisions do not have quantitative outcomes. For example, when deciding whether to take an umbrella due to a 20% chance of rain, there is no clear number that expresses how good or bad it would be to get caught in the rain! A second sizeable issue is that some decisions can have infinitely large expected values but have infinitely small probabilities of occurring, and people are typically uninterested in taking those gambles, despite EVT suggesting they should. This was first demonstrated in a game called the St. Petersburg Paradox, described in box 9.4.1.
 
 :::fyi
 ##### St. Petersburg Paradox{-}
 A classic paradox dating back to 1713, the St. Petersburg Paradox, describes a game in which a fair coin is flipped repeatedly until it lands on heads, at which point the game ends. The number of times the coin was flipped (including the final heads) is the variable *k*, and the player wins $2^k$ dollars. How much would you be willing to pay to play this game? Most people are unwilling to pay more than ten dollars. However, you might notice that the expected value of this game is infinite, because hypothetically the coin could *never* land on heads, though it's incredibly unlikely. Needless to say, a game with infinite expected value that most people would not pay ten dollars for presents a problem for Expected Value Theory.
 :::
 
-**Expected Utility Theory**: Due to these issues, most modern theorists believe that Expected Utility Theory (EUT) is a better normative account of decision making. Under EUT, “utility” instead of “value” is multiplied by a probability. Utility is a more general term that refers to how subjectively good we believe an outcome to be, and “disutility” refers to how subjectively bad we believe an outcome to be. For example, if Knut hates to be caught in the rain, he might multiply the chance of rain, 20%, by how much disutility the rain gives him, perhaps -60 “utils” (negative because it’s disutility here). Utils are best thought of as a hypothetical measure of satisfaction with some outcome. Here, Knut’s expected utility from the rain is .2 x -60 utils = -12 utils. If Knut knew that packing his heavy umbrella gave him -20 utils, he would decide to forgo packing the umbrella because the expected disutility of carrying the heavy umbrella is more negative than the expected disutility of getting caught in the rain. EUT also accounts for the fact that people typically experience *diminishing marginal utility*. This is the observation that the utility of a gain is proportional to how much of that good you already have. For example, if you have $100 dollars and somebody gives you $5,000, you will experience much more gain in utility than if you have $100,000 and somebody gives you that same $5,000. Diminishing marginal utility helps resolve the issue with EVT demonstrated by the St. Petersburg Paradox because the extremely high potential values cease to be meaningful (if you have $100 billion, the next dollar you earn is meaningless).
+#### Expected Utility Theory {-}
+Due to these issues, most modern theorists believe that Expected Utility Theory (EUT) is a better normative account of decision making. Under EUT, “utility” instead of “value” is multiplied by a probability. Utility is a more general term that refers to how subjectively good we believe an outcome to be, and “disutility” refers to how subjectively bad we believe an outcome to be. If you hate being caught in the rain, you might multiply the chance of rain (20%) by how much disutility rain gives you (perhaps -60 utils). Your expected utility from rain would be .2 x -60 = -12 utils. If carrying a heavy umbrella gives you -20 utils, you'd decide to skip the umbrella. EUT also accounts for the fact that people typically experience *diminishing marginal utility*. This is the observation that the utility of a gain is proportional to how much of that good you already have. For example, if you have $100 dollars and somebody gives you $5,000, you will experience much more gain in utility than if you have $100,000 and somebody gives you that same $5,000. Diminishing marginal utility helps resolve the issue with EVT demonstrated by the St. Petersburg Paradox because the extremely high potential values cease to be meaningful (if you have $100 billion, the next dollar you earn is meaningless).
 
-**Prospect Theory**: By having participants in experiments report their willingness to play various gambles, Daniel Kahneman and Amos Tversky measured how people actually weigh value and probability, which they called Prospect Theory [@kahneman1979prospect]. The major findings of Prospect Theory (PT), called the probability weighting function and the value function, are shown in Figure \@ref(fig:prospect). The value function shows that, on average, people show diminishing marginal (dis)utility for large gains or large losses, and that losses typically have greater disutility than comparably sized gains have utility (hence the “kink” at zero). The probability weighting function shows that, on average, people tend to overweight small probabilities (i.e., behave as though they have higher probabilities than they actually do), and underweight large probabilities (i.e., behave as though they have lower probabilities than they actually do).
+#### Prospect Theory {-}
+By having participants in experiments report their willingness to play various gambles, Daniel Kahneman and Amos Tversky measured how people actually weigh value and probability, which they called Prospect Theory [@kahneman1979prospect]. The major findings of Prospect Theory (PT), called the probability weighting function and the value function, are shown in Figure \@ref(fig:prospect). The value function shows that, on average, people show diminishing marginal (dis)utility for large gains or large losses, and that losses typically have greater disutility than comparably sized gains have utility (hence the “kink” at zero). The probability weighting function shows that, on average, people tend to overweight small probabilities (i.e., behave as though they have higher probabilities than they actually do), and underweight large probabilities (i.e., behave as though they have lower probabilities than they actually do).
 
 ```{r prospect, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'a) value weighting function and b) probability weighting function, both from Prospect Theory. v(.) refers to subjective utility, and w(.) refers to subjective probability.'}
 knitr::include_graphics("images/ch9/fig7.png")
@@ -227,11 +228,13 @@ knitr::include_graphics("images/ch9/fig7.png")
 ### Constructed Preferences {-}
 Contrary to theorists’ claim that rational decision makers always have well-defined preferences, real-life decision makers tend to make different selections depending on how choices are presented to them. Two common examples of this are *default effects* and *framing effects*.
 
-**Default Effects**: The default effect refers to the tendency for decision makers to choose a pre-selected option, rather than select non-pre-selected options in a particular choice context. A classic example of this effect concerns organ donor rates across different countries. In some countries, such as Austria and France, citizens are enrolled to be organ donors by default. That is, unless a citizen actively selects to not be an organ donor, they will be presumed to be one. In other countries, such as the United States, citizens are presumed not to be organ donors unless they actively select to be one. In countries like Austria and France, organ donor rates are typically as high as 99% [@johnson2003defaults]. As of 2022, organ donor rates in the United States are approximately 54%. This large gap is partially due to the different default option in each country.
+#### Default Effects {-}
+The default effect refers to the tendency for decision makers to choose a pre-selected option, rather than select non-pre-selected options in a particular choice context. A classic example of this effect concerns organ donor rates across different countries. In some countries, such as Austria and France, citizens are enrolled to be organ donors by default. That is, unless a citizen actively selects to not be an organ donor, they will be presumed to be one. In other countries, such as the United States, citizens are presumed not to be organ donors unless they actively select to be one. In countries like Austria and France, organ donor rates are typically as high as 99% [@johnson2003defaults]. As of 2022, organ donor rates in the United States are approximately 54%. This large gap is partially due to the different default option in each country.
 
 Default effects are thought to occur for three main reasons [@dinner2011partitioning; @jachimowicz2019and]. First, people are sometimes inattentive when making selections [@choi2002defined]. Second, because people often perceive losses as worse than comparable gains (as discussed in the Prospect Theory section), the losses associated with switching away from a particular option may feel more significant than the gains associated with a new option. Finally, people often perceive defaults as implicit recommendations [@mckenzie2006recommendations]. 
 
-**Framing Effects**: Framing effects occur when logically equivalent descriptions of an option lead to different choices. There are a number of types of framing effects, with one of the simplest being attribute framing [@levin1998all]. For example, a doctor might describe that five years after undergoing a particular surgery, 90% of patients are still alive. A doctor could also describe that five years after that same surgery, 10% of patients had died, a logically equivalent description (one entails the other). In multiple experiments, people have been found to be much more willing to undergo riskier medical procedures when they are described in the “positive” frame (90%, here) than the “negative” frame (10%) [@mcneil1982elicitation; @wilson1987framing]. There is debate in the literature as to why framing effects occur, with varying perspectives on whether they are reasonable ways for decision makers to behave.
+#### Framing Effects{-}
+Framing effects occur when logically equivalent descriptions of an option lead to different choices. There are a number of types of framing effects, with one of the simplest being attribute framing [@levin1998all]. For example, a doctor might describe that five years after undergoing a particular surgery, 90% of patients are still alive. A doctor could also describe that five years after that same surgery, 10% of patients had died, a logically equivalent description (one entails the other). In multiple experiments, people have been found to be much more willing to undergo riskier medical procedures when they are described in the “positive” frame (90%, here) than the “negative” frame (10%) [@mcneil1982elicitation; @wilson1987framing]. There is debate in the literature as to why framing effects occur, with varying perspectives on whether they are reasonable ways for decision makers to behave.
 
 :::fyi
 ##### Are more options better? {-}

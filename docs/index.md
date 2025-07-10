@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Edited by Celeste Pilegard"
-date: "Current version rendered 2024-07-25"
+date: "Current version rendered 2025-07-10"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -10,7 +10,7 @@ url: https://pilegard.github.io/cogfoundations/
 favicon: images/favicon.ico
 cover-image: images/cover.png
 description: |
-  This is a an OER textbook for introduction to cognitive psychology.
+  Cognitive Foundations is a free, open, collaboratively-authored textbook. It is an introduction to cognitive psychology written at the foundational level. This collaborative OER book project represents the work of dozens of authors and collaborators. The first edition brought multiple open texts together, edited into a single book with a consistent voice and formatting. For the second edition, a team of content experts reviewed and updated the materials.
 link-citations: yes
 github-repo: pilegard/cogfoundations
 ---
@@ -26,7 +26,16 @@ Please use this [Google form](https://forms.gle/83CBvAgLuJshRfz37) to let us kno
 
 This book was formatted using [bookdown](https://bookdown.org/), an R package.
 
-ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024, permanently available at https://github.com/pilegard/cogfoundations/releases/tag/v2.0. The updated version of Cognitive Foundations is available at https://pilegard.github.io/cogfoundations/.
+You are viewing the current version of Cognitive Foundations with ongoing improvements since v2.0. This version of Cognitive Foundations is available at https://pilegard.github.io/cogfoundations/.
+
+ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024, permanently available at https://github.com/pilegard/cogfoundations/releases/tag/v2.0. 
+
+### Current Version {-}
+Revisions since second edition:
+- Revisions to Knowledge chapter by Bill Pepe
+- Revisions to History and Research Methods by C. Pilegard
+- Revisions to Reasoning and Decision Making by C. Pilegard
+- Revisions to all chapter intros by C. Pilegard
 
 ### Second Edition {-}
 The second edition of this book builds on the first edition with updates, improvements, and edits by a team of UC San Diego graduate student content experts:
@@ -106,6 +115,9 @@ Condensed from original; Example experiment under “Experimental research” ch
 #### Second edition {-}
 Paragraph on ongoing improvements to cognitive psychology added to Rise of Cognitive Psychology section. Example experiment under "Experimental Research" changed to Padilla et al. (2022).
 
+#### Current version {-}
+Edits to incorporate Mandler (2006).
+
 ### Chapter 2. Perception {-}
 #### First edition {-}
 Perception \
@@ -170,7 +182,7 @@ Cognitive Psychology by Mehgan Andrade and Neil Walker is licensed under a Creat
 #### Second edition {-}
 Revisions to first edition version: Simplified the differences between computers and brains. Additional section of the testing effect and an explanation of a possible mechanism. Addition of the spacing effect and the current mechanisms that we know contribute to it. Clarification of memory consolidation and its relation to sleep. Sleep does not cause more learning, it only reduces interference from other memories. Addition of targeted memory reactivation box during sleep, where it is possible to increase the memory strength during sleep. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
 
-Cover photo by Julian Dik on Unsplash.
+Cover photo by Tao Yuan on Unsplash.
 
 ### Chapter 6. Memory in Context {-}
 #### First edition {-}
@@ -212,6 +224,16 @@ Condensed from original version. American spellings used. Content added or chang
 
 Cover photo by Alli Elder on Unsplash.
 
+#### Current version {-}
+Revisions since second edition: Section 7.2 Theories of Concept Representation expanded with additional paragraph about Causal Model Theory. Section 7.4 Mental Models added, including overview of mental models and detailed discussion of theory of mind. Research focus box added to mental model section.
+
+Sources for new content:  
+Theory of Mind by [Author names]. (2019). In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from https://nobaproject.com/modules/theory-of-mind. 
+Theory of Mind by [Author names] is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+The following Wikipedia entries served as sources: Concept; Mental model; Theory of mind. Retrieved from http://www.en.wikipedia.org/
+Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
+
 ### Chapter 8. Language {-}
 #### First edition {-}
 Language\
@@ -242,7 +264,10 @@ Condensed from original version. American spellings used. Content added or chang
 #### Second edition {-}
 Revisions to first edition version: Sections 9.1 and 9.2 edited mostly for clarity, with subsection on confirmation bias edited for content as well. Section 9.3 on decision making entirely removed and rewritten from scratch, including new subsections on theories of decision making and constructed preferences.
 
-Cover photo by Qurratul Ayin Sadia on Unsplash.
+#### Current version
+Revisions since second edition: Prose re-written throughout to remove running example of Knut.
+
+Cover photo by Photo by Nathália Rosa on Unsplash.
 
 ### Chapter 10. Problem Solving {-}
 #### First edition {-}

@@ -48,15 +48,17 @@
 \makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
@@ -96,9 +98,6 @@
 \newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
@@ -110,7 +109,7 @@
 
 \title{Cognitive Foundations}
 \author{Edited by Celeste Pilegard}
-\date{Current version rendered 2024-07-25}
+\date{Current version rendered 2025-07-10}
 
 \begin{document}
 \maketitle
@@ -122,7 +121,7 @@
 \chapter*{About}\label{about}
 
 
-\includegraphics{images/cover.png}
+\pandocbounded{\includegraphics[keepaspectratio]{images/cover.png}}
 
 \section*{About the Book}\label{about-the-book}
 
@@ -133,7 +132,18 @@ Please use this \href{https://forms.gle/83CBvAgLuJshRfz37}{Google form} to let u
 
 This book was formatted using \href{https://bookdown.org/}{bookdown}, an R package.
 
-ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024, permanently available at \url{https://github.com/pilegard/cogfoundations/releases/tag/v2.0}. The updated version of Cognitive Foundations is available at \url{https://pilegard.github.io/cogfoundations/}.
+You are viewing the current version of Cognitive Foundations with ongoing improvements since v2.0. This version of Cognitive Foundations is available at \url{https://pilegard.github.io/cogfoundations/}.
+
+ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024, permanently available at \url{https://github.com/pilegard/cogfoundations/releases/tag/v2.0}.
+
+\subsection*{Current Version}\label{current-version}
+
+
+Revisions since second edition:
+- Revisions to Knowledge chapter by Bill Pepe
+- Revisions to History and Research Methods by C. Pilegard
+- Revisions to Reasoning and Decision Making by C. Pilegard
+- Revisions to all chapter intros by C. Pilegard
 
 \subsection*{Second Edition}\label{second-edition}
 
@@ -265,6 +275,11 @@ Condensed from original; Example experiment under ``Experimental research'' chan
 
 Paragraph on ongoing improvements to cognitive psychology added to Rise of Cognitive Psychology section. Example experiment under ``Experimental Research'' changed to Padilla et al.~(2022).
 
+\subsubsection*{Current version}\label{current-version-1}
+
+
+Edits to incorporate Mandler (2006).
+
 \subsection*{Chapter 2. Perception}\label{chapter-2.-perception}
 
 
@@ -353,7 +368,7 @@ Cognitive Psychology by Mehgan Andrade and Neil Walker is licensed under a Creat
 
 Revisions to first edition version: Simplified the differences between computers and brains. Additional section of the testing effect and an explanation of a possible mechanism. Addition of the spacing effect and the current mechanisms that we know contribute to it. Clarification of memory consolidation and its relation to sleep. Sleep does not cause more learning, it only reduces interference from other memories. Addition of targeted memory reactivation box during sleep, where it is possible to increase the memory strength during sleep. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
 
-Cover photo by Julian Dik on Unsplash.
+Cover photo by Tao Yuan on Unsplash.
 
 \subsection*{Chapter 6. Memory in Context}\label{chapter-6.-memory-in-context}
 
@@ -405,6 +420,18 @@ Condensed from original version. American spellings used. Content added or chang
 
 Cover photo by Alli Elder on Unsplash.
 
+\subsubsection*{Current version}\label{current-version-2}
+
+
+Revisions since second edition: Section 7.2 Theories of Concept Representation expanded with additional paragraph about Causal Model Theory. Section 7.4 Mental Models added, including overview of mental models and detailed discussion of theory of mind. Research focus box added to mental model section.
+
+Sources for new content:\\
+Theory of Mind by {[}Author names{]}. (2019). In R. Biswas-Diener \& E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from \url{https://nobaproject.com/modules/theory-of-mind}.
+Theory of Mind by {[}Author names{]} is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+The following Wikipedia entries served as sources: Concept; Mental model; Theory of mind. Retrieved from \url{http://www.en.wikipedia.org/}
+Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
+
 \subsection*{Chapter 8. Language}\label{chapter-8.-language}
 
 
@@ -447,7 +474,11 @@ Condensed from original version. American spellings used. Content added or chang
 
 Revisions to first edition version: Sections 9.1 and 9.2 edited mostly for clarity, with subsection on confirmation bias edited for content as well. Section 9.3 on decision making entirely removed and rewritten from scratch, including new subsections on theories of decision making and constructed preferences.
 
-Cover photo by Qurratul Ayin Sadia on Unsplash.
+\subsubsection{Current version}\label{current-version-3}
+
+Revisions since second edition: Prose re-written throughout to remove running example of Knut.
+
+Cover photo by Photo by Nathália Rosa on Unsplash.
 
 \subsection*{Chapter 10. Problem Solving}\label{chapter-10.-problem-solving}
 
@@ -512,7 +543,7 @@ Precursors to American psychology can be found in philosophy and physiology. Phi
 \caption{The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)}\label{fig:pharoah}
 \end{figure}
 
-\subsection*{Analytic introspection}\label{analytic-introspection}
+\subsection*{Experimental Psychology's Foundations}\label{experimental-psychologys-foundations}
 
 
 The formal development of modern psychology is usually credited to the work of German physician, physiologist, and philosopher Wilhelm Wundt (1832--1920). Wundt helped to establish the field of experimental psychology by serving as a strong promoter of the idea that psychology could be an experimental field and by providing classes, textbooks, and a laboratory for training students. In 1875, he joined the faculty at the University of Leipzig and quickly began to make plans for the creation of a program of experimental psychology. In 1879, he complemented his lectures on experimental psychology with a laboratory experience: an event that has served as the popular date for the establishment of the science of psychology.
@@ -526,25 +557,31 @@ The formal development of modern psychology is usually credited to the work of G
 \caption{Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)}\label{fig:wundt}
 \end{figure}
 
-The response to the new science was immediate and global. Wundt attracted students from around the world to study the new experimental psychology and work in his lab. Students were trained to offer detailed self-reports of their reactions to various stimuli, a procedure known as \hyperref[introspection]{introspection}. The goal was to identify the elements of \hyperref[consciousness]{consciousness}. In addition to the study of sensation and perception, research was done on mental chronometry, more commonly known as reaction time. The work of Wundt and his students demonstrated that the mind could be measured and the nature of consciousness could be revealed through scientific means. It was an exciting proposition, and one that found great interest in America. After the opening of Wundt's lab in 1879, it took just four years for the first psychology laboratory to open in the United States (\citeproc{ref-benjamin2007}{L. T. Benjamin, 2007}).
+The response to the new science was immediate and global. Wundt attracted students from around the world to study the new experimental psychology and work in his lab. Wundt's experimental methods involved carefully controlled procedures for studying basic mental processes like sensation, perception, and reaction time. Rather than relying on casual self-observation, Wundt developed systematic experimental procedures under controlled laboratory conditions, often involving precise timing and reproducible measurements. Importantly, Wundt believed that his experimental methods could only be used to study basic psychological processes. For more complex mental functions like language, culture, and reasoning, he said psychologists needed to use entirely different approaches through what he called ``Völkerpsychologie'' (folk psychology), which involved studying history and culture rather than doing laboratory experiments (\citeproc{ref-mandler2006}{Mandler, 2006}).
+
+The work of Wundt and his students demonstrated that the mind could be measured and the nature of consciousness could be revealed through scientific means. It was an exciting proposition, and one that found great interest in America. After the opening of Wundt's lab in 1879, it took just four years for the first psychology laboratory to open in the United States (\citeproc{ref-benjamin2007}{L. T. Benjamin, 2007}). When experimental psychology came to America, it was significantly transformed by Edward Titchener (1867-1927), who had studied briefly with Wundt but developed quite different ideas about how psychology should work. At Cornell University, Titchener's method, which came to be known as \hyperref[analytic-introspection]{analytic introspection}, involved training participants to carefully examine their own conscious experiences and break them down into basic parts like sensations, images, and feelings. If you've previously read about Wundt as the originator of this kind of research, you're not alone. As Mandler (\citeproc{ref-mandler2006}{2006}) notes, ``Titchener is primarily responsible for the identification of Wundt with a dreary psychology concerned with `introspecting' the contents of mind,'' which led to lasting confusion about what the founders of experimental psychology actually did.
+
+While Wundt focused on basic sensory processes, other researchers began investigating higher mental processes that would later become central to cognitive psychology. Hermann Ebbinghaus (1850-1909) was the first to bring the experimental method to the study of human memory. Working alone in his laboratory, Ebbinghaus memorized lists of nonsense syllables (like ``DAX'' or ``GEK'') and then tested how much he could remember after different time delays. His famous ``forgetting curve'' showed that we lose information rapidly at first, then more slowly over time---a finding that remains important in cognitive psychology today.
 
 \subsection*{The Growth of Psychology}\label{the-growth-of-psychology}
 
 
-Throughout the first half of the 20th century, psychology continued to grow and flourish in America. It was large enough to accommodate varying points of view on the nature of mind and behavior. Gestalt psychology is a good example. The Gestalt movement began in Germany with the work of Max Wertheimer (1880--1943). Opposed to the reductionist approach of Wundt's laboratory psychology, Wertheimer and his colleagues Kurt Koffka (1886--1941), Wolfgang Kohler (1887--1967), and Kurt Lewin (1890--1947) believed that studying the whole of any experience was richer than studying individual aspects of that experience. The saying ``the whole is greater than the sum of its parts'' is a Gestalt perspective. Consider that a melody is an additional element beyond the collection of notes that comprise it. The Gestalt psychologists proposed that the mind often processes information simultaneously rather than sequentially. For instance, when you look at a photograph, you see a whole image, not just a collection of pixels of color. Using Gestalt principles, Wertheimer and his colleagues also explored the nature of learning and thinking. Most of the German Gestalt psychologists were Jewish and were forced to flee the Nazi regime due to the threats posed on both academic and personal freedoms. In America, they were able to introduce a new audience to the Gestalt perspective, demonstrating how it could be applied to perception and learning (\citeproc{ref-wertheimer1938}{Wertheimer, 1938}). In many ways, the work of the Gestalt psychologists served as a precursor to the rise of cognitive psychology in America (\citeproc{ref-benjamin2007}{L. T. Benjamin, 2007}).
+Throughout the first half of the 20th century, psychology continued to grow and flourish. It was large enough to accommodate varying points of view on the nature of mind and behavior. Gestalt psychology is a good example. The Gestalt movement began in Germany with the work of Max Wertheimer (1880--1943). The Gestalt psychologists opposed the elementalistic approach they saw in some forms of experimental psychology, particularly the attempt to break consciousness down into basic components. Wertheimer and his colleagues Kurt Koffka (1886--1941), Wolfgang Kohler (1887--1967), and Kurt Lewin (1890--1947) believed that studying the whole of any experience was richer than studying individual aspects of that experience. The saying ``the whole is greater than the sum of its parts'' is a Gestalt perspective. Consider that a melody is an additional element beyond the collection of notes that comprise it. The Gestalt psychologists proposed that the mind often processes information simultaneously rather than sequentially. For instance, when you look at a photograph, you see a whole image, not just a collection of pixels of color. Using Gestalt principles, Wertheimer and his colleagues also explored the nature of learning and thinking. Most of the German Gestalt psychologists were Jewish and were forced to flee the Nazi regime due to the threats posed on both academic and personal freedoms. In America, they were able to introduce a new audience to the Gestalt perspective, demonstrating how it could be applied to perception and learning (\citeproc{ref-wertheimer1938}{Wertheimer, 1938}). In many ways, the work of the Gestalt psychologists served as a precursor to the rise of cognitive psychology in America (\citeproc{ref-benjamin2007}{L. T. Benjamin, 2007}).
 
-Behaviorism emerged early in the 20th century and became a major force in American psychology. Championed by psychologists such as John B. Watson (1878--1958) and B. F. Skinner (1904--1990), behaviorism rejected any reference to mind and viewed overt and observable behavior as the proper subject matter of psychology. Through the scientific study of behavior, it was hoped that laws of learning could be derived that would promote the prediction and control of behavior. Russian physiologist Ivan Pavlov (1849--1936) influenced early behaviorism in America. His work on conditioned learning, popularly referred to as classical conditioning, provided support for the notion that learning and behavior were controlled by events in the environment and could be explained with no reference to mind or consciousness (\citeproc{ref-fancher1987}{Fancher, 1987}).
+\hyperref[behaviorism]{Behaviorism} emerged early in the 20th century and became a major force in American psychology. Championed by psychologists such as John B. Watson (1878--1958) and B. F. Skinner (1904--1990), behaviorism rejected any reference to mind and viewed overt and observable behavior as the proper subject matter of psychology. Watson's behaviorist critique was primarily directed at the introspective methods that had become popular in American psychology, particularly Titchener's analytic introspection (\citeproc{ref-mandler2006}{Mandler, 2006}). Watson argued that asking people to give detailed reports about their thoughts and feelings was unreliable and unscientific. Through the scientific study of behavior, it was hoped that laws of learning could be derived that would promote the prediction and control of behavior. Russian physiologist Ivan Pavlov (1849--1936) influenced early behaviorism in America. His work on conditioned learning, popularly referred to as classical conditioning, provided support for the notion that learning and behavior were controlled by events in the environment and could be explained with no reference to mind or \hyperref[consciousness]{consciousness} (\citeproc{ref-fancher1987}{Fancher, 1987}).
 
 \subsection*{Cognitive Revolution}\label{cognitive-revolution}
 
 
-Behaviorism's emphasis on objectivity and focus on external behavior had pulled psychologists' attention away from the mind for a prolonged period of time. The early work of the humanistic psychologists redirected attention to the individual human as a whole, and as a conscious and self-aware being. By the 1950s, new disciplinary perspectives in linguistics, neuroscience, and computer science were emerging, and these areas revived interest in the mind as a focus of scientific inquiry. This particular perspective has come to be known as the cognitive revolution (\citeproc{ref-miller2003}{Miller, 2003}). By 1967, Ulric Neisser published the first textbook entitled Cognitive Psychology, which served as a core text in cognitive psychology courses around the country (\citeproc{ref-henley2005lost}{Henley \& Thorne, 2005}). Cognitive psychology is the study of mental processes such as attention, memory, perception, language use, problem solving, creativity, and thinking. Much of the work derived from cognitive psychology has been integrated into various other modern disciplines of psychological study including social psychology, personality psychology, abnormal psychology, developmental psychology, educational psychology, and economics.
+Behaviorism's emphasis on objectivity and focus on external behavior had pulled psychologists' attention away from the mind for a prolonged period of time. The early work of the humanistic psychologists redirected attention to the individual human as a whole, and as a conscious and self-aware being. By the 1950s, new disciplinary perspectives in linguistics, neuroscience, and computer science were emerging, and these areas revived interest in the mind as a focus of scientific inquiry. This particular perspective has come to be known as the \hyperref[cognitive-revolution]{cognitive revolution} (\citeproc{ref-miller2003}{Miller, 2003}).
 
-Although no one person is entirely responsible for starting the cognitive revolution, Noam Chomsky was very influential in the early days of this movement. Chomsky (1928--), an American linguist, was dissatisfied with the influence that behaviorism had had on psychology. He believed that psychology's focus on behavior was short-sighted and that the field had to re-incorporate mental functioning into its purview if it were to offer any meaningful contributions to understanding behavior (\citeproc{ref-miller2003}{Miller, 2003}).
+The cognitive revolution was sparked by several key developments. First, the invention of computers provided a new metaphor for understanding the mind as an \hyperref[information-processing]{information processing} system. Second, researchers began finding evidence for mental processes that behaviorism couldn't explain. For example, Edward Tolman's experiments with rats in mazes showed that animals form ``cognitive maps'' -- mental representations of their environment -- rather than just learning simple stimulus-response associations (\citeproc{ref-tolman1948cognitive}{Tolman, 1948}). Third, Noam Chomsky, and American linguist, showed that children learn language in ways that behaviorist principles couldn't explain, suggesting the mind has built-in structures for processing information (\citeproc{ref-chomsky1959}{Chomsky, 1959}). Chomsky believed that psychology's focus on behavior was short-sighted and that the field had to re-incorporate mental functioning into its purview if it were to offer any meaningful contributions to understanding behavior (\citeproc{ref-miller2003}{Miller, 2003}).
 
-European psychology had never really been as influenced by behaviorism as had American psychology; and thus, the cognitive revolution helped reestablish lines of communication between European psychologists and their American counterparts. Furthermore, psychologists began to cooperate with scientists in other fields, like anthropology, linguistics, computer science, and neuroscience, among others. This interdisciplinary approach often was referred to as the cognitive sciences, and the influence and prominence of this particular perspective resonates in modern-day psychology (\citeproc{ref-miller2003}{Miller, 2003}).
+By 1967, Ulric Neisser published the first textbook entitled \emph{Cognitive Psychology}, which served as a core text in cognitive psychology courses around the country (\citeproc{ref-henley2005lost}{Henley \& Thorne, 2005}). Neisser defined \hyperref[cognitive-psychology]{cognitive psychology} as the study of how people encode, store, and retrieve information, outlining the key areas that would define the field: attention, perception, memory, language, and thinking (\citeproc{ref-neisser1967}{Neisser, 1967}). Cognitive psychology differs from earlier approaches in several important ways: it focuses on mental processes rather than just observable behavior, uses the information processing approach to model how the mind works, and studies complex everyday mental activities like reading and problem-solving. Much of the work derived from cognitive psychology has been integrated into various other modern disciplines of psychological study including social psychology, personality psychology, abnormal psychology, developmental psychology, educational psychology, and economics.
 
-The field of cognitive psychology continues to grow and improve; for example, researchers such as Ayanna Thomas are working to confront a foundational assumption in cognitive psychology, shaped by a history of scientific racism, that cognition can be understood without respect to context and culture (\citeproc{ref-thomas2023color}{Thomas et al., 2023}). As new generations of cognitive psychologists enter the field, our understanding of the human mind will continue to improve. As philosopher of science Naomi Oreskes explains, ``How is it that science is self-correcting? --- It is not so much that science corrects itself, but that scientists correct each other'' (\citeproc{ref-oreskes2019trust}{Oreskes, 2019, p. 51}). According to Lee McIntyre, scientists accomplish this by ``a commitment to two principles: (1) We care about empirical evidence. (2) We are willing to change our theories in light of new evidence'' (\citeproc{ref-mcintyre2019scientific}{McIntyre, 2019, pp. 47--48}). Throughout this book you will see examples of how our scientific understanding of the mind has evolved over time; indeed, future editions of this textbook will surely update our current knowledge as new evidence emerges through scientific inquiry. Next, we will look at the research methods psychologists use to ask questions about the world.
+European psychology had never really been as influenced by behaviorism as had American psychology (\citeproc{ref-mandler2006}{Mandler, 2006}); and thus, the cognitive revolution helped reestablish lines of communication between European psychologists and their American counterparts. Furthermore, psychologists began to cooperate with scientists in other fields, like anthropology, linguistics, computer science, and neuroscience, among others. This interdisciplinary approach often was referred to as the cognitive sciences, and the influence and prominence of this particular perspective resonates in modern-day psychology (\citeproc{ref-miller2003}{Miller, 2003}).
+
+The field of cognitive psychology continues to grow and improve, as modern researchers continue to challenge assumptions within cognitive psychology itself. For example, researchers such as Ayanna Thomas are working to confront a foundational assumption in cognitive psychology, shaped by a history of scientific racism, that cognition can be understood without considering context and culture (\citeproc{ref-thomas2023color}{A. K. Thomas et al., 2023}). As new generations of cognitive psychologists enter the field, our understanding of the human mind will continue to improve. As philosopher of science Naomi Oreskes explains, ``How is it that science is self-correcting? --- It is not so much that science corrects itself, but that scientists correct each other'' (\citeproc{ref-oreskes2019trust}{Oreskes, 2019, p. 51}). According to Lee McIntyre, scientists accomplish this by ``a commitment to two principles: (1) We care about empirical evidence. (2) We are willing to change our theories in light of new evidence'' (\citeproc{ref-mcintyre2019scientific}{McIntyre, 2019, pp. 47--48}). Throughout this book you will see examples of how our scientific understanding of the mind has evolved over time; indeed, future editions of this textbook will surely update our current knowledge as new evidence emerges through scientific inquiry. Next, we will look at the research methods psychologists use to ask questions about the world.
 
 \section{Research Methods in Psychology}\label{research-methods-in-psychology}
 
@@ -555,7 +592,7 @@ Most psychological research can be divided into two types: experimental and corr
 \subsection*{Experimental Research}\label{experimental-research}
 
 
-Imagine you work for a state health authority during the COVID-19 pandemic. You want to create a graph that will visualize COVID-19 mortality data in order to help people make judgments about pandemic risks. You have can choose between two ways to display the same information: you can create a graph that shows how many people have died each week from COVID-19 during the pandemic, or you can create a graph that shows, \emph{cumulatively}, how many people have died from COVID-19 over the same time period (Figure \ref{fig:covid}). Which method of displaying information will help people understand their risk? As long as you're giving people the information, does it really matter?
+Imagine you work for a state health authority during the COVID-19 pandemic. You want to create a graph that will visualize COVID-19 mortality data in order to help people make judgments about pandemic risks. You can choose between two ways to display the same information: you can create a graph that shows how many people have died each week from COVID-19 during the pandemic, or you can create a graph that shows, \emph{cumulatively}, how many people have died from COVID-19 over the same time period (Figure \ref{fig:covid}). Which method of displaying information will help people understand their risk? As long as you're giving people the information, does it really matter?
 
 \begin{figure}
 
@@ -684,10 +721,25 @@ Beyond these practical concerns, another consideration in selecting a research d
 
 \section{Glossary}\label{glossary}
 
+\paragraph*{analytic introspection}\label{analytic-introspection}
+\addcontentsline{toc}{paragraph}{analytic introspection}
+
+A method that involved training participants to carefully examine their own conscious experiences and break them down into basic elements like sensations, images, and feelings.
+
 \paragraph*{behaviorism}\label{behaviorism}
 \addcontentsline{toc}{paragraph}{behaviorism}
 
 The study of behavior.
+
+\paragraph*{cognitive psychology}\label{cognitive-psychology}
+\addcontentsline{toc}{paragraph}{cognitive psychology}
+
+The study of how people encode, store, and retrieve information, including mental processes such as attention, memory, perception, language use, problem solving, creativity, and thinking.
+
+\paragraph*{cognitive revolution}\label{cognitive-revolution-1}
+\addcontentsline{toc}{paragraph}{cognitive revolution}
+
+The movement in psychology beginning in the 1950s that revived interest in the mind as a focus of scientific inquiry, sparked by developments in linguistics, neuroscience, and computer science.
 
 \paragraph*{confounds}\label{confounds}
 \addcontentsline{toc}{paragraph}{confounds}
@@ -724,10 +776,10 @@ When the experimenter's expectations influence the outcome of a study.
 
 The variable the researcher manipulates and controls in an experiment.
 
-\paragraph*{introspection}\label{introspection}
-\addcontentsline{toc}{paragraph}{introspection}
+\paragraph*{information processing}\label{information-processing}
+\addcontentsline{toc}{paragraph}{information processing}
 
-A method of focusing on internal processes.
+The cognitive approach that treats the mind like a computer system that takes in information, processes it, and produces output.
 
 \paragraph*{longitudinal study}\label{longitudinal-study}
 \addcontentsline{toc}{paragraph}{longitudinal study}
@@ -754,11 +806,18 @@ An experiment that does not require random assignment to conditions.
 
 Assigning participants to receive different conditions of an experiment by chance.
 
+\paragraph*{structural psychology}\label{structural-psychology}
+\addcontentsline{toc}{paragraph}{structural psychology}
+
+Titchener's approach to psychology that involved training participants to carefully examine their own conscious experiences and break them down into basic parts like sensations, images, and feelings.
+
 \chapter{Perception}\label{perception}
 
 \begin{center}\includegraphics[width=1\linewidth]{images/ch2/intro} \end{center}
 
-The study of sensation and perception is exceedingly important for our everyday lives because the knowledge generated by psychologists is used in so many ways to help so many people. Psychologists work closely with mechanical and electrical engineers, with experts in defense and military contractors, and with clinical, health, and sports psychologists to help them apply this knowledge to their everyday practices.
+Right now, as you read these words, your brain is performing an extraordinary feat. Light waves bouncing off this page are hitting your eyes, but somehow you're not seeing meaningless patterns of black marks; you're seeing letters, words, and ideas. Your perceptual system takes fragmented, upside-down, constantly shifting sensory information and transforms it into a coherent, meaningful experience of the world. Perception isn't just passive reception of information; it's an active process of interpretation and construction.
+
+Understanding how perception works isn't just interesting -- it's practical. This knowledge helps engineers design safer cars, assists doctors in reading medical scans more accurately, and enables technology companies to create better user interfaces. But perhaps most importantly, studying perception reveals something profound about human experience: the world you perceive isn't simply ``out there'' -- it's actively constructed by your brain.
 
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-1}
 \addcontentsline{toc}{paragraph}{LEARNING OBJECTIVES}
@@ -845,10 +904,10 @@ An important binocular depth cue is \hyperref[convergence]{convergence}, the inw
 Although the best cues to depth occur when both eyes work together, we are able to see depth even with one eye closed. \hyperref[monocular-depth-cues]{Monocular depth cues} are depth cues that help us perceive depth using only one eye (\citeproc{ref-Sekuler2006}{Sekuler \& Blake, 2006}). Some of the most important cues are summarized in Table \ref{tab:monocular}.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
 \caption{\label{tab:monocular} Monocular Depth Cues That Help Us Judge Depth at a Distance.}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
@@ -876,12 +935,12 @@ Image
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Position & We tend to see objects higher up in our field of vision as farther away. & The fence posts at right appear farther away not only because they become smaller but also because they appear higher up in the picture. & \includegraphics{images/ch2/depth1.jpg} \\
-Relative size & Assuming that the objects in a scene are the same size, smaller objects are perceived as father away. & at right, the cars in the distance appear smaller than those nearer to us. & \includegraphics{images/ch2/depth2.jpg} \\
-Linear perspective & Parallel lines appear to converge at a distance. & We know that the tracks at right are parallel. When they appear closer together, we determine they are farther away. & \includegraphics{images/ch2/depth3.jpg} \\
-Light and shadow & The eye receives more reflected light from objects that are closer to us. Normally, light comes from above, so darker images are in shadow. & We see the images at right as extending and indented according to their shadowing. If we invert the picture, the images will reverse. & \includegraphics{images/ch2/depth4.jpg} \\
-Interposition & When one object overlaps another object, we view it as closer. & At right, because the blue star covers the pink bar, it is seen as closer than the yellow moon. & \includegraphics{images/ch2/depth5.jpg} \\
-Aerial perspective & Objects that appear hazy, or that are covered with smog or dust, appear farther away. & The artist who pained the picture on the right used aerial perspective to make the clouds more hazy and this appear farther away. & \includegraphics{images/ch2/depth6.jpg} \\
+Position & We tend to see objects higher up in our field of vision as farther away. & The fence posts at right appear farther away not only because they become smaller but also because they appear higher up in the picture. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth1.jpg}} \\
+Relative size & Assuming that the objects in a scene are the same size, smaller objects are perceived as father away. & at right, the cars in the distance appear smaller than those nearer to us. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth2.jpg}} \\
+Linear perspective & Parallel lines appear to converge at a distance. & We know that the tracks at right are parallel. When they appear closer together, we determine they are farther away. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth3.jpg}} \\
+Light and shadow & The eye receives more reflected light from objects that are closer to us. Normally, light comes from above, so darker images are in shadow. & We see the images at right as extending and indented according to their shadowing. If we invert the picture, the images will reverse. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth4.jpg}} \\
+Interposition & When one object overlaps another object, we view it as closer. & At right, because the blue star covers the pink bar, it is seen as closer than the yellow moon. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth5.jpg}} \\
+Aerial perspective & Objects that appear hazy, or that are covered with smog or dust, appear farther away. & The artist who pained the picture on the right used aerial perspective to make the clouds more hazy and this appear farther away. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth6.jpg}} \\
 \end{longtable}
 
 \subsection*{Perceiving Form}\label{perceiving-form}
@@ -890,10 +949,10 @@ Aerial perspective & Objects that appear hazy, or that are covered with smog or 
 One of the important functions of the visual system is the perception of form. German psychologists in the 1930s and 1940s, including Max Wertheimer (1880-1943), Kurt Koffka (1886-1941), and Wolfgang Köhler (1887-1967), argued that we create forms out of their component sensations based on the idea of the \emph{\hyperref[gestalt]{gestalt}}, a meaningfully organized whole. The idea of the gestalt is that the ``whole is more than the sum of its parts.'' Some examples of how gestalt principles lead us to see more than what is actually there are summarized in Table \ref{tab:gestalt}.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3889}}
-  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1944}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3889}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1944}}@{}}
 \caption{\label{tab:gestalt} Summary of Gestalt Principles of Form Perception}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
@@ -921,11 +980,11 @@ Image
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Figure and ground & We structure input so that we always see a figure (image) against a ground (background). & At right, you may see a vase or you may see two faces, but in either case, you will organize the image as a figure against a ground. & \includegraphics{images/ch2/gestalt1.jpg} \\
-Similarity & Stimuli that are similar to each other tend to be grouped together. & You are more likely to see three similar columns among the XYX characters at right than you are to see four rows. & \includegraphics{images/ch2/gestalt2.jpg} \\
-Proximity & We tend to group nearby figures together. & Do you see four or eight images at right? Principles of proximity suggest that you might see only four. & \includegraphics{images/ch2/gestalt3.jpg} \\
-Continuity & We tend to perceive stimuli in smooth, continuous ways rather than in more discontinuous ways. & At right, most people see a line of dots that moves from the lower left to the upper right, rather than a line that moves from the left and then suddenly turns down. The principle of continuity leads us to see most lines as following the smoothest possible path. & \includegraphics{images/ch2/gestalt4.jpg} \\
-Closure & We tend to fill in gaps in an incomplete image to create a complete, whole object. & Closure leads us to see a single spherical object at right rather than a set of unrelated cones. & \includegraphics{images/ch2/gestalt5.jpg} \\
+Figure and ground & We structure input so that we always see a figure (image) against a ground (background). & At right, you may see a vase or you may see two faces, but in either case, you will organize the image as a figure against a ground. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt1.jpg}} \\
+Similarity & Stimuli that are similar to each other tend to be grouped together. & You are more likely to see three similar columns among the XYX characters at right than you are to see four rows. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt2.jpg}} \\
+Proximity & We tend to group nearby figures together. & Do you see four or eight images at right? Principles of proximity suggest that you might see only four. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt3.jpg}} \\
+Continuity & We tend to perceive stimuli in smooth, continuous ways rather than in more discontinuous ways. & At right, most people see a line of dots that moves from the lower left to the upper right, rather than a line that moves from the left and then suddenly turns down. The principle of continuity leads us to see most lines as following the smoothest possible path. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt4.jpg}} \\
+Closure & We tend to fill in gaps in an incomplete image to create a complete, whole object. & Closure leads us to see a single spherical object at right rather than a set of unrelated cones. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt5.jpg}} \\
 \end{longtable}
 
 \section{Perception: Information Integration}\label{perception-information-integration}
@@ -1211,7 +1270,11 @@ The conversion of light detected by receptor cells to electrical impulses that a
 
 \begin{center}\includegraphics[width=1\linewidth]{images/3_attention/attnhead} \end{center}
 
-We use the term ``attention`` all the time, but what processes or abilities does that concept really refer to? This chapter will focus on how attention allows us to select certain parts of our environment and ignore other parts, and how effectively we can control our attentional resources. A key concept is the idea that we are limited in how much we can do at any one time. So we will also consider what happens when someone tries to do several things at once, such as driving while using electronic devices.
+Picture yourself driving down a highway. Cars are rushing past, music is playing, your passenger is talking, your phone might be buzzing with notifications, yet somehow you're able to focus on the road ahead while filtering out most of the chaos around you. This ability to focus on what matters while ignoring distractions is attention in action.
+
+But attention is more than simply ``paying attention.'' It's a collection of mental processes that determine what gets into your awareness and what gets filtered out. Right now, as you read this, you're probably not thinking about the feeling of your clothes against your skin, the sounds outside your window, or the temperature of the room\ldots{} until now. Attention acts like a spotlight, illuminating some information while leaving the rest in darkness.
+
+The catch? Your spotlight has limitations. Try to focus on too many things at once, and performance suffers. This is why texting while driving is dangerous, why studying with the TV on is ineffective, and why even hands-free phone conversations can impair driving. Understanding attention isn't just about improving focus; it's about recognizing the constraints of human consciousness and learning to work within them.
 
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-2}
 \addcontentsline{toc}{paragraph}{LEARNING OBJECTIVES}
@@ -1495,7 +1558,11 @@ The ability to process information for meaning when the individual is not consci
 
 \begin{center}\includegraphics[width=1\linewidth]{images/ch4/fig0} \end{center}
 
-Working memory is like your mind's workspace: a limited capacity system for storage and processing of information. Have you ever noticed that it's hard to understand someone if they throw too much information at you at once? That experience of confusion when receiving more information than we can process is called \emph{working memory overload}. But working memory does more than simply hold information, it also processes and manipulates whatever information you're currently thinking about. In fact, the name scientists use for the system changed over time from ``short-term memory'' to ``working memory'' to emphasize the processing function of this stage of memory.
+Imagine trying to work at a cluttered desk. You can probably handle a few papers, maybe your glasses and a pen, but add too many items and suddenly you can't find anything or get any work done. Your working memory operates much the same way: it's your mind's workspace, a limited capacity system for temporarily holding and manipulating information.
+
+Have you ever tried to do mental math while someone is talking to you? Or attempted to remember a phone number while walking through a noisy room? That feeling of mental overload happens because working memory can only juggle a few pieces of information at once. Unlike a computer's memory that simply stores data, your working memory actively processes and manipulates whatever you're currently thinking about: comparing, combining, and transforming information in real time.
+
+Scientists originally called this system ``short-term memory,'' but they later adopted ``working memory'' to emphasize that it does much more than just briefly store information. It's where your conscious thinking happens, making it one of the most important cognitive systems you possess.
 
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-3}
 \addcontentsline{toc}{paragraph}{LEARNING OBJECTIVES}
@@ -1706,9 +1773,13 @@ A function of the brain that allows us to actively hold and manipulate a limited
 
 \chapter{Long-term Memory}\label{long-term-memory-chapter}
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch5/fig0} \end{center}
+\begin{center}\includegraphics[width=1\linewidth]{images/ch5/bike} \end{center}
 
-Our memories allow us to do relatively simple things, such as remembering where we parked our car or the name of the current governor of California, but also allow us to form complex memories, such as how to ride a bicycle or to write a computer program. Moreover, our memories define us as individuals --- they are our experiences, our relationships, our successes, and our failures. Without your memories, would you still be you?
+Think about everything you might know about bicycles. If you ride a bike, you know how to balance, pedal, and steer: skills that come back automatically even after years. You might recall your first time learning to ride, perhaps with a parent running alongside you in a park. You know what bicycles look like, that they have two wheels and handlebars, and you can recognize different types like mountain bikes or beach cruisers. If you own a bike, you might remember where you last parked your bike, which routes you've taken to class, and maybe even the price you paid for it. You might recall the word ``bicycle'' in multiple languages, or know that the Tour de France is a famous bicycle race.
+
+This simple example reveals the remarkable complexity of long-term memory. Your bicycle knowledge isn't stored as a single memory but as multiple, interconnected memory systems. Some memories guide your actions (riding skills), others preserve your personal experiences (learning to ride), and still others store facts and concepts (what bicycles are). These different types of long-term memory work together seamlessly, allowing you to navigate both familiar and novel situations involving bicycles.
+
+And of course, we remember far more than bicycles. Our long-term memory systems allow us to do everything from recalling your WiFi password to writing computer programs, from recognizing faces to playing musical instruments. Moreover, our memories define us as individuals: they are our experiences, our relationships, our successes, and our failures. Without your memories, would you still be you?
 
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-4}
 \addcontentsline{toc}{paragraph}{LEARNING OBJECTIVES}
@@ -2061,7 +2132,9 @@ memory is best when the type of cognitive processing at recall matches the type 
 
 \begin{center}\includegraphics[width=1\linewidth]{images/ch6/fig0} \end{center}
 
-As we have seen, our memories are not perfect. They fail in part due to our inadequate encoding and storage, and in part due to our inability to accurately retrieve stored information. But memory is also influenced by the setting in which it occurs, by the events that occur to us after we have experienced an event, and by the cognitive processes that we use to help us remember. Although our cognition allows us to attend to, rehearse, and organize information, cognition may also lead to distortions and errors in our judgments and our behaviors.
+As we have seen, our memories are not perfect. Memory doesn't work like a video recording that captures events exactly as they happened. Instead, memory is influenced by where you are when you remember, what happens to you after the original event, and how your mind tries to make sense of it all. Every time you recall something, you're not just retrieving information -- you're reconstructing it.
+
+This reconstruction process is both a strength and a weakness. It allows you to fill in gaps and make sense of incomplete information, but it also opens the door to distortions and errors. The same cognitive processes that help you organize and remember information can also lead you astray, creating memories that feel real but never actually happened. Understanding how context shapes memory helps explain not just why we forget, but why we sometimes ``remember'' things that never occurred.
 
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-5}
 \addcontentsline{toc}{paragraph}{LEARNING OBJECTIVES}
@@ -2207,9 +2280,9 @@ In the decades-long quest to better understand eyewitness reliability, it was di
 It's worth noting that most of the conversation about eyewitness reliability has been focused on facial recognition because misidentifications (i.e., recognizing an innocent suspect as the perpetrator) are largely what lead to the incarceration of innocent people. However, there is another type of memory test that is different from recognition, called recall. Recall refers to a witness searching their memory to retrieve relevant information. Most of the studies investigating false memories are experiments that used recall tasks to investigate memory. When police ask witnesses to describe the crime or the perpetrator's appearance, that is also recall. Similar to studies on recognition memory, recall studies also show a strong confidence-accuracy relationship as well (\citeproc{ref-wixted2018rethinking}{Wixted et al., 2018}). See Table \ref{tab:recallrecognition} for the key distinctions between recall and recognition.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1579}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4211}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4211}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1579}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4211}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4211}}@{}}
 \caption{\label{tab:recallrecognition} Recall vs.~Recognition}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
@@ -2364,7 +2437,11 @@ Attitude change that occurs over time when we forget the source of information
 
 \begin{center}\includegraphics[width=1\linewidth]{images/ch7/cover-penguins} \end{center}
 
-People form mental concepts of categories of objects, which permit them to respond appropriately to new objects they encounter. Most concepts cannot be strictly defined but are organized around the ``best'' examples or prototypes, which have the properties most common in the category. Objects fall into many different categories, but there is usually a most salient one, called the \hyperref[basic-level-category]{basic-level category}, which is at an intermediate level of specificity (e.g., chairs, rather than furniture or desk chairs). Concepts are closely related to our knowledge of the world, and people can more easily learn concepts that are consistent with their knowledge. Theories of concepts argue either that people learn a summary description of a whole category or else that they learn exemplars of the category.
+People form mental concepts of categories of objects, which permit them to respond appropriately to new objects they encounter. When you see a new type of chair you've never encountered before, you immediately know it's for sitting, not for eating or sleeping. But categorization is actually more complex than it first appears. Consider penguins: they're clearly birds, yet they swim instead of soar, and they waddle rather than hop. Despite being quite ``un-birdy,'' you still recognize them as birds rather than fish or mammals.
+
+But your knowledge systems do more than categorize objects. You also use your knowledge to understand other minds -- their beliefs, desires, and intentions. Right now, you're using this ability to infer that someone wrote this textbook with the intention of teaching you about psychology. You understand that the authors have beliefs about what students should learn and desires to communicate clearly.
+
+Your knowledge operates at multiple levels: you categorize the physical world around you (recognizing chairs, dogs, and faces), and you model the mental worlds of other people (understanding their thoughts, feelings, and motivations). Both types of knowledge allow you to navigate your environment effectively, whether you're choosing appropriate furniture or predicting how your friend will react when you suggest watching penguins at the zoo. Understanding how these knowledge systems work reveals how you make sense of both the physical and social worlds around you.
 
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-6}
 \addcontentsline{toc}{paragraph}{LEARNING OBJECTIVES}
@@ -2450,8 +2527,8 @@ You can find out which category members are typical merely by asking people. Tab
 We can understand the two phenomena of borderline members and typicality as two sides of the same coin. Think of the most typical category member: This is often called the category prototype. Items that are less and less similar to the {[}prototype{]} become less and less typical. At some point, these less typical items become so atypical that you start to doubt whether they are in the category at all. Is a rug really an example of furniture? It's in the home like chairs and tables, but it's also different from most furniture in its structure and use. From day to day, you might change your mind as to whether this atypical example is in or out of the category. So, changes in typicality ultimately lead to borderline members.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6923}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3077}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.6923}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3077}}@{}}
 \caption{\label{tab:influences} Influences of typicality on cognition.}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
@@ -2523,6 +2600,8 @@ How does this theory explain classification? When you see an object, you (uncons
 
 Why would someone propose such a theory of concepts? One answer is that in many experiments studying concepts, people learn concepts by seeing exemplars over and over again until they learn to classify them correctly. Under such conditions, it seems likely that people eventually memorize the exemplars (\citeproc{ref-Smith1998}{J. D. Smith \& Minda, 1998}). There is also evidence that \emph{close similarity} to well-remembered objects has a large effect on classification. Allen \& Brooks (\citeproc{ref-Allen1991}{1991}) taught people to classify items by following a rule. However, they also had their subjects study the items, which were richly detailed. In a later test, the experimenters gave people new items that were very similar to one of the old items but were in a different category. That is, they changed one property so that the item no longer followed the rule. They discovered that people were often fooled by such items. Rather than following the category rule they had been taught, they seemed to recognize the new item as being very similar to an old one and so put it, incorrectly, into the same category.
 
+\hyperref[causal-model-theory]{Causal Model Theory} builds upon the prototype and exemplar theories, highlighting how people's mental representations of categories evolve over time. Causal model theory proposes that people possess subjective theories about what constitutes a category, and these theories are based on a person's continuously developing knowledge about concepts that focus on causal relationships (i.e.~cause-and-effect relationships). Concepts are not learned in isolation, but rather are learned as a part of our experiences with the world around us-we acquire new information, we update our mental representation of what constitutes a category (\citeproc{ref-murphy2002}{Murphy, 2002}). Importantly, Causal Model Theory does not discount that a person's subjective theory about what constitutes category membership may include identifying important similarities that unite concepts within that category. However, Causal Model Theory proposes that concept formation relies more heavily on causal relationships that are relevant to a particular category (\citeproc{ref-Laurence1999-LAUCAC-3}{Laurence \& Margolis, 1999}).
+
 \section{Organization of Concepts}\label{organization-of-concepts}
 
 \subsection*{Semantic Networks}\label{semantic-networks}
@@ -2551,6 +2630,87 @@ These pieces of information must be stored somewhere. It would take too much spa
 Information that is shared by several concepts is stored in the highest parent node. All child nodes below the information bearer also contain the properties of the parent node. However, there are exceptions. Sometimes a special car has not four wheels, but three. This specific property is stored in the child node. Evidence for this structure can be found by the sentence verification technique. In experiments participants had to answer statements about concepts with ``yes'' or ``no''. It took longer to say ``yes'' if the concept-bearing nodes were further apart.
 
 The phenomenon that adjacent concepts are activated is called \hyperref[spreading-activation]{spreading activation}. These concepts are far more easily accessed by memory, they are ``primed''. This was studied and backed by Meyer \& Schvaneveldt (\citeproc{ref-meyer1971facilitation}{1971}) with a lexical-decision task. Participants had to decide if word pairs were words or non-words. They were faster at finding real word pairs if the concepts of the two words were near each other in a semantic network.
+
+\section{Mental Models}\label{mental-models}
+
+How do humans use their understanding of concepts to make sense of the world? \hyperref[mental-model-theory]{Mental Model Theory} (\citeproc{ref-Johnson-Laird1991-JOHD-9}{Johnson-Laird \& Byrne, 1991}), proposes that people use mental models to reason about the world. A \hyperref[mental-model]{mental model} is a mental representation based on a set of fundamental assumptions that a person believes to be true (\citeproc{ref-Byrne_Johnson-Laird_2009}{Byrne \& Johnson-Laird, 2009}). These assumptions can be constructed from perception, imagination, or from discussions with other people (\citeproc{ref-Byrne_Johnson-Laird_1985}{Johnson-Laird, 1985}). A mental model is like a mental picture or idea that represents a specific possibility (\citeproc{ref-Johnson-Laird2002-JOHCAT-12}{Johnson-Laird \& Byrne, 2002}), and which captures the common elements shared by all the different ways that possibility could happen.
+
+\subsection*{A Theory of Mind}\label{a-theory-of-mind}
+
+
+\hyperref[theory-of-mind]{Theory of Mind} refers to the way people use mental models to understand other people. Theory of mind is the knowledge that others' beliefs, desires, intentions, emotions, and thoughts (i.e.~their mental states) may be different from one's own, and that people's behavior is based on their mental states (\citeproc{ref-Apperly2009DoHH}{Apperly \& Butterfill, 2009}). A theory of mind allows adults to construct mental models that explain the motivation behind people's actions, and to form predictions for how they will act in the future.
+
+Possessing a theory of mind allows us to use our observations of people's behavior to infer their mental states (or vice versa: to predict their behavior from knowledge of their mental states). Having an appreciation for the workings of another person's mind is considered a prerequisite for many of the phenomena that define the human species, such as: natural language acquisition (\citeproc{ref-baldwin1998word}{Baldwin \& Tomasello, 1998}), strategic social interaction (\citeproc{ref-zhang2012perspective}{Zhang et al., 2012}), reflexive thought (\citeproc{ref-bogdan2000minding}{Bogdan, 2000}), and moral judgment (\citeproc{ref-guglielmo2009heart}{Guglielmo et al., 2009}). The capacity to understand the minds of others begins to develop in the first year of life and becomes more robust throughout childhood and into adulthood.
+
+\subsubsection*{The Role of Theory of Mind in Social Life}\label{the-role-of-theory-of-mind-in-social-life}
+
+
+Imagine you are observing an interaction between two people: a man is standing behind a counter, and a woman hands them a thin plastic object. Without a theory of mind, you would be incapable of understanding this event, or predicting how either person would react to the other. Due to our capacity to infer mental states from behavior, we likely infer that the woman is a customer pulling out her credit card with the intention to pay the cashier behind the register (\citeproc{ref-baird2001making}{Baird \& Baldwin, 2001}). People's theory of mind thus frames and interprets perceptions of human behavior in a particular way---as observations of agents who act intentionally and who have desires, beliefs, and other mental states that guide their actions (\citeproc{ref-perner1991understanding}{Perner, 1991}; \citeproc{ref-wellman1990child}{Wellman, 1990}).
+
+People without a theory of mind would be utterly incapable of making sense of simple social interactions that occur throughout everyday life. Moreover, without a theory of mind, there would probably be no such things as cashiers, credit cards, or money (\citeproc{ref-tomasello2003key}{Tomasello, 2003}). Humans need to understand minds to engage in the kinds of complex interactions that social communities (small and large) require, and it is these complex social interactions that have given rise to the innovation of different human cultures around the world.
+
+\subsubsection*{What is theory of mind?}\label{what-is-theory-of-mind}
+
+
+The first thing to note is that ``theory of mind'' is not a single thing. What underlies people's capacity to recognize and understand mental states is a whole host of components or a ``toolbox'' for navigating the social world (\citeproc{ref-malle2008fundamental}{Malle, 2008}). Figure \ref{fig:pyramid} shows some of the most important tools. The simple and automatic processes appear at the bottom of the pyramid, and as we ascend to the upper levels, the processes become increasingly complex and deliberate. This organization also reflects development---from tools that infants display within the first 6--12 months to tools they need to acquire over the next 3--5 years. In the next few sections, we will talk about the capacities that make up each level.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/ch7/fig6} 
+
+}
+
+\caption{Some of the major tools of theory of mind, with the bottom showing simple, automatic, early developing processes, and the top showing complex, more deliberate, late developing processes. }\label{fig:pyramid}
+\end{figure}
+
+\subsubsection*{Level 1: Agents, Goals, and Intentionality}\label{level-1-agents-goals-and-intentionality}
+
+
+The agent category allows humans to identify those moving objects in the world that can act on their own. Features that even infants can use to identify agents, include: being self-propelled, having eyes or a face, and reacting systematically to another person's behavior, such as by following their gaze or imitating their actions (\citeproc{ref-johnson2000}{S. C. Johnson, 2000}; \citeproc{ref-premack1990}{Premack, 1990}). The process of recognizing goals builds on this agent category. Even before the end of their first year, infants recognize that agents reach towards desired objects even when they don't successfully make contact with the object they are attempting to grab (\citeproc{ref-GERGELY1995165}{Gergely et al., 1995}; \citeproc{ref-woodward1998}{Woodward, 1998}). What it means to recognize goals, therefore, is to see an agent consistently pursue a particular object.
+
+Why is it important to recognize the goals of other people? Starting in infancy, humans expect other people's actions to be \hyperref[goal-directed]{goal directed} whereby they seek, track, and act to achieve desired outcomes (\citeproc{ref-gergely2003teleological}{Gergely \& Csibra, 2003}; \citeproc{ref-jara-ettinger2016naive}{Jara-Ettinger et al., 2016}).Through learning to recognize the many ways by which agents pursue goals, humans learn to identify behaviors that are intentional. The concept of \hyperref[intentionality]{intentionality} refers to the mental states that motivate people to act. Understanding the intentions that motivate a person's behavior is more complicated than identifying goals, as people sometimes possess intentions that differ from the eventual outcome. In addition, some behaviors can be unintentional even if they were goal-directed---such as when you possess the earnest goal of impressing your date, but instead, unintentionally make a fool of yourself. To act intentionally you need, aside from a goal, the right kinds of beliefs about how to achieve the goal. Moreover, by adulthood, the concept of intentionality requires that an agent have the skill to perform the intentional action. For example, if I am flipping a coin to try and have it land on heads, and do so on my first attempt, you would not judge my action of making it land on heads as intentional---you would say it was luck (\citeproc{ref-malle1997folk}{Malle \& Knobe, 1997}).
+
+\paragraph*{Infants' Mental State Inferences from Goal Directed Actions}\label{infants-mental-state-inferences-from-goal-directed-actions}
+\addcontentsline{toc}{paragraph}{Infants' Mental State Inferences from Goal Directed Actions}
+
+Mental state reasoning becomes more robust throughout development, but previous research indicates that even infants are able to reason about the minds of others. Infants use people's goal directed actions (\citeproc{ref-GERGELY1995165}{Gergely et al., 1995}; \citeproc{ref-woodward1998}{Woodward, 1998}) to infer mental states and use their understanding of people's mental states to predict their future behavior (\citeproc{ref-jara-ettinger2016naive}{Jara-Ettinger et al., 2016}). For example, after observing an agent exert more effort (\citeproc{ref-liu2017ten}{Liu et al., 2017}) or take a greater risk (\citeproc{ref-liu2022dangerous}{Liu et al., 2022}) to obtain one object over another, infants infer social agents prefer the object associated with the more effortful or riskier actions. Thus, infants appear to use the relative cost an agent is willing to incur to infer the value that agents places on specific goal objects (i.e.~they prefer object A over B).
+
+Infants may also be interested in representing people's social goals whereby they use their observations of people's social interactions to infer the relationships between people (\citeproc{ref-powell2022adopted}{Powell, 2022}). Recent research indicates that infants expect social agents who imitate the actions of others to be more likely to help (\citeproc{ref-pepe2023infants}{Pepe \& Powell, 2023}) and comfort (\citeproc{ref-kudrnova2024infants}{Kudrnova et al., 2024}) those they imitate. These converging lines of work indicate that infants expect imitators to be positively affiliated, and therefore act in ways that promote the welfare, of those they imitate. Support for this hypothesis comes from recent evidence that infants use observations of a person's social interactions to infer the strength of their relationships to others. In a study by A. J. Thomas et al. (\citeproc{ref-thomas2022early}{2022}), infants saw one social agent share saliva with a second agent, and also pass a ball back-and-forth with a third agent. Infants expected the saliva sharer to possess a stronger relationship with their social partner,compared to the agent who passed the ball, and therefore be more likely to comfort their social partner when they were in distress. Overall, infants appear to use the goal-directed actions of social agents to infer positively affiliated relationships, and expect people to act in ways that promote the welfare of their affiliates.
+
+\subsubsection*{Level 2: Imitation \& synchrony}\label{level-2-imitation-synchrony}
+
+
+From childhood, imitation aids in our understanding of other people (\citeproc{ref-meltzoff2003imitation}{Meltzoff \& Decety, 2003}). \hyperref[imitation]{Imitation} is the human tendency to carefully observe other people's behaviors and replicate their actions. A subtle, automatic form of imitation is called mimicry in which people unconsciously copy other people's behavior. \hyperref[mimicry]{Mimicry} can sometimes lead to \hyperref[synchrony]{synchrony} whereby people engage in the same behaviors or possess the same internal states. Have you ever noticed when two people in conversation take on similar gestures, body positions, or even tone of voice? They ``synchronize'' their behaviors by way of (largely) unconscious imitation. Interestingly, people who enjoy an interaction tend to synchronize their behaviors more, and increased synchrony can increase enjoyment during a social interaction (\citeproc{ref-chartrand1999chameleon}{Chartrand \& Bargh, 1999}).
+
+\subsubsection*{Level 3: Joint attention \& visual perspective}\label{level-3-joint-attention-visual-perspective}
+
+
+Going beyond the automatic, humans are capable of actively engaging with other people's mental states, such as when they enter into situations of \hyperref[joint-attention]{joint attention}: two or more people attending to the same object and being aware that they are mutually attending to it. Such shared engagement is critical for children to learn the meaning of objects, and throughout adulthood to successfully work with other people. When I hold up my keyboard and show it to you, we are jointly attending to it, and if I then say it's called ``Tastatur'' in German, you know that I am referring to the keyboard and not to the table on which it had been resting.
+
+Another important capacity of engagement is \hyperref[visual-perspective-taking]{visual perspective taking} which refers to perceiving something from another person's physical viewpoint. Pretend you are sitting at a dinner table and advise another person on where the salt is---do you consider that it is to her left even though it is to your right? When we overcome our egocentric perspective this way, we imaginatively adopt the other person's spatial viewpoint and determine how the world looks from their perspective.
+
+\subsubsection*{Level 4: Projection \& simulation}\label{level-4-projection-simulation}
+
+
+When imagining what it might be like to be in another person's psychological position, humans must go beyond mental rotation. One tool to understand other people's thoughts and feelings is \hyperref[simulation]{simulation}: the process of representing other people's mental states. Imagining a situation from another person's perspective is a useful tool in understanding what motivated them to act. This often proves difficult to do effectively, as people are often influence by their own mental states and engage in social projection whereby they assume other people think, feel, or desire the same things they do (\citeproc{ref-krueger2007social}{Krueger, 2007}; \citeproc{ref-meltzoff2007like}{Meltzoff, 2007}).
+
+In a sense, \hyperref[social-projection]{social projection} is an absence of perspective taking, because we assume that the other person's perspective equals our own. Have you ever been surprised that friend missed the obvious point of a movie that seemed so clear to you? Or that everyone is going to stare at the pimple on your forehead that appeared that same morning? In these kinds of situations, people find it difficult to suppress their own knowledge and overestimate the likelihood that other people will share their perspective (\citeproc{ref-keysar1994illusory}{Keysar, 1994}), and how attentive other people will be to the things they are focused on (\citeproc{ref-gilovich1999spotlight}{Gilovich \& Savitsky, 1999}). So, the next time when you spot a magnificent bird high up in the tree and you get impatient with your friend who just can't see what is clearly obvious, remember: it's obvious to you.
+
+\subsubsection*{Level 5: Mental state inference}\label{level-5-mental-state-inference}
+
+
+The ability to effectively model and take another person's perspective requires that we separate our mental states from those of other people. Effective modeling of other people's mental states also relies on general knowledge of how people tend to respond to a situation (``Everybody would be nervous when threatened by a man with a gun'') and agent-specific knowledge (``Joe is fearless because he was trained in martial arts''). People also use the perceived facts and context of the situation, such as what is happening to the agent, the agent's facial expressions and behaviors, and what the person saw or didn't see.
+
+This capacity of integrating multiple lines of information into a \hyperref[mental-state-inference]{mental state inference} develops steadily within the first few years of life (\citeproc{ref-wellman2001meta}{Wellman et al., 2001}). The research began with a clever experiment by Wimmer \& Perner (\citeproc{ref-wimmer1983beliefs}{1983}), who tested whether children can pass a false-belief test. In this experiment, children are asked whether a person who possesses a false belief (i.e.~a belief that contradicts reality) will act in accordance with their false belief or the child's accurate knowledge of the situation.
+
+Children in the false-belief task were shown a picture book. In the book, Sally puts her ball in a basket and leaves the room. While Sally is out of the room, Anne comes along and takes the ball from the basket and puts it inside a box. The child is then asked where Sally thinks the ball is located when she comes back to the room. Is she going to look first in the box or in the basket?
+
+The correct answer is that she will look in the basket, because that's where she put it and thinks it is; but we have to infer this false belief against our own accurate knowledge that the ball is in the box. This is very difficult for children before the age of 4, and it usually takes some cognitive effort in adults (\citeproc{ref-epley2004perspective}{Epley et al., 2004}).
+
+\subsubsection*{Summary}\label{summary}
+
+
+Understanding the minds of othe people requires many tools. Humans use their knowledge and observations of people's faces, goal-directed actions, and gestures to understand concepts such as agent, intentional action, and preferences. These inferences rely on relatively automatic psychological processes, such as imitation, joint attention, and projection, as well as more deliberate processes, such as simulation and mental-state inference. The ability to integrate all of these tool is essential for developing accurate mental models of others' minds. These mental models enable people to understand and navigate the social world and the individuals within it.
 
 \paragraph*{Key Takeaways}\label{key-takeaways-6}
 \addcontentsline{toc}{paragraph}{Key Takeaways}
@@ -2589,6 +2749,11 @@ The neutral, preferred category for a given object, at an intermediate level of 
 
 A set of entities that are equivalent in some way. Usually the items are similar to one another.
 
+\paragraph*{Causal Model Theory}\label{causal-model-theory}
+\addcontentsline{toc}{paragraph}{Causal Model Theory}
+
+Causal Model Theory suggests that people categorize concepts based on evolving subjective theories that emphasize causal relationships, rather than solely on comparisons with prototypes or exemplars.
+
 \paragraph*{Cognitive economy}\label{cognitive-economy}
 \addcontentsline{toc}{paragraph}{Cognitive economy}
 
@@ -2604,6 +2769,46 @@ The mental representation of a category.
 
 An example in memory that is labeled as being in a particular category.
 
+\paragraph*{Goal Directed}\label{goal-directed}
+\addcontentsline{toc}{paragraph}{Goal Directed}
+
+An agent's behavior that is motivated by a desire to seek, track, or obtain a particular outcome.
+
+\paragraph*{Imitation}\label{imitation}
+\addcontentsline{toc}{paragraph}{Imitation}
+
+The conscious observation and replication of other people's behavior.
+
+\paragraph*{Intentionality}\label{intentionality}
+\addcontentsline{toc}{paragraph}{Intentionality}
+
+Mental states that motivate people's actions.
+
+\paragraph*{Joint Attention}\label{joint-attention}
+\addcontentsline{toc}{paragraph}{Joint Attention}
+
+Two or more people attending to the same object and being aware that they are mutually attending to it
+
+\paragraph*{Mental Model}\label{mental-model}
+\addcontentsline{toc}{paragraph}{Mental Model}
+
+A mental representation based on a set of fundamental assumptions that a person believes to be true
+
+\paragraph*{Mental Model Theory}\label{mental-model-theory}
+\addcontentsline{toc}{paragraph}{Mental Model Theory}
+
+Mental Model Theory proposes that people use mental models to reason about the world, mapping out different possibilities based on a set of fundamental assumptions
+
+\paragraph*{Mental State Inference}\label{mental-state-inference}
+\addcontentsline{toc}{paragraph}{Mental State Inference}
+
+Generating a belief about a person's mental states. Inferences can be based on observations of how a person behaves, knowledge of the person, knowledge of how people generally act, or on knowledge of contextual factors of a situation.
+
+\paragraph*{Mimicry}\label{mimicry}
+\addcontentsline{toc}{paragraph}{Mimicry}
+
+Unconsciously imitating another person's behavior
+
 \paragraph*{Protoype}\label{protoype}
 \addcontentsline{toc}{paragraph}{Protoype}
 
@@ -2614,15 +2819,40 @@ The most typical category member.
 
 A theory of concept representation that people have a summary representation of a category that is meant to apply to the category as a whole.
 
+\paragraph*{Simulation}\label{simulation}
+\addcontentsline{toc}{paragraph}{Simulation}
+
+The process of representing a different person's mental states.
+
+\paragraph*{Social Projection}\label{social-projection}
+\addcontentsline{toc}{paragraph}{Social Projection}
+
+A person's assumption that another person possesses identical mental states.
+
 \paragraph*{Spreading activation}\label{spreading-activation}
 \addcontentsline{toc}{paragraph}{Spreading activation}
 
 When a concept is activated in memory, related concepts also increase in activation.
 
+\paragraph*{Synchrony}\label{synchrony}
+\addcontentsline{toc}{paragraph}{Synchrony}
+
+Two or more people displaying the same behaviors or having the same internal states (typically because of mutual mimicry).
+
+\paragraph*{Theory of Mind}\label{theory-of-mind}
+\addcontentsline{toc}{paragraph}{Theory of Mind}
+
+The human capacity to understand minds, a capacity that is made up of a collection of concepts (e.g., agent, intentionality) and processes (e.g., goal detection, imitation, empathy, perspective taking).
+
 \paragraph*{Typicality}\label{typicality-1}
 \addcontentsline{toc}{paragraph}{Typicality}
 
 The difference in ``goodness'' of category members, ranging from the most typical (the prototype) to borderline members.
+
+\paragraph*{Visual Perspective Taking}\label{visual-perspective-taking}
+\addcontentsline{toc}{paragraph}{Visual Perspective Taking}
+
+Attempting to visualize something from another person's spatial vantage point.
 
 \chapter{Language}\label{language}
 
@@ -2988,25 +3218,19 @@ Syntax is the list of rules that allows you to construct grammatical sentences i
 
 \chapter{Reasoning and Decision Making}\label{reasoning-and-decision-making}
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch9/fig0} \end{center}
+\begin{center}\includegraphics[width=1\linewidth]{images/ch9/aisle} \end{center}
 
-We like to think that we make important decisions rationally, logically, and without bias or error--- but what if that's not the case?
+We like to think that we make important decisions rationally, logically, and without bias or error--- but what if that's not the case? Standing in the cereal aisle, for example you face dozens of choices. You reason that whole grain cereals are healthier, but the colorful box at eye level catches your attention. The ``25\% more free!'' label seems like a good deal, but is it really? Your decision involves weighing nutrition against taste, cost against convenience, and logical analysis against marketing psychology. Even this simple choice reveals the complex interplay between reasoning and decision making that governs daily life.
 
-Let us consider the following scene of Knut's life: It is a rainy summer afternoon in Germany and Knut and his wife are tired of watching the black crows in their garden. They decide to escape from the dreary weather and take a vacation to Spain, as Knut and his wife have never been there before. They will leave the next day, and he is packing his bag. He packs the crucial things first: underwear, socks, pajamas, and a toiletry bag with a toothbrush, shampoo, soap, sun tan lotion, and bug spray. Knut cannot find the bug spray, and his wife volunteers to go buy a new bottle. He advises her to take an umbrella for the walk to the pharmacy as it is raining outside, and then he turns back to packing. But what did he already pack into his bag? Immediately, he remembers and continues, putting together outfits and packing his clothing. Since it is summer, Knut packs mostly shorts and t-shirts. After half an hour, he is finally convinced that he has done everything necessary for a nice vacation.
-
-With this story of Knut's vacation preparation, we will explain the basic principles of reasoning and decision making. We will demonstrate how much cognitive work is necessary for even this fragment of everyday life.
-
-In reasoning, available information is taken into account in the form of premises. A conclusion is reached on the basis of these premises through a process of inference. The content of the conclusion goes beyond either one of the premises. To demonstrate, consider the following consideration Knut makes before planning his vacation:
+In reasoning, available information is taken into account in the form of premises. A conclusion is reached on the basis of these premises through a process of inference. The content of the conclusion goes beyond either one of the premises. To demonstrate, consider the following reasoning process you might use in that cereal aisle:
 
 \begin{quote}
-Premise 1: In all countries in southern Europe it is warm during summer.\\
-Premise 2: Spain is a country in southern Europe.\\
-Conclusion: Therefore, in Spain it is warm during summer.
+Premise 1: All cereals with whole grains are healthier than those without.\\
+Premise 2: This cereal contains whole grains.\\
+Conclusion: Therefore, this cereal is healthier than cereals without whole grains.
 \end{quote}
 
-The conclusion in this example follows directly from the premises, but it includes information that is not explicitly stated in the premises. This is a typical feature of a process of reasoning. We will discuss the two major kinds of reasoning, inductive reasoning and deductive reasoning, which logically complement of one another.
-
-\section{Deductive reasoning}\label{deductive-reasoning}
+The conclusion in this example follows directly from the premises, but it includes information that is not explicitly stated in the premises. This is a typical feature of a process of reasoning. We will discuss the two major kinds of reasoning, inductive reasoning and deductive reasoning, which logically complement one another.
 
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-8}
 \addcontentsline{toc}{paragraph}{LEARNING OBJECTIVES}
@@ -3015,22 +3239,30 @@ The conclusion in this example follows directly from the premises, but it includ
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Understand deductive and inductive reasoning
+  Distinguish between deductive and inductive reasoning
 \item
-  Understand the main theories of decision making, as well as examples of how people's choice contexts affect the decisions they make
+  Explain why people make systematic errors in logical reasoning, including belief bias and confirmation bias
+\item
+  Describe how heuristics help with reasoning but can also lead to biases
+\item
+  Compare normative theories of decision making (how we should decide) with descriptive theories (how we actually decide)
+\item
+  Understand how choice context affects decisions through framing effects, default effects, and other influences on our preferences
 \end{enumerate}
 
-Deductive reasoning is concerned with syllogisms in which the conclusion follows logically from the premises. The following example about Knut makes this process clear:
+\section{Deductive reasoning}\label{deductive-reasoning}
+
+Deductive reasoning is concerned with syllogisms in which the conclusion follows logically from the premises. Consider the following example about preparing for a vacation:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Premise: Knut knows: If it is warm, one needs shorts and t-shirts.
+  Premise:If it is warm, one needs shorts and t-shirts.
 \item
-  Premise: He also knows that it is warm in Spain during summer.
+  Premise: It is warm in Spain during summer.
 \item
-  Conclusion: Therefore, Knut reasons that he needs shorts and t-shirts in Spain.
+  Conclusion: Therefore, one needs shorts and t-shirts in Spain.
 \end{enumerate}
 
 In this example it is obvious that the premises are about rather general information and the resulting conclusion is about a more special case which can be inferred from the two premises. We will now differentiate between the two major kinds of syllogisms: categorical and conditional syllogisms.
@@ -3082,12 +3314,12 @@ In addition to the form of a syllogism, the content can influence a person's dec
 \subsection*{Conditional syllogisms}\label{conditional-syllogisms}
 
 
-Another type of syllogism is called ``conditional syllogism.'' Just like the categorical syllogisms, they also have two premises and a conclusion. The difference is that the first premise has the form ``If \ldots{} then''. Syllogisms like this one are common in everyday life. Consider the following example from the story about Knut:
+Another type of syllogism is called ``conditional syllogism.'' Just like the categorical syllogisms, they also have two premises and a conclusion. The difference is that the first premise has the form ``If \ldots{} then''. Syllogisms like this one are common in everyday life. Consider the following example:
 
 \begin{quote}
-Premise 1: If it is raining, Knut's wife needs an umbrella.\\
+Premise 1: If it is raining, you needs an umbrella.\\
 Premise 2: It is raining.\\
-Conclusion: Therefore, Knut's wife needs an umbrella.
+Conclusion: Therefore, you need an umbrella.
 \end{quote}
 
 Conditional syllogisms are typically given in the abstract form: ``If p then q'', where ``p'' is called the ``antecedent'' and ``q'' the ``consequent''.
@@ -3095,14 +3327,14 @@ Conditional syllogisms are typically given in the abstract form: ``If p then q''
 \subsubsection*{Forms of conditional syllogisms}\label{forms-of-conditional-syllogisms}
 
 
-There are four major forms of conditional syllogisms: ``modus ponens'', ``modus tollens'', ``denying the antecedent'', and ``affirming the consequent''. These are illustrated in the table below (\ref{tab:Syllogisms}) by means of the conditional syllogism above (i.e.~If it is raining, Knut's wife needs an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
+There are four major forms of conditional syllogisms: ``modus ponens'', ``modus tollens'', ``denying the antecedent'', and ``affirming the consequent''. These are illustrated in the table below (\ref{tab:Syllogisms}) by means of the conditional syllogism above (i.e.~If it is raining, you need an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}@{}}
 \caption{\label{tab:Syllogisms} Different kinds of conditional syllogisms.}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
@@ -3134,18 +3366,18 @@ Affirming the Consequent
 \endlastfoot
 Description & The antecedent of the first premise is affirmed in the second premise. & The consequent of the first premise is negated in the second premise. & The antecedent of the first premise is negates in the second premise. & The antecedent of the first premise is affirmed in the second premise. \\
 Formal & If P then Q. P Therefore Q. & If P the Q. Not-Q Therefore Not-P. & If P then Q. Not-P Therefore Not-Q. & If P then Q. Q Therefore P. \\
-Example & If it is raining, Knut's wife needs an umbrella. It is raining. Therefore Knut's wife needs an umbrella. & If it is raining, Knut's wife needs an umbrella. Knut's wife does not need an umbrella. Therefore it is not raining. & If it is raining, Knut's wife needs an umbrella. It is not raining. Therefore Knut's wife does not need an umbrella. & If it is raining, Knut's wife needs an umbrella. Knut's wife needs an umbrella. Therefore it is raining. \\
+Example & If it is raining, you need an umbrella. It is raining. Therefore you need an umbrella. & If it is raining, you need an umbrella. You do not need an umbrella. Therefore it is not raining. & If it is raining, you need an umbrella. It is not raining. Therefore you do not need an umbrella. & If it is raining, you need an umbrella. You need an umbrella. Therefore it is raining. \\
 Validity & Valid & Valid & Invalid & Invalid \\
 Correct Judgements & 97 \% correctly identify as valid. & 60\% correctly identify as valid. & 40\% correctly identify as invalid. & 40\% correctly identify as invalid. \\
 \end{longtable}
 
-As we can see, the validity of the syllogisms with valid conclusions is easier to judge correctly than the validity of the syllogisms with invalid conclusions. The conclusion in the instance of the modus ponens is apparently valid. In the example it is very clear that Knut's wife needs an umbrella if it is raining.
+As we can see, the validity of the syllogisms with valid conclusions is easier to judge correctly than the validity of the syllogisms with invalid conclusions. The conclusion in the instance of the modus ponens is apparently valid. In the example it is very clear that you need an umbrella if it is raining.
 
-The validity of the modus tollens is more difficult to recognize. Referring to the example, if Knut's wife does not need an umbrella it can't be raining. The first premise says that if it is raining, she needs an umbrella. So the reason for Knut's wife not needing an umbrella is that it is not raining. Consequently, the conclusion is valid.
+The validity of the modus tollens is more difficult to recognize. Referring to the example, if you do not need an umbrella it can't be raining. The first premise says that if it is raining, she needs an umbrella. So the reason for not needing an umbrella is that it is not raining. Consequently, the conclusion is valid.
 
-The validity of the remaining two kinds of conditional syllogisms is judged correctly by only 40\% of people. If the method of denying the antecedent is applied, the second premise says that it is not raining. But from this fact it does not follow logically that Knut's wife does not need an umbrella--- she could need an umbrella for another reason, such as to shield from the sun.
+The validity of the remaining two kinds of conditional syllogisms is judged correctly by only 40\% of people. If the method of denying the antecedent is applied, the second premise says that it is not raining. But from this fact it does not follow logically that you do not need an umbrella: you could need an umbrella for another reason, such as to shield from the sun.
 
-Affirming the consequent in the case of the given example means that the second premise says that Knut's wife needs an umbrella, but again the reason for this can be circumstances apart from rain. So, it does not logically follow that it is raining. Therefore, the conclusion of this syllogism is invalid.
+Affirming the consequent in the case of the given example means that the second premise says that you need an umbrella, but again the reason for this can be circumstances apart from rain. So, it does not logically follow that it is raining. Therefore, the conclusion of this syllogism is invalid.
 
 The four kinds of syllogisms have shown that it is not always easy to make correct judgments concerning the validity of the conclusions. The following passages will deal with other errors people make during the process of conditional reasoning.
 
@@ -3188,18 +3420,15 @@ The evolutionary approach concerns the human ability of ``cheater detection''. T
 So far we have discussed deductive reasoning, which is reaching conclusions based on logical rules applied to a set of premises. However, many problems cannot be represented in a way that would make it possible to use these rules to come to a conclusion. \hyperref[inductive-reasoning]{Inductive reasoning} is the process of making observations and applying those observations via generalization to a different problem. Therefore one infers from a special case to the general principle, which is just the opposite of the procedure of deductive reasoning (\ref{fig:induct}). A good example of inductive reasoning is the following:
 
 \begin{quote}
-Premise: All crows Knut and his wife have ever seen are black.
+Premise: All crows you have ever seen are black.
+Conclusion: Therefore, you reason that all crows on earth are black.
 \end{quote}
 
-\begin{quote}
-Conclusion: Therefore, they reason that all crows on earth are black.
-\end{quote}
-
-In this example it is obvious that Knut and his wife infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure \ref{fig:induct}, this means that they infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
+In this example it is obvious that you infer from the simple observation about the crows they have seen to the general principle about all crows. Considering Figure \ref{fig:induct}, this means that you infer from the subset (yellow circle) to the whole (blue circle). As with this example, it is typical in inductive reasoning that the premises are believed to support the conclusion, but do not ensure the conclusion.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig4} 
+{\centering \includegraphics[width=0.5\linewidth]{images/ch9/fig4} 
 
 }
 
@@ -3209,16 +3438,13 @@ In this example it is obvious that Knut and his wife infer from the simple obser
 \subsection*{Forms of inductive reasoning}\label{forms-of-inductive-reasoning}
 
 
-The two different forms of inductive reasoning are ``\emph{strong}'' and ``\emph{weak}'' induction. The former indicates that the truth of the conclusion is very likely if the assumed premises are true. An example for this form of reasoning is the one given in the previous section. In this case it is obvious that the premise (``All crows Knut and his wife have ever seen are black'') gives good evidence for the conclusion (``All crows on earth are black'') to be true. Nevertheless it is still possible, although very unlikely, that not all crows are black.
+The two different forms of inductive reasoning are ``\emph{strong}'' and ``\emph{weak}'' induction. The former indicates that the truth of the conclusion is very likely if the assumed premises are true. An example for this form of reasoning is the one given in the previous section. In this case it is obvious that the premise (``All crows you have ever seen are black'') gives good evidence for the conclusion (``All crows on earth are black'') to be true. Nevertheless it is still possible, although very unlikely, that not all crows are black.
 
 On the contrary, conclusions reached by ``weak induction'' are supported by the premises in a relatively weak manner. In this approach, the truth of the premises makes the truth of the conclusion possible, but not likely. An example for this kind of reasoning is the following:
 
 \begin{quote}
-Premise: Knut always listens to music with his iPhone.
-\end{quote}
-
-\begin{quote}
-Conclusion: Therefore, he reasons that all music is only heard with iPhones.
+Premise: You always listen to music with your iPhone.
+Conclusion: Therefore, all music is only heard with iPhones.
 \end{quote}
 
 In this instance the conclusion is obviously false. The information the premise contains is not very representative and although it is true, it does not give decisive evidence for the truth of the conclusion.
@@ -3228,9 +3454,9 @@ To sum it up, strong inductive reasoning yields conclusions which are very proba
 \subsection*{Reliability of conclusions}\label{reliability-of-conclusions}
 
 
-If the strength of the conclusion of an inductive argument has to be determined, three factors concerning the premises play a decisive role. The of Knut and his wife's observations about crows (see previous sections) displays these factors:
+If the strength of the conclusion of an inductive argument has to be determined, three factors concerning the premises play a decisive role. The example of observations about crows (see previous sections) displays these factors:
 
-When Knut and his wife observe, in addition to the black crows in Germany, the crows in Spain, the \emph{number of observations} they make concerning the crows increases. Furthermore, the \emph{representativeness of these observations} is supported if Knut and his wife observe the crows at different times and in different places and see that they are black every time. The \emph{quality of the evidence} for all crows being black increases if Knut and his wife add scientific measurements that support the conclusion. For example, they could find out that the crows' genes determine that the only color they can be is black.
+When you observe crows not just in your hometown but in different countries, the \emph{number of observations} increases. The \emph{representativeness} improves if you observe crows at different times and places. The \emph{quality of evidence} increases if you find scientific research showing that crow genes determine they can only be black.
 
 Conclusions reached through a process of inductive reasoning are never definitely true, as no one has seen all crows on earth. It is possible, although very unlikely, that there is a green or brown exemplar. The three above factors contribute to the strength of an inductive argument. The stronger these factors are, the more reliable the conclusions reached through induction.
 
@@ -3251,7 +3477,9 @@ For example, in an experiment done by Sarah Lichtenstein and colleagues, partici
 
 Similarly to the availability heuristic, the representativeness heuristic is used when people judge frequency. However in this case, people rely on a judgment of \emph{similarity} instead of using memorability as a cue. For example, Tversky \& Kahneman (\citeproc{ref-tversky1983extensional}{1983}) gave the following description to a group of participants:
 
+\begin{quote}
 ``Linda is 31 years old, single, outspoken and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations.''
+\end{quote}
 
 They then asked participants to rank a series of descriptions in order of how likely they were to describe Linda. Most participants rated ``Linda is a bank teller and is active in the feminist movement'' as more likely than ``Linda is a bank teller''. However, this is logically impossible, as the first description \emph{includes} the second (Figure \ref{fig:bank}). Because the participants based their judgment on similarity between the description of Linda and being ``active in the feminist movement'', rather than reasoning in line with the formal laws of logic, most committed this ``conjunction fallacy''.
 
@@ -3288,9 +3516,9 @@ For example, if someone believes that black cats bring bad luck, they may be add
 The table below (\ref{tab:IndDed}) summarizes the most prevalent properties and differences between deductive and inductive reasoning which are important to keep in mind.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
 \caption{\label{tab:IndDed} Induction vs.~deduction}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
@@ -3312,7 +3540,7 @@ Inductive Reasoning
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Premises & Stated as facts or general principles (``It is warm in the Summer of Spain.'') & Based on observations of specific cases (``All crows Knut and his wife have seen are back.'') \\
+Premises & Stated as facts or general principles (``It is warm in the Summer of Spain.'') & Based on observations of specific cases (``All crows you have seen are black.'') \\
 Conclusion & Conclusion is more special than the information the premises provide. It is reached directly by applying logical rules to the premises. & Conclusion is more general than the information the premises provide. It is reached by generalizing the premises` information. \\
 Validity & If the premises are true, the conclusions must be true. & If the premises are true, the conclusion is probably true. \\
 Usage & More difficult to use (mainly in logical problems). One needs facts which are definitely true. & Used often in everyday life (fast and easy). Evidence is used instead of proved facts. \\
@@ -3320,23 +3548,32 @@ Usage & More difficult to use (mainly in logical problems). One needs facts whic
 
 \section{Decision making}\label{decision-making}
 
-The psychological processes of decision making are critical in everyday life. Imagine Knut deciding whether he should pack his heavy umbrella because of a forecasted ``20\% chance of rain'' or selecting between two different types of travel insurance for his vacation.
+The psychological processes of decision making are critical in everyday life. Imagine deciding whether to carry an umbrella because of a forecasted ``20\% chance of rain'' or choosing which of your streaming subscriptions to keep when money is tight.
 
 There are two main ways to describe and analyze decision making. The ``normative'' approach describes how decision makers \emph{ought} to make decisions. That is, it describes how people \emph{should} behave if they were perfectly rational and had well-defined preferences. Here, ``rational'' typically means that one adheres to the laws of probability and formal logic. The ``descriptive'' approach to studying decision making describes how real-life decision makers \emph{actually} make decisions, rather than how they should. A common finding among decision making researchers is that people do not typically follow what a perfectly rational actor would do, though this claim is contentious and widely debated within the field.
 
 \subsection*{Theories of Decision Making}\label{theories-of-decision-making}
 
 
-\textbf{Expected Value Theory}: In the earliest days of probability theory, theorists used Expected Value Theory (EVT) as a normative account. Under EVT, the value of an option is calculated as the probability that option will occur, multiplied by the quantitative value of that option. For example, if a casino offers a game in which there as an 80\% chance of winning \$10, the ``expected value'' is .8 x 10 = \$8. Because EVT is normative, people should be willing to pay up to \$7.99 in order to play that game, because the expected value (\$8) is higher than the cost (\textless{} \$8). However, EVT has several issues as a normative theory. One sizeable issue is that most decisions do not have quantitative outcomes. For example, when deciding whether to take an umbrella due to a 20\% chance of rain, there is no clear number that expresses how good or bad it would be to get caught in the rain! A second sizeable issue is that some decisions can have infinitely large expected values but have infinitely small probabilities of occurring, and people are typically uninterested in taking those gambles, despite EVT suggesting they should. This was first demonstrated in a game called the St.~Petersburg Paradox, described in box 9.4.1.
+\subsubsection*{Expected Value Theory}\label{expected-value-theory}
+
+
+In the earliest days of probability theory, theorists used Expected Value Theory (EVT) as a normative account. Under EVT, the value of an option is calculated as the probability that option will occur, multiplied by the quantitative value of that option. For example, if a casino offers a game in which there as an 80\% chance of winning \$10, the ``expected value'' is .8 x 10 = \$8. Because EVT is normative, people should be willing to pay up to \$7.99 in order to play that game, because the expected value (\$8) is higher than the cost (\textless{} \$8). However, EVT has several issues as a normative theory. One sizeable issue is that most decisions do not have quantitative outcomes. For example, when deciding whether to take an umbrella due to a 20\% chance of rain, there is no clear number that expresses how good or bad it would be to get caught in the rain! A second sizeable issue is that some decisions can have infinitely large expected values but have infinitely small probabilities of occurring, and people are typically uninterested in taking those gambles, despite EVT suggesting they should. This was first demonstrated in a game called the St.~Petersburg Paradox, described in box 9.4.1.
 
 \paragraph*{St.~Petersburg Paradox}\label{st.-petersburg-paradox}
 \addcontentsline{toc}{paragraph}{St.~Petersburg Paradox}
 
 A classic paradox dating back to 1713, the St.~Petersburg Paradox, describes a game in which a fair coin is flipped repeatedly until it lands on heads, at which point the game ends. The number of times the coin was flipped (including the final heads) is the variable \emph{k}, and the player wins \(2^k\) dollars. How much would you be willing to pay to play this game? Most people are unwilling to pay more than ten dollars. However, you might notice that the expected value of this game is infinite, because hypothetically the coin could \emph{never} land on heads, though it's incredibly unlikely. Needless to say, a game with infinite expected value that most people would not pay ten dollars for presents a problem for Expected Value Theory.
 
-\textbf{Expected Utility Theory}: Due to these issues, most modern theorists believe that Expected Utility Theory (EUT) is a better normative account of decision making. Under EUT, ``utility'' instead of ``value'' is multiplied by a probability. Utility is a more general term that refers to how subjectively good we believe an outcome to be, and ``disutility'' refers to how subjectively bad we believe an outcome to be. For example, if Knut hates to be caught in the rain, he might multiply the chance of rain, 20\%, by how much disutility the rain gives him, perhaps -60 ``utils'' (negative because it's disutility here). Utils are best thought of as a hypothetical measure of satisfaction with some outcome. Here, Knut's expected utility from the rain is .2 x -60 utils = -12 utils. If Knut knew that packing his heavy umbrella gave him -20 utils, he would decide to forgo packing the umbrella because the expected disutility of carrying the heavy umbrella is more negative than the expected disutility of getting caught in the rain. EUT also accounts for the fact that people typically experience \emph{diminishing marginal utility}. This is the observation that the utility of a gain is proportional to how much of that good you already have. For example, if you have \$100 dollars and somebody gives you \$5,000, you will experience much more gain in utility than if you have \$100,000 and somebody gives you that same \$5,000. Diminishing marginal utility helps resolve the issue with EVT demonstrated by the St.~Petersburg Paradox because the extremely high potential values cease to be meaningful (if you have \$100 billion, the next dollar you earn is meaningless).
+\subsubsection*{Expected Utility Theory}\label{expected-utility-theory}
 
-\textbf{Prospect Theory}: By having participants in experiments report their willingness to play various gambles, Daniel Kahneman and Amos Tversky measured how people actually weigh value and probability, which they called Prospect Theory (\citeproc{ref-kahneman1979prospect}{Kahneman \& Tversky, 1979}). The major findings of Prospect Theory (PT), called the probability weighting function and the value function, are shown in Figure \ref{fig:prospect}. The value function shows that, on average, people show diminishing marginal (dis)utility for large gains or large losses, and that losses typically have greater disutility than comparably sized gains have utility (hence the ``kink'' at zero). The probability weighting function shows that, on average, people tend to overweight small probabilities (i.e., behave as though they have higher probabilities than they actually do), and underweight large probabilities (i.e., behave as though they have lower probabilities than they actually do).
+
+Due to these issues, most modern theorists believe that Expected Utility Theory (EUT) is a better normative account of decision making. Under EUT, ``utility'' instead of ``value'' is multiplied by a probability. Utility is a more general term that refers to how subjectively good we believe an outcome to be, and ``disutility'' refers to how subjectively bad we believe an outcome to be. If you hate being caught in the rain, you might multiply the chance of rain (20\%) by how much disutility rain gives you (perhaps -60 utils). Your expected utility from rain would be .2 x -60 = -12 utils. If carrying a heavy umbrella gives you -20 utils, you'd decide to skip the umbrella. EUT also accounts for the fact that people typically experience \emph{diminishing marginal utility}. This is the observation that the utility of a gain is proportional to how much of that good you already have. For example, if you have \$100 dollars and somebody gives you \$5,000, you will experience much more gain in utility than if you have \$100,000 and somebody gives you that same \$5,000. Diminishing marginal utility helps resolve the issue with EVT demonstrated by the St.~Petersburg Paradox because the extremely high potential values cease to be meaningful (if you have \$100 billion, the next dollar you earn is meaningless).
+
+\subsubsection*{Prospect Theory}\label{prospect-theory}
+
+
+By having participants in experiments report their willingness to play various gambles, Daniel Kahneman and Amos Tversky measured how people actually weigh value and probability, which they called Prospect Theory (\citeproc{ref-kahneman1979prospect}{Kahneman \& Tversky, 1979}). The major findings of Prospect Theory (PT), called the probability weighting function and the value function, are shown in Figure \ref{fig:prospect}. The value function shows that, on average, people show diminishing marginal (dis)utility for large gains or large losses, and that losses typically have greater disutility than comparably sized gains have utility (hence the ``kink'' at zero). The probability weighting function shows that, on average, people tend to overweight small probabilities (i.e., behave as though they have higher probabilities than they actually do), and underweight large probabilities (i.e., behave as though they have lower probabilities than they actually do).
 
 \begin{figure}
 
@@ -3352,11 +3589,17 @@ A classic paradox dating back to 1713, the St.~Petersburg Paradox, describes a g
 
 Contrary to theorists' claim that rational decision makers always have well-defined preferences, real-life decision makers tend to make different selections depending on how choices are presented to them. Two common examples of this are \emph{default effects} and \emph{framing effects}.
 
-\textbf{Default Effects}: The default effect refers to the tendency for decision makers to choose a pre-selected option, rather than select non-pre-selected options in a particular choice context. A classic example of this effect concerns organ donor rates across different countries. In some countries, such as Austria and France, citizens are enrolled to be organ donors by default. That is, unless a citizen actively selects to not be an organ donor, they will be presumed to be one. In other countries, such as the United States, citizens are presumed not to be organ donors unless they actively select to be one. In countries like Austria and France, organ donor rates are typically as high as 99\% (\citeproc{ref-johnson2003defaults}{E. J. Johnson \& Goldstein, 2003}). As of 2022, organ donor rates in the United States are approximately 54\%. This large gap is partially due to the different default option in each country.
+\subsubsection*{Default Effects}\label{default-effects}
+
+
+The default effect refers to the tendency for decision makers to choose a pre-selected option, rather than select non-pre-selected options in a particular choice context. A classic example of this effect concerns organ donor rates across different countries. In some countries, such as Austria and France, citizens are enrolled to be organ donors by default. That is, unless a citizen actively selects to not be an organ donor, they will be presumed to be one. In other countries, such as the United States, citizens are presumed not to be organ donors unless they actively select to be one. In countries like Austria and France, organ donor rates are typically as high as 99\% (\citeproc{ref-johnson2003defaults}{E. J. Johnson \& Goldstein, 2003}). As of 2022, organ donor rates in the United States are approximately 54\%. This large gap is partially due to the different default option in each country.
 
 Default effects are thought to occur for three main reasons (\citeproc{ref-dinner2011partitioning}{Dinner et al., 2011}; \citeproc{ref-jachimowicz2019and}{Jachimowicz et al., 2019}). First, people are sometimes inattentive when making selections (\citeproc{ref-choi2002defined}{Choi et al., 2002}). Second, because people often perceive losses as worse than comparable gains (as discussed in the Prospect Theory section), the losses associated with switching away from a particular option may feel more significant than the gains associated with a new option. Finally, people often perceive defaults as implicit recommendations (\citeproc{ref-mckenzie2006recommendations}{McKenzie et al., 2006}).
 
-\textbf{Framing Effects}: Framing effects occur when logically equivalent descriptions of an option lead to different choices. There are a number of types of framing effects, with one of the simplest being attribute framing (\citeproc{ref-levin1998all}{Levin et al., 1998}). For example, a doctor might describe that five years after undergoing a particular surgery, 90\% of patients are still alive. A doctor could also describe that five years after that same surgery, 10\% of patients had died, a logically equivalent description (one entails the other). In multiple experiments, people have been found to be much more willing to undergo riskier medical procedures when they are described in the ``positive'' frame (90\%, here) than the ``negative'' frame (10\%) (\citeproc{ref-mcneil1982elicitation}{McNeil et al., 1982}; \citeproc{ref-wilson1987framing}{Wilson et al., 1987}). There is debate in the literature as to why framing effects occur, with varying perspectives on whether they are reasonable ways for decision makers to behave.
+\subsubsection*{Framing Effects}\label{framing-effects}
+
+
+Framing effects occur when logically equivalent descriptions of an option lead to different choices. There are a number of types of framing effects, with one of the simplest being attribute framing (\citeproc{ref-levin1998all}{Levin et al., 1998}). For example, a doctor might describe that five years after undergoing a particular surgery, 90\% of patients are still alive. A doctor could also describe that five years after that same surgery, 10\% of patients had died, a logically equivalent description (one entails the other). In multiple experiments, people have been found to be much more willing to undergo riskier medical procedures when they are described in the ``positive'' frame (90\%, here) than the ``negative'' frame (10\%) (\citeproc{ref-mcneil1982elicitation}{McNeil et al., 1982}; \citeproc{ref-wilson1987framing}{Wilson et al., 1987}). There is debate in the literature as to why framing effects occur, with varying perspectives on whether they are reasonable ways for decision makers to behave.
 
 \paragraph*{Are more options better?}\label{are-more-options-better}
 \addcontentsline{toc}{paragraph}{Are more options better?}
@@ -3390,7 +3633,9 @@ People often have the intuition that more options are better, because there is a
 
 \begin{center}\includegraphics[width=1\linewidth]{images/ch10/cover} \end{center}
 
-How do we achieve our goals when the solution is not immediately obvious? What mental blocks are likely to get in our way, and how can we leverage our prior knowledge to solve novel problems?
+How do we achieve our goals when the solution is not immediately obvious? Consider the chess player in the park, contemplating his next move among dozens of possibilities. He's not just randomly trying moves -- he's drawing on years of experience, recognizing patterns, and thinking several steps ahead. But he's also fighting against mental obstacles: perhaps he's fixated on one strategy that isn't working, or he's overthinking a move that should be obvious. His expertise helps him see solutions that beginners would miss, but it might also blind him to creative approaches.
+
+Problem solving involves much more than logical thinking. It requires us to define problems clearly, generate possible solutions, evaluate options, and overcome the mental blocks that inevitably arise. Understanding how we navigate these challenges -- and why we sometimes get stuck -- reveals important insights about human cognition and offers practical strategies for becoming more effective problem solvers.
 
 \paragraph*{LEARNING OBJECTIVES}\label{learning-objectives-9}
 \addcontentsline{toc}{paragraph}{LEARNING OBJECTIVES}
@@ -3842,6 +4087,9 @@ Allen, S. W., \& Brooks, L. R. (1991). Specializing the operation of an explicit
 \bibitem[\citeproctext]{ref-Andrews1982}
 Andrews, I. (1982). Bilinguals out of focus: A critical discussion. \emph{International Review of Applied Linguistics in Language Teaching}, \emph{20}(4), 297--305.
 
+\bibitem[\citeproctext]{ref-Apperly2009DoHH}
+Apperly, I. A., \& Butterfill, S. A. (2009). Do humans have two systems to track beliefs and belief-like states? \emph{Psychological Review}, \emph{116 4}, 953--970.
+
 \bibitem[\citeproctext]{ref-APA2000}
 Association, A. P. (2000). \emph{Diagnostic and statistical manual of mental disorders (4eme ed.) washington}.
 
@@ -3863,8 +4111,14 @@ Baddeley, A. D., \& Hitch, G. (1974). \emph{Working memory} (G. H. Bower, Ed.; V
 \bibitem[\citeproctext]{ref-baddeley1975word}
 Baddeley, A. D., Thomson, N., \& Buchanan, M. (1975). Word length and the structure of short-term memory. \emph{Journal of Verbal Learning and Verbal Behavior}, \emph{14}(6), 575--589.
 
+\bibitem[\citeproctext]{ref-baird2001making}
+Baird, J. A., \& Baldwin, D. A. (2001). Making sense of human behavior: Action parsing and intentional inference. In B. F. Malle, L. J. Moses, \& D. A. Baldwin (Eds.), \emph{Intentions and intentionality: Foundations of social cognition} (pp. 193--206). MIT Press.
+
 \bibitem[\citeproctext]{ref-Baldwin1993}
 Baldwin, D. A. (1993). Early referential understanding: Infants' ability to recognize referential acts for what they are. \emph{Dev. Psychol.}, \emph{29}(5), 832--843.
+
+\bibitem[\citeproctext]{ref-baldwin1998word}
+Baldwin, D. A., \& Tomasello, M. (1998). Word learning: A window on early pragmatic understanding. In E. V. Clark (Ed.), \emph{The proceedings of the twenty-ninth annual child language research forum} (pp. 3--23). Center for the Study of Language; Information.
 
 \bibitem[\citeproctext]{ref-Bargh2014}
 Bargh, J. A. (2014). Our unconscious mind. \emph{Sci. Am.}, \emph{310}(1), 30--37.
@@ -3895,6 +4149,9 @@ Bernstein, D. M., \& Loftus, E. F. (2009b). How to tell if a particular memory i
 
 \bibitem[\citeproctext]{ref-Bialystok2009}
 Bialystok, E. (2009). Bilingualism: The good, the bad, and the indifferent. \emph{Biling. (Camb. Engl.)}, \emph{12}(1), 3--11.
+
+\bibitem[\citeproctext]{ref-bogdan2000minding}
+Bogdan, R. (2000). \emph{Minding minds: Evolving a reflexive mind by interpreting others}. MIT Press.
 
 \bibitem[\citeproctext]{ref-bornstein2012effects}
 Bornstein, B. H., Deffenbacher, K. A., Penrod, S. D., \& McGorty, E. K. (2012). Effects of exposure time and cognitive operations on facial identification accuracy: A meta-analysis of two variables associated with initial memory strength. \emph{Psychology, Crime \& Law}, \emph{18}(5), 473--490.
@@ -3944,6 +4201,9 @@ Brown, R., \& Kulik, J. (1977). Flashbulb memories. \emph{Cognition}, \emph{5}(1
 \bibitem[\citeproctext]{ref-burton1999face}
 Burton, A. M., Wilson, S., Cowan, M., \& Bruce, V. (1999). Face recognition in poor-quality video: Evidence from security surveillance. \emph{Psychological Science}, \emph{10}(3), 243--248.
 
+\bibitem[\citeproctext]{ref-Byrne_Johnson-Laird_2009}
+Byrne, R. M. J., \& Johnson-Laird, P. N. (2009). {``If''} and the problems of conditional reasoning. \emph{Trends in Cognitive Sciences}, \emph{13}(7), 282--287.
+
 \bibitem[\citeproctext]{ref-calvo2008handbook}
 Calvo, P., \& Gomila, T. (2008). \emph{Handbook of cognitive science: An embodied approach}. Elsevier.
 
@@ -3958,6 +4218,9 @@ Ceci, S. J., \& Bruck, M. (1995). \emph{Jeopardy in the courtroom: A scientific 
 
 \bibitem[\citeproctext]{ref-Cepeda2008}
 Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., \& Pashler, H. (2008). Spacing effects in learning: A temporal ridgeline of optimal retention. \emph{Psychological Science}, \emph{19}, 1095--1102. \url{https://doi.org/10.1111/j.1467-9280.2008.02209.x}
+
+\bibitem[\citeproctext]{ref-chartrand1999chameleon}
+Chartrand, T. L., \& Bargh, J. A. (1999). The chameleon effect: The perception--behavior link and social interaction. \emph{Journal of Personality and Social Psychology}, \emph{76}, 893--910.
 
 \bibitem[\citeproctext]{ref-Chase1973}
 Chase, W. G., \& Simon, H. A. (1973). Perception in chess. \emph{Cogn. Psychol.}, \emph{4}(1), 55--81.
@@ -3982,6 +4245,9 @@ Chi, M. T. H., Feltovich, P. J., \& Glaser, R. (1981). Categorization and repres
 
 \bibitem[\citeproctext]{ref-choi2002defined}
 Choi, J. J., Laibson, D., Madrian, B. C., \& Metrick, A. (2002). Defined contribution pensions: Plan rules, participant choices, and the path of least resistance. \emph{Tax Policy and the Economy}, \emph{16}, 67--113.
+
+\bibitem[\citeproctext]{ref-chomsky1959}
+Chomsky, N. (1959). A review of {B}. {F}. {S}kinner's {V}erbal {B}ehavior. \emph{Language}, \emph{35}(1), 26--58.
 
 \bibitem[\citeproctext]{ref-conrad1964acoustic}
 Conrad, R. (1964). Acoustic confusions in immediate memory. \emph{British Journal of Psychology}, \emph{55}(1), 75--84.
@@ -4040,6 +4306,9 @@ Dunn, E. W., Aknin, L. B., \& Norton, M. I. (2008). Spending money on others pro
 \bibitem[\citeproctext]{ref-Enns2008}
 Enns, J. T., \& Lleras, A. (2008). What's next? New evidence for prediction in human vision. \emph{Trends in Cognitive Sciences}, \emph{12}(9), 327--333.
 
+\bibitem[\citeproctext]{ref-epley2004perspective}
+Epley, N., Morewedge, C. K., \& Keysar, B. (2004). Perspective taking in children and adults: Equivalent egocentrism but differential correction. \emph{Journal of Experimental Social Psychology}, \emph{40}, 760--768.
+
 \bibitem[\citeproctext]{ref-fancher1987}
 Fancher, R. E. (1987). \emph{The intelligence men: Makers of the IQ controversy}. W.W. Norton \& Company.
 
@@ -4073,6 +4342,12 @@ Garry, M., French, L., Kinzett, T., \& Mori, K. (2008). Eyewitness memory follow
 \bibitem[\citeproctext]{ref-george2020need}
 George, T., \& Wiley, J. (2020). Need something different? Here's what's been done: Effects of examples and task instructions on creative idea generation. \emph{Memory \& Cognition}, \emph{48}, 226--243.
 
+\bibitem[\citeproctext]{ref-gergely2003teleological}
+Gergely, G., \& Csibra, G. (2003). Teleological reasoning in infancy: The naïve theory of rational action. \emph{Trends in Cognitive Sciences}, \emph{7}, 287--292.
+
+\bibitem[\citeproctext]{ref-GERGELY1995165}
+Gergely, G., Nádasdy, Z., Csibra, G., \& Bíró, S. (1995). Taking the intentional stance at 12 months of age. \emph{Cognition}, \emph{56}(2), 165--193.
+
 \bibitem[\citeproctext]{ref-Gibson2000}
 Gibson, E. J., Pick, A. D., et al. (2000). \emph{An ecological approach to perceptual learning and development}. Oxford University Press, USA.
 
@@ -4084,6 +4359,9 @@ Gick, M. L., \& Holyoak, K. J. (1983). Schema induction and analogical transfer.
 
 \bibitem[\citeproctext]{ref-gigerenzer1992domain}
 Gigerenzer, G., \& Hug, K. (1992). Domain-specific reasoning: Social contracts, cheating, and perspective change. \emph{Cognition}, \emph{43}(2), 127--171.
+
+\bibitem[\citeproctext]{ref-gilovich1999spotlight}
+Gilovich, T., \& Savitsky, K. (1999). The spotlight effect and the illusion of transparency: Egocentric assessments of how we are seen by others. \emph{Current Directions in Psychological Science}, \emph{8}, 165--168.
 
 \bibitem[\citeproctext]{ref-Godden1975}
 Godden, D. R., \& Baddeley, A. D. (1975). Context-dependent memory in two natural environments: On land and underwater. \emph{Br. J. Psychol.}, \emph{66}(3), 325--331.
@@ -4108,6 +4386,9 @@ Griggs, R. A., \& Cox, J. R. (1982). The elusive thematic-materials effect in wa
 
 \bibitem[\citeproctext]{ref-griggs1983effects}
 Griggs, R. A., \& Cox, J. R. (1983). The effects of problem content and negation on wason's selection task. \emph{Quarterly Journal of Experimental Psychology}, \emph{35}(3), 519--533.
+
+\bibitem[\citeproctext]{ref-guglielmo2009heart}
+Guglielmo, S., Monroe, A. E., \& Malle, B. F. (2009). At the heart of morality lies folk psychology. \emph{Inquiry: An Interdisciplinary Journal of Philosophy}, \emph{52}, 449--466.
 
 \bibitem[\citeproctext]{ref-Gupta2022}
 Gupta, M. W., Pan, S. C., \& Rickard, T. C. (2022). Prior episodic learning and the efficacy of retrieval practice. \emph{Memory \& Cognition}, \emph{50}(4), 722--735.
@@ -4166,11 +4447,26 @@ Jacoby, L. L., \& Rhodes, M. G. (2006). False remembering in the aged. \emph{Cur
 \bibitem[\citeproctext]{ref-james1890principles}
 James, W. (1890). \emph{Principles of psychology}.
 
+\bibitem[\citeproctext]{ref-jara-ettinger2016naive}
+Jara-Ettinger, J., Gweon, H., Schulz, L. E., \& Tenenbaum, J. B. (2016). The naïve utility calculus: Computational principles underlying commonsense psychology. \emph{Trends in Cognitive Sciences}, \emph{20}(8), 589--604.
+
 \bibitem[\citeproctext]{ref-johnson2003defaults}
 Johnson, E. J., \& Goldstein, D. (2003). Do defaults save lives? In \emph{Science} (No. 5649; Vol. 302, pp. 1338--1339). American Association for the Advancement of Science.
 
 \bibitem[\citeproctext]{ref-Johnson1989}
 Johnson, J. S., \& Newport, E. L. (1989). Critical period effects in second language learning: The influence of maturational state on the acquisition of english as a second language. \emph{Cogn. Psychol.}, \emph{21}(1), 60--99.
+
+\bibitem[\citeproctext]{ref-johnson2000}
+Johnson, S. C. (2000). The recognition of mentalistic agents in infancy. \emph{Trends in Cognitive Sciences}, \emph{4}, 22--28.
+
+\bibitem[\citeproctext]{ref-Byrne_Johnson-Laird_1985}
+Johnson-Laird, P. (1985). Mental models: Towards a cognitive science of language, inference, and consciousness / p.n. Johnson-laird. \emph{Language}, \emph{61}.
+
+\bibitem[\citeproctext]{ref-Johnson-Laird1991-JOHD-9}
+Johnson-Laird, P., \& Byrne, R. M. J. (1991). \emph{Deduction}. Psychology Press.
+
+\bibitem[\citeproctext]{ref-Johnson-Laird2002-JOHCAT-12}
+Johnson-Laird, P., \& Byrne, R. M. J. (2002). Conditionals: A theory of meaning, pragmatics, and inference. \emph{Psychological Review}, \emph{109}(4), 646--678.
 
 \bibitem[\citeproctext]{ref-Johnston1978}
 Johnston, W. A., \& Heinz, S. P. (1978). Flexibility and capacity demands of attention. \emph{J. Exp. Psychol. Gen.}, \emph{107}(4), 420--435.
@@ -4184,6 +4480,9 @@ Kahneman, D., \& Tversky, A. (1979). Prospect theory: An analysis of decisions u
 \bibitem[\citeproctext]{ref-Karpicke2014}
 Karpicke, J. D., Lehman, M., \& Aue, W. R. (2014). Retrieval-based learning. An episodic context account. In \emph{Psychology of Learning and Motivation - Advances in Research and Theory} (Vol. 61, pp. 237--284). \url{https://doi.org/10.1016/B978-0-12-800283-4.00007-1}
 
+\bibitem[\citeproctext]{ref-keysar1994illusory}
+Keysar, B. (1994). The illusory transparency of intention: Linguistic perspective taking in text. \emph{Cognitive Psychology}, \emph{26}, 165--208.
+
 \bibitem[\citeproctext]{ref-kounios2009aha}
 Kounios, J., \& Beeman, M. (2009). The aha! Moment: The cognitive neuroscience of insight. \emph{Current Directions in Psychological Science}, \emph{18}(4), 210--216.
 
@@ -4193,6 +4492,12 @@ Kraft, C. (1978). \emph{A psychophysical approach to air safety: Simulator studi
 \bibitem[\citeproctext]{ref-Kromann2009}
 Kromann, C. B., Jensen, M. L., \& Ringsted, C. (2009). The effect of testing on skills learning. \emph{Medical Education}, \emph{43}, 21--27. \url{https://doi.org/10.1111/j.1365-2923.2008.03245.x}
 
+\bibitem[\citeproctext]{ref-krueger2007social}
+Krueger, J. I. (2007). From social projection to social behaviour. \emph{European Review of Social Psychology}, \emph{18}, 1--35.
+
+\bibitem[\citeproctext]{ref-kudrnova2024infants}
+Kudrnova, V., Spelke, E. S., \& Thomas, A. J. (2024). Infants infer social relationships between individuals who engage in imitative social interactions. \emph{Open Mind: Discoveries in Cognitive Science}, \emph{8}, 202--216.
+
 \bibitem[\citeproctext]{ref-Laney2008}
 Laney, C., \& Loftus, E. F. (2008). Emotional content of true and false memories. \emph{Memory}, \emph{16}(5), 500--516.
 
@@ -4201,6 +4506,9 @@ Lantz, M. E. (2010). The use of 'clickers' in the classroom: Teaching innovation
 
 \bibitem[\citeproctext]{ref-Larsen2009}
 Larsen, D. P., Butler, A. C., \& Roediger, H. L. (2009). Repeated testing improves long-term retention relative to repeated study: A randomised controlled trial. \emph{Medical Education}, \emph{43}, 1174--1181. \url{https://doi.org/10.1111/j.1365-2923.2009.03518.x}
+
+\bibitem[\citeproctext]{ref-Laurence1999-LAUCAC-3}
+Laurence, S., \& Margolis, E. (1999). Concepts and cognitive science. In E. Margolis \& S. Laurence (Eds.), \emph{Concepts: Core readings} (pp. 3--81). MIT Press.
 
 \bibitem[\citeproctext]{ref-Lee2004}
 Lee, J., \& Strayer, D. (2004). Preface to the special section on driver distraction. \emph{Human Factors}, \emph{46}(4), 583.
@@ -4216,6 +4524,12 @@ Lillo-Martin, D., \& Henner, J. (2021). Acquisition of sign languages. \emph{Ann
 
 \bibitem[\citeproctext]{ref-Lindsay2004}
 Lindsay, D. S., Hagen, L., Read, J. D., Wade, K. A., \& Garry, M. (2004). True photographs and false memories. \emph{Psychol. Sci.}, \emph{15}(3), 149--154.
+
+\bibitem[\citeproctext]{ref-liu2022dangerous}
+Liu, S., Pepe, B., Kumar, M. G., Ullman, T. D., Tenenbaum, J. B., \& Spelke, E. S. (2022). Dangerous ground: One-year-old infants are sensitive to peril in other agents' action plans. \emph{Open Mind}, \emph{6}, 211--231.
+
+\bibitem[\citeproctext]{ref-liu2017ten}
+Liu, S., Ullman, T. D., Tenenbaum, J. B., \& Spelke, E. S. (2017). Ten-month-old infants infer the value of goals from the costs of actions. \emph{Science}, \emph{358}(6366), 1038--1041.
 
 \bibitem[\citeproctext]{ref-livingstone2000warm}
 Livingstone, M. S. (2000). Is it warm? Is it real? Or just low spatial frequency? \emph{Science}, \emph{290}(5495), 1299--1299.
@@ -4256,8 +4570,17 @@ Maier, N. R. (1930). Reasoning in humans. I. On direction. \emph{Journal of Comp
 \bibitem[\citeproctext]{ref-maier1931reasoning}
 Maier, N. R. (1931). Reasoning in humans. II. The solution of a problem and its appearance in consciousness. \emph{Journal of Comparative Psychology}, \emph{12}(2), 181.
 
+\bibitem[\citeproctext]{ref-malle2008fundamental}
+Malle, B. F. (2008). The fundamental tools, and possibly universals, of social cognition. In R. M. Sorrentino \& S. Yamaguchi (Eds.), \emph{Handbook of motivation and cognition across cultures} (pp. 267--296). Elsevier/Academic Press.
+
+\bibitem[\citeproctext]{ref-malle1997folk}
+Malle, B. F., \& Knobe, J. (1997). The folk concept of intentionality. \emph{Journal of Experimental Social Psychology}, \emph{33}, 101--121.
+
 \bibitem[\citeproctext]{ref-Mandel1995}
 Mandel, D. R., Jusczyk, P. W., \& Pisoni, D. B. (1995). Infants' recognition of the sound patterns of their own names. \emph{Psychol. Sci.}, \emph{6}(5), 314--317.
+
+\bibitem[\citeproctext]{ref-mandler2006}
+Mandler, G. (2006). \emph{A history of modern experimental psychology: {From James} and {Wundt} to cognitive science}. The MIT Press. \url{https://doi.org/10.7551/mitpress/3542.001.0001}
 
 \bibitem[\citeproctext]{ref-maran2010my}
 Maran, M. (2010). \emph{My lie: A true story of false memory}. John Wiley \& Sons.
@@ -4295,6 +4618,12 @@ Mechelli, A., Crinion, J. T., Noppeney, U., O'doherty, J., Ashburner, J., Fracko
 \bibitem[\citeproctext]{ref-Medin1978}
 Medin, D. L., \& Schaffer, M. M. (1978). Context theory of classification learning. \emph{Psychol. Rev.}, \emph{85}(3), 207--238.
 
+\bibitem[\citeproctext]{ref-meltzoff2007like}
+Meltzoff, A. N. (2007). {``Like me''}: A foundation for social cognition. \emph{Developmental Science}, \emph{10}, 126--134.
+
+\bibitem[\citeproctext]{ref-meltzoff2003imitation}
+Meltzoff, A. N., \& Decety, J. (2003). What imitation tells us about social cognition: A rapprochement between developmental psychology and cognitive neuroscience. \emph{Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences}, \emph{358}, 491--500.
+
 \bibitem[\citeproctext]{ref-Merikle2004}
 Merikle, P. (2004). Subliminal perception. In \emph{Encyclopedia of psychology, vol. 7} (pp. 497--499). American Psychological Association.
 
@@ -4327,6 +4656,12 @@ Morris, C. D., Bransford, J. D., \& Franks, J. J. (1977). Levels of processing v
 
 \bibitem[\citeproctext]{ref-Mozer2009}
 Mozer, M. C., Pashler, H., Cepeda, N., Lindsey, R., \& Vul, E. (2009). Predicting the optimal spacing of study: A multiscale context model of memory. \emph{Advances in Neural Information Processing Systems 22 - Proceedings of the 2009 Conference}, 1321--1330.
+
+\bibitem[\citeproctext]{ref-murphy2002}
+Murphy, G. (2002). \emph{The big book of concepts}.
+
+\bibitem[\citeproctext]{ref-neisser1967}
+Neisser, U. (1967). \emph{Cognitive psychology}. Appleton-Century-Crofts.
 
 \bibitem[\citeproctext]{ref-neisser1979control}
 Neisser, U. (1979). The control of information pickup in selective looking. In \emph{Perception and its development} (pp. 201--219). Psychology Press.
@@ -4376,6 +4711,12 @@ Paterson, H. M., \& Kemp, R. I. (2006). Co-witnesses talk: A survey of eyewitnes
 \bibitem[\citeproctext]{ref-Penfield1959}
 Penfield, W., \& Roberts, L. (1959). \emph{Speech \& brain mechanisms princeton, NJ princeton uni}. Press.
 
+\bibitem[\citeproctext]{ref-pepe2023infants}
+Pepe, B., \& Powell, L. J. (2023). Infants' expectations for prosociality in imitators. \emph{Open Science Framework}.
+
+\bibitem[\citeproctext]{ref-perner1991understanding}
+Perner, J. (1991). \emph{Understanding the representational mind}. MIT Press.
+
 \bibitem[\citeproctext]{ref-Petitto1991}
 Petitto, L. A., \& Marentette, P. F. (1991). Babbling in the manual mode: Evidence for the ontogeny of language. \emph{Science}, \emph{251}(5000), 1493--1496.
 
@@ -4394,8 +4735,14 @@ Polyn, S. M., Norman, K. A., \& Kahana, M. J. (2009). A context maintenance and 
 \bibitem[\citeproctext]{ref-Porter1999}
 Porter, S., Yuille, J. C., \& Lehman, D. R. (1999). The nature of real, implanted, and fabricated memories for emotional childhood events: Implications for the recovered memory debate. \emph{Law Hum. Behav.}, \emph{23}(5), 517--537.
 
+\bibitem[\citeproctext]{ref-powell2022adopted}
+Powell, L. J. (2022). Adopted utility calculus: Origins of a concept of social affiliation. \emph{Perspectives on Psychological Science}.
+
 \bibitem[\citeproctext]{ref-Pratkanis1988}
 Pratkanis, A. R., Greenwald, A. G., Leippe, M. R., \& Baumgardner, M. H. (1988). In search of reliable persuasion effects: {III}. The sleeper effect is dead: Long live the sleeper effect. \emph{J. Pers. Soc. Psychol.}, \emph{54}(2), 203--218.
+
+\bibitem[\citeproctext]{ref-premack1990}
+Premack, D. (1990). The infant's theory of self-propelled objects. \emph{Cognition}, \emph{36}, 1--16.
 
 \bibitem[\citeproctext]{ref-Proctor2008}
 Proctor, R. W., \& Van Zandt, T. (2008). \emph{Human factors in simple and complex systems.} (2nd ed.). CRC Press.
@@ -4541,11 +4888,20 @@ Talarico, J. M., \& Rubin, D. C. (2003). Confidence, not consistency, characteri
 \bibitem[\citeproctext]{ref-twg1999eyewitness}
 Technical Working Group for Eyewitness Evidence. (1999). \emph{Eyewitness evidence: A guide for law enforcement}. U.S. Department of Justice, Office of Justice Programs.
 
+\bibitem[\citeproctext]{ref-thomas2022early}
+Thomas, A. J., Woo, B., Nettle, D., Spelke, E., \& Saxe, R. (2022). Early concepts of intimacy: Young humans use saliva sharing to infer close relationships. \emph{Science}, \emph{375}(6578), 311--315.
+
 \bibitem[\citeproctext]{ref-thomas2023color}
 Thomas, A. K., McKinney de Royston, M., \& Powell, S. (2023). Color-evasive cognition: The unavoidable impact of scientific racism in the founding of a field. \emph{Current Directions in Psychological Science}, \emph{32}(2), 137--144.
 
 \bibitem[\citeproctext]{ref-Tiego2018}
 Tiego, J., Testa, R., Bellgrove, M. A., Pantelis, C., \& Whittle, S. (2018). A hierarchical model of inhibitory control. \emph{Frontiers in Psychology}, \emph{9}, 1339.
+
+\bibitem[\citeproctext]{ref-tolman1948cognitive}
+Tolman, E. C. (1948). Cognitive maps in rats and men. \emph{Psychological Review}, \emph{55}(4), 189.
+
+\bibitem[\citeproctext]{ref-tomasello2003key}
+Tomasello, M. (2003). The key is social cognition. In D. Gentner \& S. Goldin-Meadow (Eds.), \emph{Language in mind: Advances in the study of language and thought} (pp. 47--57). MIT Press.
 
 \bibitem[\citeproctext]{ref-Treisman1960}
 Treisman, A. M. (1960). Contextual cues in selective listening. \emph{Quarterly Journal of Experimental Psychology}, \emph{12}(4), 242--248.
@@ -4586,6 +4942,12 @@ Watson, J. M., \& Strayer, D. L. (2010). Supertaskers: Profiles in extraordinary
 \bibitem[\citeproctext]{ref-Waxman1990}
 Waxman, S. R. (1990). Linguistic biases and the establishment of conceptual hierarchies: Evidence from preschool children. \emph{Cogn. Dev.}, \emph{5}(2), 123--150.
 
+\bibitem[\citeproctext]{ref-wellman1990child}
+Wellman, H. M. (1990). \emph{The child's theory of mind}. MIT Press.
+
+\bibitem[\citeproctext]{ref-wellman2001meta}
+Wellman, H. M., Cross, D., \& Watson, J. (2001). Meta-analysis of theory-of-mind development: The truth about false belief. \emph{Child Development}, \emph{72}, 655--684.
+
 \bibitem[\citeproctext]{ref-wells2020policy}
 Wells, G. L., Kovera, M. B., Douglass, A. B., Brewer, N., Meissner, C. A., \& Wixted, J. T. (2020). Policy and procedure recommendations for the collection and preservation of eyewitness identification evidence. \emph{Law and Human Behavior}, \emph{44}(1), 3--36. \url{https://doi.org/10.1037/lhb0000359}
 
@@ -4619,6 +4981,9 @@ Williams, J. R., Markov, Y. A., Tiurina, N. A., \& Störmer, V. S. (2022). What 
 \bibitem[\citeproctext]{ref-wilson1987framing}
 Wilson, D. K., Kaplan, R. M., \& Schneiderman, L. J. (1987). Framing of decisions and selections of alternatives in health care. \emph{Social Behaviour}, \emph{2}(1), 51--59.
 
+\bibitem[\citeproctext]{ref-wimmer1983beliefs}
+Wimmer, H., \& Perner, J. (1983). Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception. \emph{Cognition}, \emph{13}, 103--128.
+
 \bibitem[\citeproctext]{ref-winawer2007}
 Winawer, J., Witthoft, N., Frank, M. C., Wu, L., Wade, A. R., \& Boroditsky, L. (2007). Russian blues reveal effects of language on color discrimination. \emph{Proceedings of the National Academy of Sciences}, \emph{104}(19), 7780--7785.
 
@@ -4637,11 +5002,17 @@ Wixted, J. T., \& Wells, G. L. (2017). The relationship between eyewitness confi
 \bibitem[\citeproctext]{ref-wixted2021test}
 Wixted, J. T., Wells, G. L., Loftus, E. F., \& Garrett, B. L. (2021). Test a witness's memory of a suspect only once. \emph{Psychological Science in the Public Interest}, \emph{22}(1\_suppl), 1S--18S. \url{https://doi.org/10.1177/15291006211026259}
 
+\bibitem[\citeproctext]{ref-woodward1998}
+Woodward, A. L. (1998). Infants selectively encode the goal object of an actor's reach. \emph{Cognition}, \emph{69}, 1--34.
+
 \bibitem[\citeproctext]{ref-Yarbus1967}
 Yarbus, A. L. (1967). \emph{Eye movements and vision}. Plenum Press.
 
 \bibitem[\citeproctext]{ref-yilmaz2023principles}
 Yilmaz, A. S., Shen, K. J., \& Wixted, J. T. (2023). \emph{The principles of memory versus the federal rules of evidence}.
+
+\bibitem[\citeproctext]{ref-zhang2012perspective}
+Zhang, J., Hedden, T., \& Chia, A. (2012). Perspective-taking and depth of theory-of-mind reasoning in sequential-move games. \emph{Cognitive Science}, \emph{36}, 560--573.
 
 \end{CSLReferences}
 

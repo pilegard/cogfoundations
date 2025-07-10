@@ -4,7 +4,11 @@
 knitr::include_graphics("images/ch4/fig0.png")
 ```
 
-Working memory is like your mind’s workspace: a limited capacity system for storage and processing of information. Have you ever noticed that it's hard to understand someone if they throw too much information at you at once? That experience of confusion when receiving more information than we can process is called *working memory overload*. But working memory does more than simply hold information, it also processes and manipulates whatever information you're currently thinking about. In fact, the name scientists use for the system changed over time from “short-term memory” to “working memory” to emphasize the processing function of this stage of memory.
+Imagine trying to work at a cluttered desk. You can probably handle a few papers, maybe your glasses and a pen, but add too many items and suddenly you can't find anything or get any work done. Your working memory operates much the same way: it's your mind's workspace, a limited capacity system for temporarily holding and manipulating information.
+
+Have you ever tried to do mental math while someone is talking to you? Or attempted to remember a phone number while walking through a noisy room? That feeling of mental overload happens because working memory can only juggle a few pieces of information at once. Unlike a computer's memory that simply stores data, your working memory actively processes and manipulates whatever you're currently thinking about: comparing, combining, and transforming information in real time.
+
+Scientists originally called this system "short-term memory," but they later adopted "working memory" to emphasize that it does much more than just briefly store information. It's where your conscious thinking happens, making it one of the most important cognitive systems you possess.
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}

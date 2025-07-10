@@ -3,7 +3,9 @@
 knitr::include_graphics("images/ch6/fig0.jpeg")
 ```
 
-As we have seen, our memories are not perfect. They fail in part due to our inadequate encoding and storage, and in part due to our inability to accurately retrieve stored information. But memory is also influenced by the setting in which it occurs, by the events that occur to us after we have experienced an event, and by the cognitive processes that we use to help us remember. Although our cognition allows us to attend to, rehearse, and organize information, cognition may also lead to distortions and errors in our judgments and our behaviors.
+As we have seen, our memories are not perfect. Memory doesn't work like a video recording that captures events exactly as they happened. Instead, memory is influenced by where you are when you remember, what happens to you after the original event, and how your mind tries to make sense of it all. Every time you recall something, you're not just retrieving information -- you're reconstructing it.
+
+This reconstruction process is both a strength and a weakness. It allows you to fill in gaps and make sense of incomplete information, but it also opens the door to distortions and errors. The same cognitive processes that help you organize and remember information can also lead you astray, creating memories that feel real but never actually happened. Understanding how context shapes memory helps explain not just why we forget, but why we sometimes "remember" things that never occurred.
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}

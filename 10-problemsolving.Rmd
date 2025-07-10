@@ -3,7 +3,9 @@
  knitr::include_graphics("images/ch10/cover.jpeg")
 ```
 
-How do we achieve our goals when the solution is not immediately obvious? What mental blocks are likely to get in our way, and how can we leverage our prior knowledge to solve novel problems?
+How do we achieve our goals when the solution is not immediately obvious? Consider the chess player in the park, contemplating his next move among dozens of possibilities. He's not just randomly trying moves -- he's drawing on years of experience, recognizing patterns, and thinking several steps ahead. But he's also fighting against mental obstacles: perhaps he's fixated on one strategy that isn't working, or he's overthinking a move that should be obvious. His expertise helps him see solutions that beginners would miss, but it might also blind him to creative approaches.
+
+Problem solving involves much more than logical thinking. It requires us to define problems clearly, generate possible solutions, evaluate options, and overcome the mental blocks that inevitably arise. Understanding how we navigate these challenges -- and why we sometimes get stuck -- reveals important insights about human cognition and offers practical strategies for becoming more effective problem solvers.
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}

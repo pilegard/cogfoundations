@@ -117,6 +117,8 @@ Paragraph on ongoing improvements to cognitive psychology added to Rise of Cogni
 #### Current version {-}
 Edits to incorporate Mandler (2006).
 
+Cover illustration by Jean-Marc Côté, Wikimedia Commons.
+
 ### Chapter 2. Perception {-}
 #### First edition {-}
 Perception \

@@ -32,10 +32,9 @@ ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v
 
 ### Current Version {-}
 Revisions since second edition:
-- Revisions to Knowledge chapter by Bill Pepe
-- Revisions to History and Research Methods by C. Pilegard
-- Revisions to Reasoning and Decision Making by C. Pilegard
-- Revisions to all chapter intros by C. Pilegard
+
+- Final CDIIP-funded graduate student content expert revision by Bill Pepe (Knowledge)
+- Revisions to History and Research Methods, Reasoning and Decision Making, and all chapter intros by C. Pilegard
 
 ### Second Edition {-}
 The second edition of this book builds on the first edition with updates, improvements, and edits by a team of UC San Diego graduate student content experts:

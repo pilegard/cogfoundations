@@ -33,7 +33,7 @@ ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v
 ### Current Version {-}
 Revisions since second edition:
 
-- Final CDIIP-funded graduate student content expert revision by Bill Pepe (Knowledge)
+- Bill Pepe (Knowledge) -- Final CDIIP-funded graduate student content expert revision
 - Revisions to History and Research Methods, Reasoning and Decision Making, and all chapter intros by C. Pilegard
 
 ### Second Edition {-}

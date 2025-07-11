@@ -2,7 +2,7 @@
 
 \begin{center}\includegraphics[width=1\linewidth]{images/ch9/aisle} \end{center}
 
-We like to think that we make important decisions rationally, logically, and without bias or error— but what if that’s not the case? Standing in the cereal aisle, for example  you face dozens of choices. You reason that whole grain cereals are healthier, but the colorful box at eye level catches your attention. The "25% more free!" label seems like a good deal, but is it really? Your decision involves weighing nutrition against taste, cost against convenience, and logical analysis against marketing psychology. Even this simple choice reveals the complex interplay between reasoning and decision making that governs daily life.
+We like to think that we make important decisions rationally, logically, and without bias or error -- but what if that’s not the case? Standing in the cereal aisle, for example  you face dozens of choices. You reason that whole grain cereals are healthier, but the colorful box at eye level catches your attention. The "25% more free!" label seems like a good deal, but is it what you want? Your decision involves weighing nutrition against taste, cost against convenience, and logical analysis against marketing and nostalgia. Even this simple choice reveals the complex interplay between reasoning and decision making that governs daily life.
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}

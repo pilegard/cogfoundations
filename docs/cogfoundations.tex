@@ -36,6 +36,46 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -126,17 +166,58 @@
 \section*{About the Book}\label{about-the-book}
 
 
-This collaborative book project is led by Celeste Pilegard, but represents the work of dozens of authors and collaborators listed below. Dr.~Pilegard is an Associate Teaching Professor in the Department of Psychology at the University of California, San Diego. Correspondence can be sent to \href{mailto:pilegard@ucsd.edu}{Celeste Pilegard}.
+This open-access textbook introduces the core topics in cognitive psychology for anyone teaching or taking a survey course on the subject. It is designed to be accessible to students from all backgrounds, including those with no prior coursework in psychology. The book covers foundational concepts such as perception, attention, memory, language, reasoning, and problem solving. The book is ideal for instructors seeking to introduce classic research alongside contemporary perspectives.
 
-Please use this \href{https://forms.gle/83CBvAgLuJshRfz37}{Google form} to let us know if you've used the book in your course. If you notice an error or would like to suggest an improvement, please do one of the following: (1) use the \href{https://github.com/pilegard/cogfoundations}{GitHub site} to open an issue or submit a pull request with the suggested change, (2) use this \href{https://forms.gle/83CBvAgLuJshRfz37}{Google form}, or (3) \href{mailto:pilegard@ucsd.edu}{send an email} with ``Cognitive Foundations OER'' in the subject line.
+The textbook represents the work of dozens of authors and collaborators. The first edition aggregated multiple Open Educational Resources, which were then edited into a single book with consistent voice and formatting by Celeste Pilegard. For the second edition, a team of graduate student content experts comprehensively reviewed and updated the materials. The current version includes ongoing improvements and revisions.
 
-This book was formatted using \href{https://bookdown.org/}{bookdown}, an R package.
+Celeste Pilegard, Associate Teaching Professor in the Department of Psychology at the University of California, San Diego, leads the book project. The full list of authors and contributors appears in the version history and attributions below.
 
-You are viewing the current version of Cognitive Foundations with ongoing improvements since v2.0. This version of Cognitive Foundations is available at \url{https://pilegard.github.io/cogfoundations/}.
+The book was formatted using \href{https://bookdown.org/}{bookdown}, an R package.
 
-ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024, permanently available at \url{https://github.com/pilegard/cogfoundations/releases/tag/v2.0}.
+\subsection*{Adoption and Contact Information}\label{adoption-and-contact-information}
 
-\subsection*{Current Version}\label{current-version}
+
+\subsubsection*{ISBN Information}\label{isbn-information}
+
+
+\textbf{ISBN 979-8-9912306-0-5} corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024, permanently available at \url{https://github.com/pilegard/cogfoundations/releases/tag/v2.0}.
+
+This ISBN is provided for instructors whose institutions require one for textbook adoption. Since ISBNs must reference a stable document, this ISBN refers to the specific v2.0 release. However, this book is continuously updated with improvements and corrections. You are viewing the current version of Cognitive Foundations with ongoing improvements since v2.0, available at \url{https://pilegard.github.io/cogfoundations/}.
+
+\subsubsection*{Feedback and Contact}\label{feedback-and-contact}
+
+
+Please let us know if you adopt the book in your course -- we love hearing how it's being used! To provide feedback or report errors:
+
+\begin{itemize}
+\tightlist
+\item
+  Use our \href{https://forms.gle/83CBvAgLuJshRfz37}{feedback form} to tell us about your adoption, report errors, or submit general comments
+\item
+  Submit technical issues or suggestions via \href{https://github.com/pilegard/cogfoundations}{GitHub}
+\item
+  \href{mailto:pilegard@ucsd.edu}{Send an email} with ``Cognitive Foundations OER'' in the subject line for specific inquiries
+\end{itemize}
+
+\paragraph*{Embed the Book in Your Course Site}\label{embed-the-book-in-your-course-site}
+\addcontentsline{toc}{paragraph}{Embed the Book in Your Course Site}
+
+Instructors can embed the book directly into their course site using an HTML iframe. For example, to display the book within a Canvas page, you can click \textbf{Insert} \textgreater{} \textbf{Embed} and paste the following code (edit the URL in the \texttt{src} attribute to go directly to a chapter):
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DataTypeTok{\textless{}}\KeywordTok{iframe}
+\OtherTok{  style}\OperatorTok{=}\StringTok{"border: 1px solid black;"}\OtherTok{ width}\OperatorTok{=}\StringTok{"100\%"}\OtherTok{ height}\OperatorTok{=}\StringTok{"750"}\OtherTok{ loading}\OperatorTok{=}\StringTok{"lazy"}
+\OtherTok{  src}\OperatorTok{=}\StringTok{"https://pilegard.github.io/cogfoundations/"}\DataTypeTok{\textgreater{}\textless{}/}\KeywordTok{iframe}\DataTypeTok{\textgreater{}}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection*{Version History}\label{version-history}
+
+
+Brief descriptions of each textbook edition are given below; for a full description of edits see \hyperref[license-and-attributions]{License and Attributions}.
+
+\subsubsection*{Current Version}\label{current-version}
 
 
 Revisions since second edition:
@@ -149,7 +230,7 @@ Revisions since second edition:
   Revisions to History and Research Methods, Reasoning and Decision Making, and all chapter intros by C. Pilegard
 \end{itemize}
 
-\subsection*{Second Edition}\label{second-edition}
+\subsubsection*{Second Edition}\label{second-edition}
 
 
 The second edition of this book builds on the first edition with updates, improvements, and edits by a team of UC San Diego graduate student content experts:
@@ -174,7 +255,7 @@ Additionally, Annie S. Ditta (UC Riverside) completed the second edition edits t
 
 The second edition of this book was supported by a Course Development and Instructional Improvement Program grant awarded to C. Pilegard. The program is sponsored by the Division of Undergraduate Education at the University of California, San Diego.
 
-\subsection*{First Edition}\label{first-edition}
+\subsubsection*{First Edition}\label{first-edition}
 
 
 The first edition of this book was aggregated from multiple Open Educational Resources by Celeste Pilegard. All adaptations, revisions, and transformations of source material were completed by Celeste Pilegard.
@@ -252,7 +333,7 @@ Unless otherwise noted, this work is licensed under the Creative Commons Attribu
 
 Front cover photo by Nathan Dumlao on Unsplash.
 
-Licenses and attributions for individual chapters are noted in the following sections.
+The detailed attributions below are provided to meet Creative Commons licensing requirements and to acknowledge all contributors' work. All revisions were made by C. Pilegard unless otherwise noted.
 
 \subsection*{Chapter 1. History and Research Methods}\label{chapter-1.-history-and-research-methods}
 
@@ -301,7 +382,7 @@ Condensed from Walinga version; American spellings used; Imperial measurements u
 \subsubsection*{Second edition}\label{second-edition-2}
 
 
-Revisions to first edition version: Structure and framing reorganized. More recent content on multisensory integration added. Computer vision added.
+Second edition revisions by Hayden Schill: Structure and framing reorganized. More recent content on multisensory integration added. Computer vision added.
 
 Cover photo by Mathilda Khoo on Unsplash.
 
@@ -323,7 +404,7 @@ Condensed from original version; some content adapted to suit course.
 \subsubsection*{Second edition}\label{second-edition-3}
 
 
-Revisions to first edition version: Chapter edited throughout for clarity. Section on Controlling Attention added. Sections on Divided Attention and Multitasking condensed and added to Controlling Attention. Box about Attention-Deficit/Hyperactivity Disorder (ADHD) added. Learning Objectives, Key Takeaways, Exercises, and Glossary added.
+Second edition revisions by Pria Daniel: Chapter edited throughout for clarity. Section on Controlling Attention added. Sections on Divided Attention and Multitasking condensed and added to Controlling Attention. Box about Attention-Deficit/Hyperactivity Disorder (ADHD) added. Learning Objectives, Key Takeaways, Exercises, and Glossary added.
 
 Cover photo by chuttersnap on Unsplash.
 
@@ -342,7 +423,7 @@ Condensed from original version. American spellings used. Content added or chang
 \subsubsection*{Second edition}\label{second-edition-4}
 
 
-Revisions to first edition version: Edits for clarity and more examples added. Section on working memory and distinctiveness added. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
+Second edition revisions by Hayden Schill: Edits for clarity and more examples added. Section on working memory and distinctiveness added. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
 
 Cover photo by Matt Briney on Unsplash.
 
@@ -372,7 +453,7 @@ Cognitive Psychology by Mehgan Andrade and Neil Walker is licensed under a Creat
 \subsubsection*{Second edition}\label{second-edition-5}
 
 
-Revisions to first edition version: Simplified the differences between computers and brains. Additional section of the testing effect and an explanation of a possible mechanism. Addition of the spacing effect and the current mechanisms that we know contribute to it. Clarification of memory consolidation and its relation to sleep. Sleep does not cause more learning, it only reduces interference from other memories. Addition of targeted memory reactivation box during sleep, where it is possible to increase the memory strength during sleep. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
+Second edition revisions by Mohan Gupta: Simplified the differences between computers and brains. Additional section of the testing effect and an explanation of a possible mechanism. Addition of the spacing effect and the current mechanisms that we know contribute to it. Clarification of memory consolidation and its relation to sleep. Sleep does not cause more learning, it only reduces interference from other memories. Addition of targeted memory reactivation box during sleep, where it is possible to increase the memory strength during sleep. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
 
 Cover photo by Tao Yuan on Unsplash.
 
@@ -402,7 +483,7 @@ Condensed from original
 \subsubsection*{Second edition}\label{second-edition-6}
 
 
-Revisions to first edition version: Edits for clarity and additional context throughout. Added content on distinction between retrieval and recognition. Emphasis added to demonstrate role of memory contamination over time to reflect more recent research. Citations and characterization of eyewitness memory research substantially updated.
+Second edition revisions by Anne Yilmaz: Edits for clarity and additional context throughout. Added content on distinction between retrieval and recognition. Emphasis added to demonstrate role of memory contamination over time to reflect more recent research. Citations and characterization of eyewitness memory research substantially updated.
 
 Cover photo by Alex Grodkiewicz on Unsplash.
 
@@ -429,11 +510,11 @@ Cover photo by Alli Elder on Unsplash.
 \subsubsection*{Current version}\label{current-version-2}
 
 
-Revisions since second edition: Section 7.2 Theories of Concept Representation expanded with additional paragraph about Causal Model Theory. Section 7.4 Mental Models added, including overview of mental models and detailed discussion of theory of mind. Research focus box added to mental model section.
+Revisions since the second edition by Bill Pepe: Section 7.2 Theories of Concept Representation expanded with additional paragraph about Causal Model Theory. Section 7.4 Mental Models added, including overview of mental models and detailed discussion of theory of mind. Research focus box added to mental model section.
 
 Sources for new content:\\
-Theory of Mind by {[}Author names{]}. (2019). In R. Biswas-Diener \& E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from \url{https://nobaproject.com/modules/theory-of-mind}.
-Theory of Mind by {[}Author names{]} is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Theory of Mind by Bertram Malle. (2019). In R. Biswas-Diener \& E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from \url{https://nobaproject.com/modules/theory-of-mind}.
+Theory of Mind by Bertram Malle is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 The following Wikipedia entries served as sources: Concept; Mental model; Theory of mind. Retrieved from \url{http://www.en.wikipedia.org/}
 Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
@@ -456,10 +537,7 @@ Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike Lic
 \subsubsection*{Second edition}\label{second-edition-7}
 
 
-Revisions to first edition version: Content added to ``What is Language'', ``Linguistic Diversity'', and ``Language Acquisition'' sections from source: Anderson, C., Bjorkman, B., Denis, D., Doner, J., Grant, M., Sanders, N., \& Taniguchi, A. (2022). Essentials of Linguistics, 2nd edition. eCampusOntario.
-Essentials of Linguistics, 2nd edition Copyright © 2022 by Catherine Anderson; Bronwyn Bjorkman; Derek Denis; Julianne Doner; Margaret Grant; Nathan Sanders; and Ai Taniguchi is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, except where otherwise noted.\\
-
-Edited for clarity and restructured throughout. Citations and context updated. Figures added. ``Language and Thought'' section added. Original writing added throughout.
+Second edition revisions by Catherine Arnett: Edited for clarity and restructured throughout. Citations and context updated. Figures added. ``Language and Thought'' section added. Original writing added throughout. Content added to ``What is Language'', ``Linguistic Diversity'', and ``Language Acquisition'' sections from source: Anderson, C., Bjorkman, B., Denis, D., Doner, J., Grant, M., Sanders, N., \& Taniguchi, A. (2022). Essentials of Linguistics, 2nd edition. eCampusOntario., licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, except where otherwise noted.\\
 
 Cover photo by Sushil Nash on Unsplash.
 
@@ -478,9 +556,10 @@ Condensed from original version. American spellings used. Content added or chang
 \subsubsection*{Second edition}\label{second-edition-8}
 
 
-Revisions to first edition version: Sections 9.1 and 9.2 edited mostly for clarity, with subsection on confirmation bias edited for content as well. Section 9.3 on decision making entirely removed and rewritten from scratch, including new subsections on theories of decision making and constructed preferences.
+Second edition revisions by Leo Kleiman-Lynch: Sections 9.1 and 9.2 edited mostly for clarity, with subsection on confirmation bias edited for content as well. Section 9.3 on decision making entirely removed and rewritten from scratch, including new subsections on theories of decision making and constructed preferences.
 
-\subsubsection{Current version}\label{current-version-3}
+\subsubsection*{Current version}\label{current-version-3}
+
 
 Revisions since second edition: Prose re-written throughout to remove running example of Knut.
 
@@ -501,7 +580,7 @@ Condensed from original version. American spellings used. Content added or chang
 \subsubsection*{Second edition}\label{second-edition-9}
 
 
-New sections added: Creativity, Fixation on Examples, Overcoming Mental Fixation, Curse of Expertise. All figures updated.
+Second edition revisions by Annie Ditta: New sections added on Creativity, Fixation on Examples, Overcoming Mental Fixation, Curse of Expertise. All figures updated.
 
 Cover photo by Zoe Holling on Unsplash.
 

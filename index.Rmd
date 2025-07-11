@@ -20,23 +20,52 @@ github-repo: pilegard/cogfoundations
 ![](images/cover.png)
 
 ## About the Book {-}
-This collaborative book project is led by Celeste Pilegard, but represents the work of dozens of authors and collaborators listed below. Dr. Pilegard is an Associate Teaching Professor in the Department of Psychology at the University of California, San Diego. Correspondence can be sent to [Celeste Pilegard](mailto:pilegard@ucsd.edu). 
 
-Please use this [Google form](https://forms.gle/83CBvAgLuJshRfz37) to let us know if you've used the book in your course. If you notice an error or would like to suggest an improvement, please do one of the following: (1) use the [GitHub site](https://github.com/pilegard/cogfoundations) to open an issue or submit a pull request with the suggested change, (2) use this [Google form](https://forms.gle/83CBvAgLuJshRfz37), or (3) [send an email](mailto:pilegard@ucsd.edu) with "Cognitive Foundations OER" in the subject line.
+This open-access textbook introduces the core topics in cognitive psychology for anyone teaching or taking a survey course on the subject. It is designed to be accessible to students from all backgrounds, including those with no prior coursework in psychology. The book covers foundational concepts such as perception, attention, memory, language, reasoning, and problem solving. The book is ideal for instructors seeking to introduce classic research alongside contemporary perspectives.
 
-This book was formatted using [bookdown](https://bookdown.org/), an R package.
+The textbook represents the work of dozens of authors and collaborators. The first edition aggregated multiple Open Educational Resources, which were then edited into a single book with consistent voice and formatting by Celeste Pilegard. For the second edition, a team of graduate student content experts comprehensively reviewed and updated the materials. The current version includes ongoing improvements and revisions.
 
-You are viewing the current version of Cognitive Foundations with ongoing improvements since v2.0. This version of Cognitive Foundations is available at https://pilegard.github.io/cogfoundations/.
+Celeste Pilegard, Associate Teaching Professor in the Department of Psychology at the University of California, San Diego, leads the book project. The full list of authors and contributors appears in the version history and attributions below.
 
-ISBN 979-8-9912306-0-5 corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024, permanently available at https://github.com/pilegard/cogfoundations/releases/tag/v2.0. 
+The book was formatted using [bookdown](https://bookdown.org/), an R package.
 
-### Current Version {-}
+### Adoption and Contact Information {-}
+
+#### ISBN Information {-}
+
+**ISBN 979-8-9912306-0-5** corresponds to the PDF version of Cognitive Foundations v2.0, published July 25, 2024, permanently available at https://github.com/pilegard/cogfoundations/releases/tag/v2.0. 
+
+This ISBN is provided for instructors whose institutions require one for textbook adoption. Since ISBNs must reference a stable document, this ISBN refers to the specific v2.0 release. However, this book is continuously updated with improvements and corrections. You are viewing the current version of Cognitive Foundations with ongoing improvements since v2.0, available at https://pilegard.github.io/cogfoundations/.
+
+#### Feedback and Contact {-}
+
+Please let us know if you adopt the book in your course -- we love hearing how it's being used! To provide feedback or report errors:
+
+- Use our [feedback form](https://forms.gle/83CBvAgLuJshRfz37) to tell us about your adoption, report errors, or submit general comments
+- Submit technical issues or suggestions via [GitHub](https://github.com/pilegard/cogfoundations)
+- [Send an email](mailto:pilegard@ucsd.edu) with "Cognitive Foundations OER" in the subject line for specific inquiries
+
+:::fyi
+##### Embed the Book in Your Course Site {-}
+Instructors can embed the book directly into their course site using an HTML iframe. For example, to display the book within a Canvas page, you can click **Insert** > **Embed** and paste the following code (edit the URL in the `src` attribute to go directly to a chapter):
+
+```html
+<iframe
+  style="border: 1px solid black;" width="100%" height="750" loading="lazy"
+  src="https://pilegard.github.io/cogfoundations/"></iframe>
+```
+:::
+
+### Version History {-}
+Brief descriptions of each textbook edition are given below; for a full description of edits see [License and Attributions].
+
+#### Current Version {-}
 Revisions since second edition:
 
 - Bill Pepe (Knowledge) -- Final CDIIP-funded graduate student content expert revision
 - Revisions to History and Research Methods, Reasoning and Decision Making, and all chapter intros by C. Pilegard
 
-### Second Edition {-}
+#### Second Edition {-}
 The second edition of this book builds on the first edition with updates, improvements, and edits by a team of UC San Diego graduate student content experts:
 
 - Catherine Arnett (Language)
@@ -50,11 +79,12 @@ Additionally, Annie S. Ditta (UC Riverside) completed the second edition edits t
 
 The second edition of this book was supported by a Course Development and Instructional Improvement Program grant awarded to C. Pilegard. The program is sponsored by the Division of Undergraduate Education at the University of California, San Diego.
 
-### First Edition {-}
+#### First Edition {-}
 The first edition of this book was aggregated from multiple Open Educational Resources by Celeste Pilegard. All adaptations, revisions, and transformations of source material were completed by Celeste Pilegard.
 
 The original authors of the work remixed for the first edition of the book are listed below:
 
+::: {.columns}
 - Mehgan Andrade, College of the Canyons
 - Mara Aruguete, Lincoln University
 - David B. Baker, University of Akron
@@ -83,6 +113,7 @@ The original authors of the work remixed for the first edition of the book are l
 - Neil Walker, College of the Canyons
 - Authors of the [Cognitive Psychology and Cognitive Neuroscience Wikibook](https://en.wikibooks.org/wiki/Cognitive_Psychology_and_Cognitive_Neuroscience)
 - Wikipedia authors
+:::
 
 C. Pilegard authored original portions of the first edition where noted below.
 
@@ -93,7 +124,7 @@ Unless otherwise noted, this work is licensed under the Creative Commons Attribu
 
 Front cover photo by Nathan Dumlao on Unsplash.
 
-Licenses and attributions for individual chapters are noted in the following sections.
+The detailed attributions below are provided to meet Creative Commons licensing requirements and to acknowledge all contributors' work. All revisions were made by C. Pilegard unless otherwise noted.
 
 ### Chapter 1. History and Research Methods {-}
 #### First edition {-}
@@ -128,7 +159,7 @@ Changes and additions (c) 2014 Jennifer Walinga, licensed under a Creative Commo
 Condensed from Walinga version; American spellings used; Imperial measurements used; some content adapted to suit course.
 
 #### Second edition {-}
-Revisions to first edition version: Structure and framing reorganized. More recent content on multisensory integration added. Computer vision added.
+Second edition revisions by Hayden Schill: Structure and framing reorganized. More recent content on multisensory integration added. Computer vision added.
 
 Cover photo by Mathilda Khoo on Unsplash.
 
@@ -144,7 +175,7 @@ ADHD and Behavior Disorders in Children by Richard Milich and Walter Roberts are
 Condensed from original version; some content adapted to suit course. 
 
 #### Second edition {-}
-Revisions to first edition version: Chapter edited throughout for clarity. Section on Controlling Attention added. Sections on Divided Attention and Multitasking condensed and added to Controlling Attention. Box about Attention-Deficit/Hyperactivity Disorder (ADHD) added. Learning Objectives, Key Takeaways, Exercises, and Glossary added. 
+Second edition revisions by Pria Daniel: Chapter edited throughout for clarity. Section on Controlling Attention added. Sections on Divided Attention and Multitasking condensed and added to Controlling Attention. Box about Attention-Deficit/Hyperactivity Disorder (ADHD) added. Learning Objectives, Key Takeaways, Exercises, and Glossary added. 
 
 Cover photo by chuttersnap on Unsplash.
 
@@ -157,7 +188,7 @@ Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free D
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. Chapter introduction added. Content added including transition from STM to WM approach, description of episodic buffer, description and evidence for working memory components, addition of episodic buffer.
 
 #### Second edition {-}
-Revisions to first edition version: Edits for clarity and more examples added. Section on working memory and distinctiveness added. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
+Second edition revisions by Hayden Schill: Edits for clarity and more examples added. Section on working memory and distinctiveness added. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
 
 Cover photo by Matt Briney on Unsplash.
 
@@ -181,7 +212,7 @@ Some encoding specificity principle information from: Andrade, M., & Walker, N. 
 Cognitive Psychology by Mehgan Andrade and Neil Walker is licensed under a Creative Commons Attribution4.0 International License.\
 
 #### Second edition {-}
-Revisions to first edition version: Simplified the differences between computers and brains. Additional section of the testing effect and an explanation of a possible mechanism. Addition of the spacing effect and the current mechanisms that we know contribute to it. Clarification of memory consolidation and its relation to sleep. Sleep does not cause more learning, it only reduces interference from other memories. Addition of targeted memory reactivation box during sleep, where it is possible to increase the memory strength during sleep. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
+Second edition revisions by Mohan Gupta: Simplified the differences between computers and brains. Additional section of the testing effect and an explanation of a possible mechanism. Addition of the spacing effect and the current mechanisms that we know contribute to it. Clarification of memory consolidation and its relation to sleep. Sleep does not cause more learning, it only reduces interference from other memories. Addition of targeted memory reactivation box during sleep, where it is possible to increase the memory strength during sleep. Language updated to reflect Wixted (2024) on the Atkinson/Shiffrin model.
 
 Cover photo by Tao Yuan on Unsplash.
 
@@ -205,7 +236,7 @@ Psychology by Spielman (+ multiple authors) is licensed under a Creative Commons
 Condensed from original
 
 #### Second edition {-}
-Revisions to first edition version: Edits for clarity and additional context throughout. Added content on distinction between retrieval and recognition. Emphasis added to demonstrate role of memory contamination over time to reflect more recent research. Citations and characterization of eyewitness memory research substantially updated.
+Second edition revisions by Anne Yilmaz: Edits for clarity and additional context throughout. Added content on distinction between retrieval and recognition. Emphasis added to demonstrate role of memory contamination over time to reflect more recent research. Citations and characterization of eyewitness memory research substantially updated.
 
 Cover photo by Alex Grodkiewicz on Unsplash.
 
@@ -226,11 +257,11 @@ Condensed from original version. American spellings used. Content added or chang
 Cover photo by Alli Elder on Unsplash.
 
 #### Current version {-}
-Revisions since second edition: Section 7.2 Theories of Concept Representation expanded with additional paragraph about Causal Model Theory. Section 7.4 Mental Models added, including overview of mental models and detailed discussion of theory of mind. Research focus box added to mental model section.
+Revisions since the second edition by Bill Pepe: Section 7.2 Theories of Concept Representation expanded with additional paragraph about Causal Model Theory. Section 7.4 Mental Models added, including overview of mental models and detailed discussion of theory of mind. Research focus box added to mental model section.
 
 Sources for new content:  
-Theory of Mind by [Author names]. (2019). In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from https://nobaproject.com/modules/theory-of-mind. 
-Theory of Mind by [Author names] is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Theory of Mind by Bertram Malle. (2019). In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from https://nobaproject.com/modules/theory-of-mind. 
+Theory of Mind by Bertram Malle is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 The following Wikipedia entries served as sources: Concept; Mental model; Theory of mind. Retrieved from http://www.en.wikipedia.org/
 Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
@@ -247,10 +278,7 @@ Sentence Processing section from Wikipedia entry (http:/www.en.wikipedia.org/), 
 Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
 
 #### Second edition {-}
-Revisions to first edition version: Content added to "What is Language", "Linguistic Diversity", and "Language Acquisition" sections from source: Anderson, C., Bjorkman, B., Denis, D., Doner, J., Grant, M., Sanders, N., & Taniguchi, A. (2022). Essentials of Linguistics, 2nd edition. eCampusOntario.
-Essentials of Linguistics, 2nd edition Copyright © 2022 by Catherine Anderson; Bronwyn Bjorkman; Derek Denis; Julianne Doner; Margaret Grant; Nathan Sanders; and Ai Taniguchi is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, except where otherwise noted.\
-
-Edited for clarity and restructured throughout. Citations and context updated. Figures added. "Language and Thought" section added. Original writing added throughout.
+Second edition revisions by Catherine Arnett: Edited for clarity and restructured throughout. Citations and context updated. Figures added. "Language and Thought" section added. Original writing added throughout. Content added to "What is Language", "Linguistic Diversity", and "Language Acquisition" sections from source: Anderson, C., Bjorkman, B., Denis, D., Doner, J., Grant, M., Sanders, N., & Taniguchi, A. (2022). Essentials of Linguistics, 2nd edition. eCampusOntario., licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, except where otherwise noted.\
 
 Cover photo by Sushil Nash on Unsplash.
 
@@ -263,9 +291,9 @@ Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free D
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. 
 
 #### Second edition {-}
-Revisions to first edition version: Sections 9.1 and 9.2 edited mostly for clarity, with subsection on confirmation bias edited for content as well. Section 9.3 on decision making entirely removed and rewritten from scratch, including new subsections on theories of decision making and constructed preferences.
+Second edition revisions by Leo Kleiman-Lynch: Sections 9.1 and 9.2 edited mostly for clarity, with subsection on confirmation bias edited for content as well. Section 9.3 on decision making entirely removed and rewritten from scratch, including new subsections on theories of decision making and constructed preferences.
 
-#### Current version
+#### Current version {-}
 Revisions since second edition: Prose re-written throughout to remove running example of Knut.
 
 Cover photo by Photo by Nathália Rosa on Unsplash.
@@ -279,6 +307,6 @@ Cognitive Psychology and Cognitive Neuroscience is licensed under the GNU Free D
 Condensed from original version. American spellings used. Content added or changed to reflect American perspective and references. Context and transitions added throughout. Substantially edited, adapted, and (in some parts) rewritten for clarity and course relevance. 
 
 #### Second edition {-}
-New sections added: Creativity, Fixation on Examples, Overcoming Mental Fixation, Curse of Expertise. All figures updated.
+Second edition revisions by Annie Ditta: New sections added on Creativity, Fixation on Examples, Overcoming Mental Fixation, Curse of Expertise. All figures updated.
 
 Cover photo by Zoe Holling on Unsplash.

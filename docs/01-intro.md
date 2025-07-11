@@ -1,6 +1,7 @@
 # History and Research Methods
 
-<img src="images/ch1/lan2000.png" width="100%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=1\linewidth]{images/ch1/lan2000} \end{center}
 
 Around the turn of the 20th century, French artist Jean-Marc Côté imagined what classrooms might look like in the year 2000: students sitting passively while knowledge was transmitted directly into their brains through mechanical devices. His vision captured both a playful prediction about technological progress and a fundamental misunderstanding of how learning actually works. We now know that minds don't simply absorb information like empty vessels; they actively process, interpret, and construct knowledge through complex cognitive mechanisms.
 
@@ -19,19 +20,27 @@ Philosophers have wondered about the mind at least as far back as Socrates, aski
 
 Precursors to American psychology can be found in philosophy and physiology. Philosophers such as John Locke and Thomas Reid, writing in the 17th and 18th centuries, promoted [empiricism], the idea that all knowledge comes from experience. The work of Locke, Reid, and others emphasized the role of the human observer and the primacy of the senses in defining how the mind comes to acquire knowledge. In American colleges and universities in the early 1800s, these principles were taught as courses on mental and moral philosophy. Most often these courses taught about the mind based on the faculties of intellect, will, and the senses [@fuchs2000].
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/pharoah.png" alt="The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
-<p class="caption">(\#fig:pharoah)The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/ch1/pharoah} 
+
+}
+
+\caption{The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:pharoah)
+\end{figure}
 
 ### Experimental Psychology's Foundations {-}
 
 The formal development of modern psychology is usually credited to the work of German physician, physiologist, and philosopher Wilhelm Wundt. Wundt helped to establish the field of experimental psychology by serving as a strong promoter of the idea that psychology could be an experimental field and by providing classes, textbooks, and a laboratory for training students. In 1875, he joined the faculty at the University of Leipzig and quickly began to make plans for the creation of a program of experimental psychology. In 1879, he complemented his lectures on experimental psychology with a laboratory experience: an event that has served as the popular date for the establishment of the science of psychology.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/wundt.png" alt="Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
-<p class="caption">(\#fig:wundt)Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/ch1/wundt} 
+
+}
+
+\caption{Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:wundt)
+\end{figure}
 
 The response to the new science was immediate and global. Wundt attracted students from around the world to study the new experimental psychology and work in his lab. Wundt's experimental methods involved carefully controlled procedures for studying basic mental processes like sensation, perception, and reaction time. Rather than relying on casual self-observation, Wundt developed systematic experimental procedures under controlled laboratory conditions, often involving precise timing and reproducible measurements. Importantly, Wundt believed that his experimental methods could only be used to study basic psychological processes. For more complex mental functions like language, culture, and reasoning, he said psychologists needed to use entirely different approaches through what he called "Völkerpsychologie" (folk psychology), which involved studying history and culture rather than doing laboratory experiments [@mandler2006].
 
@@ -57,91 +66,106 @@ European psychology had never really been as influenced by behaviorism as had Am
 
 The field of cognitive psychology continues to grow and improve, as modern researchers continue to challenge assumptions within cognitive psychology itself. For example, researchers such as Ayanna Thomas are working to confront a foundational assumption in cognitive psychology, shaped by a history of scientific racism, that cognition can be understood without considering context and culture [@thomas2023color]. As new generations of cognitive psychologists enter the field, our understanding of the human mind will continue to improve.  As philosopher of science Naomi Oreskes explains, "How is it that science is self-correcting? — It is not so much that science corrects itself, but that scientists correct each other" [@oreskes2019trust, p. 51]. According to Lee McIntyre, scientists accomplish this by "a commitment to two principles: (1) We care about empirical evidence. (2) We are willing to change our theories in light of new evidence" [@mcintyre2019scientific, pp. 47-48]. Throughout this book you will see examples of how our scientific understanding of the mind has evolved over time; indeed, future editions of this textbook will surely update our current knowledge as new evidence emerges through scientific inquiry. Next, we will look at the research methods psychologists use to ask questions about the world.
 
-## Research Methods in Psychology
+## Research Methods in Cognitive Psychology
 
 One of the important steps in scientific inquiry is to test our research questions, otherwise known as hypotheses. However, there are many ways to test hypotheses in psychological research. Which method you choose will depend on the type of questions you are asking, as well as what resources are available to you. All methods have limitations, which is why the best research uses a variety of methods.
 
-Most psychological research can be divided into two types: experimental and correlational research.
+Most cognitive psychology research can be divided into two types: experimental and non-experimental research.
 
 ### Experimental Research {-}
 
-Imagine you work for a state health authority during the COVID-19 pandemic. You want to create a graph that will visualize COVID-19 mortality data in order to help people make judgments about pandemic risks. You can choose between two ways to display the same information: you can create a graph that shows how many people have died each week from COVID-19 during the pandemic, or you can create a graph that shows, *cumulatively*, how many people have died from COVID-19 over the same time period (Figure \@ref(fig:covid)). Which method of displaying information will help people understand their risk? As long as you’re giving people the information, does it really matter?
+Experimental research is the most commonly used method in cognitive psychology because it allows researchers to establish causal relationships between variables. Imagine you work for a state health authority during the COVID-19 pandemic. You want to create a graph that will visualize COVID-19 mortality data in order to help people make judgments about pandemic risks. You can choose between two ways to display the same information: you can create a graph that shows how many people have died each week from COVID-19 during the pandemic, or you can create a graph that shows, *cumulatively*, how many people have died from COVID-19 over the same time period (Figure \@ref(fig:covid)). Which method of displaying information will help people understand their risk? As long as you’re giving people the information, does it really matter?
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/covid.png" alt="Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*" width="60%" />
-<p class="caption">(\#fig:covid)Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{images/ch1/covid} 
+
+}
+
+\caption{Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*}(\#fig:covid)
+\end{figure}
 
 During the height of the COVID-19 pandemic, Lace Padilla, a psychology researcher at Northeastern University, set out with her colleagues to test the difference between these graphing methods [@padilla2022impact]. Participants in her experiment were shown a COVID-19 data visualization. Half of the participants were shown a visualization that showed deaths per week, and the other half saw a visualization that showed cumulative deaths. Afterward, participants answered questions about their perception of their risks during the pandemic.
 
 In an experiment, researchers manipulate, or cause changes, in the [independent variable], and observe or measure any impact of those changes in the [dependent variable]. The independent variable is the one under the experimenter’s control, or the variable that is intentionally altered between groups. In the case of Professor Padilla's experiment, the independent variable was whether participants saw a graph that showed deaths per week or cumulative deaths. The dependent variable is the variable that is not manipulated at all, or the one where the effect happens. One way to help remember this is that the dependent variable “depends” on what happens to the independent variable. In our example, the participants’ risk perception (the dependent variable in this experiment) depends on the type of data visualization they see (the independent variable). Thus, any observed changes or group differences in risk perception can be attributed to data visualization method. What Professor Padilla and her colleagues found was that the people who saw a graph with cumulative deaths perceived greater pandemic risks than those that saw a graph that showed deaths per week. In other words, the data visualization method causes a difference in risk perception Do you find this surprising? 
 
-But wait! Doesn’t risk perception depend on a lot of different factors—for instance, how cautious a person is in general, or how much background knowledge they have? How can we accurately conclude that the data visualization method causes differences in risk perception, as in the case of Professor Padilla's experiment? The most important thing about experiments is [random assignment]. Participants don’t get to pick which condition they are in (e.g., participants didn’t choose what type of graph they saw). The experimenter assigns them to a particular condition based on the flip of a coin or any other random method. Why do researchers do this? Random assignment makes it so the groups, on average, are similar on all characteristics except what the experimenter manipulates.
+But wait! Doesn’t risk perception depend on a lot of different factors -- for instance, how cautious a person is in general, or how much background knowledge they have? How can we accurately conclude that the data visualization method causes differences in risk perception, as in the case of Professor Padilla's experiment? The most important thing about experiments is [random assignment]. Participants don’t get to pick which condition they are in (e.g., participants didn’t choose what type of graph they saw). The experimenter assigns them to a particular condition based on the flip of a coin or any other random method. Why do researchers do this? Random assignment makes it so the groups, on average, are similar on all characteristics except what the experimenter manipulates.
 
 By randomly assigning people to conditions (deaths per week vs. cumulative deaths), some people who are naturally very cautious already should end up in each condition, as should some people who like to take risks. Likewise, some people who pay a lot of attention to pandemic news should end up in each condition, as should some people who are less informed. As a result, the distribution of all these factors will generally be consistent across the two groups, and this means that on average the two groups will be relatively equivalent on all these factors. Random assignment is critical to experimentation because if the only difference between the two groups is the independent variable, we can infer that the independent variable is the cause of any observable difference (e.g., in their perception of risk).
 
 #### Other considerations {-}
 
-In addition to using random assignment, you should avoid introducing confounds into your experiments. [Confounds] are things that could undermine your ability to draw causal inferences. For example, if you wanted to test if a new happy pill will make people happier, you could randomly assign participants to take the happy pill or not (the independent variable) and compare these two groups on their self-reported happiness (the dependent variable). However, if some participants know they are getting the happy pill, they might develop expectations that influence their self-reported happiness. This is sometimes known as a [placebo effect]. Sometimes a person just knowing that he or she is receiving special treatment or something new is enough to actually cause changes in behavior or perception: In other words, even if the participants in the happy pill condition were to report being happier, we wouldn’t know if the pill was actually making them happier or if it was the placebo effect—an example of a confound. A related idea is [participant demand]. This occurs when participants try to behave in a way they think the experimenter wants them to behave. Placebo effects and participant demand often occur unintentionally. Even [experimenter expectations] can influence the outcome of a study. For example, if the experimenter knows who took the happy pill and who did not, and the dependent variable is the experimenter’s observations of people’s happiness, then the experimenter might perceive improvements in the happy pill group that are not really there.
+In addition to using random assignment, you should avoid introducing confounds into your experiments. [Confounds] are things that could undermine your ability to draw causal inferences. For example, if you wanted to test whether a supplement improves memory performance, you could randomly assign participants to take the supplement or not (the independent variable) and compare these two groups on memory tasks (the dependent variable). However, if some participants know they are getting the supplement, they might develop expectations that influence their performance. This is sometimes known as a [placebo effect]. Sometimes a person just knowing that he or she is receiving special treatment or something new is enough to actually cause changes in behavior or performance. In other words, even if the participants in the supplement condition were to show improved memory, we wouldn't know if the pill was actually effective or if it was the placebo effect -- an example of a confound. A related idea is [participant demand]. This occurs when participants try to behave in a way they think the experimenter wants them to behave. Placebo effects and participant demand often occur unintentionally. Even [experimenter expectations] can influence the outcome of a study. For example, if the experimenter knows who took the supplement and who did not, and the dependent variable involves the experimenter's evaluation of performance, then the experimenter might perceive improvements in the suppplement group that are not really there.
 
-One way to prevent these confounds from affecting the results of a study is to use a double-blind procedure. In a double-blind procedure, neither the participant nor the experimenter knows which condition the participant is in. For example, when participants are given the happy pill or the fake pill, they don’t know which one they are receiving. This way the participants shouldn’t experience the placebo effect, and will be unable to behave as the researcher expects (participant demand). Likewise, the researcher doesn’t know which pill each participant is taking (at least in the beginning—later, the researcher will get the results for data-analysis purposes), which means the researcher’s expectations can’t influence his or her observations. Therefore, because both parties are “blind” to the condition, neither will be able to behave in a way that introduces a confound. At the end of the day, the only difference between groups will be which pills the participants received, allowing the researcher to determine if the happy pill actually caused people to be happier.
+One way to prevent these confounds from affecting the results of a study is to use a double-masked procedure (also called "double-blind" in older literature). In a double-masked procedure, neither the participant nor the experimenter knows which condition the participant is in. For example, when participants are given the supplement or a fake pill, they don't know which one they are receiving. This way the participants shouldn't experience the placebo effect, and will be unable to behave as the researcher expects (participant demand). Likewise, the researcher doesn't know which pill each participant is taking (at least during testing—later, the researcher will get the results for data-analysis purposes), which means the researcher's expectations can't influence his or her observations. Therefore, because both parties are "masked" to the condition, neither will be able to behave in a way that introduces a confound. At the end of the day, the only difference between groups will be which pills the participants received, allowing the researcher to determine if the supplement actually caused improvements in memory performance.
 
-### Correlational Designs {-}
+#### Dependent Measures in Cognitive Psychology {-}
 
-When scientists passively observe and measure phenomena it is called correlational research. Here, we do not intervene and change behavior, as we do in experiments. In correlational research, we identify patterns of relationships, but we usually cannot infer what causes what. Importantly, with correlational research, you can examine only two variables at a time, no more and no less.
+Cognitive psychology researchers use several key types of dependent measures to assess mental processes [@revlin2012cognition]. [Accuracy measures] examine how correctly participants perform tasks, such as the percentage of items answered correctly on a memory test or the number of errors made during problem-solving. [Reaction time measures] capture how quickly participants respond, providing insights into the speed of cognitive processing -- for instance, how long it takes to recognize a word or make a decision. [Qualitative analysis] involves analyzing what participants generate, such as examining the content of recalled memories, the strategies used in problem-solving, or the types of errors made during learning. [Transfer measures] assess whether learning or skills acquired in one context can be applied to new situations, helping researchers understand the generalizability of cognitive abilities.
 
-So, what if you wanted to test whether spending on others is related to happiness, but you don’t have $20 to give to each participant? You could use a correlational design—which is exactly what Elizabeth Dunn, a professor at the University of British Columbia, did in a study [@dunn2008]. She asked people how much of their income they spent on others or donated to charity, and later she asked them how happy they were. Do you think these two variables were related? Yes, they were! The more money people reported spending on others, the happier they were.
+These different types of measures often provide complementary information about cognitive processes. For example, in a working memory experiment, researchers might measure both the accuracy of participants' responses on reading comprehension tasks and their reaction times when processing sentences, providing a more complete picture of how working memory capacity affects reading performance.
 
-#### More details about the correlation {-}
+### Non-experimental Research {-}
 
-To find out how well two variables correspond, we can plot the relation between the two scores on what is known as a scatterplot (Figure \@ref(fig:scatter)). In the scatterplot, each dot represents a data point. (In this case it’s individuals, but it could be some other unit.) Importantly, each dot provides us with two pieces of information—in this case, information about how good the person rated the past month (x-axis) and how happy the person felt in the past month (y-axis). Which variable is plotted on which axis does not matter. 
+#### Observational Research {-}
 
-<div class="figure" style="text-align: center">
-<img src="01-intro_files/figure-html/scatter-1.png" alt="Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual." width="80%" />
-<p class="caption">(\#fig:scatter)Scatterplot of the association between happiness and ratings of the past month, a positive correlation (*r* = .81). Each dot represents an individual.</p>
-</div>
+When scientists passively observe and measure phenomena it is called [observational research]. Here, we do not intervene and change behavior, as we do in experiments. In observational research, we identify patterns of relationships, but we usually cannot infer what causes what.
 
-The association between two variables can be summarized statistically using the correlation coefficient (abbreviated as r). A [correlation] coefficient provides information about the direction and strength of the association between two variables. For the example above, the direction of the association is positive. This means that people who perceived the past month as being good reported feeling more happy, whereas people who perceived the month as being bad reported feeling less happy.
+So, what if you wanted to test whether working memory capacity is related to reading comprehension performance, but you can't manipulate people's working memory capacity? You could use an observational design—which is exactly what cognitive psychologists Meredyth Daneman and Patricia Carpenter did in their influential study [@daneman1980individual]. They measured participants' working memory capacity using a reading span task (where people read sentences while remembering words) and then tested their reading comprehension ability. Do you think these two variables were related? Yes, they were! People who had higher working memory capacity scores showed better reading comprehension performance.
 
-With a positive correlation, the two variables go up or down together. In a scatterplot, the dots form a pattern that extends from the bottom left to the upper right (just as they do in Figure 1). The r value for a positive correlation is indicated by a positive number (although, the positive sign is usually omitted). Here, the r value is .81.
+##### Interpreting Correlations {-}
 
-A negative correlation is one in which the two variables move in opposite directions. That is, as one variable goes up, the other goes down. Figure \@ref(fig:scatter2) shows the association between the average height of males in a country (y-axis) and the pathogen prevalence (or commonness of disease; x-axis) of that country. In this scatterplot, each dot represents a country. Notice how the dots extend from the top left to the bottom right. What does this mean in real-world terms? It means that people are shorter in parts of the world where there is more disease. The r value for a negative correlation is indicated by a negative number—that is, it has a minus (–) sign in front of it. Here, it is –.83.
+To find out how well two variables correspond, we can plot the relation between the two scores on what is known as a scatterplot (Figure \@ref(fig:scatter)). In the scatterplot, each dot represents a data point. (In this case it’s individuals, but it could be some other unit.) Importantly, each dot provides us with two pieces of information—information about the person's vocabulary test score (x-axis) and their reading comprehension performance (y-axis). Which variable is plotted on which axis does not matter. Note that the scatterplots in this chapter use simulated data to illustrate what different types of correlations look like, rather than the actual data from the studies we've discussed.
 
-<div class="figure" style="text-align: center">
-<img src="01-intro_files/figure-html/scatter2-1.png" alt="Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]" width="80%" />
-<p class="caption">(\#fig:scatter2)Scatterplot showing the association between average male height and pathogen prevalence, a negative correlation (r = –.83). Each dot represents a country. [@chiao2009]</p>
-</div>
+\begin{figure}
 
-The strength of a correlation has to do with how well the two variables align. Recall that in Professor Dunn’s correlational study, spending on others positively correlated with happiness: The more money people reported spending on others, the happier they reported to be. At this point you may be thinking to yourself, I know a very generous person who gave away lots of money to other people but is miserable! Or maybe you know of a very stingy person who is happy as can be. Yes, there might be exceptions. If an association has many exceptions, it is considered a weak correlation. If an association has few or no exceptions, it is considered a strong correlation. A strong correlation is one in which the two variables always, or almost always, go together. In the example of happiness and how good the month has been, the association is strong. The stronger a correlation is, the tighter the dots in the scatterplot will be arranged along a sloped line.
+{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter-1} 
 
-#### Problems with the correlation {-}
+}
 
-If generosity and happiness are positively correlated, should we conclude that being generous causes happiness? Similarly, if height and pathogen prevalence are negatively correlated, should we conclude that disease causes shortness? From a correlation alone, we can’t be certain. For example, in the first case it may be that happiness causes generosity, or that generosity causes happiness. Or, a third variable might cause both happiness and generosity, creating the illusion of a direct link between the two. For example, wealth could be the third variable that causes both greater happiness and greater generosity. This is why correlation does not mean causation—an often repeated phrase among psychologists.
+\caption{Scatterplot of the association between working memory and reading comprehension, a positive correlation. Each dot represents an individual. Simulated data for illustration purposes.}(\#fig:scatter)
+\end{figure}
 
-### Qualitative Designs {-}
+The association between two variables can be summarized statistically using the correlation coefficient (abbreviated as *r*). A [correlation] coefficient provides information about the direction and strength of the association between two variables. For the example above, the direction of the association is positive. This means that people who scored higher on working memory capacity showed better reading comprehension performance, whereas people who scored lower on working memory capacity showed poorer reading comprehension performance.
 
-Just as correlational research allows us to study topics we can’t experimentally manipulate (e.g., whether you have a large or small income), there are other types of research designs that allow us to investigate these harder-to-study topics. Qualitative designs, including participant observation, case studies, and narrative analysis are examples of such methodologies. 
+With a positive correlation, the two variables go up or down together. In a scatterplot, the dots form a pattern that extends from the bottom left to the upper right (just as they do in Figure \@ref(fig:scatter)). The *r* value for a positive correlation is indicated by a positive number (although, the positive sign is usually omitted). Here, the *r* value is .78.
 
-### Quasi-Experimental Designs {-}
+A negative correlation is one in which the two variables move in opposite directions. That is, as one variable goes up, the other goes down. Figure \@ref(fig:scatter2) shows the association between reaction time on an attention task (y-axis) and caffeine consumption (x-axis). In this scatterplot, each dot represents a participant. Notice how the dots extend from the top left to the bottom right. What does this mean in real-world terms? It means that people who consume more caffeine tend to have faster reaction times on attention tasks. The *r* value for a negative correlation is indicated by a negative number—that is, it has a minus (–) sign in front of it. Here, it is –.5.
 
-What if you want to study the effects of marriage on a variable? For example, does marriage make people happier? Can you randomly assign some people to get married and others to remain single? Of course not. So how can you study these important variables? You can use a [quasi-experimental design].
+\begin{figure}
 
-A quasi-experimental design is similar to experimental research, except that random assignment to conditions is not used. Instead, we rely on existing group memberships (e.g., married vs. single). We treat these as the independent variables, even though we don’t assign people to the conditions and don’t manipulate the variables. As a result, with quasi-experimental designs causal inference is more difficult. For example, married people might differ on a variety of characteristics from unmarried people. If we find that married participants are happier than single participants, it will be hard to say that marriage causes happiness, because the people who got married might have already been happier than the people who have remained single.
+{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter2-1} 
 
-<div class="figure" style="text-align: center">
-<img src="images/ch1/love.png" alt="What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*" width="40%" />
-<p class="caption">(\#fig:love)What is a reasonable way to study the effects of marriage on happiness? *Image: Nina Matthews Photography, https://goo.gl/IcmLqg, CC BY-NC-SA, https://goo.gl/HSisdg*</p>
-</div>
+}
 
-### Longitudinal Studies {-}
+\caption{Scatterplot showing the negative relationship between caffeine consumption and reaction time (*r* = –.5). Each dot represents a participant. Simulated data for illustration purposes.}(\#fig:scatter2)
+\end{figure}
 
-Another powerful research design is the [longitudinal study]. Longitudinal studies track the same people over time. Some longitudinal studies last a few weeks, some a few months, some a year or more. Some studies that have contributed a lot to psychology followed the same people over decades. For example, one study followed more than 20,000 Germans for two decades. From these longitudinal data, psychologist Rich @lucas2003 was able to determine that people who end up getting married indeed start off a bit happier than their peers who never marry. Longitudinal studies like this provide valuable evidence for testing many theories in psychology, but they can be quite costly to conduct, especially if they follow many people for many years.
+The strength of a correlation has to do with how well the two variables align. Recall that in Daneman and Carpenter's correlational study, working memory capacity positively correlated with reading comprehension: The higher people scored on working memory tests, the better they performed on reading comprehension tasks. At this point you may be thinking to yourself, I know someone with high working memory who struggles with reading comprehension! Or maybe you know someone with lower working memory who is a skilled reader. Yes, there might be exceptions. If an association has many exceptions, it is considered a weak correlation. If an association has few or no exceptions, it is considered a strong correlation. A strong correlation is one in which the two variables always, or almost always, go together. In the example of working memory and reading comprehension, the association is strong. The stronger a correlation is, the tighter the dots in the scatterplot will be arranged along a sloped line.
+
+##### Problems with the correlation {-}
+
+If working memory capacity and reading comprehension are positively correlated, should we conclude that having higher working memory causes better reading comprehension? Similarly, if caffeine consumption and reaction time are negatively correlated, should we conclude that caffeine causes faster responses? From a correlation alone, we can't be certain. For example, in the first case it may be that good reading comprehension helps people develop better working memory strategies, or that working memory capacity improves reading comprehension. Or, a third variable might cause both better working memory and better reading comprehension, creating the illusion of a direct link between the two. For example, overall cognitive ability could be the third variable that causes both higher working memory capacity and better reading skills. This is why correlation does not mean causation—an often repeated phrase among psychologists.
+
+#### Qualitative Designs {-}
+
+Just as observational research allows us to study topics we can't experimentally manipulate (e.g., whether you naturally have high or low working memory capacity), there are other types of research designs that allow us to investigate these harder-to-study topics. Qualitative designs, including participant observation, case studies, and narrative analysis are examples of such methodologies. For instance, detailed case studies of individuals with specific brain injuries have provided crucial insights into cognitive processes like memory, language, and attention.
+
+#### Quasi-Experimental Designs {-}
+
+What if you want to study the effects of bilingualism on cognitive processing? For example, do people who speak multiple languages show enhanced executive control? Can you randomly assign some people to become bilingual and others to remain monolingual? Not likely. So how can you study these important variables? You can use a [quasi-experimental design].
+
+A quasi-experimental design is similar to experimental research, except that random assignment to conditions is not used. Instead, we rely on existing group memberships (e.g., bilingual vs. monolingual). We treat these as the independent variables, even though we don't assign people to the conditions and don't manipulate the variables. As a result, with quasi-experimental designs causal inference is more difficult. For example, bilingual people might differ on a variety of characteristics from monolingual people. If we find that bilingual participants show better executive control than monolingual participants, it will be hard to say that bilingualism causes enhanced executive control, because the people who became bilingual might have already had better executive control abilities than those who remained monolingual.
+
+#### Longitudinal Studies {-}
+
+Another powerful research design is the [longitudinal study]. Longitudinal studies track the same people over time. Some longitudinal studies last a few weeks, some a few months, some a year or more. Some studies that have contributed a lot to cognitive psychology followed the same people over decades. For example, the National Consortium on Alcohol and Neurodevelopment in Adolescence (NCANDA) study has been following over 800 adolescents starting at ages 12-21 for multiple years to understand how alcohol use affects brain development and cognitive abilities [@lorkiewicz2022longitudinal]. From these longitudinal data, researchers have been able to determine that alcohol-related blackouts predict distinct, lasting changes in learning and memory for visual information, with results suggesting that the developing brain is vulnerable to these effects during adolescence and emerging adulthood. Longitudinal studies like this provide valuable evidence for testing many theories in cognitive psychology, but they can be quite costly to conduct, especially if they follow many people for many years.
 
 ### Tradeoffs in Research {-}
 
 Even though there are serious limitations to correlational and quasi-experimental research, they are not poor cousins to experiments and longitudinal designs. In addition to selecting a method that is appropriate to the question, many practical concerns may influence the decision to use one method over another. One of these factors is simply resource availability—how much time and money do you have to invest in the research? (Tip: If you’re doing a senior honor’s thesis, do not embark on a lengthy longitudinal study unless you are prepared to delay graduation!) Often, we survey people even though it would be more precise—but much more difficult—to track them longitudinally. Especially in the case of exploratory research, it may make sense to opt for a cheaper and faster method first. Then, if results from the initial study are promising, the researcher can follow up with a more intensive method.
 
-Beyond these practical concerns, another consideration in selecting a research design is the ethics of the study. For example, in cases of brain injury or other neurological abnormalities, it would be unethical for researchers to inflict these impairments on healthy participants. Nonetheless, studying people with these injuries can provide great insight into human psychology (e.g., if we learn that damage to a particular region of the brain interferes with emotions, we may be able to develop treatments for emotional irregularities). In addition to brain injuries, there are numerous other areas of research that could be useful in understanding the human mind but which pose challenges to a true experimental design—such as the experiences of war, long-term isolation, abusive parenting, or prolonged drug use. However, none of these are conditions we could ethically experimentally manipulate and randomly assign people to. Therefore, ethical considerations are another crucial factor in determining an appropriate research design.
+Beyond these practical concerns, another consideration in selecting a research design is the ethics of the study. For example, in cases of brain injury or other neurological conditions, it would be unethical for researchers to inflict these impairments on healthy participants. Nonetheless, studying people with these conditions can provide great insight into cognitive processes (e.g., if we learn that damage to a particular region of the brain interferes with working memory, we may be able to develop interventions for memory difficulties). In addition to brain injuries, there are numerous other areas of cognitive research that could be useful in understanding the human mind but which pose challenges to a true experimental design—such as the effects of chronic stress on attention, long-term sleep deprivation on decision-making, or the impact of aging on cognitive abilities. However, none of these are conditions we could ethically experimentally manipulate and randomly assign people to. Therefore, ethical considerations are another crucial factor in determining an appropriate research design.
 
 :::takeaways
 ##### Key Takeaways {-}
@@ -157,6 +181,10 @@ Beyond these practical concerns, another consideration in selecting a research d
 :::
 
 ## Glossary
+
+##### accuracy measures {-}
+
+A dependent variable that assesses how correctly participants perform cognitive tasks.
 
 ##### analytic introspection {-}
 A method that involved training participants to carefully examine their own conscious experiences and break them down into basic elements like sensations, images, and feelings.
@@ -206,6 +234,10 @@ The cognitive approach that treats the mind like a computer system that takes in
 
 A study that follows the same group of individuals over time.
 
+##### observational research {-}
+
+A research method where scientists observe and measure phenomena without manipulating variables, allowing identification of relationships but not causation.
+
 ##### participant demand {-}
 
 When participants behave in a way that they think the experimenter wants them to behave.
@@ -213,6 +245,10 @@ When participants behave in a way that they think the experimenter wants them to
 ##### placebo effect {-}
 
 When receiving special treatment or something new affects human behavior.
+
+##### qualitative analysis {-}
+
+Examination of the content, patterns, or characteristics of participants' responses.
 
 ##### quasi-experimental design {-}
 
@@ -222,5 +258,13 @@ An experiment that does not require random assignment to conditions.
 
 Assigning participants to receive different conditions of an experiment by chance.
 
+##### reaction time measures {-}
+
+A dependent variable that captures how quickly participants respond to stimuli or complete tasks.
+
 ##### structural psychology {-}
 Titchener's approach to psychology that involved training participants to carefully examine their own conscious experiences and break them down into basic parts like sensations, images, and feelings.
+
+##### transfer measures {-}
+
+A dependent variable that assesses whether learning or skills from one context can be applied to new situations.

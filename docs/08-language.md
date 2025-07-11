@@ -1,5 +1,6 @@
 # Language
-<img src="images/ch8/cover.jpeg" width="100%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=1\linewidth]{images/ch8/cover} \end{center}
 
 Although language is often used for the transmission of information (“turn right at the next light and then go straight,” “Place tab A into slot B”), this is only its most mundane function. Language also allows us to access existing knowledge, to draw conclusions, to set and accomplish goals, and to understand and communicate complex social relationships. 
 
@@ -22,14 +23,18 @@ Imagine talking to a friend. Before you speak, you decide what to want to say. I
 
 We are not the only creatures that can communicate, however. Nonhuman animals have a wide variety of systems of communication. Some species communicate using scents; others use visual displays, such as baring the teeth, puffing up the fur, or flapping the wings; and still others use vocal sounds. Male songbirds, such as canaries and finches, sing songs both to attract mates and defend their territory; similarly, chimpanzees employ a variety of facial expressions, sounds, and actions, including ground-slapping, to communicate aggression [@deWaal1989]. Honeybees use a waggle dance to direct other bees to the location of food sources [@vonFrisch1956]. The communication of vervet monkeys is relatively advanced in the sense that they use specific sounds to convey specific meanings. Vervets make different calls to signify that they have seen either a leopard, a snake, or a hawk [@Seyfarth1997].
 
-Despite their wide abilities to communicate, efforts to teach animals to use language have had only limited success. The most proficient nonhuman language speaker is Kanzi, a bonobo who lives at the Language Learning Center at Georgia State University [@Savage-Rumbaugh1994]. As you can see in the video linked in Figure \@ref(fig:kanzi), Kanzi has a propensity for language that is in many ways similar to humans. He learned faster when he was younger than when he got older, he learns by observation, and he can use symbols to comment on social interactions, rather than simply for food treats. Kanzi can also create elementary syntax and understand relatively complex commands. Kanzi can make tools and can even play the video game Pac-Man.
+Despite their wide abilities to communicate, efforts to teach animals to use language have had only limited success. The most proficient nonhuman language speaker was Kanzi (1980-2025), a bonobo who lived at the Language Learning Center at Georgia State University [@Savage-Rumbaugh1994]. As you can see in the video linked in Figure \@ref(fig:kanzi), Kanzi had a propensity for language that was in many ways similar to humans. He learned faster when he was younger than when he got older, he learned by observation, and he could use symbols to comment on social interactions, rather than simply for food treats. Kanzi could also create elementary syntax and understand relatively complex commands. Kanzi could make tools and could even play the video game Pac-Man.
 
-And yet even Kanzi does not have a true language in the same way that humans do. Human babies learn words faster and faster as they get older, but Kanzi does not. Each new word he learns is almost as difficult as the one before. Kanzi usually requires many trials to learn a new sign, whereas human babies can speak words after only one exposure. Kanzi’s language is focused primarily on food and pleasure and only rarely on social relationships. Although he can combine words, he generates few new phrases and cannot master syntactic rules beyond the level of about a two-year-old human child [@Greenfield1991].
+And yet even Kanzi did not have a true language in the same way that humans do. Human babies learn words faster and faster as they get older, but Kanzi did not. Each new word he learned was almost as difficult as the one before. Kanzi usually required many trials to learn a new sign, whereas human babies can speak words after only one exposure. Kanzi’s language was focused primarily on food and pleasure and only rarely on social relationships. Although he could combine words, he generated few new phrases and could not master syntactic rules beyond the level of about a two-year-old human child [@Greenfield1991].
 
-<div class="figure" style="text-align: center">
-<img src="images/ch8/kanzi.jpeg" alt="Watch: [“Kanzi and Novel Sentences” on YouTube](http://www.youtube.com/watch?v=2Dhc2zePJFE); Image: Wikimedia Commons" width="25%" />
-<p class="caption">(\#fig:kanzi)Watch: [“Kanzi and Novel Sentences” on YouTube](http://www.youtube.com/watch?v=2Dhc2zePJFE); Image: Wikimedia Commons</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{images/ch8/kanzi} 
+
+}
+
+\caption{Sue Savage-Rumbaugh (L), Kanzi (R), and his sister Panbinisha (C) working together in 2006. To see Kanzi in action, watch [“Kanzi and Novel Sentences” on YouTube](http://www.youtube.com/watch?v=2Dhc2zePJFE). Image by William H. Calvin, CC BY-SA 4.0}(\#fig:kanzi)
+\end{figure}
 
 In sum, although many animals communicate, none of them has a true language. With some exceptions, the information that can be communicated in nonhuman species is limited primarily to displays of liking or disliking, and related to basic motivations of aggression and mating. Humans also use this more primitive type of communication, in the form of nonverbal behaviors such as eye contact, touch, hand signs, and interpersonal distance, to communicate their like or dislike for others, but they (unlike nonhuman animals) also supplement this more primitive communication with language. Although other animal brains share similarities to ours, only the human brain is complex enough to create language. What is perhaps most remarkable is that although language never appears in non-humans, language is universal in humans. All humans, unless they have a profound brain abnormality or are completely isolated from other humans, learn language.
 
@@ -73,10 +78,14 @@ An example that can help differentiate semantics and pragmatics is the sentence,
 
 The two major components of language that are studied in cognitive psychology are language production and language comprehension. [Language production](#langproddef) encompasses the process of converting thoughts into language, while [language comprehension], or language processing, is the process of decoding language back into thoughts (Figure \@ref(fig:model)). Successful communication happens when the listener correctly decodes the speech signal produced by the speaker, understanding the intended message.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch8/model_of_language_draft.jpg" alt="A model of communication with language exchange." width="80%" />
-<p class="caption">(\#fig:model)A model of communication with language exchange.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/ch8/model_of_language_draft} 
+
+}
+
+\caption{A model of communication with language exchange.}(\#fig:model)
+\end{figure}
 
 ### Language Processing {-}
 
@@ -90,10 +99,14 @@ The first of these tasks, [speech segmentation], requires the listener to tell w
 
 Part of telling words apart requires listeners to tell two sounds apart. For example, to tell the words 'pat' and 'bat' apart, you have to be able to tell the difference between the two sounds /p/ and /b/.  English speakers can differentiate the /r/ phoneme from the /l/ phoneme, and thus “rake” and “lake” are heard as different words. In Japanese, however, /r/ and /l/ are the same phoneme, and thus speakers of that language cannot tell the difference between the word “rake” and the word “lake.” Try saying the words “cool” and “keep” out loud. Can you hear the difference between the two /k/ sounds? To English speakers they both sound the same, but to speakers of Arabic these represent two different phonemes. We know that infants are born able to understand all phonemes, but as they get older, they lose their ability to do so. By 10 months of age a child’s ability to recognize phonemes becomes very similar to that of the adult speakers of the native language. Phonemes that were initially differentiated come to be treated as equivalent [@Werker2002]. Follow the link in Figure \@ref(fig:speechsounds) to hear an explanation of how psychologists study phoneme perception in infants.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch8/tuning_into_speech_sounds.png" alt="Watch [Tuning Into Speech Sounds](https://www.youtube.com/watch?v=WvM5bqUsbu8) on YouTube" width="50%" />
-<p class="caption">(\#fig:speechsounds)Watch [Tuning Into Speech Sounds](https://www.youtube.com/watch?v=WvM5bqUsbu8) on YouTube</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/ch8/tuning_into_speech_sounds} 
+
+}
+
+\caption{Watch [Tuning Into Speech Sounds](https://www.youtube.com/watch?v=WvM5bqUsbu8) on YouTube}(\#fig:speechsounds)
+\end{figure}
 
 Research, like that done by @saffran1996 and @Werker2002, tells us that as children learn a particular language, they very quickly start to pick up on statistical patterns in the language and start to pay attention only to the relevant acoustic information that helps them tell sounds apart in their language.
 
@@ -123,10 +136,14 @@ Language learning begins even before birth, because the fetus can hear muffled v
 
 During the first year or so after birth, and long before they speak their first words, infants are already learning language. One aspect of this learning is practice in producing speech. By the time they are six to eight weeks old, babies start making vowel sounds (ooohh, aaahh, goo) as well as a variety of cries and squeals to help them practice.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch8/fig2.jpg" alt="Babies often engage in vocal exchanges to help them practice language." width="40%" />
-<p class="caption">(\#fig:practicing)Babies often engage in vocal exchanges to help them practice language.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/ch8/fig2} 
+
+}
+
+\caption{Babies often engage in vocal exchanges to help them practice language.}(\#fig:practicing)
+\end{figure}
 
 At about seven months, infants begin [babbling], engaging in *intentional vocalizations that lack specific meaning*. Children babble as practice in creating specific sounds, and by the time they are one year old, the babbling uses primarily the sounds of the language that they are learning [@deBoysson-Bardies1984]. These vocalizations have a conversational tone that sounds meaningful even though it isn’t. Babbling also helps children understand the social, communicative function of language (Figure \@ref(fig:practicing)). Children who are exposed to sign language babble in sign by making hand movements that represent real language [@Petitto1991].
 
@@ -169,18 +186,22 @@ Another factor that can make language learning harder for adults than for childr
 Perhaps focusing on narrowly on things like grammar when discussing adult second language acquisition is a mistake. Some critics say this approach to teaching and learning treats language as something that can acquired in isolation from people, communities, and relationships, and reflects colonial ways of thinking [@czaykowska2017;@lukaniec2022;@mackenzie2022]. Importantly, adult language learners bring all kinds of cultural knowledge, traditions, expectations, and emotions to language learning, of which we may or may not be consciously aware.
 
 :::fyi
-##### Research Focus: When can we best learn language? Testing the critical period hypothesis {-}
+##### When can we best learn language? Testing the critical period hypothesis {-}
 
-For many years psychologists assumed that there was a [critical period] (*a time in which learning can easily occur*) for language learning, lasting between infancy and puberty, and after which language learning was more difficult or impossible [@brown1967; @Penfield1959]. But later research provided a different interpretation. 
+For many years psychologists assumed that there was a [critical period] (*a time in which learning can easily occur*) for language learning, lasting between infancy and puberty, and after which language learning was more difficult or impossible [@brown1967; @Penfield1959]. But later research provided a different interpretation.
 
-An important study by @Johnson1989 using Chinese and Korean speakers who ahd learned English as a second language provided the first insight. The participants were all adults who had immigrated to the United States between three and 39 years of age and who were tested on their English skills by being asked to detect grammatical errors in sentences. Johnson and Newport found that the participants who had begun learning English before they were seven years old learned it as well as native English speakers but that the ability to learn English dropped off gradually for the participants who had started later. Newport and Johnson also found a correlation between the age of acquisition and the variance in the ultimate learning of the language. While early learners were almost all successful in acquiring their language to a high degree of proficiency, later learners showed much greater individual variation. 
+An important study by @Johnson1989 tested Chinese and Korean speakers who had learned English as a second language. Participants who immigrated to the United States between ages 3-39 were tested on their English skills by detecting grammatical errors. Those who began learning English before age seven performed as well as native speakers, but ability dropped off gradually for later learners. Early learners were almost all successful, while later learners showed much greater individual variation.
 
-Johnson and Newport's finding that children who immigrated before they were seven years old learned English fluently seemed consistent with the idea of a critical period in language learning. But their finding of gradual decrease in proficiency for those immigrated between eight and 39 years of age was not - rather, it suggested that there might not be a single critical period  of language learning that ended at puberty, as early theorists had expected, but that language learning at later ages is imply better when it occurs earlier. This idea was reinforced in research by @Hakuta2003, who examined census records of language learning in millions of Chinese and Spanish immigrants. The census form asks respondents to describe their own English ability using one of five categories: not at all, not well, well, very well, and speak only English. The results of this research dealt another blow to the idea of the critical period, because it showed that regardless of what year was used as a cutoff point for the end of the critical period, there was no evidence for any discontinuity in language-learning potential. Rather, the results (Figure \@ref(fig:languagelearning)) showed that the degree of success in second-language acquisition declined steadily throughout the respondent's life span. The difficulty of learning language as one gets older is probably due to the fact that, with age, the brain loses its [plasticity] - that is, *its ability to develop new neural connections*.
+Johnson and Newport's finding that children who immigrated before they were seven years old learned English fluently seemed consistent with the idea of a critical period in language learning. But their finding of gradual decrease in proficiency for those immigrated between eight and 39 years of age was not -- rather, it suggested that language learning at later ages is simply better when it occurs earlier. @Hakuta2003 reinforced this idea by examining census records of millions of Chinese and Spanish immigrants. The results showed no evidence for any discontinuity in language-learning potential. Rather, the degree of success in second-language acquisition declined steadily throughout the respondent's life span (Figure \@ref(fig:languagelearning)). The results of this research dealt another blow to the idea of the critical period, because it showed that regardless of what year was used as a cutoff point for the end of the critical period, there was no evidence for any discontinuity in language-learning potential. The difficulty of learning language as one gets older is probably due to the fact that, with age, the brain loses [plasticity] -- that is, its ability to develop new neural connections.
 
-<div class="figure" style="text-align: center">
-<img src="images/ch8/fig3.jpg" alt="English Proficiency in Native Chinese Speakers. Hakuta et al. found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration." width="90%" />
-<p class="caption">(\#fig:languagelearning)English Proficiency in Native Chinese Speakers. Hakuta et al. found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{images/ch8/fig3} 
+
+}
+
+\caption{English Proficiency in Native Chinese Speakers. Hakuta et al. found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.}(\#fig:languagelearning)
+\end{figure}
 :::
 
 ## Language and Thought
@@ -206,7 +227,7 @@ These examples show how language may - even in quite a limited way - influence t
 :::exercises
 ##### Exercises {-}
 1. What languages do you speak? Did you ever try to learn a new one? What problems did you have when you did this? Would you consider trying to learn a new language?
-2. Some animals, such as Kanzi, display at least some language. Is it accurate to say that Kanzi knows language?
+2. Some animals, such as Kanzi, display at least some language. Is it accurate to say that Kanzi knew language?
 :::
 
 
@@ -227,6 +248,10 @@ A time at which learning can easily occur.
 ##### dialect {-}
 
 A dialect is a subdivision, or version, of a language that may be associated with a geographical location or socioeconomic group. 
+
+##### garden path sentences {-}
+
+Grammatically correct but ambiguous sentences that lead readers down the wrong parsing path, forcing them to reinterpret the sentence's structure.
 
 ##### idiolect {-}
 
@@ -256,9 +281,16 @@ A morpheme is the smallest unit of language that carries meaning.
 
 Overextentions are when a learning of a language - often a child - uses a word in a broader context than appropriate. 
 
+##### parsing {-}
+Parsing is the process of grouping words into phrases to determine what a sentence means.
+
 ##### phoneme {-}
 
 A phoneme is a unit of sound that can distinguish one word from another in a particular language.
+
+##### plasticity {-}
+
+The brain's ability to develop new neural connections.
 
 ##### pragmatics {-}
 
@@ -271,6 +303,10 @@ Semantics is the meaning of words and sentences. Usually this refers to the defi
 ##### sociolect {-}
 
 A sociolect is a version of a language that is associated with a particular social group.
+
+##### speech segmentation {-}
+
+Determining where one word stops and another begins in speech perception.
 
 ##### syntax {-}
 

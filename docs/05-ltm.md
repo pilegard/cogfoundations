@@ -20,9 +20,10 @@ This simple example reveals the remarkable complexity of long-term memory: your 
 As we discussed in the last chapter, working memory is a temporary storage space for information that is being actively stored and manipulated in consciousness. Information that is not rehearsed will be forgotten within 18 to 30 seconds. Long-term memory, on the other hand, is where we store everything from a few moments to the earliest thing we can remember. There is theoretically no upper limit to the amount of information we can store in long-term memory.
 
 ### The Serial Position Curve {-}
+
 \begin{figure}
 
-{\centering \includegraphics[width=0.95\linewidth]{images/ch5/fig1} 
+{\centering \includegraphics[width=0.8\linewidth]{05-ltm_files/figure-latex/serialposition-1} 
 
 }
 

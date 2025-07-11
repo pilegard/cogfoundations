@@ -21,8 +21,37 @@ This simple example reveals the remarkable complexity of long-term memory: your 
 As we discussed in the last chapter, working memory is a temporary storage space for information that is being actively stored and manipulated in consciousness. Information that is not rehearsed will be forgotten within 18 to 30 seconds. Long-term memory, on the other hand, is where we store everything from a few moments to the earliest thing we can remember. There is theoretically no upper limit to the amount of information we can store in long-term memory.
 
 ### The Serial Position Curve {-}
-```{r serialposition, echo = FALSE, out.width='95%', fig.align = 'center', fig.cap = 'The serial position curve is the result of both primacy effects and recency effects.'}
-knitr::include_graphics("images/ch5/fig1.png")
+
+```{r serialposition, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'The serial position curve is the result of both primacy effects and recency effects.'}
+# Data vectors
+position <- 1:20
+probability <- c(0.82, 0.77, 0.69, 0.60, 0.50, 0.45, 0.35, 0.45, 0.41, 0.39, 
+                 0.38, 0.39, 0.45, 0.47, 0.50, 0.54, 0.62, 0.65, 0.85, 0.95)
+
+# Create the plot
+plot(position, probability, type = "n", 
+     xlim = c(1, 20), ylim = c(0, 1.0),
+     xlab = "Position in list", ylab = "Probability of recall",
+     main = "", xaxt = "n")
+
+# Add x-axis with tick marks at every increment
+axis(1, at = 1:20, labels = FALSE)  # Add all tick marks without labels
+axis(1, at = seq(2, 20, by = 2), labels = seq(2, 20, by = 2))  # Add labels every other increment
+
+# Add background shading
+rect(1, 0, 5, 1, col = "#C7EAFE", border = NA)  # Light blue (primacy)
+rect(5, 0, 16, 1, col = "#F5F5F5", border = NA)  # Light gray (middle)
+rect(16, 0, 20, 1, col = "#D3FFA5", border = NA)  # Light pink (recency)
+
+# Add horizontal grid lines at increments of 0.2
+abline(h = seq(0.2, 1.0, by = 0.2), col = "lightgray", lty = 1)
+
+# Add the line and points
+lines(position, probability, col = "#7A81FF", lwd = 2)
+points(position, probability, col = "#7A81FF", pch = 19, cex = 0.8)
+
+# Add axis labels
+axis(1, at = c(2.5, 18), labels = c("Beginning", "End"), tick = FALSE, line = 1)
 ```
 
 The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in \@ref(fig:serialposition). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented at the end of a list*.

@@ -3,14 +3,6 @@
 
 We like to think that we make important decisions rationally, logically, and without bias or error— but what if that’s not the case? Standing in the cereal aisle, for example  you face dozens of choices. You reason that whole grain cereals are healthier, but the colorful box at eye level catches your attention. The "25% more free!" label seems like a good deal, but is it really? Your decision involves weighing nutrition against taste, cost against convenience, and logical analysis against marketing psychology. Even this simple choice reveals the complex interplay between reasoning and decision making that governs daily life.
 
-In reasoning, available information is taken into account in the form of premises. A conclusion is reached on the basis of these premises through a process of inference. The content of the conclusion goes beyond either one of the premises. To demonstrate, consider the following reasoning process you might use in that cereal aisle:
-
-> Premise 1: All cereals with whole grains are healthier than those without.  
-> Premise 2: This cereal contains whole grains.  
-> Conclusion: Therefore, this cereal is healthier than cereals without whole grains.
- 
-The conclusion in this example follows directly from the premises, but it includes information that is not explicitly stated in the premises. This is a typical feature of a process of reasoning. We will discuss the two major kinds of reasoning, inductive reasoning and deductive reasoning, which logically complement one another.
-
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}
 1. Distinguish between deductive and inductive reasoning
@@ -20,7 +12,17 @@ The conclusion in this example follows directly from the premises, but it includ
 5. Understand how choice context affects decisions through framing effects, default effects, and other influences on our preferences
 :::
 
-## Deductive reasoning
+## Reasoning
+
+In reasoning, available information is taken into account in the form of premises. A conclusion is reached on the basis of these premises through a process of inference. The content of the conclusion goes beyond either one of the premises. To demonstrate, consider the following reasoning process you might use in that cereal aisle:
+
+> Premise 1: All cereals with whole grains are healthier than those without.  
+> Premise 2: This cereal contains whole grains.  
+> Conclusion: Therefore, this cereal is healthier than cereals without whole grains.
+ 
+The conclusion in this example follows directly from the premises, but it includes information that is not explicitly stated in the premises. This is a typical feature of a process of reasoning. We will discuss the two major kinds of reasoning, inductive reasoning and deductive reasoning, which logically complement one another.
+
+### Deductive reasoning
 
 Deductive reasoning is concerned with syllogisms in which the conclusion follows logically from the premises. Consider the following example about preparing for a vacation:
 
@@ -30,11 +32,11 @@ Deductive reasoning is concerned with syllogisms in which the conclusion follows
 
 In this example it is obvious that the premises are about rather general information and the resulting conclusion is about a more special case which can be inferred from the two premises. We will now differentiate between the two major kinds of syllogisms: categorical and conditional syllogisms.
 
-### Categorical syllogisms {-}
+#### Categorical syllogisms {-}
 
 In categorical syllogisms, the statements of the premises typically begin with “all”, “none” or “some” and the conclusion starts with “therefore,” “thus,” or “hence.” These kinds of syllogisms describe a relationship between two categories. In the example given above in the introduction of deductive reasoning these categories are *Spain* and *the need for shorts and T-Shirts*. Two different approaches serve the study of categorical syllogisms: the "normative approach" and the "descriptive approach".
 
-#### The normative approach {-}
+##### The normative approach {-}
 The normative approach to categorical syllogisms is based on logic, and deals with the problem of categorizing conclusions as either valid or invalid. “Valid” means that the conclusion follows logically from the premises whereas “invalid” means the contrary. Two basic principles and a method called Euler Circles have been developed to help make validity judgments. The first principle was created by Aristotle, and states “If the two premises are true, the conclusion of a valid syllogism must be true” [@Goldstein2005]. The second principle states “The validity of a syllogism is determined only by its form, not its content.” These two principles explain why the following syllogism is (surprisingly) valid:
 
 >Premise 1: All flowers are animals.  
@@ -50,7 +52,7 @@ It is possible to display a syllogism formally with symbols or letters and expla
 <p class="caption">(\#fig:euler)Euler Circles</p>
 </div>
 
-#### The descriptive approach {-}
+##### The descriptive approach {-}
 
 The descriptive approach is concerned with estimating people’s ability to judge the validity of syllogisms and explaining errors people make. This psychological approach uses two methods in order to study people’s performance:
 
@@ -60,7 +62,7 @@ The descriptive approach is concerned with estimating people’s ability to judg
   
 In addition to the form of a syllogism, the content can influence a person’s decision and cause the person to neglect logical thinking. The belief bias states that people tend to judge syllogisms with believable conclusions as valid, while they tend to judge syllogisms with unbelievable conclusions as invalid. Given a conclusion as like “Some bananas are pink”, hardly any participants would judge the syllogism as valid, even though it might be logically valid according to its premises (e.g. Some bananas are fruits. All fruits are pink.)
 
-### Conditional syllogisms {-}
+#### Conditional syllogisms {-}
 
 Another type of syllogism is called “conditional syllogism.” Just like the categorical syllogisms, they also have two premises and a conclusion. The difference is that the first premise has the form “If … then”. Syllogisms like this one are common in everyday life. Consider the following example:
 
@@ -70,7 +72,7 @@ Another type of syllogism is called “conditional syllogism.” Just like the c
  
 Conditional syllogisms are typically given in the abstract form: “If p then q”, where “p” is called the "antecedent" and “q” the "consequent".
 
-#### Forms of conditional syllogisms {-}
+##### Forms of conditional syllogisms {-}
 
 There are four major forms of conditional syllogisms: "modus ponens", "modus tollens", "denying the antecedent", and "affirming the consequent". These are illustrated in the table below (\@ref(tab:Syllogisms)) by means of the conditional syllogism above (i.e. If it is raining, you need an umbrella). The table indicates the premises, the resulting conclusions and whether the form is valid. The bottom row displays the how frequently people correctly identify the validity of the syllogisms.
 
@@ -93,7 +95,7 @@ Affirming the consequent in the case of the given example means that the second 
 
 The four kinds of syllogisms have shown that it is not always easy to make correct judgments concerning the validity of the conclusions. The following passages will deal with other errors people make during the process of conditional reasoning.
 
-#### The Wason Selection Task {-}
+##### The Wason Selection Task {-}
 
 The Wason Selection Task is a famous experiment which shows that people make more reasoning errors in abstract situations than when the situation is taken from real life [@Wason1960].
 
@@ -109,7 +111,7 @@ In the abstract version of the Wason Selection Task, four cards are shown to the
 <p class="caption">(\#fig:wason2)Drinking-age Wason Selection Task</p>
 </div>
 
-#### Why is the performance better in the case of real–world items? {-}
+##### Why is the performance better in the case of real–world items? {-}
 
 There are two different approaches to explain why participants’ performance is significantly better in the case of the beer/drinking-age problem than in the abstract version of the Wason Selection Task: the permission schemas approach and the evolutionary approach.
 
@@ -117,7 +119,7 @@ The rule, “if a person is 21 years old or older then they are allowed to drink
 
 The evolutionary approach concerns the human ability of "cheater detection". This approach states that an important aspect of human behavior across our evolutionary history is the ability for people to cooperate in a way that is mutually beneficial. As long as a person who receives a benefit also pays the relevant cost, everything works well in a social exchange. If someone cheats, however, and receives a benefit from others without paying the cost, problems arise. It is assumed that the ability to detect cheaters became a part of the human cognitive makeup during evolution. This cognitive ability improves the performance in the beer/drinking-age version of the Wason Selection Task as it allows people to detect a cheating person who does not behave according to the rule. Cheater-detection does not work in the case of the abstract version of the Wason Selection Task as vowels and numbers cannot behave in any way, much less cheat, and so the cheater detection mechanism is not activated [@cosmides1989logic; @gigerenzer1992domain].
 
-## Inductive reasoning
+### Inductive reasoning
 
 So far we have discussed deductive reasoning, which is reaching conclusions based on logical rules applied to a set of premises. However, many problems cannot be represented in a way that would make it possible to use these rules to come to a conclusion. [Inductive reasoning] is the process of making observations and applying those observations via generalization to a different problem. Therefore one infers from a special case to the general principle, which is just the opposite of the procedure of deductive reasoning (\@ref(fig:induct)). A good example of inductive reasoning is the following:
  
@@ -131,7 +133,7 @@ In this example it is obvious that you infer from the simple observation about t
 <p class="caption">(\#fig:induct)An example of inductive reasoning would be generalizing from the subset of crows you have seen to all crows.</p>
 </div>
 
-### Forms of inductive reasoning {-}
+#### Forms of inductive reasoning {-}
 
 The two different forms of inductive reasoning are “*strong*” and “*weak*” induction. The former indicates that the truth of the conclusion is very likely if the assumed premises are true. An example for this form of reasoning is the one given in the previous section. In this case it is obvious that the premise (“All crows you have ever seen are black”) gives good evidence for the conclusion (“All crows on earth are black”) to be true. Nevertheless it is still possible, although very unlikely, that not all crows are black.
 
@@ -144,7 +146,7 @@ In this instance the conclusion is obviously false. The information the premise 
 
 To sum it up, strong inductive reasoning yields conclusions which are very probable whereas the conclusions reached through weak inductive reasoning are unlikely to be true.
 
-### Reliability of conclusions {-}
+#### Reliability of conclusions {-}
 
 If the strength of the conclusion of an inductive argument has to be determined, three factors concerning the premises play a decisive role. The example of observations about crows (see previous sections) displays these factors:
 
@@ -152,17 +154,17 @@ When you observe crows not just in your hometown but in different countries, the
 
 Conclusions reached through a process of inductive reasoning are never definitely true, as no one has seen all crows on earth. It is possible, although very unlikely, that there is a green or brown exemplar. The three above factors contribute to the strength of an inductive argument. The stronger these factors are, the more reliable the conclusions reached through induction.
 
-### Processes and constraints {-}
+#### Processes and constraints {-}
 
 In the process of inductive reasoning people often make use of heuristics. These heuristics help people make judgments, but sometimes cause errors when the cues they are sensitive to are misleading. In the following sections, two of these heuristics, [the availability heuristic] and [the representativeness heuristic], are explained. Subsequently, [confirmation bias] is introduced, which refers to when people rely too heavily on their own prior beliefs when assessing new evidence.
 
-#### The availability heuristic {-}
+##### The availability heuristic {-}
 
 The availability heuristic refers to when people judge more memorable events (or traits, classes of objects, etc.) to be more frequent than less memorable events. In Kahneman and Tversky's paper introducing the heuristic, they describe that "Availability is an ecologically valid clue for the judgment of frequency because, in general, frequent events are easier to recall or imagine than infrequent ones. However, availability is also affected by various factors which are unrelated to actual frequency" [@tversky1973availability]. In other words, while an event's memorability is often a good cue as to how frequent that event is, this cue is imperfect.
 
 For example, in an experiment done by Sarah Lichtenstein and colleagues, participants were asked to choose from a list which causes of death occur most often. Because of the availability heuristic, people judged more “spectacular” causes like homicide or tornadoes to cause more deaths than less dramatic causes, like asthma. They propose that this is because dramatic causes of death are disproportionately publicized in media, resulting in easier recall for participants and thus erroneously higher estimates of frequency [@lichtenstein1978judged].
 
-#### The representativeness heuristic {-}
+##### The representativeness heuristic {-}
 
 Similarly to the availability heuristic, the representativeness heuristic is used when people judge frequency. However in this case, people rely on a judgment of *similarity* instead of using memorability as a cue. For example, @tversky1983extensional gave the following description to a group of participants:
 
@@ -178,13 +180,13 @@ Like the availability heuristic though, the representativeness heuristic is ofte
 <p class="caption">(\#fig:bank)Feminist bank tellers.</p>
 </div>
 
-#### Confirmation bias {-}
+##### Confirmation bias {-}
 
 Confirmation bias refers to a set of related phenomena wherein people seek or interpret evidence in a way that aligns with beliefs they already hold. This can take the form of overweighting evidence that supports one's belief, underweighting evidence that opposes one's belief, using an information search strategy that is more likely to reveal supportive evidence, remembering only evidence that aligns with one's beliefs, and more [@nickerson1998confirmation]. It is important to note that with most forms of confirmation bias, psychologists are not referring to intentional, goal-directed reasoning, such as what a lawyer defending a case might engage in. Rather, these phenomena are typically understood to be unintentional, at least at a conscious level.
 
 For example, if someone believes that black cats bring bad luck, they may be additionally inclined to notice or remember negative events that occurred after seeing a black cat.
 
-### Induction vs. deduction {-}
+#### Induction vs. deduction {-}
 
 <div class="figure" style="text-align: center">
 <img src="images/ch9/fig6.png" alt="Deductive and inductive reasoning." width="60%" />

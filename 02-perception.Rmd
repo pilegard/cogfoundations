@@ -6,7 +6,7 @@ knitr::include_graphics("images/ch2/intro.jpeg")
 
 Right now, as you read these words, your brain is performing an extraordinary feat. Light waves bouncing off this page are hitting your eyes, but somehow you're not seeing meaningless patterns of black marks; you're seeing letters, words, and ideas. Your perceptual system takes fragmented, upside-down, constantly shifting sensory information and transforms it into a coherent, meaningful experience of the world. Perception isn't just passive reception of information; it's an active process of interpretation and construction.
 
-Understanding how perception works isn't just interesting -- it's practical. This knowledge helps engineers design safer cars, assists doctors in reading medical scans more accurately, and enables technology companies to create better user interfaces. But perhaps most importantly, studying perception reveals something profound about human experience: the world you perceive isn't simply "out there" -- it's actively constructed by your brain.
+Studying perception reveals something profound about human experience: the world you perceive isn't simply "out there" -- it's actively constructed by your brain.
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}

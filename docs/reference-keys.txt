@@ -106,6 +106,7 @@ language-acquisition
 language-and-thought
 glossary-7
 reasoning-and-decision-making
+reasoning
 deductive-reasoning
 inductive-reasoning
 decision-making

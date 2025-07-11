@@ -1,9 +1,9 @@
 # Memory in Context {#memory-in-context}
 <img src="images/ch6/fig0.jpeg" width="100%" style="display: block; margin: auto;" />
 
-As we have seen, our memories are not perfect. Memory doesn't work like a video recording that captures events exactly as they happened. Instead, memory is influenced by where you are when you remember, what happens to you after the original event, and how your mind tries to make sense of it all. Every time you recall something, you're not just retrieving information -- you're reconstructing it.
+As we have seen, our memories are not perfect. Memory doesn't work like a video recording that captures events exactly as they happened. Instead, memory is influenced by what happens to you after the original event, where you are when you remember, and how your mind tries to make sense of it all. Every time you recall something, you're not just retrieving information -- you're reconstructing it.
 
-This reconstruction process is both a strength and a weakness. It allows you to fill in gaps and make sense of incomplete information, but it also opens the door to distortions and errors. The same cognitive processes that help you organize and remember information can also lead you astray, creating memories that feel real but never actually happened. Understanding how context shapes memory helps explain not just why we forget, but why we sometimes "remember" things that never occurred.
+This reconstruction process allows you to fill in gaps and make sense of incomplete information, but it also opens the door to distortions and errors. The same cognitive processes that help you organize and remember information can also lead you astray, creating memories that feel real but never actually happened. Understanding how context shapes memory helps explain not just why we forget, but why we sometimes "remember" things that never occurred.
 
 :::learningobjectives
 ##### LEARNING OBJECTIVES {-}

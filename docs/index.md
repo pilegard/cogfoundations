@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Edited by Celeste Pilegard"
-date: "Current version rendered 2025-07-10"
+date: "Current version rendered 2025-07-11"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -21,9 +21,9 @@ github-repo: pilegard/cogfoundations
 
 ## About the Book {-}
 
-This open-access textbook introduces the core topics in cognitive psychology for anyone teaching or taking a survey course on the subject. It is designed to be accessible to students from all backgrounds, including those with no prior coursework in psychology. The book covers foundational concepts such as perception, attention, memory, language, reasoning, and problem solving. The book is ideal for instructors seeking to introduce classic research alongside contemporary perspectives.
+This open-access textbook introduces the core topics in cognitive psychology for anyone teaching or taking a survey course on the subject. It is designed to be accessible to students from all backgrounds, including those with no prior coursework in psychology. The book covers foundational concepts such as perception, attention, memory, language, reasoning, and problem solving, introducing classic research alongside contemporary perspectives.
 
-The textbook represents the work of dozens of authors and collaborators. The first edition aggregated multiple Open Educational Resources, which were then edited into a single book with consistent voice and formatting by Celeste Pilegard. For the second edition, a team of graduate student content experts comprehensively reviewed and updated the materials. The current version includes ongoing improvements and revisions.
+The textbook represents the work of dozens of authors and collaborators. The first edition aggregated multiple Open Educational Resources, which were then edited into a single book with consistent voice and formatting. For the second edition, a team of graduate student content experts comprehensively reviewed and updated the materials. The current version includes ongoing improvements and revisions.
 
 Celeste Pilegard, Associate Teaching Professor in the Department of Psychology at the University of California, San Diego, leads the book project. The full list of authors and contributors appears in the version history and attributions below.
 
@@ -80,9 +80,7 @@ Additionally, Annie S. Ditta (UC Riverside) completed the second edition edits t
 The second edition of this book was supported by a Course Development and Instructional Improvement Program grant awarded to C. Pilegard. The program is sponsored by the Division of Undergraduate Education at the University of California, San Diego.
 
 #### First Edition {-}
-The first edition of this book was aggregated from multiple Open Educational Resources by Celeste Pilegard. All adaptations, revisions, and transformations of source material were completed by Celeste Pilegard.
-
-The original authors of the work remixed for the first edition of the book are listed below:
+The first edition of this book was remixed from multiple Open Educational Resources by Celeste Pilegard. The original authors of the work aggregated for the first edition of the book are listed below:
 
 ::: {.columns}
 - Mehgan Andrade, College of the Canyons

@@ -1,7 +1,6 @@
 # Perception
 
-
-\begin{center}\includegraphics[width=1\linewidth]{images/ch2/intro} \end{center}
+<img src="images/ch2/intro.jpeg" width="100%" style="display: block; margin: auto;" />
 
 Right now, as you read these words, your brain is performing an extraordinary feat. Light waves bouncing off this page are hitting your eyes, but somehow you're not seeing meaningless patterns of black marks; you're seeing letters, words, and ideas. Your perceptual system takes fragmented, upside-down, constantly shifting sensory information and transforms it into a coherent, meaningful experience of the world. Perception isn't just passive reception of information; it's an active process of interpretation and construction.
 
@@ -31,14 +30,10 @@ Whereas other animals rely primarily on hearing, smell, or touch to understand t
 
 As you can see in Figure \@ref(fig:anatomy), light enters the eye through the [cornea], a clear covering that protects the eye and begins to focus the incoming light. The light then passes through the [pupil], a small opening in the center of the eye. The pupil is surrounded by the [iris], the colored part of the eye that controls the size of the pupil by constricting or dilating in response to light intensity. When we enter a dark movie theater on a sunny day, for instance, muscles in the iris open the pupil and allow more light to enter. Complete adaptation to the dark may take up to 20 minutes.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig1} 
-
-}
-
-\caption{Anatomy of the Human Eye. Behind the pupil is the lens, a structure that focuses the incoming light on the retina, the layer of tissue at the back of the eye that contains photoreceptor cells. Rays from the top of the image strike the bottom of the retina and vice versa, and rays from the left side of the image strike the right part of the retina and vice versa, causing the image on the retina to be upside down.}(\#fig:anatomy)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig1.jpg" alt="Anatomy of the Human Eye. Behind the pupil is the lens, a structure that focuses the incoming light on the retina, the layer of tissue at the back of the eye that contains photoreceptor cells. Rays from the top of the image strike the bottom of the retina and vice versa, and rays from the left side of the image strike the right part of the retina and vice versa, causing the image on the retina to be upside down." width="60%" />
+<p class="caption">(\#fig:anatomy)Anatomy of the Human Eye. Behind the pupil is the lens, a structure that focuses the incoming light on the retina, the layer of tissue at the back of the eye that contains photoreceptor cells. Rays from the top of the image strike the bottom of the retina and vice versa, and rays from the left side of the image strike the right part of the retina and vice versa, causing the image on the retina to be upside down.</p>
+</div>
 
 Behind the pupil is the [lens], a structure that focuses the incoming light on the [retina], the layer of tissue at the back of the eye that contains photoreceptor cells. Rays from the top of the image strike the bottom of the retina and vice versa, and rays from the left side of the image strike the right part of the retina and vice versa, causing the image on the retina to be upside down.
 
@@ -50,25 +45,17 @@ To demonstrate the difference between rods and cones in attention to detail, cho
 
 Margaret @livingstone2000warm (Figure \@ref(fig:monalisa)) found an interesting effect that demonstrates the different processing capacities of the eye’s rods and cones — namely, that the Mona Lisa’s smile, which is widely referred to as “elusive,” is perceived differently depending on how one looks at the painting. Because Leonardo da Vinci painted the smile in low-detail brush strokes, the smile is actually better perceived by the rods in our peripheral vision than by the cones. Livingstone found that people rated the Mona Lisa as more cheerful when they were instructed to focus on her eyes than they did when they were asked to look directly at her mouth. As Livingstone put it, “She smiles until you look at her mouth, and then it fades, like a dim star that disappears when you look directly at it.”
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.3\linewidth]{images/ch2/fig2} 
-
-}
-
-\caption{Mona Lisa's smile.}(\#fig:monalisa)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig2.jpg" alt="Mona Lisa's smile." width="30%" />
+<p class="caption">(\#fig:monalisa)Mona Lisa's smile.</p>
+</div>
 
 The brain's visual cortex is made up of specialized neurons that turn the sensations they receive from the optic nerve into meaningful representations of the world. Because there are no photoreceptor cells at the place where the optic nerve leaves the retina, a hole or [blind spot] in our vision is created (see Figure \@ref(fig:blindspot)). When both of our eyes are open, we don’t experience a  "hole" in our awareness because our eyes are constantly moving, and one eye makes up for what the other eye misses. The visual system is also designed to deal with this problem if only one eye is open — the visual cortex simply fills in the small hole in our vision with similar patterns from the surrounding areas, and we never notice the difference. The visual system's ability to cope with the blind spot is another example of how sensation and perception work together to create meaningful experience.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig3} 
-
-}
-
-\caption{Blind Spot Demonstration. You can get an idea of the extent of your blind spot (the place where the optic nerve leaves the retina) by trying this: close your left eye and stare with your right eye at the cross in the diagram. You should be able to see the elephant image to the right (don’t look at it, just notice that it is there). If you can’t see the elephant, move closer or farther away until you can. Now slowly move so that you are closer to the image while you keep looking at the cross. At one distance (around a foot or so depending on your zoom), the elephant will completely disappear from view because its image has fallen on the blind spot.}(\#fig:blindspot)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig3.jpg" alt="Blind Spot Demonstration. You can get an idea of the extent of your blind spot (the place where the optic nerve leaves the retina) by trying this: close your left eye and stare with your right eye at the cross in the diagram. You should be able to see the elephant image to the right (don’t look at it, just notice that it is there). If you can’t see the elephant, move closer or farther away until you can. Now slowly move so that you are closer to the image while you keep looking at the cross. At one distance (around a foot or so depending on your zoom), the elephant will completely disappear from view because its image has fallen on the blind spot." width="60%" />
+<p class="caption">(\#fig:blindspot)Blind Spot Demonstration. You can get an idea of the extent of your blind spot (the place where the optic nerve leaves the retina) by trying this: close your left eye and stare with your right eye at the cross in the diagram. You should be able to see the elephant image to the right (don’t look at it, just notice that it is there). If you can’t see the elephant, move closer or farther away until you can. Now slowly move so that you are closer to the image while you keep looking at the cross. At one distance (around a foot or so depending on your zoom), the elephant will completely disappear from view because its image has fallen on the blind spot.</p>
+</div>
 
 ### Perceiving Depth {-}
 
@@ -113,14 +100,10 @@ The eyes, ears, nose, tongue, and skin sense the world around us, and in some ca
 
 This process of understanding involves the automatic operation of a variety of essential perceptual processes. One of these is [sensory interaction] — the working together of different senses to create experience. For example, sensory interaction is involved when taste, smell, and texture combine to create the flavor we experience in food. It is also involved when we enjoy a movie because of the way the images and the music work together.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.35\linewidth]{images/ch2/mcgurk} 
-
-}
-
-\caption{Watch [The McGurk Effect on YouTube](http://www.youtube.com/watch?v=jtsfidRq2tw)}(\#fig:mcgurk)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch2/mcgurk.png" alt="Watch [The McGurk Effect on YouTube](http://www.youtube.com/watch?v=jtsfidRq2tw)" width="35%" />
+<p class="caption">(\#fig:mcgurk)Watch [The McGurk Effect on YouTube](http://www.youtube.com/watch?v=jtsfidRq2tw)</p>
+</div>
 
 Although you might think that we understand speech only through our sense of hearing, it turns out that the visual aspect of speech is also important. One example of sensory interaction is shown in the [McGurk effect] — an error in perception that occurs when we misperceive sounds because the audio and visual parts of the speech are mismatched. You can witness the effect yourself by viewing the video in Figure \@ref(fig:mcgurk).
 
@@ -145,38 +128,26 @@ Another complication is that there are still significant gaps in our understandi
 
 ### Illusions {-}
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig4} 
-
-}
-
-\caption{Optical Illusions as a Result of Brightness Constancy (Left) and Color Constancy (Right). Look carefully at the snakelike pattern on the left. Are the green strips really brighter than the background? Cover the white curves and you’ll see they are not. Square A in the right-hand image looks very different from square B, even though they are exactly the same.}(\#fig:constancy)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig4.jpg" alt="Optical Illusions as a Result of Brightness Constancy (Left) and Color Constancy (Right). Look carefully at the snakelike pattern on the left. Are the green strips really brighter than the background? Cover the white curves and you’ll see they are not. Square A in the right-hand image looks very different from square B, even though they are exactly the same." width="60%" />
+<p class="caption">(\#fig:constancy)Optical Illusions as a Result of Brightness Constancy (Left) and Color Constancy (Right). Look carefully at the snakelike pattern on the left. Are the green strips really brighter than the background? Cover the white curves and you’ll see they are not. Square A in the right-hand image looks very different from square B, even though they are exactly the same.</p>
+</div>
 
 Although our perception is very accurate, it is not perfect. [Illusions] occur when the perceptual processes that normally help us correctly perceive the world around us are fooled by a particular situation so that we see something that does not exist or that is incorrect. Figure \@ref(fig:constancy) presents two situations in which our normally accurate perceptions of visual constancy have been fooled.
 
 Another well-known illusion is the [Mueller-Lyer illusion] (see Figure \@ref(fig:muellerlyer)). The line segment in the bottom arrow looks longer to us than the one on the top, even though they are both actually the same length. It is likely that the illusion is, in part, the result of the failure of monocular depth cues — the bottom line looks like an edge that is normally farther away from us, whereas the top one looks like an edge that is normally closer.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig5} 
-
-}
-
-\caption{The Mueller-Lyer illusion makes the line segment at the top of the left picture appear shorter than the one at the bottom. The illusion is caused, in part, by the monocular distance cue of depth — the bottom line looks like an edge that is normally farther away from us, whereas the top one looks like an edge that is normally closer.}(\#fig:muellerlyer)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig5.jpg" alt="The Mueller-Lyer illusion makes the line segment at the top of the left picture appear shorter than the one at the bottom. The illusion is caused, in part, by the monocular distance cue of depth — the bottom line looks like an edge that is normally farther away from us, whereas the top one looks like an edge that is normally closer." width="60%" />
+<p class="caption">(\#fig:muellerlyer)The Mueller-Lyer illusion makes the line segment at the top of the left picture appear shorter than the one at the bottom. The illusion is caused, in part, by the monocular distance cue of depth — the bottom line looks like an edge that is normally farther away from us, whereas the top one looks like an edge that is normally closer.</p>
+</div>
 
 The Ponzo illusion operates on the same principle. As you can see in Figure \@ref(fig:ponzoillusion), the top yellow bar seems longer than the bottom one, but if you measure them you’ll see that they are exactly the same length. The monocular depth cue of linear perspective leads us to believe that, given two similar objects, the distant one can only cast the same size retinal image as the closer object if it is larger. The topmost bar therefore appears longer.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig7} 
-
-}
-
-\caption{The Ponzo Illusion. The Ponzo illusion is caused by a failure of the monocular depth cue of linear perspective. Both bars are the same size, even though the top one looks larger.}(\#fig:ponzoillusion)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig7.jpg" alt="The Ponzo Illusion. The Ponzo illusion is caused by a failure of the monocular depth cue of linear perspective. Both bars are the same size, even though the top one looks larger." width="60%" />
+<p class="caption">(\#fig:ponzoillusion)The Ponzo Illusion. The Ponzo illusion is caused by a failure of the monocular depth cue of linear perspective. Both bars are the same size, even though the top one looks larger.</p>
+</div>
 
 Illusions demonstrate that our perception of the world around us may be influenced by our prior knowledge. But the fact that some illusions exist in some cases does not mean that the perceptual system is generally inaccurate — in fact, humans normally become so closely in touch with their environment that the physical body and the particular environment that we sense and perceive becomes [embodied] — that is, built into and linked with our cognition, such that the world around us becomes part of our brain [@calvo2008handbook]. The close relationship between people and their environments means that, although illusions can be created in the lab and under some unique situations, they may be less common with active observers in the real world [@Runeson1988].
 
@@ -193,14 +164,10 @@ Figure \@ref(fig:humanfactors) presents images of an airplane instrument panel b
 
 One important aspect of the redesign was based on the principles of sensory adaptation. Displays that are easy to see in darker conditions quickly become unreadable when the sun shines directly on them, and it takes the pilot a relatively long time to adapt to the suddenly much brighter display. Human factors psychologists used these principles to develop an automatic control mechanism that senses the ambient light and automatically adjusts the display intensity for optimal readability under a wide range of conditions [@Silverstein1985; @Silverstein1990].
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{images/ch2/fig8} 
-
-}
-
-\caption{Airplane instrument panel before and after it was redesigned by human factors psychologists.}(\#fig:humanfactors)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch2/fig8.png" alt="Airplane instrument panel before and after it was redesigned by human factors psychologists." width="80%" />
+<p class="caption">(\#fig:humanfactors)Airplane instrument panel before and after it was redesigned by human factors psychologists.</p>
+</div>
 :::
 
 :::takeaways

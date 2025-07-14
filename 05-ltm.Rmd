@@ -159,15 +159,55 @@ Used together, the testing effect and the spacing effect are two of the most rob
 Information stored in the memory is retrieved by way of association with other memories. Some memories can not be recalled by simply thinking about them. Rather, one must think about something associated with it. For example, if someone tries and fails to recollect the memories he had about a vacation he went on, and someone mentions the fact that he hired a classic car during this vacation, this may make him remember all sorts of things from that trip, such as what he ate there, where he went and what books he read. 
 
 ```{r albumbs, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo albums can be effective sources of retrieval cues. Photo by BBH Singapore on Uplash.'}
-knitr::include_graphics("images/ch5/fig5.png")
+knitr::include_graphics("images/ch5/book.png")
 ```
 
 #### Encoding Specificity Principle {-}
 The [encoding specificity principle] is the *general principle that memory is best when the conditions at encoding match the conditions at retrieval*. For example, take the song on the radio: perhaps you heard it while you were at a terrific party, having a great, philosophical conversation with a friend. Thus, the song became part of that whole complex experience. Years later, even though you haven’t thought about that party in ages, when you hear the song on the radio, the whole experience rushes back to you. In general, the encoding specificity principle states that, to the extent a retrieval cue (the song) matches or overlaps the memory trace of an experience (the party, the conversation), it will be effective in evoking the memory. One example of the encoding specificity principle is [transfer-appropriate processing], in which *memory is best when the type of cognitive processing at recall matches the type of cognitive processing at encoding*. This was empirically shown in a study by @Morris1977 using semantic and rhyme tasks. In a standard recognition test, memory was better following semantic processing compared to rhyme processing, as predicted by the levels-of-processing effect. However, in a rhyming recognition test, memory was better for those who engaged in rhyme processing compared to semantic processing. This adds a level of complexity to the levels-of-processing theory: while the levels-of-processing framework generally holds for a normal recognition test, performance on rhyming tests is actually better with phonological than semantic processing at encoding.
 
-```{r morris, echo = FALSE, out.width='70%', fig.align = 'center', fig.cap = 'Results from Morris and colleagues’ Transfer-Appropriate Processing experiment [@Morris1977, Experiment 1].'}
-knitr::include_graphics("images/ch5/fig6.png")
+```{r morris, echo = FALSE, out.width='70%', fig.width=6, fig.height=5, fig.align = 'center', fig.cap = 'Results from Morris and colleagues’ Transfer-Appropriate Processing experiment [@Morris1977, Experiment 1].'}
+# Data
+recognition_data <- c(84.4, 63.3)  # Recognition test
+rhyming_data <- c(33.3, 48.9)      # Rhyming test
+recognition_se <- c(2.74, 4.22)    # Recognition SEs
+rhyming_se <- c(3.96, 4.45)        # Rhyming SEs
+
+# Create the plot with recognition test
+plot(1:2, recognition_data, 
+     type = "b", 
+     pch = 16, 
+     col = "#00B0F0", 
+     lwd = 2,
+     xlim = c(0.8, 2.2),
+     ylim = c(0, 100),
+     xlab = "Type of encoding task",
+     ylab = "Percent recalled",
+     xaxt = "n")
+
+# Add rhyming test line
+lines(1:2, rhyming_data, 
+      type = "b", 
+      pch = 1, 
+      col = "#60BA01", 
+      lwd = 2, 
+      lty = 2)
+
+# Add error bars
+arrows(1:2, recognition_data - recognition_se, 1:2, recognition_data + recognition_se, 
+       length = 0.1, angle = 90, code = 3, col = "#00B0F0")
+arrows(1:2, rhyming_data - rhyming_se, 1:2, rhyming_data + rhyming_se, 
+       length = 0.1, angle = 90, code = 3, col = "#60BA01")
+
+# Add labels and legend
+axis(1, at = 1:2, labels = c("Semantic encoding", "Rhyming encoding"))
+legend("topright", 
+       legend = c("Recognition test", "Rhyming test"),
+       col = c("#00B0F0", "#60BA01"),
+       pch = c(16, 1),
+       lty = c(1, 2),
+       lwd = 2)
 ```
+
 
 Other facets of the encoding specificity principle include context-dependent memory. [Context-dependent learning] refers to *an increase in retrieval when the external situation in which information is learned matches the situation in which it is remembered*. @Godden1975 conducted a study to test this idea using scuba divers. They asked the divers to learn a list of words either when they were on land or when they were underwater. Then they tested the divers on their memory, either in the same or the opposite situation. The divers’ memory was better when they were tested in the same context in which they had learned the words than when they were tested in the other context. In this instance, the physical context itself provided cues for retrieval.
 

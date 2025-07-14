@@ -1,7 +1,6 @@
 # History and Research Methods
 
-
-\begin{center}\includegraphics[width=1\linewidth]{images/ch1/lan2000} \end{center}
+<img src="images/ch1/lan2000.png" width="100%" style="display: block; margin: auto;" />
 
 Around the turn of the 20th century, French artist Jean-Marc Côté imagined what classrooms might look like in the year 2000: students sitting passively while knowledge was transmitted directly into their brains through mechanical devices. His vision captured both a playful prediction about technological progress and a fundamental misunderstanding of how learning actually works. We now know that minds don't simply absorb information like empty vessels; they actively process, interpret, and construct knowledge through complex cognitive mechanisms.
 
@@ -20,27 +19,19 @@ Philosophers have wondered about the mind at least as far back as Socrates, aski
 
 Precursors to American psychology can be found in philosophy and physiology. Philosophers such as John Locke and Thomas Reid, writing in the 17th and 18th centuries, promoted [empiricism], the idea that all knowledge comes from experience. The work of Locke, Reid, and others emphasized the role of the human observer and the primacy of the senses in defining how the mind comes to acquire knowledge. In American colleges and universities in the early 1800s, these principles were taught as courses on mental and moral philosophy. Most often these courses taught about the mind based on the faculties of intellect, will, and the senses [@fuchs2000].
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.4\linewidth]{images/ch1/pharoah} 
-
-}
-
-\caption{The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:pharoah)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch1/pharoah.png" alt="The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
+<p class="caption">(\#fig:pharoah)The earliest records of a psychological experiment go all the way back to the Pharaoh Psamtik I of Egypt in the 7th Century B.C. *Image: Neithsabes, [CC0 Public Domain](https://goo.gl/m25gce)</p>
+</div>
 
 ### Experimental Psychology's Foundations {-}
 
 The formal development of modern psychology is usually credited to the work of German physician, physiologist, and philosopher Wilhelm Wundt. Wundt helped to establish the field of experimental psychology by serving as a strong promoter of the idea that psychology could be an experimental field and by providing classes, textbooks, and a laboratory for training students. In 1875, he joined the faculty at the University of Leipzig and quickly began to make plans for the creation of a program of experimental psychology. In 1879, he complemented his lectures on experimental psychology with a laboratory experience: an event that has served as the popular date for the establishment of the science of psychology.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.4\linewidth]{images/ch1/wundt} 
-
-}
-
-\caption{Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)}(\#fig:wundt)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch1/wundt.png" alt="Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)" width="40%" />
+<p class="caption">(\#fig:wundt)Wilhelm Wundt is considered one of the founding figures of modern psychology. [CC0 Public Domain](https://goo.gl/m25gce)</p>
+</div>
 
 The response to the new science was immediate and global. Wundt attracted students from around the world to study the new experimental psychology and work in his lab. Wundt's experimental methods involved carefully controlled procedures for studying basic mental processes like sensation, perception, and reaction time. Rather than relying on casual self-observation, Wundt developed systematic experimental procedures under controlled laboratory conditions, often involving precise timing and reproducible measurements. Importantly, Wundt believed that his experimental methods could only be used to study basic psychological processes. For more complex mental functions like language, culture, and reasoning, he said psychologists needed to use entirely different approaches through what he called "Völkerpsychologie" (folk psychology), which involved studying history and culture rather than doing laboratory experiments [@mandler2006].
 
@@ -76,14 +67,10 @@ Most cognitive psychology research can be divided into two types: experimental a
 
 Experimental research is the most commonly used method in cognitive psychology because it allows researchers to establish causal relationships between variables. Imagine you work for a state health authority during the COVID-19 pandemic. You want to create a graph that will visualize COVID-19 mortality data in order to help people make judgments about pandemic risks. You can choose between two ways to display the same information: you can create a graph that shows how many people have died each week from COVID-19 during the pandemic, or you can create a graph that shows, *cumulatively*, how many people have died from COVID-19 over the same time period (Figure \@ref(fig:covid)). Which method of displaying information will help people understand their risk? As long as you’re giving people the information, does it really matter?
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.6\linewidth]{images/ch1/covid} 
-
-}
-
-\caption{Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*}(\#fig:covid)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="images/ch1/covid.png" alt="Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*" width="60%" />
+<p class="caption">(\#fig:covid)Two ways of displaying the same information. Graph A shows how many people died each week from COVID-19. Graph B shows cumulative deaths from COVID-19 over the same time period. Does the method of displaying information matter? Experiments can help us find out. *Figures from @padilla2022impact; CC-BY 4.0.*</p>
+</div>
 
 During the height of the COVID-19 pandemic, Lace Padilla, a psychology researcher at Northeastern University, set out with her colleagues to test the difference between these graphing methods [@padilla2022impact]. Participants in her experiment were shown a COVID-19 data visualization. Half of the participants were shown a visualization that showed deaths per week, and the other half saw a visualization that showed cumulative deaths. Afterward, participants answered questions about their perception of their risks during the pandemic.
 
@@ -117,14 +104,10 @@ So, what if you wanted to test whether working memory capacity is related to rea
 
 To find out how well two variables correspond, we can plot the relation between the two scores on what is known as a scatterplot (Figure \@ref(fig:scatter)). In the scatterplot, each dot represents a data point. (In this case it’s individuals, but it could be some other unit.) Importantly, each dot provides us with two pieces of information—information about the person's vocabulary test score (x-axis) and their reading comprehension performance (y-axis). Which variable is plotted on which axis does not matter. Note that the scatterplots in this chapter use simulated data to illustrate what different types of correlations look like, rather than the actual data from the studies we've discussed.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter-1} 
-
-}
-
-\caption{Scatterplot of a hypothetical positive association between working memory and reading comprehension, a positive (*r* = .7). Each dot represents an individual. Simulated data for illustration purposes.}(\#fig:scatter)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="01-intro_files/figure-html/scatter-1.png" alt="Scatterplot of a hypothetical positive association between working memory and reading comprehension, a positive (*r* = .7). Each dot represents an individual. Simulated data for illustration purposes." width="80%" />
+<p class="caption">(\#fig:scatter)Scatterplot of a hypothetical positive association between working memory and reading comprehension, a positive (*r* = .7). Each dot represents an individual. Simulated data for illustration purposes.</p>
+</div>
 
 The association between two variables can be summarized statistically using the correlation coefficient (abbreviated as *r*). A [correlation] coefficient provides information about the direction and strength of the association between two variables. For the example above, the direction of the association is positive. This means that people who scored higher on working memory capacity showed better reading comprehension performance, whereas people who scored lower on working memory capacity showed poorer reading comprehension performance.
 
@@ -132,14 +115,10 @@ With a positive correlation, the two variables go up or down together. In a scat
 
 A negative correlation is one in which the two variables move in opposite directions. That is, as one variable goes up, the other goes down. Figure \@ref(fig:scatter2) shows the association between reaction time on an attention task (y-axis) and caffeine consumption (x-axis). In this scatterplot, each dot represents a participant. Notice how the dots extend from the top left to the bottom right. What does this mean in real-world terms? It means that people who consume more caffeine tend to have faster reaction times on attention tasks. The *r* value for a negative correlation is indicated by a negative number—that is, it has a minus (–) sign in front of it. Here, it is –.4.
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter2-1} 
-
-}
-
-\caption{Scatterplot of a hypothetical negative relationship between caffeine consumption and reaction time (*r* = –.4). Each dot represents a participant. Simulated data for illustration purposes.}(\#fig:scatter2)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="01-intro_files/figure-html/scatter2-1.png" alt="Scatterplot of a hypothetical negative relationship between caffeine consumption and reaction time (*r* = –.4). Each dot represents a participant. Simulated data for illustration purposes." width="80%" />
+<p class="caption">(\#fig:scatter2)Scatterplot of a hypothetical negative relationship between caffeine consumption and reaction time (*r* = –.4). Each dot represents a participant. Simulated data for illustration purposes.</p>
+</div>
 
 The strength of a correlation has to do with how well the two variables align. Recall that in the caffeine and reaction time example, caffeine consumption negatively correlated with reaction time: The more caffeine people consumed, the faster their reaction times tended to be. At this point you may be thinking to yourself, I know someone who drinks tons of coffee but still has slow reflexes! Or maybe you know someone who never touches caffeine but has lightning-fast reaction times in video games. Yes, there might be exceptions. If an association has many exceptions, it is considered a weak correlation. If an association has few or no exceptions, it is considered a strong correlation. A strong correlation is one in which the two variables always, or almost always, go together. In the example shown above, the correlation between caffeine and reaction time is moderate (r = –.4), meaning there's a noticeable trend but with plenty of individual variation. The stronger a correlation is, the tighter the dots in the scatterplot will be arranged along a sloped line.
 

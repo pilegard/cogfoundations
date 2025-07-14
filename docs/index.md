@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Edited by Celeste Pilegard"
-date: "Current version rendered 2025-07-11"
+date: "Current version rendered 2025-07-14"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -144,7 +144,7 @@ Condensed from original; Example experiment under “Experimental research” ch
 Paragraph on ongoing improvements to cognitive psychology added to Rise of Cognitive Psychology section. Example experiment under "Experimental Research" changed to Padilla et al. (2022).
 
 #### Current version {-}
-Edits to incorporate Mandler (2006).
+Edits to incorporate Mandler (2006). Research methods examples now all reflect variables from cognitive psychology.
 
 Cover illustration by Jean-Marc Côté, Wikimedia Commons.
 

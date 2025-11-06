@@ -267,25 +267,9 @@ The mental representation of a category.
 
 An example in memory that is labeled as being in a particular category.
 
-##### Imitation {-}
-
-The conscious observation and replication of other people’s behavior. 
-
-##### Intentionality {-}
-
-Mental states that motivate people's actions.
-
-##### Joint Attention {-}
-
-Two or more people attending to the same object and being aware that they are mutually attending to it
-
 ##### Mental Model {-}
 
-A mental representation based on organized knowledge and assumptions
-
-##### Mimicry {-}
-
-Unconsciously imitating another person's behavior
+A mental representation based on organized knowledge and assumptions.
 
 ##### Prototype {#prototype-def -}
 
@@ -295,21 +279,9 @@ The most typical category member.
 
 A theory of concept representation that people have a summary representation of a category that is meant to apply to the category as a whole.
 
-##### Simulation {-}
-
-The process of representing a different person’s mental states.
-
-##### Social Projection {-}
-
-A person's assumption that another person possesses identical mental states.
-
 ##### Spreading activation {-}  
 
 When a concept is activated in memory, related concepts also increase in activation.
-
-##### Synchrony {-}
-
-Two or more people displaying the same behaviors or having the same internal states (typically because of mutual mimicry).
 
 ##### Theory of Mind {-}
 
@@ -318,7 +290,3 @@ The human capacity to understand minds, a capacity that is made up of a collecti
 ##### Typicality {-}
 
 The difference in “goodness” of category members, ranging from the most typical (the prototype) to borderline members.
-
-##### Visual Perspective Taking {-}
-
-Attempting to visualize something from another person’s spatial vantage point.

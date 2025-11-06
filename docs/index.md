@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Edited by Celeste Pilegard"
-date: "Current version rendered 2025-07-30"
+date: "Current version rendered 2025-11-06"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -266,6 +266,8 @@ Theory of Mind by Bertram Malle is licensed under a Creative Commons Attribution
 
 The following Wikipedia entries served as sources: Concept; Mental model; Theory of mind. Retrieved from http://www.en.wikipedia.org/
 Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
+
+Revisions since the second edition by C. Pilegard: Prior knowledge section added; ToM section streamlined.
 
 ### Chapter 8. Language {-}
 #### First edition {-}

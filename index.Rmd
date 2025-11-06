@@ -267,6 +267,8 @@ Theory of Mind by Bertram Malle is licensed under a Creative Commons Attribution
 The following Wikipedia entries served as sources: Concept; Mental model; Theory of mind. Retrieved from http://www.en.wikipedia.org/
 Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
 
+Revisions since the second edition by C. Pilegard: Prior knowledge section added; ToM section streamlined.
+
 ### Chapter 8. Language {-}
 #### First edition {-}
 Language\

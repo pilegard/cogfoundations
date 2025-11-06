@@ -1,10 +1,11 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
-%
 \documentclass[
 ]{krantz}
+\usepackage{xcolor}
 \usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -35,7 +36,6 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
-\usepackage{xcolor}
 \usepackage{color}
 \usepackage{fancyvrb}
 \newcommand{\VerbBar}{|}
@@ -101,10 +101,6 @@
 % Set default figure placement to htbp
 \def\fps@figure{htbp}
 \makeatother
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
 % definitions for citeproc citations
 \NewDocumentCommand\citeproctext{}{}
 \NewDocumentCommand\citeproc{mm}{%
@@ -138,6 +134,9 @@
 \newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
@@ -149,7 +148,7 @@
 
 \title{Cognitive Foundations}
 \author{Edited by Celeste Pilegard}
-\date{Current version rendered 2025-07-30}
+\date{Current version rendered 2025-11-06}
 
 \begin{document}
 \maketitle
@@ -521,6 +520,8 @@ Theory of Mind by Bertram Malle is licensed under a Creative Commons Attribution
 
 The following Wikipedia entries served as sources: Concept; Mental model; Theory of mind. Retrieved from \url{http://www.en.wikipedia.org/}
 Wikipedia text is licensed under the Creative Commons Attribution-ShareAlike License.
+
+Revisions since the second edition by C. Pilegard: Prior knowledge section added; ToM section streamlined.
 
 \subsection*{Chapter 8. Language}\label{chapter-8.-language}
 
@@ -2597,7 +2598,7 @@ Attitude change that occurs over time when we forget the source of information
 
 \begin{center}\includegraphics[width=1\linewidth]{images/ch7/cover-penguins} \end{center}
 
-People form mental concepts of categories of objects, which permit them to respond appropriately to new objects they encounter. But categorization is actually more complex than it first appears. Consider penguins: they're clearly birds, yet they swim instead of soar, and waddle instead of hop. Despite being quite ``un-birdy,'' you still recognize them as birds rather than fish or mammals. Your knowledge systems do more than categorize objects, though. You also use your knowledge to understand other minds -- their beliefs, desires, and intentions. When you suggest to a friend that you visit the penguins at the zoo, you're using this ability to predict their response based on what you know about their interests and preferences.
+People form mental concepts of categories of objects, which allow them to respond appropriately to new objects they encounter. But categorization is actually more complex than it first appears. Consider penguins: they're clearly birds, yet they swim instead of fly, and waddle instead of hop. Despite these ``un-birdy'' characteristics, you still recognize them as birds rather than fish or mammals. Your knowledge systems do more than categorize objects, though. You also use your knowledge to understand other minds -- their beliefs, desires, and intentions. When you suggest to a friend that you visit the penguins at the zoo, you're using this ability to predict their response based on what you know about their interests and preferences.
 
 Your knowledge operates at multiple levels: you categorize the physical world around you (recognizing penguins as birds despite their unusual characteristics), and you model the mental worlds of other people (understanding their thoughts, feelings, and motivations). Both types of knowledge allow you to navigate your environment effectively, whether you're correctly identifying animals at the zoo or predicting how your friend will react when you suggest watching the penguins swim. Understanding how these knowledge systems work reveals how you make sense of both the physical and social worlds around you.
 
@@ -2612,7 +2613,11 @@ Your knowledge operates at multiple levels: you categorize the physical world ar
 \item
   Learn about theories of the mental representation of concepts.
 \item
-  Learn how knowledge may influence concept learning.
+  Understand how concepts are organized in semantic networks.
+\item
+  Learn how prior knowledge and expertise change the way we process information.
+\item
+  Understand how people use mental models to reason about other minds.
 \end{enumerate}
 
 \begin{figure}
@@ -2776,7 +2781,7 @@ In the Figure \ref{fig:network}, Collins and Quillian's network with added prope
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch7/fig5} 
+{\centering \includegraphics[width=0.5\linewidth]{images/ch7/fig5} 
 
 }
 
@@ -2789,86 +2794,80 @@ Information that is shared by several concepts is stored in the highest parent n
 
 The phenomenon that adjacent concepts are activated is called \hyperref[spreading-activation]{spreading activation}. These concepts are far more easily accessed by memory, they are ``primed''. This was studied and backed by Meyer \& Schvaneveldt (\citeproc{ref-meyer1971facilitation}{1971}) with a lexical-decision task. Participants had to decide if word pairs were words or non-words. They were faster at finding real word pairs if the concepts of the two words were near each other in a semantic network.
 
-\section{Mental Models}\label{mental-models}
+\section{Prior Knowledge and Thinking}\label{prior-knowledge-and-thinking}
 
-How do humans use their understanding of concepts to make sense of the world? \hyperref[mental-model-theory]{Mental Model Theory} (\citeproc{ref-Johnson-Laird1991-JOHD-9}{Johnson-Laird \& Byrne, 1991}), proposes that people use mental models to reason about the world. A \hyperref[mental-model]{mental model} is a mental representation based on a set of fundamental assumptions that a person believes to be true (\citeproc{ref-Byrne_Johnson-Laird_2009}{Byrne \& Johnson-Laird, 2009}). These assumptions can be constructed from perception, imagination, or from discussions with other people (\citeproc{ref-Byrne_Johnson-Laird_1985}{Johnson-Laird, 1985}). A mental model is like a mental picture or idea that represents a specific possibility (\citeproc{ref-Johnson-Laird2002-JOHCAT-12}{Johnson-Laird \& Byrne, 2002}), and which captures the common elements shared by all the different ways that possibility could happen.
+Knowledge isn't static: it accumulates over time and fundamentally changes how we process new information. Having rich, well-organized knowledge in a domain doesn't just mean you know more facts; it changes the way you think.
 
-\subsection*{A Theory of Mind}\label{a-theory-of-mind}
-
-
-\hyperref[theory-of-mind]{Theory of Mind} refers to the way people use mental models to understand other people. Theory of mind is the knowledge that others' beliefs, desires, intentions, emotions, and thoughts (i.e.~their mental states) may be different from one's own, and that people's behavior is based on their mental states (\citeproc{ref-Apperly2009DoHH}{Apperly \& Butterfill, 2009}). A theory of mind allows adults to construct mental models that explain the motivation behind people's actions, and to form predictions for how they will act in the future.
-
-Possessing a theory of mind allows us to use our observations of people's behavior to infer their mental states (or vice versa: to predict their behavior from knowledge of their mental states). Having an appreciation for the workings of another person's mind is considered a prerequisite for many of the phenomena that define the human species, such as: natural language acquisition (\citeproc{ref-baldwin1998word}{Baldwin \& Tomasello, 1998}), strategic social interaction (\citeproc{ref-zhang2012perspective}{Zhang et al., 2012}), reflexive thought (\citeproc{ref-bogdan2000minding}{Bogdan, 2000}), and moral judgment (\citeproc{ref-guglielmo2009heart}{Guglielmo et al., 2009}). The capacity to understand the minds of others begins to develop in the first year of life and becomes more robust throughout childhood and into adulthood.
-
-\subsubsection*{The Role of Theory of Mind in Social Life}\label{the-role-of-theory-of-mind-in-social-life}
+\subsection*{The Power of Prior Knowledge}\label{the-power-of-prior-knowledge}
 
 
-Imagine you are observing an interaction between two people: a man is standing behind a counter, and a woman hands them a thin plastic object. Without a theory of mind, you would be incapable of understanding this event, or predicting how either person would react to the other. Due to our capacity to infer mental states from behavior, we likely infer that the woman is a customer pulling out her credit card with the intention to pay the cashier behind the register (\citeproc{ref-baird2001making}{Baird \& Baldwin, 2001}). People's theory of mind thus frames and interprets perceptions of human behavior in a particular way---as observations of agents who act intentionally and who have desires, beliefs, and other mental states that guide their actions (\citeproc{ref-perner1991understanding}{Perner, 1991}; \citeproc{ref-wellman1990child}{Wellman, 1990}).
+Having relevant knowledge helps you think about new information. For example, if you already know a lot about baseball, listening to a game on the radio is straightforward -- you know exactly happened when the announcer says a batter grounded out, or that an outfielder stole a home run -- and you might remember interesting plays from the game to talk about later. If you don't know baseball, the same radio broadcast might be nearly incomprehensible, and when someone asks you later what happened in the game, you might not remember anything.
 
-People without a theory of mind would be utterly incapable of making sense of simple social interactions that occur throughout everyday life. Moreover, without a theory of mind, there would probably be no such things as cashiers, credit cards, or money (\citeproc{ref-tomasello2003key}{Tomasello, 2003}). Humans need to understand minds to engage in the kinds of complex interactions that social communities (small and large) require, and it is these complex social interactions that have given rise to the innovation of different human cultures around the world.
+A classic demonstration of this effect comes from Bransford \& Johnson (\citeproc{ref-bransford1972contextual}{1972}). They had people listen to passages that were difficult to understand without the right context. Read the following paragraph:
 
-\subsubsection*{What is theory of mind?}\label{what-is-theory-of-mind}
+\begin{quote}
+The procedure is actually quite simple. First you arrange things into different groups. Of course, one pile may be sufficient depending on how much there is to do. If you have to go somewhere else due to lack of facilities that is the next step, otherwise you are pretty well set. It is important not to overdo things. That is, it is better to do too few things at once than too many. In the short run this may not seem important but complications can easily arise. A mistake can be expensive as well. At first the whole procedure will seem complicated. Soon, however, it will become just another facet of life. It is difficult to foresee any end to the necessity for this task in the immediate future, but then one never can tell. After the procedure is completed one arranges the materials into different groups again. Then they can be put into their appropriate places. Eventually they will be used once more and the whole cycle will then have to be repeated. However, that is part of life. (\citeproc{ref-bransford1972contextual}{Bransford \& Johnson, 1972, p. 722})
+\end{quote}
+
+This passage is confusing until you're told it's about washing clothes. Then, it makes perfect sense. Go back and read the passage now: the words haven't changed, but your ability to activate the right prior knowledge transforms your comprehension.
+
+Some of the most striking demonstrations of how knowledge changes cognition come from studies of expertise. When you develop expertise, it's not only that your amount of knowledge increases; it's also that you organize your knowledge in fundamentally different ways that allow you to see patterns and solve problems that novices cannot. Recall from Chapter \ref{working-memory-chapter} our discussion of a landmark study by Chase \& Simon (\citeproc{ref-Chase1973}{1973}): chess masters briefly glimpsed positions from actual chess games and could reproduce them with remarkable accuracy, far better than novice players. However, when shown random arrangements of chess pieces---positions that would never occur in a real game---the masters performed no better than novices. This shows that chess expertise isn't about having a better memory in general. Instead, experts have learned to recognize meaningful patterns and configurations. A master might see a position and think ``ah, a Sicilian Defense with an isolated queen's pawn'', allowing them to chunk many individual pieces into a single, meaningful unit. Read ahead to Chapter \ref{problem-solving} for more about how expertise affects problem solving.
+
+\subsection*{Mental Models and Organized Knowledge}\label{mental-models-and-organized-knowledge}
 
 
-The first thing to note is that ``theory of mind'' is not a single thing. What underlies people's capacity to recognize and understand mental states is a whole host of components or a ``toolbox'' for navigating the social world (\citeproc{ref-malle2008fundamental}{Malle, 2008}). Figure \ref{fig:pyramid} shows some of the most important tools. The simple and automatic processes appear at the bottom of the pyramid, and as we ascend to the upper levels, the processes become increasingly complex and deliberate. This organization also reflects development---from tools that infants display within the first 6--12 months to tools they need to acquire over the next 3--5 years. In the next few sections, we will talk about the capacities that make up each level.
+As people develop knowledge and expertise, they build rich \hyperref[mental-model]{mental models} in their domains. A mental model is a mental representation based on a set of organized knowledge and assumptions (\citeproc{ref-Byrne_Johnson-Laird_2009}{Byrne \& Johnson-Laird, 2009}; \citeproc{ref-Johnson-Laird1991-JOHD-9}{Johnson-Laird \& Byrne, 1991}). These models allow experts to reason efficiently about their domain.
+
+A doctor examining a patient with certain symptoms doesn't just catalog individual signs; they have a mental model of how different organ systems interact, how diseases progress, what patterns of symptoms co-occur. A chef combining ingredients doesn't just follow recipes; they have a mental model of how flavors complement each other, how cooking methods affect texture, how ingredients transform under heat. You probably have a mental model of how your daily commute works, including typical traffic patterns and alternate routes. You likely have mental models of social situations, helping you navigate dinner parties or job interviews. Mental models allow us to simulate possibilities, make predictions, and understand complex systems without having to reason through every detail from scratch.
+
+One particularly important domain where humans develop sophisticated mental models is in understanding other people. Just as a physics expert builds models of physical systems, all humans build models of how minds work. This capacity to model other minds (i.e., to understand that others have beliefs, desires, and intentions that may differ from our own) is fundamental to human social life.
+
+\section{Theory of Mind}\label{theory-of-mind}
+
+We've seen how experts develop organized knowledge structures that change the way they think in domains like physics or chess. One domain where everyone becomes something of an ``expert'' is understanding other people. From infancy, humans develop sophisticated knowledge structures (i.e., mental models) for reasoning about minds. This capacity is called Theory of Mind.
+
+\subsection*{Understanding Other Minds}\label{understanding-other-minds}
+
+
+\hyperref[theory-of-mind]{Theory of Mind} is the knowledge that others' beliefs, desires, intentions, emotions, and thoughts (i.e., their mental states) may be different from one's own, and that people's behavior is based on their mental states (\citeproc{ref-Apperly2009DoHH}{Apperly \& Butterfill, 2009}). This capacity allows you to construct mental models that explain why people act as they do and predict what they'll do next. The capacity to understand the minds of others begins to develop in the first year of life and becomes more robust throughout childhood and into adulthood.
+
+Imagine observing someone behind a counter accepting a thin plastic object from another person. Without theory of mind, this event would be incomprehensible. With it, you immediately understand: a customer is paying a cashier with a credit card (\citeproc{ref-baird2001making}{Baird \& Baldwin, 2001}). This capacity to interpret behavior in terms of mental states is fundamental to human social life. Without it, there would be no complex social interactions, no teaching and learning, no collaboration (\citeproc{ref-tomasello2003key}{Tomasello, 2003}).
+
+\subsection*{The Development of Theory of Mind}\label{the-development-of-theory-of-mind}
+
+
+Theory of mind is not a single ability but rather a ``toolbox'' for navigating the social world (\citeproc{ref-malle2008fundamental}{Malle, 2008}). Figure \ref{fig:pyramid} shows some of the most important tools. These capacities range from simple and automatic processes that infants display within the first year of life to complex and deliberate processes that develop over the first few years.
 
 \begin{figure}
 
-{\centering \includegraphics[width=1\linewidth]{images/ch7/fig6} 
+{\centering \includegraphics[width=0.6\linewidth]{images/ch7/fig6} 
 
 }
 
 \caption{Some of the major tools of theory of mind, with the bottom showing simple, automatic, early developing processes, and the top showing complex, more deliberate, late developing processes. }\label{fig:pyramid}
 \end{figure}
 
-\subsubsection*{Level 1: Agents, Goals, and Intentionality}\label{level-1-agents-goals-and-intentionality}
+Infants can tell the difference between agents that act on their own and other objects (\citeproc{ref-johnson2000}{S. C. Johnson, 2000}; \citeproc{ref-premack1990}{Premack, 1990}), expect other people's actions to be directed by goals (\citeproc{ref-gergely2003teleological}{Gergely \& Csibra, 2003}; \citeproc{ref-jara-ettinger2016naive}{Jara-Ettinger et al., 2016}), and begin to assess intentionality (\citeproc{ref-malle1997folk}{Malle \& Knobe, 1997}). As we develop, we add more sophisticated abilities: we automatically imitate and synchronize with others (\citeproc{ref-chartrand1999chameleon}{Chartrand \& Bargh, 1999}; \citeproc{ref-meltzoff2003imitation}{Meltzoff \& Decety, 2003}), we engage in joint attention (sharing focus on the same object), we take others' visual perspectives, and eventually we can simulate what it's like to be in another person's position.
+
+However, perspective-taking is difficult. People often engage in social projection, that is, assuming others think, feel, or perceive the same things they do (\citeproc{ref-krueger2007social}{Krueger, 2007}; \citeproc{ref-meltzoff2007like}{Meltzoff, 2007}). Have you ever been surprised that a friend missed the ``obvious'' point of a movie? Or worried everyone would notice the pimple on your forehead? In these situations, people find it difficult to suppress their own knowledge and overestimate the likelihood that other people will share their perspective (\citeproc{ref-keysar1994illusory}{Keysar, 1994}), and how attentive other people will be to the things they are focused on (\citeproc{ref-gilovich1999spotlight}{Gilovich \& Savitsky, 1999}).
+
+\subsubsection*{The False Belief Test}\label{the-false-belief-test}
 
 
-The agent category allows humans to identify those moving objects in the world that can act on their own. Features that even infants can use to identify agents, include: being self-propelled, having eyes or a face, and reacting systematically to another person's behavior, such as by following their gaze or imitating their actions (\citeproc{ref-johnson2000}{S. C. Johnson, 2000}; \citeproc{ref-premack1990}{Premack, 1990}). The process of recognizing goals builds on this agent category. Even before the end of their first year, infants recognize that agents reach towards desired objects even when they don't successfully make contact with the object they are attempting to grab (\citeproc{ref-GERGELY1995165}{Gergely et al., 1995}; \citeproc{ref-woodward1998}{Woodward, 1998}). What it means to recognize goals, therefore, is to see an agent consistently pursue a particular object.
+A key milestone in theory of mind development is passing the false-belief test (\citeproc{ref-wimmer1983beliefs}{Wimmer \& Perner, 1983}). In this test, children see a story: Sally puts her ball in a basket and leaves the room. While Sally is gone, Anne moves the ball from the basket to a box. Children are asked where Sally will look for the ball when she returns.
 
-Why is it important to recognize the goals of other people? Starting in infancy, humans expect other people's actions to be \hyperref[goal-directed]{goal directed} whereby they seek, track, and act to achieve desired outcomes (\citeproc{ref-gergely2003teleological}{Gergely \& Csibra, 2003}; \citeproc{ref-jara-ettinger2016naive}{Jara-Ettinger et al., 2016}).Through learning to recognize the many ways by which agents pursue goals, humans learn to identify behaviors that are intentional. The concept of \hyperref[intentionality]{intentionality} refers to the mental states that motivate people to act. Understanding the intentions that motivate a person's behavior is more complicated than identifying goals, as people sometimes possess intentions that differ from the eventual outcome. In addition, some behaviors can be unintentional even if they were goal-directed---such as when you possess the earnest goal of impressing your date, but instead, unintentionally make a fool of yourself. To act intentionally you need, aside from a goal, the right kinds of beliefs about how to achieve the goal. Moreover, by adulthood, the concept of intentionality requires that an agent have the skill to perform the intentional action. For example, if I am flipping a coin to try and have it land on heads, and do so on my first attempt, you would not judge my action of making it land on heads as intentional---you would say it was luck (\citeproc{ref-malle1997folk}{Malle \& Knobe, 1997}).
+The correct answer is the basket: that's where Sally believes it is. But children must infer this false belief against their own knowledge that the ball is actually in the box. This is very difficult for children before age 4, and it takes cognitive effort even for adults (\citeproc{ref-epley2004perspective}{Epley et al., 2004}).
 
-\paragraph*{Infants' Mental State Inferences from Goal Directed Actions}\label{infants-mental-state-inferences-from-goal-directed-actions}
-\addcontentsline{toc}{paragraph}{Infants' Mental State Inferences from Goal Directed Actions}
+\paragraph*{Infant Social Cognition}\label{infant-social-cognition}
+\addcontentsline{toc}{paragraph}{Infant Social Cognition}
 
-Mental state reasoning becomes more robust throughout development, but previous research indicates that even infants are able to reason about the minds of others. Infants use people's goal directed actions (\citeproc{ref-GERGELY1995165}{Gergely et al., 1995}; \citeproc{ref-woodward1998}{Woodward, 1998}) to infer mental states and use their understanding of people's mental states to predict their future behavior (\citeproc{ref-jara-ettinger2016naive}{Jara-Ettinger et al., 2016}). For example, after observing an agent exert more effort (\citeproc{ref-liu2017ten}{Liu et al., 2017}) or take a greater risk (\citeproc{ref-liu2022dangerous}{Liu et al., 2022}) to obtain one object over another, infants infer social agents prefer the object associated with the more effortful or riskier actions. Thus, infants appear to use the relative cost an agent is willing to incur to infer the value that agents places on specific goal objects (i.e.~they prefer object A over B).
+While theory of mind becomes more sophisticated throughout development, even infants show remarkable abilities to reason about others' minds. How do researchers study what preverbal infants understand? These studies typically use puppets or videos of people as ``agents,'' and measure where infants look and for how long. Infants tend to look longer at events that surprise them or violate their expectations, allowing researchers to infer what infants understand about minds and social relationships.
 
-Infants may also be interested in representing people's social goals whereby they use their observations of people's social interactions to infer the relationships between people (\citeproc{ref-powell2022adopted}{Powell, 2022}). Recent research indicates that infants expect social agents who imitate the actions of others to be more likely to help (\citeproc{ref-pepe2023infants}{Pepe \& Powell, 2023}) and comfort (\citeproc{ref-kudrnova2024infants}{Kudrnova et al., 2024}) those they imitate. These converging lines of work indicate that infants expect imitators to be positively affiliated, and therefore act in ways that promote the welfare, of those they imitate. Support for this hypothesis comes from recent evidence that infants use observations of a person's social interactions to infer the strength of their relationships to others. In a study by A. J. Thomas et al. (\citeproc{ref-thomas2022early}{2022}), infants saw one social agent share saliva with a second agent, and also pass a ball back-and-forth with a third agent. Infants expected the saliva sharer to possess a stronger relationship with their social partner,compared to the agent who passed the ball, and therefore be more likely to comfort their social partner when they were in distress. Overall, infants appear to use the goal-directed actions of social agents to infer positively affiliated relationships, and expect people to act in ways that promote the welfare of their affiliates.
+Infants use observations of people's goal directed actions to infer mental states and predict future behavior (\citeproc{ref-GERGELY1995165}{Gergely et al., 1995}; \citeproc{ref-jara-ettinger2016naive}{Jara-Ettinger et al., 2016}; \citeproc{ref-woodward1998}{Woodward, 1998}). For example, infants watch how much effort or risk someone is willing to take to get different objects. If an agent works harder or take bigger risks to obtain one toy over another, infants infer that the agent prefers the harder-to-get toy (\citeproc{ref-liu2017ten}{Liu et al., 2017}, \citeproc{ref-liu2022dangerous}{2022}). In other words, infants appear to use the ``cost'' someone pays (in effort or risk) to figure out how much that person values different goals.
 
-\subsubsection*{Level 2: Imitation \& synchrony}\label{level-2-imitation-synchrony}
+Infants also use social interactions to infer relationships between people (\citeproc{ref-powell2022adopted}{Powell, 2022}). Recent research shows that infants expect people who imitate each other to have closer relationships, and expect that imitators will be more likely to help and comfort those they imitate (\citeproc{ref-kudrnova2024infants}{Kudrnova et al., 2024}; \citeproc{ref-pepe2023infants}{Pepe \& Powell, 2023}). Infants also use other social cues to infer relationship strength. For example, in a study by A. J. Thomas et al. (\citeproc{ref-thomas2022early}{2022}), infants saw one social agent share saliva with a second agent, and also pass a ball back-and-forth with a third agent. Infants expected the saliva-sharer to have a stronger relationship with their partner and to be more likely to comfort them when distressed.
 
-
-From childhood, imitation aids in our understanding of other people (\citeproc{ref-meltzoff2003imitation}{Meltzoff \& Decety, 2003}). \hyperref[imitation]{Imitation} is the human tendency to carefully observe other people's behaviors and replicate their actions. A subtle, automatic form of imitation is called mimicry in which people unconsciously copy other people's behavior. \hyperref[mimicry]{Mimicry} can sometimes lead to \hyperref[synchrony]{synchrony} whereby people engage in the same behaviors or possess the same internal states. Have you ever noticed when two people in conversation take on similar gestures, body positions, or even tone of voice? They ``synchronize'' their behaviors by way of (largely) unconscious imitation. Interestingly, people who enjoy an interaction tend to synchronize their behaviors more, and increased synchrony can increase enjoyment during a social interaction (\citeproc{ref-chartrand1999chameleon}{Chartrand \& Bargh, 1999}).
-
-\subsubsection*{Level 3: Joint attention \& visual perspective}\label{level-3-joint-attention-visual-perspective}
-
-
-Going beyond the automatic, humans are capable of actively engaging with other people's mental states, such as when they enter into situations of \hyperref[joint-attention]{joint attention}: two or more people attending to the same object and being aware that they are mutually attending to it. Such shared engagement is critical for children to learn the meaning of objects, and throughout adulthood to successfully work with other people. When I hold up my keyboard and show it to you, we are jointly attending to it, and if I then say it's called ``Tastatur'' in German, you know that I am referring to the keyboard and not to the table on which it had been resting.
-
-Another important capacity of engagement is \hyperref[visual-perspective-taking]{visual perspective taking} which refers to perceiving something from another person's physical viewpoint. Pretend you are sitting at a dinner table and advise another person on where the salt is---do you consider that it is to her left even though it is to your right? When we overcome our egocentric perspective this way, we imaginatively adopt the other person's spatial viewpoint and determine how the world looks from their perspective.
-
-\subsubsection*{Level 4: Projection \& simulation}\label{level-4-projection-simulation}
-
-
-When imagining what it might be like to be in another person's psychological position, humans must go beyond mental rotation. One tool to understand other people's thoughts and feelings is \hyperref[simulation]{simulation}: the process of representing other people's mental states. Imagining a situation from another person's perspective is a useful tool in understanding what motivated them to act. This often proves difficult to do effectively, as people are often influence by their own mental states and engage in social projection whereby they assume other people think, feel, or desire the same things they do (\citeproc{ref-krueger2007social}{Krueger, 2007}; \citeproc{ref-meltzoff2007like}{Meltzoff, 2007}).
-
-In a sense, \hyperref[social-projection]{social projection} is an absence of perspective taking, because we assume that the other person's perspective equals our own. Have you ever been surprised that friend missed the obvious point of a movie that seemed so clear to you? Or that everyone is going to stare at the pimple on your forehead that appeared that same morning? In these kinds of situations, people find it difficult to suppress their own knowledge and overestimate the likelihood that other people will share their perspective (\citeproc{ref-keysar1994illusory}{Keysar, 1994}), and how attentive other people will be to the things they are focused on (\citeproc{ref-gilovich1999spotlight}{Gilovich \& Savitsky, 1999}). So, the next time when you spot a magnificent bird high up in the tree and you get impatient with your friend who just can't see what is clearly obvious, remember: it's obvious to you.
-
-\subsubsection*{Level 5: Mental state inference}\label{level-5-mental-state-inference}
-
-
-The ability to effectively model and take another person's perspective requires that we separate our mental states from those of other people. Effective modeling of other people's mental states also relies on general knowledge of how people tend to respond to a situation (``Everybody would be nervous when threatened by a man with a gun'') and agent-specific knowledge (``Joe is fearless because he was trained in martial arts''). People also use the perceived facts and context of the situation, such as what is happening to the agent, the agent's facial expressions and behaviors, and what the person saw or didn't see.
-
-This capacity of integrating multiple lines of information into a \hyperref[mental-state-inference]{mental state inference} develops steadily within the first few years of life (\citeproc{ref-wellman2001meta}{Wellman et al., 2001}). The research began with a clever experiment by Wimmer \& Perner (\citeproc{ref-wimmer1983beliefs}{1983}), who tested whether children can pass a false-belief test. In this experiment, children are asked whether a person who possesses a false belief (i.e.~a belief that contradicts reality) will act in accordance with their false belief or the child's accurate knowledge of the situation.
-
-Children in the false-belief task were shown a picture book. In the book, Sally puts her ball in a basket and leaves the room. While Sally is out of the room, Anne comes along and takes the ball from the basket and puts it inside a box. The child is then asked where Sally thinks the ball is located when she comes back to the room. Is she going to look first in the box or in the basket?
-
-The correct answer is that she will look in the basket, because that's where she put it and thinks it is; but we have to infer this false belief against our own accurate knowledge that the ball is in the box. This is very difficult for children before the age of 4, and it usually takes some cognitive effort in adults (\citeproc{ref-epley2004perspective}{Epley et al., 2004}).
-
-\subsubsection*{Summary}\label{summary}
-
-
-Understanding the minds of othe people requires many tools. Humans use their knowledge and observations of people's faces, goal-directed actions, and gestures to understand concepts such as agent, intentional action, and preferences. These inferences rely on relatively automatic psychological processes, such as imitation, joint attention, and projection, as well as more deliberate processes, such as simulation and mental-state inference. The ability to integrate all of these tool is essential for developing accurate mental models of others' minds. These mental models enable people to understand and navigate the social world and the individuals within it.
+These findings suggest that even before they can talk, infants are building sophisticated models of how minds work and how social relationships function.
 
 \paragraph*{Key Takeaways}\label{key-takeaways-6}
 \addcontentsline{toc}{paragraph}{Key Takeaways}
@@ -2876,9 +2875,15 @@ Understanding the minds of othe people requires many tools. Humans use their kno
 \begin{itemize}
 \tightlist
 \item
-  Concepts are central to our everyday thought. When we are planning for the future or thinking about our past, we think about specific events and objects in terms of their categories. If you're visiting a friend with a new baby, you have some expectations about what the baby will do, what gifts would be appropriate, how you should behave toward it, and so on. Knowing about the category of babies helps you to effectively plan and behave when you encounter this child you've never seen before.
-\item
   Learning about those categories is a complex process that involves seeing exemplars (babies), hearing or reading general descriptions (``Babies like black-and-white pictures''), general knowledge (babies have kidneys), and learning the occasional rule (all babies have a rooting reflex).
+\item
+  Concepts are organized in semantic networks with hierarchical structure and spreading activation, allowing efficient storage and retrieval of knowledge.
+\item
+  Prior knowledge and expertise fundamentally change how we process information. Experts don't just know more -- they organize knowledge into meaningful patterns and see deeper principles that novices miss.
+\item
+  Mental models are organized knowledge structures that allow us to reason efficiently about domains where we have expertise, from physics to cooking to understanding other people.
+\item
+  Theory of mind is the capacity to recognize that others have mental states different from our own. This capacity relies on multiple tools, from basic agent recognition to complex mental state inference.
 \end{itemize}
 
 \paragraph*{Exercises}\label{exercises-6}
@@ -2892,7 +2897,9 @@ Understanding the minds of othe people requires many tools. Humans use their kno
 \item
   Practice: For the same categories, can you identify members that seem to be ``better'' and ``worse'' members? What about these items makes them typical and atypical?
 \item
-  Discussion: Choose three common categories: a natural kind, a human artifact, and a social event. Are the corresponding categories likely to differ across countries and cultures? Can you make a hypothesis about when such categories are likely to differ and when they are not?
+  Reflection: Think of something you're an ``expert'' in---this could be a hobby, sport, academic subject, video game, TV show, or anything else you know well. How does your knowledge change the way you notice things or understand new information in that domain? Can you give an example of a pattern or connection you see that a novice wouldn't notice?
+\item
+  Application: Think of a time when you misunderstood someone's behavior because you didn't consider their different knowledge or perspective. What went wrong? How does this relate to the false belief test and the problem of egocentrism in theory of mind?
 \end{enumerate}
 
 \section{Glossary}\label{glossary-6}
@@ -2927,11 +2934,6 @@ The mental representation of a category.
 
 An example in memory that is labeled as being in a particular category.
 
-\paragraph*{Goal Directed}\label{goal-directed}
-\addcontentsline{toc}{paragraph}{Goal Directed}
-
-An agent's behavior that is motivated by a desire to seek, track, or obtain a particular outcome.
-
 \paragraph*{Imitation}\label{imitation}
 \addcontentsline{toc}{paragraph}{Imitation}
 
@@ -2950,17 +2952,7 @@ Two or more people attending to the same object and being aware that they are mu
 \paragraph*{Mental Model}\label{mental-model}
 \addcontentsline{toc}{paragraph}{Mental Model}
 
-A mental representation based on a set of fundamental assumptions that a person believes to be true
-
-\paragraph*{Mental Model Theory}\label{mental-model-theory}
-\addcontentsline{toc}{paragraph}{Mental Model Theory}
-
-Mental Model Theory proposes that people use mental models to reason about the world, mapping out different possibilities based on a set of fundamental assumptions
-
-\paragraph*{Mental State Inference}\label{mental-state-inference}
-\addcontentsline{toc}{paragraph}{Mental State Inference}
-
-Generating a belief about a person's mental states. Inferences can be based on observations of how a person behaves, knowledge of the person, knowledge of how people generally act, or on knowledge of contextual factors of a situation.
+A mental representation based on organized knowledge and assumptions
 
 \paragraph*{Mimicry}\label{mimicry}
 \addcontentsline{toc}{paragraph}{Mimicry}
@@ -2997,7 +2989,7 @@ When a concept is activated in memory, related concepts also increase in activat
 
 Two or more people displaying the same behaviors or having the same internal states (typically because of mutual mimicry).
 
-\paragraph*{Theory of Mind}\label{theory-of-mind}
+\paragraph*{Theory of Mind}\label{theory-of-mind-1}
 \addcontentsline{toc}{paragraph}{Theory of Mind}
 
 The human capacity to understand minds, a capacity that is made up of a collection of concepts (e.g., agent, intentionality) and processes (e.g., goal detection, imitation, empathy, perspective taking).
@@ -4289,9 +4281,6 @@ Baird, J. A., \& Baldwin, D. A. (2001). Making sense of human behavior: Action p
 \bibitem[\citeproctext]{ref-Baldwin1993}
 Baldwin, D. A. (1993). Early referential understanding: Infants' ability to recognize referential acts for what they are. \emph{Dev. Psychol.}, \emph{29}(5), 832--843.
 
-\bibitem[\citeproctext]{ref-baldwin1998word}
-Baldwin, D. A., \& Tomasello, M. (1998). Word learning: A window on early pragmatic understanding. In E. V. Clark (Ed.), \emph{The proceedings of the twenty-ninth annual child language research forum} (pp. 3--23). Center for the Study of Language; Information.
-
 \bibitem[\citeproctext]{ref-Bargh2014}
 Bargh, J. A. (2014). Our unconscious mind. \emph{Sci. Am.}, \emph{310}(1), 30--37.
 
@@ -4322,9 +4311,6 @@ Bernstein, D. M., \& Loftus, E. F. (2009b). How to tell if a particular memory i
 \bibitem[\citeproctext]{ref-Bialystok2009}
 Bialystok, E. (2009). Bilingualism: The good, the bad, and the indifferent. \emph{Biling. (Camb. Engl.)}, \emph{12}(1), 3--11.
 
-\bibitem[\citeproctext]{ref-bogdan2000minding}
-Bogdan, R. (2000). \emph{Minding minds: Evolving a reflexive mind by interpreting others}. MIT Press.
-
 \bibitem[\citeproctext]{ref-bornstein2012effects}
 Bornstein, B. H., Deffenbacher, K. A., Penrod, S. D., \& McGorty, E. K. (2012). Effects of exposure time and cognitive operations on facial identification accuracy: A meta-analysis of two variables associated with initial memory strength. \emph{Psychology, Crime \& Law}, \emph{18}(5), 473--490.
 
@@ -4336,6 +4322,9 @@ Boysson-Bardies, B. de, Sagart, L., \& Durand, C. (1984). Discernible difference
 
 \bibitem[\citeproctext]{ref-Brady2016}
 Brady, T. F., Störmer, V. S., \& Alvarez, G. A. (2016). Working memory is not fixed-capacity: More active storage capacity for real-world objects than for simple stimuli. \emph{Proceedings of the National Academy of Sciences}, \emph{113}(27), 7459--7464.
+
+\bibitem[\citeproctext]{ref-bransford1972contextual}
+Bransford, J. D., \& Johnson, M. K. (1972). Contextual prerequisites for understanding: Some investigations of comprehension and recall. \emph{Journal of Verbal Learning and Verbal Behavior}, \emph{11}(6), 717--726.
 
 \bibitem[\citeproctext]{ref-Braun2002}
 Braun, K. A., Ellis, R., \& Loftus, E. F. (2002). Make my memory: How advertising can change our memories of the past. \emph{Psychol. Mark.}, \emph{19}(1), 1--23.
@@ -4559,9 +4548,6 @@ Griggs, R. A., \& Cox, J. R. (1982). The elusive thematic-materials effect in wa
 \bibitem[\citeproctext]{ref-griggs1983effects}
 Griggs, R. A., \& Cox, J. R. (1983). The effects of problem content and negation on wason's selection task. \emph{Quarterly Journal of Experimental Psychology}, \emph{35}(3), 519--533.
 
-\bibitem[\citeproctext]{ref-guglielmo2009heart}
-Guglielmo, S., Monroe, A. E., \& Malle, B. F. (2009). At the heart of morality lies folk psychology. \emph{Inquiry: An Interdisciplinary Journal of Philosophy}, \emph{52}, 449--466.
-
 \bibitem[\citeproctext]{ref-Gupta2022}
 Gupta, M. W., Pan, S. C., \& Rickard, T. C. (2022). Prior episodic learning and the efficacy of retrieval practice. \emph{Memory \& Cognition}, \emph{50}(4), 722--735.
 
@@ -4631,14 +4617,8 @@ Johnson, J. S., \& Newport, E. L. (1989). Critical period effects in second lang
 \bibitem[\citeproctext]{ref-johnson2000}
 Johnson, S. C. (2000). The recognition of mentalistic agents in infancy. \emph{Trends in Cognitive Sciences}, \emph{4}, 22--28.
 
-\bibitem[\citeproctext]{ref-Byrne_Johnson-Laird_1985}
-Johnson-Laird, P. (1985). Mental models: Towards a cognitive science of language, inference, and consciousness / p.n. Johnson-laird. \emph{Language}, \emph{61}.
-
 \bibitem[\citeproctext]{ref-Johnson-Laird1991-JOHD-9}
 Johnson-Laird, P., \& Byrne, R. M. J. (1991). \emph{Deduction}. Psychology Press.
-
-\bibitem[\citeproctext]{ref-Johnson-Laird2002-JOHCAT-12}
-Johnson-Laird, P., \& Byrne, R. M. J. (2002). Conditionals: A theory of meaning, pragmatics, and inference. \emph{Psychological Review}, \emph{109}(4), 646--678.
 
 \bibitem[\citeproctext]{ref-Johnston1978}
 Johnston, W. A., \& Heinz, S. P. (1978). Flexibility and capacity demands of attention. \emph{J. Exp. Psychol. Gen.}, \emph{107}(4), 420--435.
@@ -4886,9 +4866,6 @@ Penfield, W., \& Roberts, L. (1959). \emph{Speech \& brain mechanisms princeton,
 \bibitem[\citeproctext]{ref-pepe2023infants}
 Pepe, B., \& Powell, L. J. (2023). Infants' expectations for prosociality in imitators. \emph{Open Science Framework}.
 
-\bibitem[\citeproctext]{ref-perner1991understanding}
-Perner, J. (1991). \emph{Understanding the representational mind}. MIT Press.
-
 \bibitem[\citeproctext]{ref-Petitto1991}
 Petitto, L. A., \& Marentette, P. F. (1991). Babbling in the manual mode: Evidence for the ontogeny of language. \emph{Science}, \emph{251}(5000), 1493--1496.
 
@@ -5117,12 +5094,6 @@ Watson, J. M., \& Strayer, D. L. (2010). Supertaskers: Profiles in extraordinary
 \bibitem[\citeproctext]{ref-Waxman1990}
 Waxman, S. R. (1990). Linguistic biases and the establishment of conceptual hierarchies: Evidence from preschool children. \emph{Cogn. Dev.}, \emph{5}(2), 123--150.
 
-\bibitem[\citeproctext]{ref-wellman1990child}
-Wellman, H. M. (1990). \emph{The child's theory of mind}. MIT Press.
-
-\bibitem[\citeproctext]{ref-wellman2001meta}
-Wellman, H. M., Cross, D., \& Watson, J. (2001). Meta-analysis of theory-of-mind development: The truth about false belief. \emph{Child Development}, \emph{72}, 655--684.
-
 \bibitem[\citeproctext]{ref-wells2020policy}
 Wells, G. L., Kovera, M. B., Douglass, A. B., Brewer, N., Meissner, C. A., \& Wixted, J. T. (2020). Policy and procedure recommendations for the collection and preservation of eyewitness identification evidence. \emph{Law and Human Behavior}, \emph{44}(1), 3--36. \url{https://doi.org/10.1037/lhb0000359}
 
@@ -5185,9 +5156,6 @@ Yarbus, A. L. (1967). \emph{Eye movements and vision}. Plenum Press.
 
 \bibitem[\citeproctext]{ref-yilmaz2023principles}
 Yilmaz, A. S., Shen, K. J., \& Wixted, J. T. (2023). \emph{The principles of memory versus the federal rules of evidence}.
-
-\bibitem[\citeproctext]{ref-zhang2012perspective}
-Zhang, J., Hedden, T., \& Chia, A. (2012). Perspective-taking and depth of theory-of-mind reasoning in sequential-move games. \emph{Cognitive Science}, \emph{36}, 560--573.
 
 \end{CSLReferences}
 

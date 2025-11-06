@@ -157,7 +157,7 @@ A doctor examining a patient with certain symptoms doesn't just catalog individu
 
 One particularly important domain where humans develop sophisticated mental models is in understanding other people. Just as a physics expert builds models of physical systems, all humans build models of how minds work. This capacity to model other minds (i.e., to understand that others have beliefs, desires, and intentions that may differ from our own) is fundamental to human social life.
 
-## Theory of Mind
+## Social Knowledge
 
 We've seen how experts develop organized knowledge structures that change the way they think in domains like physics or chess. One domain where everyone becomes something of an "expert" is understanding other people. From infancy, humans develop sophisticated knowledge structures (i.e., mental models) for reasoning about minds. This capacity is called Theory of Mind.
 

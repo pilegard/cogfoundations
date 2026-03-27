@@ -178,13 +178,13 @@ The experimenters had participants read stories that presented problems and thei
 
 In order to solve problems—particularly ill-defined problems—humans need to think *creatively* and stretch beyond the boundaries of what they have accomplished previously. You may have heard of the phrase “thinking outside of the box” as related to creativity—let’s go through an example to illustrate what this means. In a classic problem-solving task, participants are presented with an array of nine dots and are instructed to connect all 9 dots with four lines, without picking up their writing instrument [@maier1930reasoning]. See Figure \@ref(fig:ninedot) below. 
 
-```{r ninedot, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'The nine-dot problem.', fig.alt = 'Nine dots arranged in a 3 by 3 grid with equal spacing, used to illustrate the nine-dot problem.'}
+```{r ninedot, echo = FALSE, out.width='35%', fig.align = 'center', fig.cap = 'The nine-dot problem.', fig.alt = 'Nine dots arranged in a 3 by 3 grid with equal spacing, used to illustrate the nine-dot problem.'}
 knitr::include_graphics("images/ch10/ninedot.png")
 ```
 
 Think you have a solution? The only way to solve this problem is to literally go “outside of the box” by drawing lines that extend beyond the boundaries of the box that the dots create. This example illustrates how, when we think creatively, we often need to think of novel and appropriate solutions to a task that we have not generated before (see [Restructuring: The Gestalt Approach] section for more information about how we do this). See Figure \@ref(fig:ninedotsolution) for different possible solutions.
 
-```{r ninedotsolution, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'Solutions to the nine-dot problem.', fig.alt = 'Two solutions to the nine-dot problem, both requiring lines to extend beyond the boundaries of the grid. The top solution uses four straight lines that connect all nine dots by extending outside the grid at two corners. The bottom solution uses three lines in a wide, shallow zigzag pattern that passes through all nine dots by extending well beyond the grid on both sides.'}
+```{r ninedotsolution, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap = 'Solutions to the nine-dot problem.', fig.alt = 'Two solutions to the nine-dot problem, both requiring lines to extend beyond the boundaries of the grid. The top solution uses four straight lines that connect all nine dots by extending outside the grid at two corners. The bottom solution uses three lines in a wide, shallow zigzag pattern that passes through all nine dots by extending well beyond the grid on both sides.'}
 knitr::include_graphics("images/ch10/ninedotsolution.png")
 ```
 

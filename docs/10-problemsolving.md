@@ -219,7 +219,7 @@ In order to solve problems—particularly ill-defined problems—humans need to 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.4\linewidth,alt={Nine dots arranged in a 3 by 3 grid with equal spacing, used to illustrate the nine-dot problem.}]{images/ch10/ninedot} 
+{\centering \includegraphics[width=0.35\linewidth,alt={Nine dots arranged in a 3 by 3 grid with equal spacing, used to illustrate the nine-dot problem.}]{images/ch10/ninedot} 
 
 }
 
@@ -230,7 +230,7 @@ Think you have a solution? The only way to solve this problem is to literally go
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.4\linewidth,alt={Two solutions to the nine-dot problem, both requiring lines to extend beyond the boundaries of the grid. The top solution uses four straight lines that connect all nine dots by extending outside the grid at two corners. The bottom solution uses three lines in a wide, shallow zigzag pattern that passes through all nine dots by extending well beyond the grid on both sides.}]{images/ch10/ninedotsolution} 
+{\centering \includegraphics[width=0.9\linewidth,alt={Two solutions to the nine-dot problem, both requiring lines to extend beyond the boundaries of the grid. The top solution uses four straight lines that connect all nine dots by extending outside the grid at two corners. The bottom solution uses three lines in a wide, shallow zigzag pattern that passes through all nine dots by extending well beyond the grid on both sides.}]{images/ch10/ninedotsolution} 
 
 }
 

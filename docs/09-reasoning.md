@@ -49,7 +49,7 @@ It is possible to display a syllogism formally with symbols or letters and expla
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth,alt={Three Euler diagrams illustrating a syllogism. In the first, a yellow circle (flowers) sits inside a green circle (animals), representing the premise that all flowers are animals. In the second, the green circle (animals) sits inside a blue circle (things that can jump), representing the premise that all animals can jump. In the third, the yellow circle sits inside the green circle, which sits inside the blue circle, representing the conclusion that all flowers can jump.}]{images/ch9/fig1} 
+{\centering \includegraphics[width=0.7\linewidth,alt={Three Euler diagrams illustrating a syllogism. In the first, a yellow circle (flowers) sits inside a green circle (animals), representing the premise that all flowers are animals. In the second, the green circle (animals) sits inside a blue circle (things that can jump), representing the premise that all animals can jump. In the third, the yellow circle sits inside the green circle, which sits inside the blue circle, representing the conclusion that all flowers can jump.}]{images/ch9/fig1} 
 
 }
 
@@ -192,7 +192,7 @@ Like the availability heuristic though, the representativeness heuristic is ofte
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth,alt={An Euler diagram. A small orange rectangle representing feminist bank tellers sits inside a larger green rectangle representing all bank tellers.}]{images/ch9/fig5} 
+{\centering \includegraphics[width=0.8\linewidth,alt={An Euler diagram. A small orange rectangle representing feminist bank tellers sits inside a larger green rectangle representing all bank tellers.}]{images/ch9/fig5} 
 
 }
 
@@ -252,11 +252,11 @@ By having participants in experiments report their willingness to play various g
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth,alt={Two graphs from prospect theory. Graph A shows the value function, with losses on the left and gains on the right of the x-axis and subjective value on the y-axis. The curve is S-shaped and asymmetric, steeper for losses than for gains, illustrating loss aversion. Graph B shows the probability weighting function, with objective probability on the x-axis and decision weight on the y-axis. The curve is an inverted S-shape, showing that people overweight small probabilities and underweight large ones relative to their objective values.}]{images/ch9/fig7} 
+{\centering \includegraphics[width=0.7\linewidth,alt={Two graphs from prospect theory. Graph A shows the value function, with losses on the left and gains on the right of the x-axis and subjective value on the y-axis. The curve is S-shaped and asymmetric, steeper for losses than for gains, illustrating loss aversion. Graph B shows the probability weighting function, with objective probability on the x-axis and decision weight on the y-axis. The curve is an inverted S-shape, showing that people overweight small probabilities and underweight large ones relative to their objective values.}]{images/ch9/fig7} 
 
 }
 
-\caption{a) value weighting function and b) probability weighting function, both from Prospect Theory. v(.) refers to subjective utility, and w(.) refers to subjective probability.}(\#fig:prospect)
+\caption{(a) value weighting function and (b) probability weighting function, both from Prospect Theory. v(.) refers to subjective utility, and w(.) refers to subjective probability.}(\#fig:prospect)
 \end{figure}
 
 ### Constructed Preferences {-}

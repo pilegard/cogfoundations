@@ -132,6 +132,29 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 </head>
@@ -154,6 +177,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-book"><i class="fa fa-check"></i>About the Book</a>
 <ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#adoption-and-contact-information"><i class="fa fa-check"></i>Adoption and Contact Information</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#accessibility"><i class="fa fa-check"></i>Accessibility</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#version-history"><i class="fa fa-check"></i>Version History</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#license-and-attributions"><i class="fa fa-check"></i>License and Attributions</a>
@@ -379,11 +403,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="header">
 <h1 class="title">Cognitive Foundations</h1>
 <p class="author"><em>Edited by Celeste Pilegard</em></p>
-<p class="date"><em>Current version rendered 2026-03-26</em></p>
+<p class="date"><em>Current version rendered 2026-03-27</em></p>
 </div>
 <div id="about" class="section level1 unnumbered hasAnchor">
 <h1>About<a href="index.html#about" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p><img src="images/cover.png" /></p>
+<div class="float">
+<img src="images/cover.png" alt="Book cover image with the title “Cognitive Foundations,” with “Second Edition” and “Edited by Celeste Pilegard” in smaller text. The background shows an unlit incandescent lightbulb against a bright pink and green background." />
+<div class="figcaption">Book cover image with the title “Cognitive Foundations,” with “Second Edition” and “Edited by Celeste Pilegard” in smaller text. The background shows an unlit incandescent lightbulb against a bright pink and green background.</div>
+</div>
 <div id="about-the-book" class="section level2 unnumbered hasAnchor">
 <h2>About the Book<a href="index.html#about-the-book" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>This open-access textbook introduces the core topics in cognitive psychology for anyone teaching or taking a survey course on the subject. It is designed to be accessible to students from all backgrounds, including those with no prior coursework in psychology. The book covers foundational concepts such as perception, attention, memory, language, reasoning, and problem solving, introducing classic research alongside contemporary perspectives.</p>
@@ -413,6 +440,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-3"><a href="index.html#cb1-3" tabindex="-1"></a><span class="ot">  src</span><span class="op">=</span><span class="st">&quot;https://pilegard.github.io/cogfoundations/&quot;</span><span class="dt">&gt;&lt;/</span><span class="kw">iframe</span><span class="dt">&gt;</span></span></code></pre></div>
 </div>
 </div>
+</div>
+<div id="accessibility" class="section level3 unnumbered hasAnchor">
+<h3>Accessibility<a href="index.html#accessibility" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>All images in this textbook include alternative text (alt text) for compatibility with screen readers and other assistive technologies.</p>
+<p><strong>Note for screen reader users:</strong> The HTML version of this book is the fully accessible version. The PDF version does not support alt text or other accessibility features. To access the HTML version, visit <a href="https://pilegard.github.io/cogfoundations/">pilegard.github.io/cogfoundations/</a>.</p>
 </div>
 <div id="version-history" class="section level3 unnumbered hasAnchor">
 <h3>Version History<a href="index.html#version-history" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -760,6 +792,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

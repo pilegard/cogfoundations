@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Edited by Celeste Pilegard"
-date: "Current version rendered 2026-03-26"
+date: "Current version rendered 2026-03-27"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -17,7 +17,7 @@ github-repo: pilegard/cogfoundations
 
 # About {-}
 
-![](images/cover.png)
+![Book cover image with the title "Cognitive Foundations," with "Second Edition" and "Edited by Celeste Pilegard" in smaller text. The background shows an unlit incandescent lightbulb against a bright pink and green background.](images/cover.png)
 
 ## About the Book {-}
 
@@ -55,6 +55,12 @@ Instructors can embed the book directly into their course site using an HTML ifr
   src="https://pilegard.github.io/cogfoundations/"></iframe>
 ```
 :::
+
+### Accessibility {-}
+
+All images in this textbook include alternative text (alt text) for compatibility with screen readers and other assistive technologies.
+
+**Note for screen reader users:** The HTML version of this book is the fully  accessible version. The PDF version does not support alt text or other accessibility features. To access the HTML version, visit  [pilegard.github.io/cogfoundations/](https://pilegard.github.io/cogfoundations/).
 
 ### Version History {-}
 Brief descriptions of each textbook edition are given below; for a full description of edits see [License and Attributions].

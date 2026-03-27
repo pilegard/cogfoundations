@@ -1,6 +1,6 @@
 # Knowledge
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch7/cover-penguins} \end{center}
+\begin{center}\includegraphics[width=1\linewidth,alt={Black and white photograph of four penguins swimming underwater.}]{images/ch7/cover-penguins} \end{center}
 
 People form mental concepts of categories of objects, which allow them to respond appropriately to new objects they encounter. But categorization is actually more complex than it first appears. Consider penguins: they're clearly birds, yet they swim instead of fly, and waddle instead of hop. Despite these "un-birdy" characteristics, you still recognize them as birds rather than fish or mammals. Your knowledge systems do more than categorize objects, though. You also use your knowledge to understand other minds -- their beliefs, desires, and intentions. When you suggest to a friend that you visit the penguins at the zoo, you're using this ability to predict their response based on what you know about their interests and preferences.
 
@@ -17,7 +17,7 @@ Your knowledge operates at multiple levels: you categorize the physical world ar
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/ch7/truck} 
+{\centering \includegraphics[width=0.5\linewidth,alt={Photograph of a small red and yellow cargo truck.}]{images/ch7/truck} 
 
 }
 
@@ -38,7 +38,7 @@ Simpler organisms, such as animals and human infants, also have concepts [@Mares
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/ch7/dog} 
+{\centering \includegraphics[width=0.5\linewidth,alt={A Dalmatian dog sits attentively in the back seat of a car. The dog is missing its left front leg at the shoulder.}]{images/ch7/dog} 
 
 }
 
@@ -97,7 +97,7 @@ In a classic experiment, @Rosch1975 made up two new categories, with arbitrary f
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.4\linewidth]{images/ch7/bird} 
+{\centering \includegraphics[width=0.4\linewidth,alt={Photograph of a robin. Its head and back are warm brown with orange tones, and its chest is gray.}]{images/ch7/bird} 
 
 }
 
@@ -110,7 +110,7 @@ Now that we know these facts about the psychology of concepts, the question aris
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch7/lizard} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Photograph of a Komodo dragon walking toward the camera on a beach. Komodo dragons are the world's largest lizards.}]{images/ch7/lizard} 
 
 }
 
@@ -144,7 +144,7 @@ In the Figure \@ref(fig:network), Collins and Quillian's network with added prop
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/ch7/fig5} 
+{\centering \includegraphics[width=0.5\linewidth,alt={A semantic network diagram illustrating concepts as nodes connected by labeled links. Example nodes include vehicle, car, truck, and sportscar, with lines representing associative links between them. The diagram labels one node as "car" and one connection as a "link" to illustrate the structure of the network.}]{images/ch7/fig5} 
 
 }
 
@@ -196,7 +196,7 @@ Theory of mind is not a single ability but rather a “toolbox” for navigating
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch7/fig6} 
+{\centering \includegraphics[width=0.6\linewidth,alt={A pyramid diagram showing levels of theory of mind processes from most basic at the bottom to most complex at the top. From bottom to top: identifying agents, recognizing goals, and assessing intentionality; imitation, mimicry, and synchrony; joint attention and visual perspective taking; projection and simulation; and mental state inference at the apex.}]{images/ch7/fig6} 
 
 }
 

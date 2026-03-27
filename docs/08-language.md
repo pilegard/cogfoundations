@@ -1,6 +1,6 @@
 # Language
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch8/cover} \end{center}
+\begin{center}\includegraphics[width=1\linewidth,alt={Black and white photograph of a woman speaking at a Black Lives Matter demonstration, holding a microphone and raising her left fist in the air.}]{images/ch8/cover} \end{center}
 
 Although language is often used for the transmission of information (“turn right at the next light and then go straight,” “Place tab A into slot B”), this is only its most mundane function. Language also allows us to access existing knowledge, to draw conclusions, to set and accomplish goals, and to understand and communicate complex social relationships. 
 
@@ -29,7 +29,7 @@ And yet even Kanzi did not have a true language in the same way that humans do. 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.75\linewidth]{images/ch8/kanzi} 
+{\centering \includegraphics[width=0.75\linewidth,alt={A woman in a tie-dyed shirt sits on the floor across from two bonobos, with laminated sheets showing matrices of images spread out between them. The bonobo in the center is pointing at one of the image sheets.}]{images/ch8/kanzi} 
 
 }
 
@@ -80,7 +80,7 @@ The two major components of language that are studied in cognitive psychology ar
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/ch8/model_of_language_draft} 
+{\centering \includegraphics[width=0.8\linewidth,alt={Diagram of language communication between two people. Two facing heads each contain a brain with a thought bubble labeled "speaker's ideas." An arrow flows from the left person through a sequence of stages — language production, articulation, auditory signal, speech perception, and language comprehension — to the right person's brain. The full sequence between the two people is labeled "language."}]{images/ch8/model_of_language_draft} 
 
 }
 
@@ -101,7 +101,7 @@ Part of telling words apart requires listeners to tell two sounds apart. For exa
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/ch8/tuning_into_speech_sounds} 
+{\centering \includegraphics[width=0.5\linewidth,alt={Video still showing a woman sitting at a table across from a man holding an infant in his lap.}]{images/ch8/tuning_into_speech_sounds} 
 
 }
 
@@ -138,7 +138,7 @@ During the first year or so after birth, and long before they speak their first 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.4\linewidth]{images/ch8/fig2} 
+{\centering \includegraphics[width=0.4\linewidth,alt={Photograph of a young child sitting in a stroller on a city street, holding a smartphone against their ear as though talking on the phone.}]{images/ch8/fig2} 
 
 }
 
@@ -196,7 +196,7 @@ Johnson and Newport's finding that children who immigrated before they were seve
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.9\linewidth]{images/ch8/fig3} 
+{\centering \includegraphics[width=0.9\linewidth,alt={Line graph showing English proficiency on the y-axis and age of immigration on the x-axis, ranging from 5 to 60. Multiple lines representing different education levels slope gradually downward from left to right, indicating declining proficiency with later immigration. The lines are roughly parallel across education levels, with no sharp discontinuity that would indicate a critical period for language acquisition.}]{images/ch8/fig3} 
 
 }
 

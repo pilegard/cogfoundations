@@ -1,7 +1,7 @@
 # Long-term Memory {#long-term-memory-chapter}
 
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch5/bike} \end{center}
+\begin{center}\includegraphics[width=1\linewidth,alt={A photograph of a young boy pedaling on a bicycle, mouth open in an expression of joy.}]{images/ch5/bike} \end{center}
 
 Think about everything you know about bicycles. You might recall your first time learning to ride, perhaps with a parent running alongside you. You might know how to balance, pedal, and steer: skills that come back automatically even after years. You know what bicycles look like, that they have two wheels and handlebars, and you can recognize different types like mountain bikes or beach cruisers. If you own a bike, you might remember where you last parked your bike, which routes you've taken to class, and maybe even the price you paid for it. You might recall the word "bicycle" in multiple languages, or know that the Tour de France is a bicycle race.
 
@@ -25,7 +25,7 @@ The distinction between working memory and long-term memory can be demonstrated 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{05-ltm_files/figure-latex/serialposition-1} 
+{\centering \includegraphics[width=0.8\linewidth,alt={A serial position curve graph with Position in List on the x-axis and Probability of Recall on the y-axis. Recall is highest for items at the beginning of the list (primacy effect) and at the end of the list (recency effect), and lowest for items in the middle.}]{05-ltm_files/figure-latex/serialposition-1} 
 
 }
 
@@ -53,7 +53,7 @@ According to Baddeley’s model, working memory includes a central executive, ph
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.9\linewidth]{images/ch5/fig2} 
+{\centering \includegraphics[width=0.9\linewidth,alt={Hierarchical diagram of long-term memory structure. Long-term memory splits into explicit memory (requires conscious awareness) and implicit memory (does not require conscious awareness). Explicit memory branches into semantic memory (facts and general knowledge) and episodic memory (personally experienced events). Implicit memory branches into procedural memory (motor and cognitive skills), priming (enhanced identification of objects or words), and learning through classical conditioning.}]{images/ch5/fig2} 
 
 }
 
@@ -103,7 +103,7 @@ Imagine you are able to perfectly study for an exam. You take notes in lecture a
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch5/fig3} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Photograph of a library interior with rows of tables where people sit reading.}]{images/ch5/fig3} 
 
 }
 
@@ -124,7 +124,7 @@ This theory contradicts the notion that merely repeating something in your head 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.35\linewidth]{images/ch5/fig4} 
+{\centering \includegraphics[width=0.35\linewidth,alt={A vertical diagram illustrating levels of processing, with an axis running from shallow at the top to deep at the bottom. Orthographic processing appears at the shallowest level, phonological processing in the middle, and semantic processing at the deepest level. The background is shaded with wavy blue lines resembling increasingly deep water.}]{images/ch5/fig4} 
 
 }
 
@@ -153,7 +153,7 @@ Information stored in the memory is retrieved by way of association with other m
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch5/book} 
+{\centering \includegraphics[width=0.6\linewidth,alt={A hand holds open a photo album containing photographs of children and an older person, suggesting personal or family memories.}]{images/ch5/book} 
 
 }
 
@@ -165,7 +165,7 @@ The [encoding specificity principle] is the *general principle that memory is be
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.7\linewidth]{05-ltm_files/figure-latex/morris-1} 
+{\centering \includegraphics[width=0.7\linewidth,alt={Line graph of results from Morris and colleagues' transfer-appropriate processing experiment. The x-axis shows type of encoding task (semantic or rhyming) and the y-axis shows percent recall. The recognition test line is higher overall, peaking at semantic encoding and declining at rhyming encoding. The rhyming test line is lower overall, but shows the opposite pattern: lowest at semantic encoding and higher at rhyming encoding.}]{05-ltm_files/figure-latex/morris-1} 
 
 }
 

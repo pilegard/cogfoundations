@@ -1,6 +1,5 @@
 # Reasoning and Decision Making
-
-\begin{center}\includegraphics[width=1\linewidth]{images/ch9/aisle} \end{center}
+\includegraphics[width=1\linewidth,alt={Photograph looking down the aisle of a brightly lit grocery store, lined on both sides with a wide variety of cereal boxes.}]{images/ch9/aisle} 
 
 We like to think that we make important decisions rationally, logically, and without bias or error -- but what if that’s not the case? Standing in the cereal aisle, for example  you face dozens of choices. You reason that whole grain cereals are healthier, but the colorful box at eye level catches your attention. The "25% more free!" label seems like a good deal, but is it what you want? Your decision involves weighing nutrition against taste, cost against convenience, and logical analysis against marketing and nostalgia. Even this simple choice reveals the complex interplay between reasoning and decision making that governs daily life.
 
@@ -50,7 +49,7 @@ It is possible to display a syllogism formally with symbols or letters and expla
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig1} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Three Euler diagrams illustrating a syllogism. In the first, a yellow circle (flowers) sits inside a green circle (animals), representing the premise that all flowers are animals. In the second, the green circle (animals) sits inside a blue circle (things that can jump), representing the premise that all animals can jump. In the third, the yellow circle sits inside the green circle, which sits inside the blue circle, representing the conclusion that all flowers can jump.}]{images/ch9/fig1} 
 
 }
 
@@ -107,7 +106,7 @@ In the abstract version of the Wason Selection Task, four cards are shown to the
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig2} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Four cards laid out in a row, showing the characters E, K, 4, and 7.}]{images/ch9/fig2} 
 
 }
 
@@ -116,7 +115,7 @@ In the abstract version of the Wason Selection Task, four cards are shown to the
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig3} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Four cards laid out in a row, reading BEER, SODA, 22 YEARS, and 14 YEARS.}]{images/ch9/fig3} 
 
 }
 
@@ -142,7 +141,7 @@ In this example it is obvious that you infer from the simple observation about t
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/ch9/fig4} 
+{\centering \includegraphics[width=0.5\linewidth,alt={An Euler diagram. A small yellow circle representing crows you have seen sits inside a larger blue circle representing all crows, showing that observed instances are a subset of the broader category being generalized about.}]{images/ch9/fig4} 
 
 }
 
@@ -193,7 +192,7 @@ Like the availability heuristic though, the representativeness heuristic is ofte
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig5} 
+{\centering \includegraphics[width=0.6\linewidth,alt={An Euler diagram. A small orange rectangle representing feminist bank tellers sits inside a larger green rectangle representing all bank tellers.}]{images/ch9/fig5} 
 
 }
 
@@ -210,7 +209,7 @@ For example, if someone believes that black cats bring bad luck, they may be add
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig6} 
+{\centering \includegraphics[width=0.6\linewidth,alt={A square labeled general principle is on the left and a square labeled special case is on the right. An arrow arcing from left to right along the top is labeled deductive reasoning. An arrow arcing from right to left along the bottom is labeled inductive reasoning.}]{images/ch9/fig6} 
 
 }
 
@@ -253,7 +252,7 @@ By having participants in experiments report their willingness to play various g
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch9/fig7} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Two graphs from prospect theory. Graph A shows the value function, with losses on the left and gains on the right of the x-axis and subjective value on the y-axis. The curve is S-shaped and asymmetric, steeper for losses than for gains, illustrating loss aversion. Graph B shows the probability weighting function, with objective probability on the x-axis and decision weight on the y-axis. The curve is an inverted S-shape, showing that people overweight small probabilities and underweight large ones relative to their objective values.}]{images/ch9/fig7} 
 
 }
 

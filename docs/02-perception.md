@@ -1,7 +1,7 @@
 # Perception
 
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch2/intro} \end{center}
+\begin{center}\includegraphics[width=1\linewidth,alt={A hand holds a glass sphere in front of a sunset. The sphere acts as a lens, showing a distorted, upside-down reflection of the sunset within it.}]{images/ch2/intro} \end{center}
 
 Right now, as you read these words, your brain is performing an extraordinary feat. Light waves bouncing off this page are hitting your eyes, but somehow you're not seeing meaningless patterns of black marks; you're seeing letters, words, and ideas. Your perceptual system takes fragmented, upside-down, constantly shifting sensory information and transforms it into a coherent, meaningful experience of the world. Perception isn't just passive reception of information; it's an active process of interpretation and construction.
 
@@ -33,7 +33,7 @@ As you can see in Figure \@ref(fig:anatomy), light enters the eye through the [c
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig1} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Anatomical diagram of the human eye in cross-section, showing how light from a leaf passes through the cornea, iris, pupil, and lens before projecting an inverted image onto the retina. Labels indicate the iris, cornea, lens, retina, muscles, and optic nerve.}]{images/ch2/fig1} 
 
 }
 
@@ -52,7 +52,7 @@ Margaret @livingstone2000warm (Figure \@ref(fig:monalisa)) found an interesting 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.3\linewidth]{images/ch2/fig2} 
+{\centering \includegraphics[width=0.3\linewidth,alt={Close-up of the Mona Lisa's face, showing her famously ambiguous expression, dark eyes, and subtle smile against a softly lit complexion.}]{images/ch2/fig2} 
 
 }
 
@@ -63,7 +63,7 @@ The brain's visual cortex is made up of specialized neurons that turn the sensat
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig3} 
+{\centering \includegraphics[width=0.6\linewidth,alt={A black plus sign on the left and a small illustration of an elephant on the right, used to demonstrate the visual blind spot.}]{images/ch2/fig3} 
 
 }
 
@@ -83,12 +83,12 @@ Although the best cues to depth occur when both eyes work together, we are able 
 
 | Name | Description | Example | Image |
 |---|---|---|---|
-| Position | We tend to see objects higher up in our field of vision as farther away. | The fence posts at right appear farther away not only because they become smaller but also because they appear higher up in the picture.  | ![](images/ch2/depth1.jpg) |
-| Relative size | Assuming that the objects in a scene are the same size, smaller objects are perceived as father away. | at right, the cars in the distance appear smaller than those nearer to us. | ![](images/ch2/depth2.jpg) |
-| Linear perspective | Parallel lines appear to converge at a distance. | We know that the tracks at right are parallel. When they appear closer together, we determine they are farther away.  | ![](images/ch2/depth3.jpg) |
-| Light and shadow | The eye receives more reflected light from objects that are closer to us. Normally, light comes from above, so darker images are in shadow. | We see the images at right as extending and indented according to their shadowing. If we invert the picture, the images will reverse.  | ![](images/ch2/depth4.jpg) |
-| Interposition | When one object overlaps another object, we view it as closer.  | At right, because the blue star covers the pink bar, it is seen as closer than the yellow moon.  | ![](images/ch2/depth5.jpg) |
-| Aerial perspective | Objects that appear hazy, or that are covered with smog or dust, appear farther away.  | The artist who pained the picture on the right used aerial perspective to make the clouds more hazy and this appear farther away.  | ![](images/ch2/depth6.jpg) |
+| Position | We tend to see objects higher up in our field of vision as farther away. | The fence posts at right appear farther away not only because they become smaller but also because they appear higher up in the picture.  | ![A photograph of fence posts receding into the distance, appearing smaller and higher in the frame as they get farther away.](images/ch2/depth1.jpg) |
+| Relative size | Assuming that the objects in a scene are the same size, smaller objects are perceived as father away. | at right, the cars in the distance appear smaller than those nearer to us. | ![A photograph of a road with cars; vehicles in the foreground appear larger than those farther away.](images/ch2/depth2.jpg) |
+| Linear perspective | Parallel lines appear to converge at a distance. | We know that the tracks at right are parallel. When they appear closer together, we determine they are farther away.  | ![A photograph of railroad tracks converging toward a vanishing point in the distance.](images/ch2/depth3.jpg) |
+| Light and shadow | The eye receives more reflected light from objects that are closer to us. Normally, light comes from above, so darker images are in shadow. | We see the images at right as extending and indented according to their shadowing. If we invert the picture, the images will reverse.  | ![A pattern of circular shapes that appear to protrude or indent depending on the direction of shading, demonstrating how light and shadow create a sense of depth.](images/ch2/depth4.jpg) |
+| Interposition | When one object overlaps another object, we view it as closer.  | At right, because the blue star covers the pink bar, it is seen as closer than the yellow moon.  | ![A simple illustration of a blue star overlapping a pink bar and a yellow moon, demonstrating that the overlapping object appears closer.](images/ch2/depth5.jpg) |
+| Aerial perspective | Objects that appear hazy, or that are covered with smog or dust, appear farther away.  | The artist who painted the picture on the right used aerial perspective to make the clouds more hazy and this appear farther away.  | ![A painting in which distant clouds and landscape appear hazy and indistinct compared to closer elements, illustrating aerial perspective.](images/ch2/depth6.jpg) |
 Table: (\#tab:monocular) Monocular Depth Cues That Help Us Judge Depth at a Distance.
 
 
@@ -100,11 +100,11 @@ Table: (\#tab:gestalt) Summary of Gestalt Principles of Form Perception
 
 | Principle | Description | Example | Image |
 | :----- | :-------- | :------------- | :-----: |
-| Figure and ground | We structure input so that we always see a figure (image) against a ground (background). | At right, you may see a vase or you may see two faces, but in either case, you will organize the image as a figure against a ground. | ![](images/ch2/gestalt1.jpg) |
-| Similarity | Stimuli that are similar to each other tend to be grouped together. | You are more likely to see three similar columns among the XYX characters at right than you are to see four rows. |  ![](images/ch2/gestalt2.jpg) |
-| Proximity | We tend to group nearby figures together. | Do you see four or eight images at right? Principles of proximity suggest that you might see only four.  | ![](images/ch2/gestalt3.jpg) |
-| Continuity | We tend to perceive stimuli in smooth, continuous ways rather than in more discontinuous ways. | At right, most people see a line of dots that moves from the lower left to the upper right, rather than a line that moves from the left and then suddenly turns down. The principle of continuity leads us to see most lines as following the smoothest possible path. |  ![](images/ch2/gestalt4.jpg) |
-| Closure | We tend to fill in gaps in an incomplete image to create a complete, whole object. | Closure leads us to see a single spherical object at right rather than a set of unrelated cones. | ![](images/ch2/gestalt5.jpg)  |
+| Figure and ground | We structure input so that we always see a figure (image) against a ground (background). | At right, you may see a vase or you may see two faces, but in either case, you will organize the image as a figure against a ground. | ![A black and white image that can be perceived either as a white vase centered on a black background, or as two black faces in profile facing each other on a white background.](images/ch2/gestalt1.jpg) |
+| Similarity | Stimuli that are similar to each other tend to be grouped together. | You are more likely to see three similar columns among the XYX characters at right than you are to see four rows. |  ![A grid of X and Y characters arranged so that similar characters form vertical columns, illustrating how similarity causes us to group like elements together.](images/ch2/gestalt2.jpg) |
+| Proximity | We tend to group nearby figures together. | Do you see four or eight images at right? Principles of proximity suggest that you might see only four.  | ![Eight ovals arranged in four closely spaced pairs, illustrating how proximity causes nearby elements to be perceived as grouped together.](images/ch2/gestalt3.jpg) |
+| Continuity | We tend to perceive stimuli in smooth, continuous ways rather than in more discontinuous ways. | At right, most people see a line of dots that moves from the lower left to the upper right, rather than a line that moves from the left and then suddenly turns down. The principle of continuity leads us to see most lines as following the smoothest possible path. |  ![A smooth curved line of dots and a second line that meets it at a sharp angle. Despite the intersection, we perceive the smooth curve as a continuous path rather than a line that abruptly changes direction at the angle.](images/ch2/gestalt4.jpg) |
+| Closure | We tend to fill in gaps in an incomplete image to create a complete, whole object. | Closure leads us to see a single spherical object at right rather than a set of unrelated cones. | ![A circle made of outward-pointing cone shapes with gaps between them. Despite the gaps, the shape is perceived as a complete sphere, illustrating the principle of closure.](images/ch2/gestalt5.jpg)  |
 
 ## Perception: Information Integration 
 The eyes, ears, nose, tongue, and skin sense the world around us, and in some cases perform preliminary information processing on the incoming data. But by and large, what we end up "seeing" or experiencing is a result of our brain's interpretation of the sensory information coming in, rather than a direct read out of that information. When we look out the window at a view of the countryside, or when we look at the face of a good friend, we don’t just see a jumble of colors and shapes — we see, instead, an image of a countryside or an image of a friend [@Goodale2006]. How our brain interprets and integrates sensory information in a way that leads to our everyday experience largely depends on attention, working memory, and other cognitive processes that will be discussed in future chapters of this book. 
@@ -115,7 +115,7 @@ This process of understanding involves the automatic operation of a variety of e
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.35\linewidth]{images/ch2/mcgurk} 
+{\centering \includegraphics[width=0.35\linewidth,alt={A man faces the camera with his mouth open mid-speech.}]{images/ch2/mcgurk} 
 
 }
 
@@ -147,7 +147,7 @@ Another complication is that there are still significant gaps in our understandi
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig4} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Two optical illusions. Left: a wavy snakelike pattern with alternating green and neutral stripes that appear to differ in brightness but do not. Right: a chessboard with a cylinder casting a shadow; two squares appear to be different shades but are identical in color.}]{images/ch2/fig4} 
 
 }
 
@@ -160,7 +160,7 @@ Another well-known illusion is the [Mueller-Lyer illusion] (see Figure \@ref(fig
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig5} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Left: two horizontal lines of equal length illustrating the Müller-Lyer illusion -- the top line has outward-pointing arrowheads and appears shorter, while the bottom has inward-pointing arrowheads and appears longer. Right: a three-dimensional room sketch showing how the same lines resemble near and far edges in a real environment, suggesting a depth-based explanation for the illusion.}]{images/ch2/fig5} 
 
 }
 
@@ -171,7 +171,7 @@ The Ponzo illusion operates on the same principle. As you can see in Figure \@re
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch2/fig7} 
+{\centering \includegraphics[width=0.6\linewidth,alt={A sketch of two converging lines resembling receding train tracks, crossed by horizontal lines. Two yellow horizontal bars of equal length are overlaid at different depths; the higher bar appears longer due to the linear perspective cues surrounding it.}]{images/ch2/fig7} 
 
 }
 
@@ -195,7 +195,7 @@ One important aspect of the redesign was based on the principles of sensory adap
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/ch2/fig8} 
+{\centering \includegraphics[width=0.8\linewidth,alt={Before and after images of an airplane cockpit redesign. The before image shows a dense arrangement of dials and gauges with high visual complexity. The after image shows a redesigned cockpit with the same essential controls organized more cleanly, reducing visual clutter.}]{images/ch2/fig8} 
 
 }
 

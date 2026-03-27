@@ -1,5 +1,5 @@
 # Knowledge
-```{r penguins, echo = FALSE, out.width='100%', fig.align = 'center'}
+```{r penguins, echo = FALSE, out.width='100%', fig.align = 'center', fig.alt = 'Black and white photograph of four penguins swimming underwater.'}
  knitr::include_graphics("images/ch7/cover-penguins.jpeg")
 ```
 
@@ -16,7 +16,7 @@ Your knowledge operates at multiple levels: you categorize the physical world ar
 5. Understand how people use mental models to reason about other minds.
 :::
 
-```{r truck, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [CC0 Public Domain](https://goo.gl/m25gce)'}
+```{r truck, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Although you’ve (probably) never seen this particular truck before, you know a lot about it because of the knowledge you’ve accumulated in the past about the features in the category of trucks. [CC0 Public Domain](https://goo.gl/m25gce)', fig.alt = 'Photograph of a small red and yellow cargo truck.'}
 knitr::include_graphics("images/ch7/truck.jpg")
 ```
 
@@ -32,7 +32,7 @@ Simpler organisms, such as animals and human infants, also have concepts [@Mares
 
 ## Nature of Categories
 
-```{r dog, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Here is a very good dog, but one that does not fit perfectly into a well-defined category where all dogs have four legs. Image: [State Farm](https://goo.gl/KHtu6N), [CC BY 2.0](https://goo.gl/BRvSA7)'}
+```{r dog, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Here is a very good dog, but one that does not fit perfectly into a well-defined category where all dogs have four legs. Image: [State Farm](https://goo.gl/KHtu6N), [CC BY 2.0](https://goo.gl/BRvSA7)', fig.alt = 'A Dalmatian dog sits attentively in the back seat of a car. The dog is missing its left front leg at the shoulder.'}
 knitr::include_graphics("images/ch7/dog.jpg")
 ```
 
@@ -86,7 +86,7 @@ According to Rosch and Mervis, then, it is not because a robin is a very common 
 
 In a classic experiment, @Rosch1975 made up two new categories, with arbitrary features. Subjects viewed example after example and had to learn which example was in which category. Rosch and Mervis constructed some items that had features that were common in the category and other items that had features less common in the category. The subjects learned the first type of item before they learned the second type. Furthermore, they then rated the items with common features as more typical. In another experiment, Rosch and Mervis constructed items that differed in how many features were shared with a different category. The more features were shared, the longer it took subjects to learn which category the item was in. These experiments, and many later studies, support both parts of the family resemblance theory.
 
-```{r bird, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'When you think of “bird,” how closely does the robin resemble your general figure? [CC0 Public Domain](https://goo.gl/m25gce)'}
+```{r bird, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'When you think of “bird,” how closely does the robin resemble your general figure? [CC0 Public Domain](https://goo.gl/m25gce)', fig.alt = 'Photograph of a robin. Its head and back are warm brown with orange tones, and its chest is gray.'}
 knitr::include_graphics("images/ch7/bird.jpg")
 ```
 
@@ -94,7 +94,7 @@ knitr::include_graphics("images/ch7/bird.jpg")
 
 Now that we know these facts about the psychology of concepts, the question arises of how concepts are mentally represented. There have been two main answers. The first, somewhat confusingly called the [prototype theory] suggests that people have a *summary representation of the category, a mental description that is meant to apply to the category as a whole*. (The significance of *summary* will become apparent when the next theory is described.) This description can be represented as a set of *weighted features* (Smith & Medin, 1981). The features are weighted by their frequency in the category. For the category of birds, having wings and feathers would have a very high weight; eating worms would have a lower weight; living in Antarctica would have a lower weight still, but not zero, as some birds do live there.
 
-```{r lizard, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Adhi Rachdian](https://goo.gl/dQyUwf), [CC BY 2.0](https://goo.gl/BRvSA7)'}
+```{r lizard, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'If you were asked, “What kind of animal is this?” according to prototype theory, you would consult your summary representations of different categories and then select the one that is most similar to this image—probably a lizard! [Adhi Rachdian](https://goo.gl/dQyUwf), [CC BY 2.0](https://goo.gl/BRvSA7)', fig.alt = 'Photograph of a Komodo dragon walking toward the camera on a beach. Komodo dragons are the world\'s largest lizards.'}
 knitr::include_graphics("images/ch7/lizard.jpg")
 ```
 
@@ -123,7 +123,7 @@ One of the first scientists who thought about structural models of human memory 
 
 In the Figure \@ref(fig:network), Collins and Quillian's network with added properties at each node is shown. As already mentioned, the skeleton-nodes are interconnected by links. At the nodes, concept names are added. General concepts are on the top and more particular ones at the bottom. By looking at the concept "car", one gets the information that a car has 4 wheels, has an engine, has windows, and furthermore moves around, needs fuel, is manmade. 
 
-```{r network, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. '}
+```{r network, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. ', fig.alt = 'A semantic network diagram illustrating concepts as nodes connected by labeled links. Example nodes include vehicle, car, truck, and sportscar, with lines representing associative links between them. The diagram labels one node as "car" and one connection as a "link" to illustrate the structure of the network.'}
 knitr::include_graphics("images/ch7/fig5.png")
 ```
 
@@ -170,7 +170,7 @@ Imagine observing someone behind a counter accepting a thin plastic object from 
 ### The Development of Theory of Mind {-}
 Theory of mind is not a single ability but rather a “toolbox” for navigating the social world [@malle2008fundamental]. Figure \@ref(fig:pyramid) shows some of the most important tools. These capacities range from simple and automatic processes that infants display within the first year of life to complex and deliberate processes that develop over the first few years.
 
-```{r pyramid, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Some of the major tools of theory of mind, with the bottom showing simple, automatic, early developing processes, and the top showing complex, more deliberate, late developing processes. '}
+```{r pyramid, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Some of the major tools of theory of mind, with the bottom showing simple, automatic, early developing processes, and the top showing complex, more deliberate, late developing processes. ', fig.alt = 'A pyramid diagram showing levels of theory of mind processes from most basic at the bottom to most complex at the top. From bottom to top: identifying agents, recognizing goals, and assessing intentionality; imitation, mimicry, and synchrony; joint attention and visual perspective taking; projection and simulation; and mental state inference at the apex.'}
 knitr::include_graphics("images/ch7/fig6.png")
 ```
 

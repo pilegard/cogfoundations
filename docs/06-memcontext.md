@@ -1,6 +1,6 @@
 # Memory in Context {#memory-in-context}
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch6/fig0} \end{center}
+\begin{center}\includegraphics[width=1\linewidth,alt={A double-exposure photograph of a young girl on a beach, with multiple transparent overlapping images of her in different expressive poses layered over the original.}]{images/ch6/fig0} \end{center}
 
 As we have seen, our memories are not perfect. Memory doesn't work like a video recording that captures events exactly as they happened. Instead, memory is influenced by what happens to you after the original event, where you are when you remember, and how your mind tries to make sense of it all. Every time you recall something, you're not just retrieving information -- you're reconstructing it.
 
@@ -24,7 +24,7 @@ Other sorts of memory biases are more complicated and longer lasting. For exampl
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch6/fig1} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Photograph of a library interior lined with bookshelves, with students studying at tables in the foreground.}]{images/ch6/fig1} 
 
 }
 
@@ -65,7 +65,7 @@ This phenomenon is called the [misinformation effect], because the misinformatio
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/ch6/fig2} 
+{\centering \includegraphics[width=0.8\linewidth,alt={Two identical photographs of a yellow taxi stopped at an intersection, side by side. In the left image the taxi is stopped at a stop sign; in the right image the stop sign has been replaced with a yield sign.}]{images/ch6/fig2} 
 
 }
 
@@ -118,7 +118,7 @@ In most jurisdictions in the United States, lineups are typically conducted with
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch6/lineup} 
+{\centering \includegraphics[width=0.6\linewidth,alt={A grid of six identical generic silhouette portrait icons arranged in two rows of three, representing a police lineup identification task.}]{images/ch6/lineup} 
 
 }
 
@@ -160,7 +160,7 @@ Sometimes memory errors happen before the actual memory process begins, which is
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/ch6/fig3} 
+{\centering \includegraphics[width=0.8\linewidth,alt={Four versions of the face side of a U.S. nickel, labeled A through D, with small differences in the orientation and placement of text and the portrait.}]{images/ch6/fig3} 
 
 }
 
@@ -173,7 +173,7 @@ Sometimes information is stored in our memory, but for some reason it is inacces
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.9\linewidth]{images/ch6/fig4} 
+{\centering \includegraphics[width=0.9\linewidth,alt={Diagram illustrating proactive and retroactive interference. The top row flows left to right: learning an old locker combination leads via proactive interference to difficulty recalling a new locker combination. The bottom row flows right to left: learning a sibling's new college email address leads via retroactive interference to difficulty recalling the old email address.}]{images/ch6/fig4} 
 
 }
 

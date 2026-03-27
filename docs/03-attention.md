@@ -1,6 +1,6 @@
 # Attention
 
-\begin{center}\includegraphics[width=1\linewidth]{images/3_attention/attnhead} \end{center}
+\begin{center}\includegraphics[width=1\linewidth,alt={Aerial view of a busy multi-lane highway with motion blur conveying the speed of traffic moving in both directions.}]{images/3_attention/attnhead} \end{center}
 
 Picture yourself driving down a highway. Cars are rushing past, music is playing, your passenger is talking, your phone might be buzzing with notifications, yet somehow you're able to focus on the road while filtering out most of the chaos around you. This ability to focus on what matters while ignoring distractions is attention in action.
 
@@ -17,7 +17,7 @@ Attention acts like a spotlight, illuminating some information while leaving the
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/3_attention/attentionsign} 
+{\centering \includegraphics[width=0.5\linewidth,alt={A yellow portable standing sign on a tile floor printed with the word ATTENTION, used to warn of a wet floor hazard.}]{images/3_attention/attentionsign} 
 
 }
 
@@ -41,7 +41,7 @@ Imagine many people may be milling around, a dazzling variety of colors and soun
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.45\linewidth]{images/3_attention/cocktailparty} 
+{\centering \includegraphics[width=0.45\linewidth,alt={Two people holding cocktail glasses and talking closely at a crowded party.}]{images/3_attention/cocktailparty} 
 
 }
 
@@ -66,7 +66,7 @@ Many researchers have investigated how selection occurs and what happens to igno
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/3_attention/broadbent} 
+{\centering \includegraphics[width=0.8\linewidth,alt={A flowchart of Broadbent's filter model of attention. Two input channels — representing the left and right ears — enter a sensory analysis stage. Only the attended channel (left ear) passes through the filter; the unattended channel (right ear) is completely blocked. The attended channel continues through perceptual and meaning analysis, then working memory, and finally to a response stage.}]{images/3_attention/broadbent} 
 
 }
 
@@ -83,7 +83,7 @@ Results like this, and the fact that you tend to hear meaningful information eve
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/3_attention/treisman} 
+{\centering \includegraphics[width=0.8\linewidth,alt={A flowchart of Treisman's attenuation model of attention, structured like Broadbent's model but with the filter stage relabeled as attenuation control. Rather than being completely blocked, the unattended channel passes through a sieve-like filter as a weakened signal that continues at reduced strength to subsequent processing stages.}]{images/3_attention/treisman} 
 
 }
 
@@ -96,7 +96,7 @@ Other selective attention models have been proposed as well. A *late selection* 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/3_attention/lateselection} 
+{\centering \includegraphics[width=0.8\linewidth,alt={A flowchart of the late selection model of attention, structured like Broadbent's model except that both channels pass through perceptual and meaning analysis before the unattended channel is filtered out.}]{images/3_attention/lateselection} 
 
 }
 
@@ -130,7 +130,7 @@ A common task used to study attention is the Stroop task, named for J.R. Stroop 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/3_attention/stroop} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Two columns of color words illustrating the Stroop effect. On the left, the words RED, BLUE, GREEN, and YELLOW are each printed in their matching ink color. On the right, the same words are printed in mismatching ink colors — for example, BLUE printed in yellow ink and RED printed in green ink.}]{images/3_attention/stroop} 
 
 }
 
@@ -163,7 +163,7 @@ In today's technology-driven society, questions regarding multitasking while usi
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/3_attention/driving} 
+{\centering \includegraphics[width=0.5\linewidth,alt={A driver behind the wheel of a car, one hand on the steering wheel and the other holding a cell phone, with eyes directed at the phone rather than the road.}]{images/3_attention/driving} 
 
 }
 

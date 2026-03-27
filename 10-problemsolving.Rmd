@@ -1,5 +1,5 @@
 # Problem Solving
-```{r fig10.0, echo = FALSE, out.width='100%', fig.align = 'center'}
+```{r fig10.0, echo = FALSE, out.width='100%', fig.align = 'center', fig.alt = 'A man stands on an oversized outdoor chess board in a park, looking pensively down at chess pieces.'}
  knitr::include_graphics("images/ch10/cover.jpeg")
 ```
 
@@ -69,7 +69,7 @@ Would you like to experience such an effect? Here is an example of an insight pr
 
 If you want to know the correct solution, scroll down to Figure \@ref(fig:chain2).
 
-```{r chain1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The materials for the cheap necklace problem.'}
+```{r chain1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The materials for the cheap necklace problem.', fig.alt = 'Four separate pieces of chain, each made of three links, in four different colors: red, yellow, blue, and green.'}
 knitr::include_graphics("images/ch10/chain1.png")
 ```
 
@@ -85,35 +85,35 @@ Sometimes, previous experience or familiarity can even make problem solving more
 
 Functional fixedness concerns the solution of *object use problems*. The basic idea is that when the usual function an object is emphasized, it will be far more difficult for a person to use that object in a novel manner. An example for this effect is the *candle problem* [@duncker1945problem]: Imagine you are given a book of matches, a box of tacks, and a candle (Figure \@ref(fig:candle1)). On the wall of the room there is a corkboard. Your task is to fix the candle to the corkboard in such a way that no wax will drop on the floor when the candle is lit. Got an idea?
 
-```{r candle1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The materials for the candle problem.'}
+```{r candle1, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The materials for the candle problem.', fig.alt = 'An illustration of the materials for the candle problem: a box filled with tacks, a candle lying on its side, and a book of matches.'}
 knitr::include_graphics("images/ch10/candle1.png")
 ```
 
 If you're having trouble thinking of a solution, try considering the same materials, but presented slightly differently, in Figure \@ref(fig:candle2).
 
-```{r candle2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The same materials, presented slightly differently.'}
+```{r candle2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The same materials, presented slightly differently.', fig.alt = 'The same materials as the candle problem, but now the box is empty and the tacks are arranged outside of it, making the box available as a separate object.'}
 knitr::include_graphics("images/ch10/candle2.png")
 ```
 
 Here’s a clue: when people are confronted with a problem and given certain objects to solve it, it is difficult for them to figure out that they could use the objects in a different way. In Figure \@ref(fig:candle3), the box is being used as a holder for the tacks. In Figure \@ref(fig:candle2), the box is presented without a specific use. Presenting the materials in the latter fashion helps participants have the insight they need: the box has to be recognized as a support rather than as a container— tack the box to the wall, and place the candle upright in the box. The box will catch the falling wax (Figure \@ref(fig:candle3)).
 
-```{r candle3, echo = FALSE, out.width='45%', fig.align = 'center', fig.cap = 'A solution to the candle problem.'}
+```{r candle3, echo = FALSE, out.width='45%', fig.align = 'center', fig.cap = 'A solution to the candle problem.', fig.alt = 'The solution to the candle problem: the empty box has been tacked to the wall, the candle stands upright and lit inside the box serving as a platform, and the matchbook and remaining tacks rest on the ground below.'}
 knitr::include_graphics("images/ch10/candle3.png")
 ```
 
 A further example is the two-string problem [@maier1931reasoning]: You are left in a room with a pair of pliers and given the task to tie two strings together that are hanging from the ceiling (Figure \@ref(fig:twostring). The problem you face is that you can never reach both strings at a time because they are just too far away from each other. What can you do?
 
-```{r twostring, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The two-string problem.'}
+```{r twostring, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'The two-string problem.', fig.alt = 'Illustration of the two-string problem. A person holds one of two strings hanging from the ceiling; the second string hangs out of reach. A chair and a pair of pliers rest on the ground nearby.'}
 knitr::include_graphics("images/ch10/twostring.png")
 ```
 
 Solution: You must recognize you can use the pliers in a novel function: as weight for a pendulum. You can tie them to one of the strings, push it away, hold the other string and wait for the first one to swing toward you (Figure \@ref(fig:twostring2)). 
 
-```{r twostring2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'A solution to the two-string problem.'}
+```{r twostring2, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'A solution to the two-string problem.', fig.alt = 'The solution to the two-string problem: the person has tied the pliers to the second string and set it swinging like a pendulum, then walked to grab it as it swung within reach.'}
 knitr::include_graphics("images/ch10/twostring2.png")
 ```
 
-```{r chain2, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'The solution to the cheap necklace problem.'}
+```{r chain2, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'The solution to the cheap necklace problem.', fig.alt = 'The solution to the chain problem: three lengths of chain in blue, yellow, and green are connected into a single loop using the individual links from the red chain.'}
 knitr::include_graphics("images/ch10/chain2.png")
 ```
 
@@ -136,7 +136,7 @@ In the first case the sizes are: 127 cups, 21 cups and 3 cups. Your goal is to m
 ##### Fixation on Examples {-}
 When trying to solve an ill-defined problem with many possible solutions, people often find it helpful to look at examples of solutions. You’ve probably done this as a student when you have been assigned to write an essay, or complete a creative final project—it is natural to want to see examples of what you are supposed to do. However, provision of examples is not always a good thing for promoting creative thinking, as examples can be a source of mental fixation. To illustrate, consider one study by @smith1993constraining. In this study, participants were asked to draw pictures of alien creatures. Some participants were provided with examples such as those in Figure \@ref(fig:creature), and some were not. Do you notice that the examples have features in common? What do you think happened to the participants’ drawings when they saw these examples?
 
-```{r creature, echo = FALSE, out.width='85%', fig.align = 'center', fig.cap = '@smith1993constraining showed their participants examples similar to these. *Drawings by Michael Barlev and Annie Ditta.*'}
+```{r creature, echo = FALSE, out.width='85%', fig.align = 'center', fig.cap = '@smith1993constraining showed their participants examples similar to these. *Drawings by Michael Barlev and Annie Ditta.*', fig.alt = 'Front and side view illustrations of two fictional creatures. The top creature has a long thin body and a head resembling a praying mantis, with labeled antennae, eyes, nose, tail, and legs. The bottom creature has a round head and body with clawed legs and barbed antennae and tail, with the same features labeled.'}
 knitr::include_graphics("images/ch10/creature.png")
 ```
  
@@ -178,13 +178,13 @@ The experimenters had participants read stories that presented problems and thei
 
 In order to solve problems—particularly ill-defined problems—humans need to think *creatively* and stretch beyond the boundaries of what they have accomplished previously. You may have heard of the phrase “thinking outside of the box” as related to creativity—let’s go through an example to illustrate what this means. In a classic problem-solving task, participants are presented with an array of nine dots and are instructed to connect all 9 dots with four lines, without picking up their writing instrument [@maier1930reasoning]. See Figure \@ref(fig:ninedot) below. 
 
-```{r ninedot, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'The nine-dot problem.'}
+```{r ninedot, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'The nine-dot problem.', fig.alt = 'Nine dots arranged in a 3 by 3 grid with equal spacing, used to illustrate the nine-dot problem.'}
 knitr::include_graphics("images/ch10/ninedot.png")
 ```
 
 Think you have a solution? The only way to solve this problem is to literally go “outside of the box” by drawing lines that extend beyond the boundaries of the box that the dots create. This example illustrates how, when we think creatively, we often need to think of novel and appropriate solutions to a task that we have not generated before (see [Restructuring: The Gestalt Approach] section for more information about how we do this). See Figure \@ref(fig:ninedotsolution) for different possible solutions.
 
-```{r ninedotsolution, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'Solutions to the nine-dot problem.'}
+```{r ninedotsolution, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'Solutions to the nine-dot problem.', fig.alt = 'Two solutions to the nine-dot problem, both requiring lines to extend beyond the boundaries of the grid. The top solution uses four straight lines that connect all nine dots by extending outside the grid at two corners. The bottom solution uses three lines in a wide, shallow zigzag pattern that passes through all nine dots by extending well beyond the grid on both sides.'}
 knitr::include_graphics("images/ch10/ninedotsolution.png")
 ```
 

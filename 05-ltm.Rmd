@@ -1,6 +1,6 @@
 # Long-term Memory {#long-term-memory-chapter}
 
-```{r cover, echo = FALSE, out.width='100%', fig.align = 'center'}
+```{r cover, echo = FALSE, out.width='100%', fig.align = 'center', fig.alt = 'A photograph of a young boy pedaling on a bicycle, mouth open in an expression of joy.'}
  knitr::include_graphics("images/ch5/bike.jpg")
 ```
 
@@ -24,7 +24,7 @@ As we discussed in the last chapter, working memory is a temporary storage space
 
 The distinction between working memory and long-term memory can be demonstrated with the [serial position curve]. When we give people a long list of words one at a time (e.g., on flashcards) and then ask them to recall them, the results look something like those in Figure \@ref(fig:serialposition). People are able to retrieve more words that were presented to them at the beginning and the end of the list than they are words that were presented in the middle of the list. This pattern, known as the serial position curve, is caused by two retrieval phenomenon: The [primacy effect] refers to *a tendency to better remember stimuli that are presented early in a list*. The [recency effect] refers to *the tendency to better remember stimuli that are presented at the end of a list*.
 
-```{r serialposition, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'The serial position curve is the result of both primacy effects and recency effects.'}
+```{r serialposition, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'The serial position curve is the result of both primacy effects and recency effects.', fig.alt = 'A serial position curve graph with Position in List on the x-axis and Probability of Recall on the y-axis. Recall is highest for items at the beginning of the list (primacy effect) and at the end of the list (recency effect), and lowest for items in the middle.'}
 # Data vectors
 position <- 1:20
 probability <- c(0.82, 0.77, 0.69, 0.60, 0.50, 0.45, 0.35, 0.45, 0.41, 0.39, 
@@ -75,7 +75,7 @@ Modern supercomputers and AI systems are becoming more brain-like in some ways, 
 
 According to Baddeley’s model, working memory includes a central executive, phonological loop, visuospatial sketchpad, and episodic buffer. What is the structure of long-term memory? As you can see in Figure \@ref(fig:structure), long-term memory can be divided into two major categories of memory types: explicit memory and implicit memory, which can be further divided into multiple sub-types: semantic, episodic, procedural, priming, and conditioning memory.
 
-```{r structure, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap = 'Structure of long-term memory.'}
+```{r structure, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap = 'Structure of long-term memory.', fig.alt = 'Hierarchical diagram of long-term memory structure. Long-term memory splits into explicit memory (requires conscious awareness) and implicit memory (does not require conscious awareness). Explicit memory branches into semantic memory (facts and general knowledge) and episodic memory (personally experienced events). Implicit memory branches into procedural memory (motor and cognitive skills), priming (enhanced identification of objects or words), and learning through classical conditioning.'}
 knitr::include_graphics("images/ch5/fig2.png")
 ```
 
@@ -120,7 +120,7 @@ Our everyday behaviors are influenced by priming in a wide variety of situations
 
 Imagine you are able to perfectly study for an exam. You take notes in lecture and read the textbook as the quarter moves along. As you approach the exam, you develop study materials, test yourself on the information, and go to the professor’s office hours to ask about the parts you find the most difficult. The day before the exam, you explain all of the important concepts from class to your best friend. You get a good night’s sleep, and the next morning you find that remembering the important concepts from class feels relatively easy. The questions on the exam include bits of information that help you retrieve the concepts that you studied so hard to understand. You leave feeling like your exam performance was a good reflection of the hard work you put in to studying. 
 
-```{r library, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo by Robert Bye on Uplash.'}
+```{r library, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo by Robert Bye on Uplash.', fig.alt = 'Photograph of a library interior with rows of tables where people sit reading.'}
 knitr::include_graphics("images/ch5/fig3.png")
 ```
 
@@ -136,7 +136,7 @@ The [levels-of-processing effect], identified by @Craik1975, describes memory re
 
 This theory contradicts the notion that merely repeating something in your head (i.e., maintenance rehearsal) will improve long-term memory. Though the idea that *type* of rehearsal is important for memory, rather than mere *duration* of rehearsal, had been proposed previously (e.g., the @atkinson1968human paper discussed in Chapter \@ref(working-memory-chapter) proposed that some coding processes used during rehearsal are more effective than others), this theory was formalized by @craik1972levels and tested experimentally by @Craik1975.
 
-```{r lop, echo = FALSE, out.width='35%', fig.align = 'center', fig.cap = 'Levels of processing based on evidence from Craik and Tulving.'}
+```{r lop, echo = FALSE, out.width='35%', fig.align = 'center', fig.cap = 'Levels of processing based on evidence from Craik and Tulving.', fig.alt = 'A vertical diagram illustrating levels of processing, with an axis running from shallow at the top to deep at the bottom. Orthographic processing appears at the shallowest level, phonological processing in the middle, and semantic processing at the deepest level. The background is shaded with wavy blue lines resembling increasingly deep water.'}
 knitr::include_graphics("images/ch5/fig4.png")
 ```
 
@@ -160,14 +160,14 @@ Used together, the testing effect and the spacing effect are two of the most rob
 ### Retrieval {-}
 Information stored in the memory is retrieved by way of association with other memories. Some memories can not be recalled by simply thinking about them. Rather, one must think about something associated with it. For example, if someone tries and fails to recollect the memories he had about a vacation he went on, and someone mentions the fact that he hired a classic car during this vacation, this may make him remember all sorts of things from that trip, such as what he ate there, where he went and what books he read. 
 
-```{r albumbs, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo albums can be effective sources of retrieval cues. Photo by BBH Singapore on Uplash.'}
+```{r albumbs, echo = FALSE, out.width='60%', fig.align = 'center', fig.cap = 'Photo albums can be effective sources of retrieval cues. Photo by BBH Singapore on Uplash.', fig.alt = 'A hand holds open a photo album containing photographs of children and an older person, suggesting personal or family memories.'}
 knitr::include_graphics("images/ch5/book.png")
 ```
 
 #### Encoding Specificity Principle {-}
 The [encoding specificity principle] is the *general principle that memory is best when the conditions at encoding match the conditions at retrieval*. For example, take the song on the radio: perhaps you heard it while you were at a terrific party, having a great, philosophical conversation with a friend. Thus, the song became part of that whole complex experience. Years later, even though you haven’t thought about that party in ages, when you hear the song on the radio, the whole experience rushes back to you. In general, the encoding specificity principle states that, to the extent a retrieval cue (the song) matches or overlaps the memory trace of an experience (the party, the conversation), it will be effective in evoking the memory. One example of the encoding specificity principle is [transfer-appropriate processing], in which *memory is best when the type of cognitive processing at recall matches the type of cognitive processing at encoding*. This was empirically shown in a study by @Morris1977 using semantic and rhyme tasks. In a standard recognition test, memory was better following semantic processing compared to rhyme processing, as predicted by the levels-of-processing effect. However, in a rhyming recognition test, memory was better for those who engaged in rhyme processing compared to semantic processing. This adds a level of complexity to the levels-of-processing theory: while the levels-of-processing framework generally holds for a normal recognition test, performance on rhyming tests is actually better with phonological than semantic processing at encoding.
 
-```{r morris, echo = FALSE, out.width='70%', fig.width=6, fig.height=5, fig.align = 'center', fig.cap = 'Results from Morris and colleagues’ Transfer-Appropriate Processing experiment [@Morris1977, Experiment 1].'}
+```{r morris, echo = FALSE, out.width='70%', fig.width=6, fig.height=5, fig.align = 'center', fig.cap = 'Results from Morris and colleagues’ Transfer-Appropriate Processing experiment [@Morris1977, Experiment 1].', fig.alt = 'Line graph of results from Morris and colleagues\' transfer-appropriate processing experiment. The x-axis shows type of encoding task (semantic or rhyming) and the y-axis shows percent recall. The recognition test line is higher overall, peaking at semantic encoding and declining at rhyming encoding. The rhyming test line is lower overall, but shows the opposite pattern: lowest at semantic encoding and higher at rhyming encoding.'}
 # Data
 recognition_data <- c(84.4, 63.3)  # Recognition test
 rhyming_data <- c(33.3, 48.9)      # Rhyming test

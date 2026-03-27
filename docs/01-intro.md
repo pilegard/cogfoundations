@@ -1,7 +1,7 @@
 # History and Research Methods
 
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch1/lan2000} \end{center}
+\begin{center}\includegraphics[width=1\linewidth,alt={An illustration from circa 1900 imagining school in the year 2000. A teacher cranks a machine that grinds up books, transmitting knowledge through wires connected to headphones worn by rows of students seated at desks.}]{images/ch1/lan2000} \end{center}
 
 Around the turn of the 20th century, French artist Jean-Marc Côté imagined what classrooms might look like in the year 2000: students sitting passively while knowledge was transmitted directly into their brains through mechanical devices. His vision captured both a playful prediction about technological progress and a fundamental misunderstanding of how learning actually works. We now know that minds don't simply absorb information like empty vessels; they actively process, interpret, and construct knowledge through complex cognitive mechanisms.
 
@@ -22,7 +22,7 @@ Precursors to American psychology can be found in philosophy and physiology. Phi
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.4\linewidth]{images/ch1/pharoah} 
+{\centering \includegraphics[width=0.4\linewidth,alt={An ancient Egyptian relief depicting Pharaoh Psamtik I making an offering to the god Ra-Horakhty.}]{images/ch1/pharoah} 
 
 }
 
@@ -35,7 +35,7 @@ The formal development of modern psychology is usually credited to the work of G
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.4\linewidth]{images/ch1/wundt} 
+{\centering \includegraphics[width=0.4\linewidth,alt={Black and white portrait photograph of Wilhelm Wundt, wearing a suit, glasses, and a beard.}]{images/ch1/wundt} 
 
 }
 
@@ -78,7 +78,7 @@ Experimental research is the most commonly used method in cognitive psychology b
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch1/covid} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Two line graphs displaying the same COVID-19 mortality data differently. Graph A shows weekly deaths over time, with values that fluctuate up and down. Graph B shows cumulative deaths over the same period, with a line that rises continuously. The contrast illustrates how the choice of display affects the impression the data makes.}]{images/ch1/covid} 
 
 }
 
@@ -119,7 +119,7 @@ To find out how well two variables correspond, we can plot the relation between 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter-1} 
+{\centering \includegraphics[width=0.8\linewidth,alt={Scatterplot with Working Memory (Reading Span Score) on the x-axis ranging from 10 to 60, and Reading Comprehension (\%) on the y-axis ranging from 30 to 100. The 52 data points show a positive correlation of r = .7, meaning higher working memory scores tend to correspond with higher reading comprehension.}]{01-intro_files/figure-latex/scatter-1} 
 
 }
 
@@ -134,7 +134,7 @@ A negative correlation is one in which the two variables move in opposite direct
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{01-intro_files/figure-latex/scatter2-1} 
+{\centering \includegraphics[width=0.8\linewidth,alt={Scatterplot with Caffeine Consumption (mg) on the x-axis ranging from 0 to 400, and Reaching Time (ms) on the y-axis ranging from 150 to 350. The 100 data points show a negative correlation of r = -.4, meaning higher caffeine consumption tends to correspond with faster reaching times.}]{01-intro_files/figure-latex/scatter2-1} 
 
 }
 

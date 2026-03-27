@@ -1,5 +1,5 @@
 # Language
-```{r fig8.1, echo = FALSE, out.width='100%', fig.align = 'center'}
+```{r fig8.1, echo = FALSE, out.width='100%', fig.align = 'center', fig.alt = 'Black and white photograph of a woman speaking at a Black Lives Matter demonstration, holding a microphone and raising her left fist in the air.'}
 knitr::include_graphics("images/ch8/cover.jpeg")
 ```
 
@@ -28,7 +28,7 @@ Despite their wide abilities to communicate, efforts to teach animals to use lan
 
 And yet even Kanzi did not have a true language in the same way that humans do. Human babies learn words faster and faster as they get older, but Kanzi did not. Each new word he learned was almost as difficult as the one before. Kanzi usually required many trials to learn a new sign, whereas human babies can speak words after only one exposure. Kanzi’s language was focused primarily on food and pleasure and only rarely on social relationships. Although he could combine words, he generated few new phrases and could not master syntactic rules beyond the level of about a two-year-old human child [@Greenfield1991].
 
-```{r kanzi, echo = FALSE, out.width='75%', fig.align = 'center', fig.cap = 'Sue Savage-Rumbaugh (L), Kanzi (R), and his sister Panbinisha (C) working together in 2006. To see Kanzi in action, watch [“Kanzi and Novel Sentences” on YouTube](http://www.youtube.com/watch?v=2Dhc2zePJFE). Image by William H. Calvin, CC BY-SA 4.0'}
+```{r kanzi, echo = FALSE, out.width='75%', fig.align = 'center', fig.cap = 'Sue Savage-Rumbaugh (L), Kanzi (R), and his sister Panbinisha (C) working together in 2006. To see Kanzi in action, watch [“Kanzi and Novel Sentences” on YouTube](http://www.youtube.com/watch?v=2Dhc2zePJFE). Image by William H. Calvin, CC BY-SA 4.0', fig.alt = 'A woman in a tie-dyed shirt sits on the floor across from two bonobos, with laminated sheets showing matrices of images spread out between them. The bonobo in the center is pointing at one of the image sheets.'}
 knitr::include_graphics("images/ch8/kanzi.jpeg")
 ```
 
@@ -74,7 +74,7 @@ An example that can help differentiate semantics and pragmatics is the sentence,
 
 The two major components of language that are studied in cognitive psychology are language production and language comprehension. [Language production](#langproddef) encompasses the process of converting thoughts into language, while [language comprehension], or language processing, is the process of decoding language back into thoughts (Figure \@ref(fig:model)). Successful communication happens when the listener correctly decodes the speech signal produced by the speaker, understanding the intended message.
 
-```{r model, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'A model of communication with language exchange.'}
+```{r model, echo = FALSE, out.width='80%', fig.align = 'center', fig.cap = 'A model of communication with language exchange.', fig.alt = 'Diagram of language communication between two people. Two facing heads each contain a brain with a thought bubble labeled "speaker\'s ideas." An arrow flows from the left person through a sequence of stages — language production, articulation, auditory signal, speech perception, and language comprehension — to the right person\'s brain. The full sequence between the two people is labeled "language."'}
 knitr::include_graphics("images/ch8/model_of_language_draft.jpg")
 ```
 
@@ -90,7 +90,7 @@ The first of these tasks, [speech segmentation], requires the listener to tell w
 
 Part of telling words apart requires listeners to tell two sounds apart. For example, to tell the words 'pat' and 'bat' apart, you have to be able to tell the difference between the two sounds /p/ and /b/.  English speakers can differentiate the /r/ phoneme from the /l/ phoneme, and thus “rake” and “lake” are heard as different words. In Japanese, however, /r/ and /l/ are the same phoneme, and thus speakers of that language cannot tell the difference between the word “rake” and the word “lake.” Try saying the words “cool” and “keep” out loud. Can you hear the difference between the two /k/ sounds? To English speakers they both sound the same, but to speakers of Arabic these represent two different phonemes. We know that infants are born able to understand all phonemes, but as they get older, they lose their ability to do so. By 10 months of age a child’s ability to recognize phonemes becomes very similar to that of the adult speakers of the native language. Phonemes that were initially differentiated come to be treated as equivalent [@Werker2002]. Follow the link in Figure \@ref(fig:speechsounds) to hear an explanation of how psychologists study phoneme perception in infants.
 
-```{r speechsounds, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Watch [Tuning Into Speech Sounds](https://www.youtube.com/watch?v=WvM5bqUsbu8) on YouTube'}
+```{r speechsounds, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Watch [Tuning Into Speech Sounds](https://www.youtube.com/watch?v=WvM5bqUsbu8) on YouTube', fig.alt = 'Video still showing a woman sitting at a table across from a man holding an infant in his lap.'}
 knitr::include_graphics("images/ch8/tuning_into_speech_sounds.png")
 ```
 
@@ -122,7 +122,7 @@ Language learning begins even before birth, because the fetus can hear muffled v
 
 During the first year or so after birth, and long before they speak their first words, infants are already learning language. One aspect of this learning is practice in producing speech. By the time they are six to eight weeks old, babies start making vowel sounds (ooohh, aaahh, goo) as well as a variety of cries and squeals to help them practice.
 
-```{r practicing, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'Babies often engage in vocal exchanges to help them practice language.'}
+```{r practicing, echo = FALSE, out.width='40%', fig.align = 'center', fig.cap = 'Babies often engage in vocal exchanges to help them practice language.', fig.alt = 'Photograph of a young child sitting in a stroller on a city street, holding a smartphone against their ear as though talking on the phone.'}
 knitr::include_graphics("images/ch8/fig2.jpg")
 ```
 
@@ -175,7 +175,7 @@ An important study by @Johnson1989 tested Chinese and Korean speakers who had le
 
 Johnson and Newport's finding that children who immigrated before they were seven years old learned English fluently seemed consistent with the idea of a critical period in language learning. But their finding of gradual decrease in proficiency for those immigrated between eight and 39 years of age was not -- rather, it suggested that language learning at later ages is simply better when it occurs earlier. @Hakuta2003 reinforced this idea by examining census records of millions of Chinese and Spanish immigrants. The results showed no evidence for any discontinuity in language-learning potential. Rather, the degree of success in second-language acquisition declined steadily throughout the respondent's life span (Figure \@ref(fig:languagelearning)). The results of this research dealt another blow to the idea of the critical period, because it showed that regardless of what year was used as a cutoff point for the end of the critical period, there was no evidence for any discontinuity in language-learning potential. The difficulty of learning language as one gets older is probably due to the fact that, with age, the brain loses [plasticity] -- that is, its ability to develop new neural connections.
 
-```{r languagelearning, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap = 'English Proficiency in Native Chinese Speakers. Hakuta et al. found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.'}
+```{r languagelearning, echo = FALSE, out.width='90%', fig.align = 'center', fig.cap = 'English Proficiency in Native Chinese Speakers. Hakuta et al. found no evidence for critical periods in language learning. Regardless of level of education, self-reported second-language skills decreased consistently across age of immigration.', fig.alt = 'Line graph showing English proficiency on the y-axis and age of immigration on the x-axis, ranging from 5 to 60. Multiple lines representing different education levels slope gradually downward from left to right, indicating declining proficiency with later immigration. The lines are roughly parallel across education levels, with no sharp discontinuity that would indicate a critical period for language acquisition.'}
 knitr::include_graphics("images/ch8/fig3.png")
 ```
 :::

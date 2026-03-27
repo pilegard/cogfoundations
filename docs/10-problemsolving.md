@@ -1,6 +1,6 @@
 # Problem Solving
 
-\begin{center}\includegraphics[width=1\linewidth]{images/ch10/cover} \end{center}
+\begin{center}\includegraphics[width=1\linewidth,alt={A man stands on an oversized outdoor chess board in a park, looking pensively down at chess pieces.}]{images/ch10/cover} \end{center}
 
 How do we achieve our goals when the solution is not immediately obvious? Consider the chess player in the park, contemplating his next move among dozens of possibilities. He's not just randomly trying moves -- he's drawing on years of experience, recognizing patterns, and thinking several steps ahead. But he's also fighting against mental obstacles: perhaps he's fixated on one strategy that isn't working, or he's overthinking a move that should be obvious. His expertise helps him see solutions that beginners would miss, but it might also blind him to creative approaches.
 
@@ -70,7 +70,7 @@ If you want to know the correct solution, scroll down to Figure \@ref(fig:chain2
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/chain1} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Four separate pieces of chain, each made of three links, in four different colors: red, yellow, blue, and green.}]{images/ch10/chain1} 
 
 }
 
@@ -91,7 +91,7 @@ Functional fixedness concerns the solution of *object use problems*. The basic i
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/candle1} 
+{\centering \includegraphics[width=0.6\linewidth,alt={An illustration of the materials for the candle problem: a box filled with tacks, a candle lying on its side, and a book of matches.}]{images/ch10/candle1} 
 
 }
 
@@ -102,7 +102,7 @@ If you're having trouble thinking of a solution, try considering the same materi
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/candle2} 
+{\centering \includegraphics[width=0.6\linewidth,alt={The same materials as the candle problem, but now the box is empty and the tacks are arranged outside of it, making the box available as a separate object.}]{images/ch10/candle2} 
 
 }
 
@@ -113,7 +113,7 @@ Here’s a clue: when people are confronted with a problem and given certain obj
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.45\linewidth]{images/ch10/candle3} 
+{\centering \includegraphics[width=0.45\linewidth,alt={The solution to the candle problem: the empty box has been tacked to the wall, the candle stands upright and lit inside the box serving as a platform, and the matchbook and remaining tacks rest on the ground below.}]{images/ch10/candle3} 
 
 }
 
@@ -124,7 +124,7 @@ A further example is the two-string problem [@maier1931reasoning]: You are left 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/twostring} 
+{\centering \includegraphics[width=0.6\linewidth,alt={Illustration of the two-string problem. A person holds one of two strings hanging from the ceiling; the second string hangs out of reach. A chair and a pair of pliers rest on the ground nearby.}]{images/ch10/twostring} 
 
 }
 
@@ -135,7 +135,7 @@ Solution: You must recognize you can use the pliers in a novel function: as weig
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{images/ch10/twostring2} 
+{\centering \includegraphics[width=0.6\linewidth,alt={The solution to the two-string problem: the person has tied the pliers to the second string and set it swinging like a pendulum, then walked to grab it as it swung within reach.}]{images/ch10/twostring2} 
 
 }
 
@@ -144,7 +144,7 @@ Solution: You must recognize you can use the pliers in a novel function: as weig
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/ch10/chain2} 
+{\centering \includegraphics[width=0.5\linewidth,alt={The solution to the chain problem: three lengths of chain in blue, yellow, and green are connected into a single loop using the individual links from the red chain.}]{images/ch10/chain2} 
 
 }
 
@@ -172,7 +172,7 @@ When trying to solve an ill-defined problem with many possible solutions, people
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.85\linewidth]{images/ch10/creature} 
+{\centering \includegraphics[width=0.85\linewidth,alt={Front and side view illustrations of two fictional creatures. The top creature has a long thin body and a head resembling a praying mantis, with labeled antennae, eyes, nose, tail, and legs. The bottom creature has a round head and body with clawed legs and barbed antennae and tail, with the same features labeled.}]{images/ch10/creature} 
 
 }
 
@@ -219,7 +219,7 @@ In order to solve problems—particularly ill-defined problems—humans need to 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.4\linewidth]{images/ch10/ninedot} 
+{\centering \includegraphics[width=0.4\linewidth,alt={Nine dots arranged in a 3 by 3 grid with equal spacing, used to illustrate the nine-dot problem.}]{images/ch10/ninedot} 
 
 }
 
@@ -230,7 +230,7 @@ Think you have a solution? The only way to solve this problem is to literally go
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.4\linewidth]{images/ch10/ninedotsolution} 
+{\centering \includegraphics[width=0.4\linewidth,alt={Two solutions to the nine-dot problem, both requiring lines to extend beyond the boundaries of the grid. The top solution uses four straight lines that connect all nine dots by extending outside the grid at two corners. The bottom solution uses three lines in a wide, shallow zigzag pattern that passes through all nine dots by extending well beyond the grid on both sides.}]{images/ch10/ninedotsolution} 
 
 }
 

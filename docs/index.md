@@ -1,7 +1,7 @@
 --- 
 title: "Cognitive Foundations"
 author: "Edited by Celeste Pilegard"
-date: "Current version rendered 2025-11-06"
+date: "Current version rendered 2026-03-26"
 site: bookdown::bookdown_site
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -64,6 +64,7 @@ Revisions since second edition:
 
 - Bill Pepe (Knowledge) -- Final CDIIP-funded graduate student content expert revision
 - Revisions to History and Research Methods, Reasoning and Decision Making, and all chapter intros by C. Pilegard
+- All images updated with alt text
 
 #### Second Edition {-}
 The second edition of this book builds on the first edition with updates, improvements, and edits by a team of UC San Diego graduate student content experts:

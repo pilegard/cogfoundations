@@ -17,7 +17,7 @@ github-repo: pilegard/cogfoundations
 
 # About {-}
 
-![Book cover image with the title "Cognitive Foundations," with "Second Edition" and "Edited by Celeste Pilegard" in smaller text. The background shows an unlit incandescent lightbulb against a bright pink and green background.](images/cover.png)
+![*Book cover image with the title "Cognitive Foundations," with "Second Edition"  and "Edited by Celeste Pilegard" in smaller text. The background shows an unlit  incandescent lightbulb against a bright pink and green background. **Note to readers:** Every image in this book includes a text description like this one for compatibility with screen readers and other assistive technologies. This is the  only description visible in the book; the rest are embedded in the images and accessible to assistive technology.*](images/cover.png)
 
 ## About the Book {-}
 
@@ -58,9 +58,7 @@ Instructors can embed the book directly into their course site using an HTML ifr
 
 ### Accessibility {-}
 
-All images in this textbook include alternative text (alt text) for compatibility with screen readers and other assistive technologies.
-
-**Note for screen reader users:** The HTML version of this book is the fully  accessible version. The PDF version does not support alt text or other accessibility features. To access the HTML version, visit  [pilegard.github.io/cogfoundations/](https://pilegard.github.io/cogfoundations/).
+All images in the HTML version of this textbook include alternative text (alt text) for compatibility with screen readers and other assistive technologies. The PDF version does not support alt text or other accessibility features. To access the HTML version, visit [pilegard.github.io/cogfoundations/](https://pilegard.github.io/cogfoundations/).
 
 ### Version History {-}
 Brief descriptions of each textbook edition are given below; for a full description of edits see [License and Attributions].

@@ -2,6 +2,7 @@ bookdown::gitbook:
   css: assets/style.css
   includes:
     in_header: assets/GA_script.html
+    before_body: header.html
   config:
     toc:
       collapse: section

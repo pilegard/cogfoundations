@@ -29,3 +29,7 @@ Please let us know if you adopt the book in your course -- we love hearing how i
 - Use our [feedback form](https://forms.gle/83CBvAgLuJshRfz37) to tell us about your adoption, report errors, or submit general comments
 - Submit technical issues or suggestions via [GitHub](https://github.com/pilegard/cogfoundations)
 - [Send an email](mailto:pilegard@ucsd.edu) with "Cognitive Foundations OER" in the subject line for specific inquiries
+
+### Accessibility
+
+The HTML version of *Cognitive Foundations* is built to conform with the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/2025/REC-WCAG21-20250506/) at Level AA, including alt text, keyboard navigability, and heading structure. If you encounter a barrier or have a suggestion for improvement, please use our [feedback form](https://forms.gle/83CBvAgLuJshRfz37) or open an issue on [GitHub](https://github.com/pilegard/cogfoundations). The PDF version does not support alt text or other accessibility features.

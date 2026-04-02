@@ -123,7 +123,7 @@ One of the first scientists who thought about structural models of human memory 
 
 In the Figure \@ref(fig:network), Collins and Quillian's network with added properties at each node is shown. As already mentioned, the skeleton-nodes are interconnected by links. At the nodes, concept names are added. General concepts are on the top and more particular ones at the bottom. By looking at the concept "car", one gets the information that a car has 4 wheels, has an engine, has windows, and furthermore moves around, needs fuel, is manmade. 
 
-```{r network, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. ', fig.alt = 'A semantic network diagram illustrating concepts as nodes connected by labeled links. Example nodes include vehicle, car, truck, and sportscar, with lines representing associative links between them. The diagram labels one node as "car" and one connection as a "link" to illustrate the structure of the network.'}
+```{r network, echo = FALSE, out.width='50%', fig.align = 'center', fig.cap = 'Semantic Network according to Collins and Quillian with nodes, links, concept names and properties. ', fig.alt = 'A semantic network diagram illustrating concepts as nodes connected by labeled links. Example nodes include vehicle, car, truck, and sportscar, with lines representing associative links between them. The diagram labels one node as car and one connection as a link to illustrate the structure of the network.'}
 knitr::include_graphics("images/ch7/fig5.png")
 ```
 

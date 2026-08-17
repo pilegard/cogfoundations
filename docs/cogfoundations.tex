@@ -77,6 +77,7 @@
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -148,7 +149,7 @@
 
 \title{Cognitive Foundations}
 \author{Edited by Celeste Pilegard}
-\date{Current version rendered 2026-04-02}
+\date{Current version rendered 2026-08-17}
 
 \begin{document}
 \maketitle
@@ -162,7 +163,7 @@
 
 \begin{figure}
 \centering
-\pandocbounded{\includegraphics[keepaspectratio]{images/cover.png}}
+\pandocbounded{\includegraphics[keepaspectratio,alt={Book cover image with the title ``Cognitive Foundations,'' with ``Second Edition'' and ``Edited by Celeste Pilegard'' in smaller text. The background shows an unlit incandescent lightbulb against a bright pink and green background. Note to readers: Every image in this book includes a text description like this one for compatibility with screen readers and other assistive technologies. This is the only description visible in the book; the rest are embedded in the images and accessible to assistive technology.}]{images/cover.png}}
 \caption{\emph{Book cover image with the title ``Cognitive Foundations,'' with ``Second Edition'' and ``Edited by Celeste Pilegard'' in smaller text. The background shows an unlit incandescent lightbulb against a bright pink and green background. \textbf{Note to readers:} Every image in this book includes a text description like this one for compatibility with screen readers and other assistive technologies. This is the only description visible in the book; the rest are embedded in the images and accessible to assistive technology.}}
 \end{figure}
 
@@ -783,7 +784,7 @@ A quasi-experimental design is similar to experimental research, except that ran
 \subsubsection*{Longitudinal Studies}\label{longitudinal-studies}
 
 
-Another powerful research design is the \hyperref[longitudinal-study]{longitudinal study}. Longitudinal studies track the same people over time. Some longitudinal studies last a few weeks, some a few months, some a year or more. Some studies that have contributed a lot to cognitive psychology followed the same people over decades. For example, the National Consortium on Alcohol and Neurodevelopment in Adolescence (NCANDA) study has been following over 800 adolescents starting at ages 12-21 for multiple years to understand how alcohol use affects brain development and cognitive abilities (\citeproc{ref-lorkiewicz2022longitudinal}{Lorkiewicz et al., 2022}). From these longitudinal data, researchers have been able to determine that alcohol-related blackouts predict distinct, lasting changes in learning and memory for visual information, with results suggesting that the developing brain is vulnerable to these effects during adolescence and emerging adulthood. Longitudinal studies like this provide valuable evidence for testing many theories in cognitive psychology, but they can be quite costly to conduct, especially if they follow many people for many years.
+Another powerful research design is the \hyperref[longitudinal-study]{longitudinal study}. Longitudinal studies track the same people over time. Some longitudinal studies last a few weeks, some a few months, some a year or more. Some studies that have contributed a lot to cognitive psychology followed the same people over decades. For example, the National Consortium on Alcohol and Neurodevelopment in Adolescence (NCANDA) study has been following over 800 adolescents starting at ages 12-21 for multiple years to understand how alcohol use affects brain development and cognitive abilities (\citeproc{ref-lorkiewicz2022longitudinal}{{Lorkiewicz et al.}, 2022}). From these longitudinal data, researchers have been able to determine that alcohol-related blackouts predict distinct, lasting changes in learning and memory for visual information, with results suggesting that the developing brain is vulnerable to these effects during adolescence and emerging adulthood. Longitudinal studies like this provide valuable evidence for testing many theories in cognitive psychology, but they can be quite costly to conduct, especially if they follow many people for many years.
 
 \subsection*{Tradeoffs in Research}\label{tradeoffs-in-research}
 
@@ -960,7 +961,7 @@ Studying perception reveals something profound about human experience: the world
 
 \section{Sensation and Perception}\label{sensation-and-perception}
 
-The ability to detect and interpret the events that are occurring around us allows us to respond to these stimuli appropriately (\citeproc{ref-Gibson2000}{Gibson et al., 2000}). In most cases the system is successful, but it is not perfect. In this chapter we will discuss the strengths and limitations of these capacities, focusing on both \hyperref[sensation]{sensation} --- the stimulation of sensory receptor cells, which is converted to neural impulses --- and \hyperref[perception]{perception} --- our experience as a result of that stimulation. Sensation and perception work seamlessly together to allow us to experience the world through our eyes, ears, nose, tongue, and skin, but also to combine what we are currently learning from the environment with what we already know about it (prior knowledge) in order to make judgments and to choose appropriate behaviors.
+The ability to detect and interpret the events that are occurring around us allows us to respond to these stimuli appropriately (\citeproc{ref-Gibson2000}{{Gibson et al.}, 2000}). In most cases the system is successful, but it is not perfect. In this chapter we will discuss the strengths and limitations of these capacities, focusing on both \hyperref[sensation]{sensation} --- the stimulation of sensory receptor cells, which is converted to neural impulses --- and \hyperref[perception]{perception} --- our experience as a result of that stimulation. Sensation and perception work seamlessly together to allow us to experience the world through our eyes, ears, nose, tongue, and skin, but also to combine what we are currently learning from the environment with what we already know about it (prior knowledge) in order to make judgments and to choose appropriate behaviors.
 
 Humans possess powerful sensory capacities that allow us to sense the kaleidoscope of sights, sounds, smells, and tastes that surround us. Our eyes detect light energy and our ears pick up sound waves. Our skin senses touch, pressure, hot, and cold. Our tongues react to the molecules of the foods we eat, and our noses detect scents in the air. The human sensory and perceptual systems are wired for accuracy, and people are exceedingly good at making use of the wide variety of information available to them (\citeproc{ref-Stoffregen2001}{Stoffregen \& Bardy, 2001}).
 
@@ -1058,12 +1059,12 @@ Image
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Position & We tend to see objects higher up in our field of vision as farther away. & The fence posts at right appear farther away not only because they become smaller but also because they appear higher up in the picture. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth1.jpg}} \\
-Relative size & Assuming that the objects in a scene are the same size, smaller objects are perceived as father away. & at right, the cars in the distance appear smaller than those nearer to us. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth2.jpg}} \\
-Linear perspective & Parallel lines appear to converge at a distance. & We know that the tracks at right are parallel. When they appear closer together, we determine they are farther away. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth3.jpg}} \\
-Light and shadow & The eye receives more reflected light from objects that are closer to us. Normally, light comes from above, so darker images are in shadow. & We see the images at right as extending and indented according to their shadowing. If we invert the picture, the images will reverse. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth4.jpg}} \\
-Interposition & When one object overlaps another object, we view it as closer. & At right, because the blue star covers the pink bar, it is seen as closer than the yellow moon. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth5.jpg}} \\
-Aerial perspective & Objects that appear hazy, or that are covered with smog or dust, appear farther away. & The artist who painted the picture on the right used aerial perspective to make the clouds more hazy and this appear farther away. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/depth6.jpg}} \\
+Position & We tend to see objects higher up in our field of vision as farther away. & The fence posts at right appear farther away not only because they become smaller but also because they appear higher up in the picture. & \pandocbounded{\includegraphics[keepaspectratio,alt={A photograph of fence posts receding into the distance, appearing smaller and higher in the frame as they get farther away.}]{images/ch2/depth1.jpg}} \\
+Relative size & Assuming that the objects in a scene are the same size, smaller objects are perceived as father away. & at right, the cars in the distance appear smaller than those nearer to us. & \pandocbounded{\includegraphics[keepaspectratio,alt={A photograph of a road with cars; vehicles in the foreground appear larger than those farther away.}]{images/ch2/depth2.jpg}} \\
+Linear perspective & Parallel lines appear to converge at a distance. & We know that the tracks at right are parallel. When they appear closer together, we determine they are farther away. & \pandocbounded{\includegraphics[keepaspectratio,alt={A photograph of railroad tracks converging toward a vanishing point in the distance.}]{images/ch2/depth3.jpg}} \\
+Light and shadow & The eye receives more reflected light from objects that are closer to us. Normally, light comes from above, so darker images are in shadow. & We see the images at right as extending and indented according to their shadowing. If we invert the picture, the images will reverse. & \pandocbounded{\includegraphics[keepaspectratio,alt={A pattern of circular shapes that appear to protrude or indent depending on the direction of shading, demonstrating how light and shadow create a sense of depth.}]{images/ch2/depth4.jpg}} \\
+Interposition & When one object overlaps another object, we view it as closer. & At right, because the blue star covers the pink bar, it is seen as closer than the yellow moon. & \pandocbounded{\includegraphics[keepaspectratio,alt={A simple illustration of a blue star overlapping a pink bar and a yellow moon, demonstrating that the overlapping object appears closer.}]{images/ch2/depth5.jpg}} \\
+Aerial perspective & Objects that appear hazy, or that are covered with smog or dust, appear farther away. & The artist who painted the picture on the right used aerial perspective to make the clouds more hazy and this appear farther away. & \pandocbounded{\includegraphics[keepaspectratio,alt={A painting in which distant clouds and landscape appear hazy and indistinct compared to closer elements, illustrating aerial perspective.}]{images/ch2/depth6.jpg}} \\
 \end{longtable}
 
 \subsection*{Perceiving Form}\label{perceiving-form}
@@ -1103,11 +1104,11 @@ Image
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Figure and ground & We structure input so that we always see a figure (image) against a ground (background). & At right, you may see a vase or you may see two faces, but in either case, you will organize the image as a figure against a ground. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt1.jpg}} \\
-Similarity & Stimuli that are similar to each other tend to be grouped together. & You are more likely to see three similar columns among the XYX characters at right than you are to see four rows. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt2.jpg}} \\
-Proximity & We tend to group nearby figures together. & Do you see four or eight images at right? Principles of proximity suggest that you might see only four. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt3.jpg}} \\
-Continuity & We tend to perceive stimuli in smooth, continuous ways rather than in more discontinuous ways. & At right, most people see a line of dots that moves from the lower left to the upper right, rather than a line that moves from the left and then suddenly turns down. The principle of continuity leads us to see most lines as following the smoothest possible path. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt4.jpg}} \\
-Closure & We tend to fill in gaps in an incomplete image to create a complete, whole object. & Closure leads us to see a single spherical object at right rather than a set of unrelated cones. & \pandocbounded{\includegraphics[keepaspectratio]{images/ch2/gestalt5.jpg}} \\
+Figure and ground & We structure input so that we always see a figure (image) against a ground (background). & At right, you may see a vase or you may see two faces, but in either case, you will organize the image as a figure against a ground. & \pandocbounded{\includegraphics[keepaspectratio,alt={A black and white image that can be perceived either as a white vase centered on a black background, or as two black faces in profile facing each other on a white background.}]{images/ch2/gestalt1.jpg}} \\
+Similarity & Stimuli that are similar to each other tend to be grouped together. & You are more likely to see three similar columns among the XYX characters at right than you are to see four rows. & \pandocbounded{\includegraphics[keepaspectratio,alt={A grid of X and Y characters arranged so that similar characters form vertical columns, illustrating how similarity causes us to group like elements together.}]{images/ch2/gestalt2.jpg}} \\
+Proximity & We tend to group nearby figures together. & Do you see four or eight images at right? Principles of proximity suggest that you might see only four. & \pandocbounded{\includegraphics[keepaspectratio,alt={Eight ovals arranged in four closely spaced pairs, illustrating how proximity causes nearby elements to be perceived as grouped together.}]{images/ch2/gestalt3.jpg}} \\
+Continuity & We tend to perceive stimuli in smooth, continuous ways rather than in more discontinuous ways. & At right, most people see a line of dots that moves from the lower left to the upper right, rather than a line that moves from the left and then suddenly turns down. The principle of continuity leads us to see most lines as following the smoothest possible path. & \pandocbounded{\includegraphics[keepaspectratio,alt={A smooth curved line of dots and a second line that meets it at a sharp angle. Despite the intersection, we perceive the smooth curve as a continuous path rather than a line that abruptly changes direction at the angle.}]{images/ch2/gestalt4.jpg}} \\
+Closure & We tend to fill in gaps in an incomplete image to create a complete, whole object. & Closure leads us to see a single spherical object at right rather than a set of unrelated cones. & \pandocbounded{\includegraphics[keepaspectratio,alt={A circle made of outward-pointing cone shapes with gaps between them. Despite the gaps, the shape is perceived as a complete sphere, illustrating the principle of closure.}]{images/ch2/gestalt5.jpg}} \\
 \end{longtable}
 
 \section{Perception: Information Integration}\label{perception-information-integration}
@@ -4210,7 +4211,7 @@ Re-analyzing the problem along different dimensions, or changing from one repres
 
 The creation of an useful problem-solving schema that can be applied from a base problem to a target problem.
 
-\phantomsection\label{refs}
+\protect\phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
 \bibitem[\citeproctext]{ref-Abbot1909}
 Abbot, E. E. (1909). On the analysis of the memory consciousness in orthography. \emph{Psychol. Monogr.}, \emph{11}(1), 127--158.
@@ -4483,7 +4484,7 @@ Gergely, G., \& Csibra, G. (2003). Teleological reasoning in infancy: The naïve
 Gergely, G., Nádasdy, Z., Csibra, G., \& Bíró, S. (1995). Taking the intentional stance at 12 months of age. \emph{Cognition}, \emph{56}(2), 165--193.
 
 \bibitem[\citeproctext]{ref-Gibson2000}
-Gibson, E. J., Pick, A. D., et al. (2000). \emph{An ecological approach to perceptual learning and development}. Oxford University Press, USA.
+{Gibson, E. J., Pick, A. D., et al.} (2000). \emph{An ecological approach to perceptual learning and development}. Oxford University Press, USA.
 
 \bibitem[\citeproctext]{ref-gick1980analogical}
 Gick, M. L., \& Holyoak, K. J. (1980). Analogical problem solving. \emph{Cognitive Psychology}, \emph{12}(3), 306--355.
@@ -4675,7 +4676,7 @@ Loftus, E. F., \& Pickrell, J. E. (1995). The formation of false memories. \emph
 Lohnas, L. J., \& Kahana, M. J. (2014). A retrieved context account of spacing and repetition effects in free recall. \emph{J Exp Psychol Learn Mem Cogn}, \emph{40}, 755--764. \url{https://doi.org/10.1038/jid.2014.371}
 
 \bibitem[\citeproctext]{ref-lorkiewicz2022longitudinal}
-Lorkiewicz, S. A., Baker, F. C., Müller-Oehring, E. M., Haas, A., Wickham, R., Sassoon, S. A., Clark, D. B., Nooner, K. B., Tapert, S. F., Brown, S. A., et al. (2022). A longitudinal examination of alcohol-related blackouts as a predictor of changes in learning, memory, and executive function in adolescents. \emph{Frontiers in Psychiatry}, \emph{13}, 866051.
+{Lorkiewicz, S. A., Baker, F. C., Müller-Oehring, E. M., Haas, A., Wickham, R., Sassoon, S. A., Clark, D. B., Nooner, K. B., Tapert, S. F., Brown, S. A., et al.} (2022). A longitudinal examination of alcohol-related blackouts as a predictor of changes in learning, memory, and executive function in adolescents. \emph{Frontiers in Psychiatry}, \emph{13}, 866051.
 
 \bibitem[\citeproctext]{ref-luchins1942mechanization}
 Luchins, A. S. (1942). Mechanization in problem solving: The effect of einstellung. \emph{Psychological Monographs}, \emph{54}(6), i.
@@ -4981,7 +4982,7 @@ Spelke, E., Hirst, W., \& Neisser, U. (1976). Skills of divided attention. \emph
 Stangor, C., \& McMillan, D. (1992). Memory for expectancy-congruent and expectancy-incongruent information: A review of the social and social developmental literatures. \emph{Psychological Bulletin}, \emph{111}(1), 42.
 
 \bibitem[\citeproctext]{ref-statevguilbert}
-\emph{State v. guilbert} (Vol. 306, p. 705). (2012). (Vol. 306). Connecticut Supreme Court.
+\emph{State v. guilbert} (Vol. 306, p. 705). (2012). Connecticut Supreme Court.
 
 \bibitem[\citeproctext]{ref-Stern1989}
 Stern, M., \& Karraker, K. H. (1989). Sex stereotyping of infants: A review of gender labeling studies. \emph{Sex Roles}, \emph{20}(9--10), 501--522.
@@ -5044,7 +5045,7 @@ Tversky, A., \& Kahneman, D. (1973). Availability: A heuristic for judging frequ
 Tversky, A., \& Kahneman, D. (1983). Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment. \emph{Psychological Review}, \emph{90}(4), 293.
 
 \bibitem[\citeproctext]{ref-unitedstatesvgreene}
-\emph{United states v. greene} (Vol. 704, p. 298). (2013). (Vol. 704). United States Court of Appeals, Fourth Circuit.
+\emph{United states v. greene} (Vol. 704, p. 298). (2013). United States Court of Appeals, Fourth Circuit.
 
 \bibitem[\citeproctext]{ref-vonFrisch1956}
 Von Frisch, K. (1950). \emph{Bees: Their vision, chemical senses, and language}. Cornell University Press.
